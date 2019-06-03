@@ -1,14 +1,14 @@
-how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
-what is the {mean|function} of {salaries|money} for {referred employees|employee_source}?
-{Payrate|money} {avg|function} {Network engineers|position}
-{mean|function} {salary|money} for employees {working for|manager} {Mrs. Dunn|name}
-among all of the employees that found their job from an {internet search|employee_source}, what is the {average|function} {salary|money}?
-what do {guys|sex} {make|money} here on {average|function}?
-What is the {average|function} {amount of money|money} that an employee {hired last year|date_time} earns?
-what is the {lowest|extreme} {pay|money} in the {Sales department|department}
-{percentage|function} of employees {earning|money} {below|comparator} {80k|sys_number}
-what are {production technicians|position} {making|money} on {average|function}?
-what number of people {earn|money} {fewer than|comparator} {30|sys_number}?
+of the {network engineer|position}s, give me the {max|extreme} {compensation|money}
+What is the {total|function} {earnings|money} of employes {hired after 2016|date_time}?
+What are workers {born before 1985|date_time} {typically|function} {paid|money}?
+amount of {money|money} {earned|money} by {females|sex} in {total|function}
+Calculate the {average|function} {pay rate|money} at Cisco?
+what are {women|sex} {making|money} on {average|function}?
+get me the {total|function} amount that the {sales|department} {pays|money} current workers
+{Network Engineer|position} {Mean|function} {Pay|money}
+What's the {average|function} {pay rate|money}?
 what is the {average|function} {salary|money} of the employees whose {supervisor|manager} is {Amy Dunn|name}?
-How much {money|money} did all the employees {hired in the last three months|date_time} {make|money} combined?
-nan
+of all the {network engineer|position}s, what is the {highest|extreme} {earning|money} {amount|money}
+What is the {typical|function} {compensation|money} for company employees {born after 1980 but before 1990|date_time}?
+what is the {average|function} {salary|money} that the company offered its employees for the {last four and a half years|sys_interval}?
+What percent of workers {made|money} below {70 grand|sys_amount-of-money} that were {hired in the last 3 years|date_time}

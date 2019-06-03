@@ -1,17 +1,17 @@
-Who is married in {Collaboration Department|department}?
-Who is our {oldest|age} employee?
-employees based in {MA|state}
-Which employees are {managers|position}?
-employee with the {highest|extreme} {age|age}
-{female|sex} employees
-Which employees have been {terminated|employment_action}?
-Which employees have gotten only {positive feedback|performance_score}?
-top {10|sys_number} {oldest|age} employees, who are they?
-give me a list of employes that are based in {MA|state}
-nan
+{Sr. DBAs|position}
+employees that are {managers|position}
 who is not {married|maritaldesc}
+Which employees {quit working|employment_status} at Cisco?
+Which employees were {hired last May|date_time}?
+employee with the {highest|extreme} {age|age}
+how many employees work from {California|state}
+who is {single|maritaldesc}
+top {10|sys_number} {oldest|age} employees, who are they?
+who is {married|maritaldesc}
+Which employees are {activley employed|employment_status}?
+{managers|position} list
+give me a list of {separated employees|maritaldesc}
+employees that work as an {IT Manager|position}
+employee {managers|position}
 employees in their {20|sys_number}'s
-who is doing {IT support|position} at this company?
-Which employees are {citizens|citizendesc}?
-employees {older than|age} {30 years|sys_duration}
-Which employees have a position?
+Who is our {oldest|age} employee?

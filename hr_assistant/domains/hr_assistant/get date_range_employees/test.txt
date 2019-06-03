@@ -1,14 +1,14 @@
-{MA|state} employees {hired|employement_action} {4 years ago|sys_interval}
-{90's|sys_interval} {born|date_time} {white|racedesc} employees
-since 2014 whiich employees have been {fired|employment_action} that are {male|sex}
-List of {oldest|age} workers
-list the employees who {joined last Monday|date_time}
-Which employees were not yet {born|date_time} when {9/11|sys_time} happened?
-List of {youngest|age} works
+{women|sex} {born in|date_time} the {60's|sys_interval}
+Which employees joined the company recently
 get me the employees that are from {MA|state} and have been {hired between|date_time} {2 years ago to 5 years ago|sys_interval}
-Give me a list of employees that have a {birthday|date_time} in {July|sys_interval}
+Which employees did we {get rid of last fall|date_time}?
+{15|sys_number} most recently {fired|employement_action} employees
+Which employees have {been with us|date_time} for {less than|comparator} {five years|sys_duration}?
+Which employees have yet to have their {birthday|date_time} {this year|sys_interval}?
+which employees from the {software engineering department|department} {join us in|date_time} {2014|sys_interval}
+Give me the {top|extreme} ten {youngest|age} workers
 Which employees were {born in|date_time} the month of {March|sys_interval}
-employees that are {citizens|citizendesc} and {born|date_time} {between 1960 and 1990|sys_interval}
-{seventies|sys_interval} {born|date_time} employees list
-Which employees have been {hired this year|date_time}?
-{male|sex} employees {fired|employment_action} in {2017|sys_interval}
+{80's|sys_interval} {born|date_time} {women|sex}
+which employees from the {software engineering department|department} {began working for us within|date_time} the {last four months|sys_interval}
+{CT|state} employees {hired atleast|date_time} {three years ago|sys_interval}
+get me the {male|sex} employees that have been {fired|employment_action} {since 2015|sys_interval}

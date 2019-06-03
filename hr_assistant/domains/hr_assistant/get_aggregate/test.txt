@@ -1,18 +1,18 @@
-What is the ratio of races in our company?
-Give an estimate {total|function} of the {female|sex} strength in this company?
-What {percentage|function} of employees are {exceeding expectations|performance_score}?
-What is the {median|function} {age of|age} employees in the {sales and marketing departments|department}?
-How many employees fall {below expectations|performance_score}?
-How many employees live in {California|state}?
-Employees with more than {5 yrs|sys_duration} of experience in their field
-How many employees work in {California|state}
-What {percentage|function} of employees are {male|sex}?
-How many employees are minorities?
 What is the {percentage|function} of employees that {exceeds expectations|performance_score} on his or her performance score?
-What {percent|function} of employees are {american citizens|citizendesc}?
-What is the employee's race?
+How many employees live in {Iowa|state}?
+How many employees work in the {MA|state} office?
+How many employees are there in {sales|department}
+How many workers performed {below expectations|performance_score}?
+How many employees are {not citizens|citizendesc}?
+How many managers are there?
+How many employees were born in the {year 2009|date_time}?
+What {percent|function} of employees {exceeded expectations|performance_score}?
+How many of employees are {married|maritaldesc}?
+What {percentage|function} of employees are {married|sex}?
+How many employees are {married|maritaldesc}
+Give an estimate {total|function} of the {female|sex} strength in this company?
+What is the ratio of races in our company?
+{Percentage|function} of Employees in department with prior experience
 {Percentage|function} of {termination|employment_status} due to {lack of innovation|reason_for_termination}
-When do we most often {hire/fire|employment_status} people?
-What is the {percentagefunction} of new grads in {engineerng|department}
-What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
-How many employees were {born in January|date_time}?
+What is the {average|function} {age|age}?
+How many employees {meet|performance_score} the expectations of the job role?
