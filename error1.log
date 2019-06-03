@@ -1,0 +1,94 @@
+Fitting domain classifier
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get date_range_employees/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_aggregate/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_date/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_date_range_aggregate/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_employees/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_hierarchy/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_info/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_salary/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_salary_aggregate/train.txt
+Loading raw queries from file ./hr_assistant/domains/hr_assistant/get_salary_employees/train.txt
+Loading queries from file ./hr_assistant/domains/hr_assistant/get date_range_employees/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'July'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "90's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'November'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'this year'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'second week of feb'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'July'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'last year'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'this year'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'August'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'eighties'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'four years ago'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "1970's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'last year'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for '2017'. Entities found for the following types ['sys_temperature', 'sys_amount-of-money', 'sys_number', 'sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'feb'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'this month'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'seventies'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for '4 years ago'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for '2015'. Entities found for the following types ['sys_temperature', 'sys_amount-of-money', 'sys_number', 'sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'August'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'May'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "80's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'May'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "90's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "90's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "90's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for '2016'. Entities found for the following types ['sys_temperature', 'sys_amount-of-money', 'sys_number', 'sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'last year'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'three yrs ago'. Entities found for the following types ['sys_time']
+Unknown entity 'employement_action' found in query 'MA employees hired 4 years ago'
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_aggregate/train.txt
+Unknown entity 'race' found in query 'How many employees are asian?'
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_date/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'May'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'May'. Entities found for the following types ['sys_time']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'June'. Entities found for the following types ['sys_time']
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_date_range_aggregate/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'five years of 1980'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for "2000's".
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'year of 2014'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for '1980'. Entities found for the following types ['sys_temperature', 'sys_amount-of-money', 'sys_number', 'sys_time']
+Unknown entity 'dob' found in query 'What percentage of employees were born after 2010?'
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_employees/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_duration' for 'September'. Entities found for the following types ['sys_time']
+Unknown entity 'race' found in query 'Which employee(s) are from Asia?'
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_hierarchy/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_number' for 'Amy'.
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_info/train.txt
+Unknown entity 'race' found in query "Is Nan's race Asian?"
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_salary/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'every year'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'every month'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'Each year'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'hourly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'yearly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'every year'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'monthly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'annual'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'year to year'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'on the hour'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'each year'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'daily'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'hourly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'month to month'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'hourly'.
+Unable to load query: Unable to resolve system entity of type 'sys_duration' for 'year'.
+Unable to load query: Unable to resolve system entity of type 'sys_duration' for 'monthly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'Daily'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'Yearly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'every year'.
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_salary_aggregate/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'an hour'. Entities found for the following types ['sys_duration']
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'yearly'.
+Unable to load query: Unable to resolve system entity of type 'sys_duration' for 'year'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'yearly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'last year'. Entities found for the following types ['sys_time']
+Unknown entity 'manger' found in query 'what portion of employees that work for Mr. Butler make more than 50k?'
+Loading queries from file ./hr_assistant/domains/hr_assistant/get_salary_employees/train.txt
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'yearly'.
+Unable to load query: Unable to resolve system entity of type 'sys_interval' for 'yearly'.
+Unknown entity 'race' found in query "who are the company's top 20 asian earners"
+Not doing anything for fit since there is only one class.
