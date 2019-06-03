@@ -1,0 +1,15 @@
+According to the {payroll|money}, how much does {Mia|name} get {paid|money}?
+Tell me avout {Mia|name}'s {pay|money}
+{Mia|name} {earning|money} amount {daily|sys_interval}
+{Mia|name} {Salary|money} {Yearly|sys_interval}
+What is cisco giving {Mia|name} to {pay|money} her
+How much does {Mia|name} {make|money} {every month|sys_interval}?
+When we let {Nan|name} go {fired|employment_action} ?
+How much is {Mia|name} {making|money} on {Payroll|money}
+What is {Mia|name}'s pay rate?
+{Mia|name} {pay|money} amount
+What is {Mia|name}'s pay?
+What is {Mia|name} {making|money}
+{Each year|sys_interval}, how much does {Mia|name} {earn|money}?
+How much does Cisco give {Mia|name} in {compensation|money} every year?
+{Mia|name}'s {yearly|sys_interval} {compensation|money}

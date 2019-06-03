@@ -1,0 +1,56 @@
+can you desribe the race of {Nan|name} Singh
+does {Mia|name} live in {Cali|state}
+Why did {Mia|name} get fired?
+Where does {Mia|name} live?
+Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
+where is {Mia|name} from
+which branch is {Nan|name} working in
+get me that state that {Mia|name} is from
+Does {Julia|name}'s manger provide her with enough work and exposure?
+How {old|age} is the manager for the engineering department?
+What is the manager name of {Julia|name}?
+is {Mia|name} based in {MA|state}
+What is {nan|name}'s race?
+Is {Nan|name} actively employed?
+How old is the {Ivan|name}?
+Is {Nan|name}'s race {Asian|race}?
+Does {Michael|name} still work at Cisco? 
+What is {Mia|name}'s employment status?
+why did we {let go|employment_action} of {Nan|name}
+please tell me {Michael|name}'s age as well as his gender?
+What does {Nan|name} do?
+tell me, is {Michael|name} a {bachelor|maritaldesc}?
+did {Nan|name} hear about us through {Glassdoor|employee_source}?
+how did {Nan|name} hear about us
+is {Mia|name} {currently active|employement_status} or not
+is the job title of {Mia|name} a {network engineer|position}
+What is {Hakim|name}'s level in the organization?
+What does {Michael|name} look like?
+Tell me {Nan|name}'s occupation?
+Is {Nan|name} {married|maritaldesc}?
+How well is the employee doing?
+Which department does {Mia|name} work for?
+Which department is {Michael|name} in?
+what does {Mia|name} do
+sex and age of {Michael|name}
+How much does {Mia|name} get {paid|money}?
+What is {Mia|name}'s performance score?
+Is {Michael|name} {married|maritaldesc}?
+Get me {nan|name}'s race
+Why was {Mia|name} fired?
+I want {Mia|name}'s state
+did we {fire|employment_action} Mr. {Nan|name} Singh
+give me {Nan|name}'s race please
+Does {Mia|name}'s race affect her indulgence?
+What is {Nan Singh|name}'s performance evaluation history?
+tell me what is {Mia|name}'s citizenship status
+What is {Nan|name}'s last name?
+Is {Mia|name} a citizen?
+state of {Mia|name}
+Was {Michael Albert|name} {terminated|employment_action} due to {performance reasons|reason_for_termination}?
+does {Mia|name} work as a {network engineer|position}
+whats {Mia|name}'s role at the organization
+is {Mia|name} in the {Admin Offices department|department}
+How did {Mia|name} hear about our company?
+What is {Mia|name}'s position? 
+What is {Nan|name}'s job?

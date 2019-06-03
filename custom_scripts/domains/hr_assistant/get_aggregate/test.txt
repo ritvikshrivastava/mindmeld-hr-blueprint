@@ -1,0 +1,18 @@
+What is the {percentage|function} of {engineers|position} who are promoted to manager
+Which office location has the {most|comparator} employees?
+How many employees work for {Michael Albert|manager}?
+Hiow many employees are in our department?
+What is the {percentage|function} of {senior engineers|position} in the company
+How many jobs have you had previous?
+How many employees are {male|sex}?
+Number of {Married|maritaldesc} employees
+How many employees are there?
+what {proportion|function} of employees were {hired|employment_action} through a {job fair|employee_source}?
+How many employees are from {North Carolina|state}?
+How many employees were born in the {year 2009|date_time}?
+What {percentage|function} of employees are {female|sex}?
+How many employees are {older than|comparator} {35|sys_number}?
+How many of employees are {married|maritaldesc}?
+What {percent|function} of people working here are {female|sex}? 
+What is the employee's race?
+How many employees are from {New York|state}?

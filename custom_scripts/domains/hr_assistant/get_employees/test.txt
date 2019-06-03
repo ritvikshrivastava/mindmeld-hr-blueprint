@@ -1,0 +1,17 @@
+Which employees have a {spouse|maritaldesc}?
+Which employee(s) {do not meet|performance_score} company's expectations?
+employees in their {20|sys_number}'s
+Which employees have been with the company longest?
+Which employees are {female|sex}?
+Which employees are {terminated|employment_action}?
+employee with the {lowest|extreme} {age|age}
+who is doing {IT support|position} at this company?
+tell me who is the {youngest|age} employee
+employees based in {MA|state}
+Give me employees who are {single|maritaldesc}
+Which employees are {US citizens|citizendesc}?
+{divorced|maritaldesc} employees
+give me a list of {separated employees|maritaldesc}
+Which employees have the {highest|comparator} performance score?
+give me a list of employes that are based in {MA|state}
+{MA|state} employees

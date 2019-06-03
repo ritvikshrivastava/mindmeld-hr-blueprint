@@ -1,0 +1,14 @@
+Which employees are {born in|date_time} the {second week of feb|sys_interval}
+{80's|sys_interval} {born|date_time} {women|sex}
+{youngest|age} employees list
+Which employees have been {hired this year|date_time}?
+workers from {CT|state} {hired|employment_action} {more than|comparator} {three yrs ago|sys_interval}
+Give me all the employees that have a {birthday|date_time} {this month|sys_interval}
+which employees from the {software engineering department|department} {began working for us within|date_time} the {last four months|sys_interval}
+{seventies|sys_interval} {born|date_time} employees list
+{male|sex} workers {born in|date_time} the {90's|sys_interval}
+Which workers at the company have a {birthday|date_time} {this year|sys_interval}
+{singles|maritaldesc} {fired|employment_action} {last year|sys_interval}
+Which employees were {hired after Jan 1, 2019|date_time}?
+List of {youngest|age} works
+Give me a list of people {hired this year|date_time}.

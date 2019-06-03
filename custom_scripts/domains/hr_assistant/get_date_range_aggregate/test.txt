@@ -1,0 +1,6 @@
+number of people {working since 2016|date_time}
+How many people were based out of {Colarado|state} in the last {3 years|sys_duration}?
+How many employees were born in the {year 2009|date_time}?
+Employees with more than {5 yrs|sys_duration} of experience in their field
+{percent|function} of employees {born|date_time} in the {year of 2014|sys_interval}
+How many employees are {over|comparator} {50|sys_number} {years old|age}?

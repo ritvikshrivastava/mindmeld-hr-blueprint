@@ -1,0 +1,14 @@
+Which White employee {earns|money} the {most|extreme}
+how much are {referred employees|employee_source} {earning|money}?
+{men|sex} {salaries|money}
+{women|sex} {salaries|money}
+Which workers are {compensated|money} {more than|comparator} {35 grand|sys_amount-of-money} but {less than|comparator} {60 grand|sys_amount-of-money}?
+Show me the {earnings|money} of {males|sex} in this company
+Who makes the most money?
+get the {salaries|money} of employees in the {lowest|extreme} {income|money} bracket
+For employees {hired between 5 to 2 years ago|date_time}, which employee {earns|money} the {most|extreme}?
+show me the {yearly|sys_interval} {earnings|money} of the {men|sex}
+folks {making|money} {less than|comparator} the {avg|function}
+which employees are {making|money} {less than|comparator} {average|function}
+{female|sex} {incomes|money}
+give me the {salaries|money} of {interracial|race} employees in this company
