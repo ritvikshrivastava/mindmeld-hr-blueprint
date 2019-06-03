@@ -1,0 +1,14 @@
+how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
+what is the {mean|function} of {salaries|money} for {referred employees|employee_source}?
+{Payrate|money} {avg|function} {Network engineers|position}
+{mean|function} {salary|money} for employees {working for|manager} {Mrs. Dunn|name}
+among all of the employees that found their job from an {internet search|employee_source}, what is the {average|function} {salary|money}?
+what do {guys|sex} {make|money} here on {average|function}?
+What is the {average|function} {amount of money|money} that an employee {hired last year|date_time} earns?
+what is the {lowest|extreme} {pay|money} in the {Sales department|department}
+{percentage|function} of employees {earning|money} {below|comparator} {80k|sys_number}
+what are {production technicians|position} {making|money} on {average|function}?
+what number of people {earn|money} {fewer than|comparator} {30|sys_number}?
+what is the {average|function} {salary|money} of the employees whose {supervisor|manager} is {Amy Dunn|name}?
+How much {money|money} did all the employees {hired in the last three months|date_time} {make|money} combined?
+nan

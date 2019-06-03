@@ -1,0 +1,13 @@
+who do {Nan|name} and {Mia|name} {report to|manager}?
+get me a list of all of the employees who {report to|manager} {Amy Dunn|name} if there are any
+Who is {Michael|name}'s manager?
+Tell who is {working under|manager} Mr. {Singh|name}
+employee list with {manager|manager} being {Nan Singh|name}
+{amy dunn|name} {manager|manager} name
+{nan singh|name} is the {manager|manager} for which of our employees
+I want to know if {Amy Dunn|name} is a {manger|manager}
+Who is {Mia|name}'s manager? 
+What is {Mia|name}'s manager's name?
+is {Peter Monroe|name} {managing|manager} {Amy Dunn|name} or is it the other way around?
+i want the name of everyone that is {working for|manager} {Nan Singh|name}
+who is Ms. {Amy Dunn|name} {reporting|manager} to

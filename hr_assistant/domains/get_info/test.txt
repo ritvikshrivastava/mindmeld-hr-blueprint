@@ -1,0 +1,14 @@
+give me {Nan|name}'s race please
+Does {Mia|name}'s race affect her indulgence?
+whats {Mia|name}'s employment status
+can you desribe the race of {Nan|name} Singh
+What race is {nan|name}'s?
+Was {Michael Albert|name} {terminated|employment_action} due to {performance reasons|reason_for_termination}?
+What does {Michael|name} look like?
+Which department is {Michael|name} in?
+Why was {Mia|name} fired?
+What is {Nan|name}'s last name?
+is {Mia|name} {currently active|employement_status} or not
+does {Mia|name} live in {Cali|state}
+how did {Nan|name} hear about us
+is the job title of {Mia|name} a {network engineer|position}

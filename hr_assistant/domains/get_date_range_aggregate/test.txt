@@ -1,0 +1,6 @@
+What {percent|function} of all our employees were {hired this year|date_time}?
+How many employees were {hired|employment_action} {last year|sys_interval}?
+employees {born|date_time} {before 1994|sys_interval}, give me the {total|function} {count|function}
+{total|function} number of employee that have been {working here since|date_time} the year {2016|sys_interval}
+What {percentage|function} of employees were {born after|dob} {2010|sys_time}?
+have there been any employees that have been {working here for|date_time} {3 years|sys_duration} or even {more than|comparator} that

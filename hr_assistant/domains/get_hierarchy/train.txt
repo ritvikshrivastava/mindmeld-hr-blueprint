@@ -1,0 +1,49 @@
+can i get the employee names for those {reporting|manager} to {Nan Singh|name}
+{amy|name} is a {boss|manager}, right?
+Does {Amy Dunn|name} have a {manager|manager}, if so who is it?
+who {works for|manager} {Nan Singh|name}
+who are {Nan|name} and {Mia|name} {working under|manager} currently
+who all is {working for|manager} {Nan Singh|name}
+can you tell me who the {supervisor|manager} is that is {supervising|manager} Ms. {Amy Dunn|name}
+Who is {John Reeder|name}'s manager?
+Who reports into {Nan Singh|name}
+is it correct to say that {Amy|name} is a {boss|manager}?
+{amy dunn|name}'s {supervisor|manager} name
+is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
+{managing|manager} employee for the employee {Amy Dunn|name}
+get me a list of all of the employees that are currently {reporting|manager} directly to {nan singh|name}
+get me ms. {dunn|name}'s {manager|manager} full name
+which of our employees have {nan singh|name} as their {manager|manager}
+can i have the names of employees who report to {Michael|name}
+{Nan singh|name} is the {manager|manager} of which employees
+{manager|manager} name for ms {amy dunn|name}
+Which employees have {Julia|name} as their manager?
+which employees have a {manager|manager}
+Who is {Mia Brown|name}'s manager?
+is {Amy|name} a {manager|manager} in our company
+does {Amy|name} have the role of being a {manager|manager}
+Do {Mia|name} and {Nan|name} {report to|manager} the same {manager|manager}?
+for which employees is {Nan singh|name} the {supervisor|manager}
+who is the {manager|manager} for {Nan|name} and also for {Mia|name}
+{Amy Dunn|name} {manager|manager}
+i want the {reporting|manager} {manager|manager} for both {Mia|name} and {Nan|name}
+{Amy Dunn|name} {manages|manager} which individuals?
+does {Peter Monroe|name} {manage|manager} {Amy Dunn|name}
+nan
+is the {manager|manager} for {Mia|name} the same as the {manager|manager} for {Nan|name}?
+Who is the manager for {Bob|name}
+employees that directly {report|manager} to Mr. {Nan Singh|name}
+which employees is {Nan singh|name} the {manager|manager} for
+as of today Ms. {Dunn|name} is {managing|manager} which employees
+{manager|manager} for {amy dunn|name}
+is {Peter Monroe|name} the {manager|manager} for {Amy Dunn|name}
+What is the name of {Julia|name}'s manager?
+Which employees are under the Manager {Amy|sys_number}?
+Is {Amy Dunn|name} a {manager|manager}
+tell me the {supervisor|manager} that is {reponsible for|manager} {Nan|name} as well as the {supervisor|manager} reponsible for {Mia|name}
+is there anyone {reporting|manager} to Ms. {Amy dunn|name}, if so who are those people?
+{manager|manager} of {amy dunn|name}
+can you tell me whether {Amy|name} is a {boss|manager} or not?
+I want to know the name of the {manager|manager} for {Amy Dunn|name}
+which employees have a {manager|manager} that goes by the name {Peter Monroe|name}
+are {Nan|name} and {Mia|name} {reporting to|manager} the same {manger|manager}?

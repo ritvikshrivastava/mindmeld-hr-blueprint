@@ -1,0 +1,56 @@
+How old is the {Ivan|name}?
+tell me what is {Mia|name}'s citizenship status
+What is {Mia|name}'s performance score?
+tell me, is {Michael|name} a {bachelor|maritaldesc}?
+What is the manager name of {Julia|name}?
+What is {Hakim|name}'s level in the organization?
+Is {Nan|name} actively employed?
+Is {Michael|name} {married|maritaldesc}?
+Why did {Mia|name} get fired?
+I want {Mia|name}'s state
+How {old|age} is the manager for the engineering department?
+What is {nan|name}'s race?
+which branch is {Nan|name} working in
+What is {Nan|name}'s official position?
+Is {Mia|name} a citizen?
+Please tell me, is {Michael|name} {married|maritaldesc} or not?
+please tell me {Michael|name}'s age as well as his gender?
+does {Mia|name} work as a {network engineer|position}
+what department does {Mia|name} currently work in
+Is {Nan|name} {married|maritaldesc}?
+Tell me {Nan|name}'s occupation?
+How well is the employee doing?
+Does {Michael|name} still work at Cisco? 
+which state is {Mia|name} from
+Which department does {Mia|name} work for?
+Where does {Mia|name} live?
+did we {fire|employment_action} Mr. {Nan|name} Singh
+sex and age of {Michael|name}
+whats {Mia|name}'s role at the organization
+nan
+is {Mia|name} in the {Admin Offices department|department}
+How much does {Mia|name} get {paid|money}?
+did {Nan|name} hear about us through {Glassdoor|employee_source}?
+what does {Mia|name} do
+how old is {Michael|name} and is he a boy or a girl?
+get me that state that {Mia|name} is from
+Does {Julia|name}'s manger provide her with enough work and exposure?
+What is {Mia|name}'s position? 
+What does {Nan|name} do?
+Get me {nan|name}'s race
+is {Mia|name} a {citizen|citizendesc}
+What was the reason for {Mia|name}'s termination?
+where is {Mia|name} from
+What is {Nan Singh|name}'s performance evaluation history?
+why did we {let go|employment_action} of {Nan|name}
+Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
+is {Mia|name} based in {MA|state}
+How did {Mia|name} hear about our company?
+state of {Mia|name}
+is {Mia|name} a {network engineer|position}
+Is {Nan|name}'s race {Asian|race}?
+Where is {Mia|name} from?
+What is {Mia|name}'s employment status?
+What position is {Julia|name} in?
+What is {Nan|name}'s job?
+Is {Ivan|name} from out of state?

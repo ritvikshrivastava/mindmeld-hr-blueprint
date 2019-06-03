@@ -1,0 +1,16 @@
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "us citizen"
+        },
+        {
+            "whitelist": [],
+            "cname": "eligible noncitizen"
+        },
+        {
+            "whitelist": [],
+            "cname": "non-citizen"
+        }
+    ]
+}

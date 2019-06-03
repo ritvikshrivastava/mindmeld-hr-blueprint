@@ -1,0 +1,14 @@
+{MA|state} employees {hired|employement_action} {4 years ago|sys_interval}
+{90's|sys_interval} {born|date_time} {white|racedesc} employees
+since 2014 whiich employees have been {fired|employment_action} that are {male|sex}
+List of {oldest|age} workers
+list the employees who {joined last Monday|date_time}
+Which employees were not yet {born|date_time} when {9/11|sys_time} happened?
+List of {youngest|age} works
+get me the employees that are from {MA|state} and have been {hired between|date_time} {2 years ago to 5 years ago|sys_interval}
+Give me a list of employees that have a {birthday|date_time} in {July|sys_interval}
+Which employees were {born in|date_time} the month of {March|sys_interval}
+employees that are {citizens|citizendesc} and {born|date_time} {between 1960 and 1990|sys_interval}
+{seventies|sys_interval} {born|date_time} employees list
+Which employees have been {hired this year|date_time}?
+{male|sex} employees {fired|employment_action} in {2017|sys_interval}

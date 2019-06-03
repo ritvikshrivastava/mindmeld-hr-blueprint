@@ -1,0 +1,15 @@
+How long was {Mia|name} working for?
+What was the exact date when {Amy|name} {started her job|employment_action} at our company?
+When did Cisco kick {nan|name} out of the company
+What day was it when {Amy|name} was {hired|employment_action}
+When {Amy|name} was {born|date_time}, what was the month
+Did we {let go|employment_action} of {Amy|name} in {May|sys_interval}
+{start date|date_time}, {Mia|name}
+Please tell me {Ivan|name}'s {hiring date|date_time}
+I want the date when {Nan|name} {starting working|date_time} here
+When was {Mia|name} {hired|employment_action}?
+{fire date|date_time}, {Ivan|name}
+Get me {Mia|name}'s {Bday|date_time}
+in what month was {Ivan|name} {born|date_time}
+What year was {Mia|name} hired?
+nan

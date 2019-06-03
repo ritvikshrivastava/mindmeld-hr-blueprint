@@ -1,0 +1,17 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "salary",
+                "income",
+                "pay",
+                "earn",
+                "earnings",
+                "make",
+                "dollars",
+                "$"
+            ],
+            "cname": "pay rate"
+        }
+    ]
+}

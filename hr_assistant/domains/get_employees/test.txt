@@ -1,0 +1,17 @@
+Who is married in {Collaboration Department|department}?
+Who is our {oldest|age} employee?
+employees based in {MA|state}
+Which employees are {managers|position}?
+employee with the {highest|extreme} {age|age}
+{female|sex} employees
+Which employees have been {terminated|employment_action}?
+Which employees have gotten only {positive feedback|performance_score}?
+top {10|sys_number} {oldest|age} employees, who are they?
+give me a list of employes that are based in {MA|state}
+nan
+who is not {married|maritaldesc}
+employees in their {20|sys_number}'s
+who is doing {IT support|position} at this company?
+Which employees are {citizens|citizendesc}?
+employees {older than|age} {30 years|sys_duration}
+Which employees have a position?

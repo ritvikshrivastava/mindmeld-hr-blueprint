@@ -1,0 +1,15 @@
+What is the {yearlysys_interval} {compensation|money} for {Mia|name} at Cisco?
+{Yearlysys_interval} {compensation|money}, {Mia|name}
+{compensation|money} {Mia|name}
+What is {Mia|name}'s pay?
+What is the pay rate of {Julia|name}?
+How much {money|money} does {Mia|name} bring in {every year|sys_interval}?
+How much does Cisco {pay|money} {Mia|name} {each year|sys_interval}?
+{Mia|name} {payrate|money}
+{Mia|name} {pay|money} amount
+Is {Mia|name} being {paid|money} {$|money}{40k|sys_number}?
+Tell me avout {Mia|name}'s {pay|money}
+{Mia|name} {pay|money} info
+What does {Mia|name} {make|money} {monthly|sys_duration}?
+Does {Mia|name} get {$|money}{70k|sys_number} in {pay|money}?
+What is {Nan|name}'s pay rate?

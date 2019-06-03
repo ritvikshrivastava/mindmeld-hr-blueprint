@@ -1,0 +1,14 @@
+what are the {salaries|money} for {active|employment_status} employees
+{sales department|department} {salaries|money}
+{lowest|extreme} {income|money} {salaries|money}
+Of all the {Production Managers|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
+{women|sex} {salaries|money}
+{highest|extreme} {income|money} {salaries|money}
+Which employees make more than {$|money}{X|sys_number}?
+get me {non citizen|citizendesc} employee salary list
+Which employee that {works under|manager} {Simon Roup|name} {makes|money} the {most|extreme}?
+Which {Sr. DBA|position} {earns|money} the {most|extreme}?
+get the {salaries|money} of workers that are {paid|money} in the {highest|extreme} {income|money} bracket
+get the {salaries|money} of employees in the {lowest|extreme} {income|money} bracket
+Which {software engineers|position} are {paid|money} {less than|comparator} ${90k|sys_number}?
+folks {making|money} {less than|comparator} the {avg|function}
