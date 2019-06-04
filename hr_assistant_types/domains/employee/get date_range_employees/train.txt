@@ -1,0 +1,56 @@
+nan
+from {last july to last jan|sys_interval}, which employees {joined the organization in|date_time} the {software engineering department|department}
+Which employess were {hired|employment_action} in the {last five years|sys_duration}?
+Get me the employees that were {born|date_time} before {August|sys_time} but after {May|sys_time}
+I want all of the employees in the {sales department|department} that were {hired|employment_action} {more than|comparator} {four years ago|sys_time}
+{August|sys_time}-{born|date_time} employees
+List of {youngest|age} works
+white employees {born|date_time} {after 1990|sys_interval}
+{November|sys_time} {born|date_time} employees
+{80's|time_interval} {born|date_time} {women|sex}
+Which workers at the company have a {birthday|date_time} {this year|sys_time}
+Give me a list of folks {fired last summer|date_time}
+get me the {male|sex} employees that have been {fired|employment_action} {since 2015|sys_interval}
+since 2014 whiich employees have been {fired|employment_action} that are {male|sex}
+Give me the employees that have {been with us|date_time} for {four years|sys_duration} or less
+workers from {CT|state} {hired|employment_action} {more than|comparator} {three yrs ago|time_interval}
+Who worked for Cisco for {less than|comparator} {a year|sys_duration}
+{fifteen|sys_number} most recently {hired|employment_action} employees
+Which employees are {born in|date_time} {May|sys_time}
+Which employees joined the company recently
+i want the employees that have been {hired in|date_time} the {last two years|sys_interval} working in {CA|state}
+Fetch me a list of workers that have their {birthdays|date_time} in the {1970's|time_interval}
+I want a list of employees that were {born in|date_time} the 1990's
+who are our {90's|time_interval} {born|date_time} {IT support|position} staff
+{90's|time_interval} {born|date_time} {white|racedesc} employees
+Which employees have {been with us|date_time} for {less than|comparator} {five years|sys_duration}?
+Which employees are {born in|date_time} the {second week of feb|sys_time}
+Which employees were {born in|date_time} the month of {March|sys_time}
+Which employees were {born in|date_time} the {80's|time_interval}?
+{women|sex} {born in|date_time} the {60's|time_interval}
+which employees from the {software engineering department|department} {began working for us within|date_time} the {last four months|sys_interval}
+get me {accountants|position} {born|date_time} {after 1990's|sys_interval}
+Give me a list of employees that were {hired into the company in|date_time} {July|sys_time}
+List of {oldest|age} workers
+Which employees share the same {birthday|date_time}
+Give me all the employees that have a {birthday|date_time} {this month|sys_time}
+{male|sex} employees {fired|employment_action} in {2017|sys_time}
+{90's|time_interval} {born|date_time} {males|sex}
+Which employees did we {get rid of last fall|date_time}?
+employees that are {citizens|citizendesc} and {born|date_time} {between 1960 and 1990|sys_interval}
+Give me a list of employees that have a {birthday|date_time} in {July|sys_time}
+{male|sex} workers {born in|date_time} the {90's|time_interval}
+get me all of the folks who were {born in|date_time} the {eighties|time_interval}
+{MA|state} employees {hired|employment_action} {4 years ago|sys_time}
+which employees from the {software engineering department|department} {join us in|date_time} {2014|sys_time}
+{females|sex} {fired|employment_action} in {2016|sys_time}
+{15|sys_number} most recently {fired|employment_action} employees
+{CT|state} employees {hired atleast|date_time} {three years ago|sys_time}
+Give me the {top|extreme} ten {youngest|age} workers
+What are our {top|extreme} {10|sys_number} {oldest|age} workers?
+find me the {asians|racedesc} {born|date_time} {between 1980 and today|sys_interval}
+Which employees were {hired after Jan 1, 2019|date_time}?
+{youngest|age} employees list
+Which employee was {hired within the last month|date_time}? 
+Which employees were not yet {born|date_time} when {9/11|sys_time} happened?
+{married|maritaldesc} employees {hired|employment_action} {last year|sys_time}

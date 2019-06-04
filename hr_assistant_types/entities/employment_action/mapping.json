@@ -1,0 +1,18 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "employed",
+                "recruited"
+            ],
+            "cname": "hired"
+        },
+        {
+            "whitelist": [
+                "fired",
+                "let go"
+            ],
+            "cname": "terminated"
+        }
+    ]
+}

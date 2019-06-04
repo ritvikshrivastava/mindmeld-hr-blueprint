@@ -1,0 +1,14 @@
+is {Mia|name} in the {Admin Offices department|department}
+How {old|age} is the manager for the engineering department?
+is the job title of {Mia|name} a {network engineer|position}
+Is {Michael|name} {married|maritaldesc}?
+tell me, is {Michael|name} a {bachelor|maritaldesc}?
+How much does {Mia|name} get {paid|money}?
+What is {Nan Singh|name}'s performance evaluation history?
+tell me what is {Mia|name}'s citizenship status
+which state is {Mia|name} from
+how old is {Michael|name} and is he a boy or a girl?
+did {Nan|name} hear about us through {Glassdoor|employee_source}?
+How old is the {Ivan|name}?
+state of {Mia|name}
+How did {Mia|name} hear about our company?

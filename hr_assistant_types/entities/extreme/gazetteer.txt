@@ -1,0 +1,12 @@
+highest
+lowest
+top
+maximum
+most
+greatest
+max
+least
+minimum
+bottom
+lowest
+min

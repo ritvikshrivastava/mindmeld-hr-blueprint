@@ -1,0 +1,14 @@
+show me the {highest|extreme} {earning|money} {IT Director|position} salary
+Show me the {earnings|money} of {males|sex} in this company
+{citizen|citizendesc} {salaries|money}
+Tell me the employee that {works for|manager} {Jennifer Zamora|name} that {earns|money} the {least|extreme} amount?
+who {makes|money} the {least|extreme} {amount of money|money} in {admin office|department}
+Which White employee {earns|money} the {most|extreme}
+how much are {referred employees|employee_source} {earning|money}?
+{salaries|money} {men|sex}
+{salaries|money} {women|sex}
+Of all employees that {started at the company|employment_action} {4 to 7 years ago|time_interval} which employee has the {smallest|extreme} paycheck?
+I want the {salaries|money} for people working in the {sales department|department}
+Which employee that {works under|manager} {Simon Roup|name} {makes|money} the {most|extreme}?
+For employees {hired|employment_action} {between 5 to 2 years ago|time_interval}, which employee {earns|money} the {most|extreme}?
+get me {non citizen|citizendesc} employee salary list

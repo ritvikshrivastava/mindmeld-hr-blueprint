@@ -1,0 +1,17 @@
+top {10|sys_number} {oldest|age} employees, who are they?
+Which employees have a {spouse|maritaldesc}?
+{MA|state} employees
+who are the top {10|sys_number}{%|function} {oldest|age} employees
+get me the {youngest|age} {five|sys_number} {percent|function} of employees
+give me a list of employes that are based in {MA|state}
+{divorced|maritaldesc} employees
+Which employees {quit working|employment_status} at Cisco?
+{MA|state} based employees
+which staff work in {IT|department}
+Which employees are {married|maritaldesc}?
+Which employees were {recruited|employment_action} at {job fairs|employee_source}?
+Which employee(s) {do not meet|performance_score} company's expectations?
+Which employees are {not citizens|citizendesc} at my office location?
+Which employees are {citizens|citizendesc}?
+Which employee(s) are from {Asia|racedesc}?
+Which employees are {terminated|employment_action}?

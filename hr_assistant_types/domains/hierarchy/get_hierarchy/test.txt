@@ -1,0 +1,13 @@
+get me ms. {dunn|name}'s {manager|manager} full name
+are {Nan|name} and {Mia|name} {reporting to|manager} the same {manger|manager}?
+What is {Mia|name}'s manager's name?
+Who is the manager for {Bob|name}
+does {Amy|name} have the role of being a {manager|manager}
+which employees is {Nan singh|name} the {manager|manager} for
+{nan singh|name} is the {manager|manager} for which of our employees
+Who reports into {Nan Singh|name}
+{manager|manager} of {amy dunn|name}
+Tell who is {working under|manager} Mr. {Singh|name}
+who {works for|manager} {Nan Singh|name}
+who do {Nan|name} and {Mia|name} {report to|manager}?
+who all is {working for|manager} {Nan Singh|name}

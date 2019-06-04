@@ -1,0 +1,14 @@
+{non citizens|citizendesc} {terminated|employment_action} in {2015|sys_time}
+Give me a list of people {hired this year|date_time}.
+list the employees who {joined last Monday|date_time}
+{oldest|age} employees list
+{seventies|time_interval} {born|date_time} employees list
+get me the employees that are from {MA|state} and have been {hired between|date_time} {2 years ago|sys_time} to {5 years ago|sys_time}
+{divorced|maritaldesc} folks that had their employment {terminated|employment_action} in the {last year|sys_time}
+{singles|maritaldesc} {fired|employment_action} {last year|sys_time}
+{asians|racedesc} {born in|date_time} the {80's|time_interval}
+Which employees have been {hired this year|date_time}?
+Do we have any {feb|sys_time} {born|date_time} employees
+Tell me about employees who {started in Spring 2019|date_time}
+Which employees have yet to have their {birthday|date_time} {this year|sys_time}?
+Can you please tell me the employees that have already had thier {birthday|date_time} {this year|sys_time}

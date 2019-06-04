@@ -1,0 +1,18 @@
+What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
+What is the {median|function} {age of|age} employees in the {sales and marketing departments|department}?
+How many {business analysts|position} are employed?
+What is the ratio of races in our company?
+How many employees in the {IT department|department}?
+What is the number of {married|maritaldesc} employees?
+What {percent|function} of employees are {american citizens|citizendesc}?
+What percent of employees are managers?
+What {percent|function} of people working here are {female|sex}? 
+What is the employee's race?
+How many people are {performing badly|performance_score}? 
+What {percentage|function} of employees are parents?
+How many employees were {born in January|date_time}?
+What {percentage|function} of employees are {non-citizens|citizendesc}?
+What is the {average|function} tenure of employees in {California|state}?
+How many employees work for {Michael Albert|manager}?
+What is the {total|function} number of {us citizens|citizendesc}?
+How many employees are above 35?

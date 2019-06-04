@@ -1,0 +1,47 @@
+[
+  {
+    "insurance_start_date": "03/06/2019",
+    "primary_care_cost": 1000,
+    "dental_cost": 200,
+    "vision_cost": 300,
+    "life_insurance_cost": 200,
+    "family_care_cost": null,
+    "annual_pay_statement": 60000,
+    "monthly_overtime_hours": [3,4,16,8,12,3,4,5,3,14,34,15],
+    "pending_timesheet": true,
+    "eval_due_date": "06/06/2019",
+    "eval_conductor": "Gary Smith",
+    "work_home_eligible": true
+  },
+
+  {
+    "insurance_start_date": "04/25/2019",
+    "primary_care_cost": 700,
+    "dental_cost": null,
+    "vision_cost": null,
+    "life_insurance_cost": 100,
+    "family_care_cost": 25,
+    "annual_pay_statement": 80000,
+    "monthly_overtime_hours": [0,5,2,5,2,6,10,12,5,7,8,2],
+    "pending_timesheet": false,
+    "eval_due_date": "08/04/2019",
+    "eval_conductor": "Chuck Daniel",
+    "work_home_eligible": false
+  },
+
+  {
+    "insurance_start_date": "08/22/2018",
+    "primary_care_cost": 300,
+    "dental_cost": 90,
+    "vision_cost": 70,
+    "life_insurance_cost": null,
+    "family_care_cost": 50,
+    "annual_pay_statement": 110000,
+    "monthly_overtime_hours": [4,5,12,18,15,6,2,0,12,1,15,2],
+    "pending_timesheet": false,
+    "eval_due_date": "07/17/2019",
+    "eval_conductor": "Tom Ford",
+    "work_home_eligible": true
+  }
+
+]

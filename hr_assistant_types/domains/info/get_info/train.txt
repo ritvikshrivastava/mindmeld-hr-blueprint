@@ -1,0 +1,56 @@
+What does {Nan|name} do?
+What is {Nan|name}'s last name?
+What does {Michael|name} look like?
+What is {Hakim|name}'s level in the organization?
+please tell me {Michael|name}'s age as well as his gender?
+which branch is {Nan|name} working in
+Where is {Mia|name} from?
+where is {Mia|name} from
+is {Mia|name} {currently active|employment_status} or not
+What is {Nan|name}'s official position?
+why did we {let go|employment_action} of {Nan|name}
+What is {Mia|name}'s performance score?
+is {Mia|name} a {citizen|citizendesc}
+Does {Mia|name}'s race affect her indulgence?
+what does {Mia|name} do
+sex and age of {Michael|name}
+Which department is {Michael|name} in?
+Is {Nan|name} {married|maritaldesc}?
+Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
+Does {Michael|name} still work at Cisco? 
+is {Mia|name} a {network engineer|position}
+Was {Michael Albert|name} {terminated|employment_action} due to {performance reasons|reason_for_termination}?
+Tell me {Nan|name}'s occupation?
+Why was {Mia|name} fired?
+What race is {nan|name}'s?
+Please tell me, is {Michael|name} {married|maritaldesc} or not?
+Is {Ivan|name} from out of state?
+did we {fire|employment_action} Mr. {Nan|name} Singh
+Does {Julia|name}'s {manger|manager} provide her with enough work and exposure?
+Which department does {Mia|name} work for?
+What is the manager name of {Julia|name}?
+I want {Mia|name}'s state
+What is {Mia|name}'s employment status?
+whats {Mia|name}'s employment status
+give me {Nan|name}'s race please
+what department does {Mia|name} currently work in
+is {Mia|name} based in {MA|state}
+Where does {Mia|name} live?
+Is {Nan|name} {actively employed|employment_status}?
+get me that state that {Mia|name} is from
+can you desribe the race of {Nan|name} Singh
+nan
+does {Mia|name} work as a {network engineer|position}
+how did {Nan|name} hear about us
+What was the reason for {Mia|name}'s termination?
+Get me {nan|name}'s race
+How well is the employee doing?
+What position is {Julia|name} in?
+does {Mia|name} live in {Cali|state}
+Is {Nan|name}'s race {Asian|racedesc}?
+Is {Mia|name} a citizen?
+What is {Mia|name}'s position? 
+Why did {Mia|name} get fired?
+What is {Nan|name}'s job?
+whats {Mia|name}'s role at the organization
+What is {nan|name}'s race?
