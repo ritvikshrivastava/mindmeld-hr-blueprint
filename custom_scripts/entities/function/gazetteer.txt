@@ -12,6 +12,8 @@ added up
 summed up. totalled
 summed
 mean
+typical
+typically
 distribution
 turn over rate
-
+pct

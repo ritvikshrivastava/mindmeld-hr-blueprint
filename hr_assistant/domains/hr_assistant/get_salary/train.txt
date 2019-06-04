@@ -1,57 +1,57 @@
-How much {salary|money} does {Mia|name} {earn|name} from Cisco {every year|sys_interval}?
-How much does {Mia|name} {make|money} {every month|sys_interval}?
-{compensation|money} {Mia|name}
-{Mia|name} {pay|money} info
-What does the {payroll|money} say about {Mia|name}'s {earning|money}
-What is {Mia|name}'s pay?
-{Each year|sys_interval}, how much does {Mia|name} {earn|money}?
-{Mia|name} {hourly|sys_interval} {compensation|money}
-Tell me how much {Mia|name} {making|money}
-What is the {yearly|sys_interval} {compensation|money} for {Mia|name} at Cisco?
-Is it true that {Mia|name} has a {six figure|sys_number} {salary|money}?
-Does {60,000|sys_number} exceed what {Mia|name} {earns|money} {every year|sys_interval}?
-{Mia|name} {earning|money} amount {monthly|sys_interval}
-How much does {Michael|name} make?
-What is {Mia|name}'s {annual|sys_interval} {salary|money}?
-What is {Mia|name} {compensated|money} on a year to year basis?
-What are {Mia|name}'s {earnings|money} {year to year|sys_interval}?
-Does {Mia|name} {earn|money} more money than seventy thousand per year?
-What does {Mia|name} {make|money} {on the hour|sys_interval}
-What is {Mia|name} {making|money}
-{Payroll|money} {Mia|name}
-What does {Mia|name} {make|money} on the {Payroll|money}
-nan
-Does {Mia|name} {make|money} {6 figures|sys_number}?
-Tell me avout {Mia|name}'s {pay|money}
-How much does Cisco {pay|money} {Mia|name} {each year|sys_interval}?
-{Mia|name} {earning|money} amount {daily|sys_interval}
-Does {Mia|name} get {$|money}{70k|sys_number} in {pay|money}?
-What does {Mia|name}'s {compensation|money} look like?
-Is {Mia|name} being {paid|money} {$|money}{40k|sys_number}?
-What is {Mia|name}'s {hourly|sys_interval} {salary|money}
-Tell me about {Mia|name}'s {month to month|sys_interval} {paycheck|money}?
-{Mia|name} {hourly|sys_interval} {pay|money}
-How much is {Mia|name} {compensated|money}?
-{Mia|name} {compensation|money}
-According to the {payroll|money}, how much does {Mia|name} get {paid|money}?
-How much is {Mia|name} {making|money} on {Payroll|money}
-Is {50k|sys_number} {more than|comparator} what {Mia|name} {make|money}s in a {year|sys_duration}?
-What does {Mia|name} get for {compensation|money}?
-{Mia|name} {salary|money} amount info
-What does {Mia|name} {make|money}?
-Does {Mia|name} {make|money} {more than|comparator} 50k?
-What does {Mia|name} {make|money} {monthly|sys_duration}?
-Does {Mia|name}'s {compensation|money} exceed 48,000?
-{Mia|name} {Payroll|money} {Salary|money}
-{pay rate|money} of  {Mia|name}
-Describe {Mia|name}'s {paycheck|money}
-{Mia|name} {Salary|money} {Daily|sys_interval}
-{Yearly|sys_interval} {compensation|money}, {Mia|name}
-How much {money|money} does {Mia|name} bring in {every year|sys_interval}?
-How much does Cisco give {Mia|name} in {compensation|money} every year?
+{Hourly|time_interval} {pay|money} {Mia|name}
 how much money does {Mia|name} make?
-{Payrate|money} {Mia|name}
-Amount that {Mia|name} gets {paid|money}
-Monthly {compensation|money}, {Mia|name}
+Does {Mia|name} {make|money} {more than|comparator} 50k?
+Does {Mia|name} {earn|money} more money than seventy thousand per year?
+{Mia|name} {hourly|time_interval} {compensation|money}
+{Mia|name} {earning|money} amount {daily|time_interval}
+What is {Mia|name}'s exact {salary|money} in {dollars|money}?
+How much does Cisco {pay|money} {Mia|name} {each year|time_interval}?
+Describe {Mia|name}'s {paycheck|money}
+What does {Mia|name}'s {compensation|money} look like?
 {Mia|name} {pay|money} amount
-Hourly {pay|money} {Mia|name}
+Does {60,000|sys_number} exceed what {Mia|name} {earns|money} {every year|time_interval}?
+nan
+What is {Mia|name}'s {hourly|time_interval} {salary|money}
+{Payroll|money} {Mia|name}
+How much {salary|money} does {Mia|name} {earn|name} from Cisco {every year|time_interval}?
+When we let {Nan|name} go {fired|employment_action} ?
+{Mia|name} {pay|money} info
+Tell me how much {Mia|name} {making|money}
+{Each year|time_interval}, how much does {Mia|name} {earn|money}?
+{Mia|name} {Salary|money} {Yearly|time_interval}
+What is {Mia|name}'s pay rate?
+{pay rate|money} of  {Mia|name}
+Does {Mia|name} {make|money} {6 figs|sys_number}?
+Does {Mia|name} {make|money} {6 figures|sys_number}?
+{Mia|name} {Salary|money} {Daily|time_interval}
+How much does Cisco give {Mia|name} in {compensation|money} {every year|time_interval}?
+Is {50k|sys_number} {more than|comparator} what {Mia|name} {make|money}s in {a year|sys_duration}?
+What does {Mia|name} {make|money}?
+{Mia|name} {payrate|money}
+{Mia|name}'s {yearly|time_interval} {compensation|money}
+What is the pay rate of {Julia|name}?
+{Pay|money} Amount {Mia|name}
+{Mia|name} {salary|money} amount info
+What are {Mia|name}'s {earnings|money} {year to year|time_interval}?
+What is {Mia|name}'s {annual|sys_interval} {salary|money}?
+{Mia|name} {earning|money} amount {monthly|time_interval}
+{Mia|name}'s {compensation|money} {yearly|time_interval}
+{Mia|name} {compensation|money}
+How much is {Mia|name} {compensated|money}?
+What does {Mia|name} {make|money} on the {Payroll|money}
+According to the {payroll|money}, how much does {Mia|name} get {paid|money}?
+What is cisco giving {Mia|name} to {pay|money} her
+What is {Mia|name} {making|money}
+What does {Mia|name} {make|money} {monthly|time_interval}?
+How much does {Michael|name} make?
+Tell me avout {Mia|name}'s {pay|money}
+What is {Nan|name}'s pay rate?
+Amount that {Mia|name} gets {paid|money}
+What does {Mia|name} {make|money} {on the hour|time_interval}
+What does {Mia|name} get for {compensation|money}?
+Is {Mia|name} being {paid|money} {$|money}{40k|sys_number}?
+What does {Mia|name}'s {paycheck|money} look like?
+Does {Mia|name} get {$|money}{70k|sys_number} in {pay|money}?
+What is {Mia|name} {compensated|money} on a {year to year|time_interval} basis?
+Does {Mia|name}'s {compensation|money} exceed 48,000?
+{compensation|money} {Mia|name}

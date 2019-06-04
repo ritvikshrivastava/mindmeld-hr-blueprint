@@ -1,15 +1,15 @@
-According to the {payroll|money}, how much does {Mia|name} get {paid|money}?
-Tell me avout {Mia|name}'s {pay|money}
-{Mia|name} {earning|money} amount {daily|sys_interval}
-{Mia|name} {Salary|money} {Yearly|sys_interval}
-What is cisco giving {Mia|name} to {pay|money} her
-How much does {Mia|name} {make|money} {every month|sys_interval}?
-When we let {Nan|name} go {fired|employment_action} ?
+How much does {Mia|name} {make|money} {every month|time_interval}?
+{Mia|name} {hourly|time_interval} {pay|money}
+{Mia|name} {Salary|money} {Monthly|time_interval}
+{Payrate|money} {Mia|name}
+{Monthly|time_interval} {compensation|money}, {Mia|name}
+Tell me about {Mia|name}'s {month to month|sys_interval} {paycheck|money}?
+Is it true that {Mia|name} has a {six figure|sys_number} {salary|money}?
+How much {money|money} does {Mia|name} bring in {every year|time_interval}?
 How much is {Mia|name} {making|money} on {Payroll|money}
-What is {Mia|name}'s pay rate?
-{Mia|name} {pay|money} amount
+What does the {payroll|money} say about {Mia|name}'s {earning|money}
+{Mia|name} {earning|money} amount {yearly|time_interval}
+{Yearly|time_interval} {compensation|money}, {Mia|name}
+What is the {yearly|time_interval} {compensation|money} for {Mia|name} at Cisco?
+{Mia|name} {Payroll|money} {Salary|money}
 What is {Mia|name}'s pay?
-What is {Mia|name} {making|money}
-{Each year|sys_interval}, how much does {Mia|name} {earn|money}?
-How much does Cisco give {Mia|name} in {compensation|money} every year?
-{Mia|name}'s {yearly|sys_interval} {compensation|money}

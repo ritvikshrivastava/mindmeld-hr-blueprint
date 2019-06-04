@@ -1,18 +1,18 @@
-What is the {percentage|function} of {engineers|position} who are promoted to manager
-Which office location has the {most|comparator} employees?
-How many employees work for {Michael Albert|manager}?
-Hiow many employees are in our department?
-What is the {percentage|function} of {senior engineers|position} in the company
-How many jobs have you had previous?
-How many employees are {male|sex}?
-Number of {Married|maritaldesc} employees
-How many employees are there?
-what {proportion|function} of employees were {hired|employment_action} through a {job fair|employee_source}?
-How many employees are from {North Carolina|state}?
-How many employees were born in the {year 2009|date_time}?
-What {percentage|function} of employees are {female|sex}?
+What is the {percentage|function} of employees that {exceeds expectations|performance_score} on his or her performance score?
 How many employees are {older than|comparator} {35|sys_number}?
-How many of employees are {married|maritaldesc}?
-What {percent|function} of people working here are {female|sex}? 
-What is the employee's race?
-How many employees are from {New York|state}?
+How many {female|sex} managers are there?
+What {percentage|function} of employees are {male|sex}?
+How many employees live in {Iowa|state}?
+What is the head count trend within the {Sales department|department}?
+How many employees are {over|comparator} the {age of|age} {30|sys_number}?
+What {fraction|function} of {terminations|employment_action} were due to {sexual harassment|reason_for_termination}? 
+How many {software engineers|position} work for us?
+How many employees {meet or exceed expectations|performance_score}?
+What is the {percentage|function} of {senior engineers|position} in the company
+How many employees are from {North Carolina|state}?
+What is the total number of {Black or African American|racedesc} folks that currently work in the US?
+How many {business analysts|position} are employed?
+What {percentage|function} of the employees are minorities?
+How many employees work for {Michael Albert|manager}?
+Which office location has the {most|comparator} employees?
+What {percentage|function} of workers are {older than|comparator} {30|sys_number} {years old|age}?

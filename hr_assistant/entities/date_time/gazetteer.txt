@@ -3,6 +3,7 @@ date of termination
 dob
 start date
 date of starting employment
+hiring date
 end date
 date of leaving job
 date of ending employment

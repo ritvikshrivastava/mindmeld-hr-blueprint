@@ -21,3 +21,5 @@ without a wife
 maritaldesc
 marital status
 spouse
+husband
+wife

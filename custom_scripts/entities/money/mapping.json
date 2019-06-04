@@ -9,7 +9,12 @@
                 "earnings",
                 "make",
                 "dollars",
-                "$"
+                "$",
+                "paycheck",
+                "earns",
+                "earning",
+                "earners",
+                "earner"
             ],
             "cname": "pay rate"
         }

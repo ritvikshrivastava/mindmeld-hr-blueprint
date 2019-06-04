@@ -1,14 +1,14 @@
-Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
-Does {Mia|name}'s race affect her indulgence?
-Is {Nan|name} {married|maritaldesc}?
-What is {Nan Singh|name}'s performance evaluation history?
-is {Mia|name} a {citizen|citizendesc}
-How {old|age} is the manager for the engineering department?
-get me that state that {Mia|name} is from
-Get me {nan|name}'s race
-What is {Mia|name}'s position? 
-is the job title of {Mia|name} a {network engineer|position}
-where is {Mia|name} from
+What position is {Julia|name} in?
+Is {Ivan|name} from out of state?
+What is {Nan|name}'s official position?
+Why was {Mia|name} fired?
 Which department does {Mia|name} work for?
-what department does {Mia|name} currently work in
-What is {Hakim|name}'s level in the organization?
+What is the manager name of {Julia|name}?
+get me that state that {Mia|name} is from
+where is {Mia|name} from
+how old is {Michael|name} and is he a boy or a girl?
+give me {Nan|name}'s race please
+Is {Nan|name}'s race {Asian|racedesc}?
+What race is {nan|name}'s?
+did {Nan|name} hear about us through {Glassdoor|employee_source}?
+Is {Nan|name} {married|maritaldesc}?

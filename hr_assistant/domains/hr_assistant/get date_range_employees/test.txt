@@ -1,14 +1,14 @@
-{women|sex} {born in|date_time} the {60's|sys_interval}
-Which employees joined the company recently
-get me the employees that are from {MA|state} and have been {hired between|date_time} {2 years ago to 5 years ago|sys_interval}
+Give me a list of employees that were {hired into the company in|date_time} {July|sys_time}
+{fifteen|sys_number} most recently {hired|employment_action} employees
+get me {accountants|position} {born|date_time} {after 1990's|sys_interval}
+I want a list of employees that were {born in|date_time} the 1990's
+Get me the employees that were {born|date_time} before {August|sys_time} but after {May|sys_time}
+Which employee was {hired within the last month|date_time}? 
+What are our {top|extreme} {10|sys_number} {oldest|age} workers?
 Which employees did we {get rid of last fall|date_time}?
-{15|sys_number} most recently {fired|employement_action} employees
-Which employees have {been with us|date_time} for {less than|comparator} {five years|sys_duration}?
-Which employees have yet to have their {birthday|date_time} {this year|sys_interval}?
-which employees from the {software engineering department|department} {join us in|date_time} {2014|sys_interval}
-Give me the {top|extreme} ten {youngest|age} workers
-Which employees were {born in|date_time} the month of {March|sys_interval}
-{80's|sys_interval} {born|date_time} {women|sex}
-which employees from the {software engineering department|department} {began working for us within|date_time} the {last four months|sys_interval}
-{CT|state} employees {hired atleast|date_time} {three years ago|sys_interval}
-get me the {male|sex} employees that have been {fired|employment_action} {since 2015|sys_interval}
+white employees {born|date_time} {after 1990|sys_interval}
+Which employees are {born in|date_time} the {second week of feb|sys_time}
+Which employess were {hired|employment_action} in the {last five years|sys_duration}?
+Tell me about employees who {started in Spring 2019|date_time}
+{MA|state} employees {hired|employment_action} {4 years ago|sys_time}
+I want all of the employees in the {sales department|department} that were {hired|employment_action} {more than|comparator} {four years ago|sys_time}

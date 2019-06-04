@@ -5,7 +5,8 @@
                 "top",
                 "maximum",
                 "most",
-                "greatest"
+                "greatest",
+                "max"
             ],
             "cname": "highest"
         },
@@ -14,7 +15,8 @@
                 "least",
                 "minimum",
                 "bottom",
-                "lowest"
+                "lowest",
+                "min"
             ],
             "cname": "lowest"
         }

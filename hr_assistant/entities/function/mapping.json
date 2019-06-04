@@ -22,7 +22,9 @@
         },
         {
             "whitelist": [
-                "mean"
+                "mean",
+                "typical",
+                "typically"
             ],
             "cname": "average"
         }

@@ -1,13 +1,13 @@
-{Nan singh|name} is the {manager|manager} of which employees
-tell me the {supervisor|manager} that is {reponsible for|manager} {Nan|name} as well as the {supervisor|manager} reponsible for {Mia|name}
-are {Nan|name} and {Mia|name} {reporting to|manager} the same {manger|manager}?
-does {Amy|name} have the role of being a {manager|manager}
-Who is {John Reeder|name}'s manager?
-{manager|manager} of {amy dunn|name}
-Who is {Michael|name}'s manager?
-{Amy Dunn|name} {manager|manager}
-Who reports into {Nan Singh|name}
-I want to know the name of the {manager|manager} for {Amy Dunn|name}
+{manager|manager} name for ms {amy dunn|name}
+Which employees are under the Manager {Amy|name}?
+can you tell me whether {Amy|name} is a {boss|manager} or not?
+Does {Amy Dunn|name} have a {manager|manager}, if so who is it?
+which employees have a {manager|manager} that goes by the name {Peter Monroe|name}
+which of our employees have {nan singh|name} as their {manager|manager}
 get me a list of all of the employees who {report to|manager} {Amy Dunn|name} if there are any
-can i have the names of employees who report to {Michael|name}
-is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
+i want the {reporting|manager} {manager|manager} for both {Mia|name} and {Nan|name}
+which employees is {Nan singh|name} the {manager|manager} for
+{Amy Dunn|name} {manager|manager}
+What is {Mia|name}'s manager's name?
+for which employees is {Nan singh|name} the {supervisor|manager}
+who are {Nan|name} and {Mia|name} {working under|manager} currently

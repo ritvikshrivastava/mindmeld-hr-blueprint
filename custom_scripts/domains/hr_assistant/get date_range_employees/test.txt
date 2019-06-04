@@ -1,14 +1,14 @@
-Which employees are {born in|date_time} the {second week of feb|sys_interval}
-{80's|sys_interval} {born|date_time} {women|sex}
-{youngest|age} employees list
-Which employees have been {hired this year|date_time}?
-workers from {CT|state} {hired|employment_action} {more than|comparator} {three yrs ago|sys_interval}
-Give me all the employees that have a {birthday|date_time} {this month|sys_interval}
-which employees from the {software engineering department|department} {began working for us within|date_time} the {last four months|sys_interval}
-{seventies|sys_interval} {born|date_time} employees list
-{male|sex} workers {born in|date_time} the {90's|sys_interval}
-Which workers at the company have a {birthday|date_time} {this year|sys_interval}
-{singles|maritaldesc} {fired|employment_action} {last year|sys_interval}
-Which employees were {hired after Jan 1, 2019|date_time}?
-List of {youngest|age} works
-Give me a list of people {hired this year|date_time}.
+Give me a list of employees that were {hired into the company in|date_time} {July|sys_time}
+{fifteen|sys_number} most recently {hired|employment_action} employees
+get me {accountants|position} {born|date_time} {after 1990's|sys_interval}
+I want a list of employees that were {born in|date_time} the 1990's
+Get me the employees that were {born|date_time} before {August|sys_time} but after {May|sys_time}
+Which employee was {hired within the last month|date_time}? 
+What are our {top|extreme} {10|sys_number} {oldest|age} workers?
+Which employees did we {get rid of last fall|date_time}?
+white employees {born|date_time} {after 1990|sys_interval}
+Which employees are {born in|date_time} the {second week of feb|sys_time}
+Which employess were {hired|employment_action} in the {last five years|sys_duration}?
+Tell me about employees who {started in Spring 2019|date_time}
+{MA|state} employees {hired|employment_action} {4 years ago|sys_time}
+I want all of the employees in the {sales department|department} that were {hired|employment_action} {more than|comparator} {four years ago|sys_time}

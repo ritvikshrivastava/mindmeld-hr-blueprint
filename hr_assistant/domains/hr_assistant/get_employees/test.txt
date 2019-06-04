@@ -1,17 +1,17 @@
-{Sr. DBAs|position}
-employees that are {managers|position}
-who is not {married|maritaldesc}
-Which employees {quit working|employment_status} at Cisco?
-Which employees were {hired last May|date_time}?
-employee with the {highest|extreme} {age|age}
-how many employees work from {California|state}
-who is {single|maritaldesc}
-top {10|sys_number} {oldest|age} employees, who are they?
-who is {married|maritaldesc}
-Which employees are {activley employed|employment_status}?
-{managers|position} list
-give me a list of {separated employees|maritaldesc}
-employees that work as an {IT Manager|position}
-employee {managers|position}
+Which employees are not {US citizens|citizendesc}?
+i want the {youngest|age} {third|sys_ordinal} of employees
 employees in their {20|sys_number}'s
-Who is our {oldest|age} employee?
+Which employees have been {terminated|employment_action}?
+nan
+employees between the {age of|age} {20|sys_number} and {40|sys_number}
+provide me a list of {senior database admins|position}
+employee with the {highest|extreme} {age|age}
+Which employees have a {spouse|maritaldesc}?
+{MA|state} based employees
+workers that have been {divorced|maritaldesc}
+{managers|position} list
+Give me employees who are {single|maritaldesc}
+employees that live in {california|state}
+Which employees were {recruited|employment_action} at {job fairs|employee_source}?
+All the {September|sys_time} {birthdays|date_time}
+Which employees have been recently {terminated|employment_action}?

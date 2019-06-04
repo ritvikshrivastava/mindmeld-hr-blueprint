@@ -7,6 +7,11 @@ earnings
 make
 dollars
 $
+paycheck
+earns
+earning
+earners
+earner
 earns
 makes
 amount

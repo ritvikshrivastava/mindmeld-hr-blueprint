@@ -1,14 +1,14 @@
-What is the {average|function} {pay|money} of new grad hires?
-what number of people {earn|money} {fewer than|comparator} {30|sys_number} {dollars|money} {an hour|sys_duration}?
-how many people are {paid|money} {less than|comparator} {30|sys_number} {dollars|money}?
-what portion of employees that {work for|manger} Mr. Butler {make|money} {more than|comparator} {50k|sys_amount-of-money}?
-What is the {median|function} {pay|money} of {sales engineers|position} in the {Texas|state}?
-What percent of workers {made|money} below {70 grand|sys_amount-of-money} that were {hired in the last 3 years|date_time}
-nan
-{%|function} of {earners|money} {making|money} {below|comparator} {$34,000|sys_amount-of-money}
-Calculate the {average|function} {pay rate|money} at Cisco?
-what is the {average|function} {salary|money} of the employees whose {supervisor|manager} is {Amy Dunn|name}?
-what is the {highest|extreme} {amount|money} that a {network engineer|position} is {earning|money}
+how much did the company {pay|money} its employees {last year|sys_time} on {average|function}?
+what is the {total|function} {pay|money} in the {sales department|department}
 what is the {mean|function} of {salaries|money} for {referred employees|employee_source}?
-How much does the {average|function} employee {hired after 2017|date_time} {make|money}?
+What percent of workers {made|money} below {70 grand|sys_amount-of-money} that were {hired in the last 3 years|date_time}
+Of the employees {born before 1990|date_time}, what is the {average|function} {pay|money}?
 what is the {total|function} {amount of money|money} that employees that are {citizens|citizendesc} have earned?
+what portion of employees that {work for|manager} Mr. Butler {make|money} {more than|comparator} {50k|sys_amount-of-money}?
+What is the {total|function} {earnings|money} of employes {hired after 2016|date_time}?
+of all the {network engineer|position}s, what is the {highest|extreme} {earning|money} {amount|money}
+give me the {average|function} take home {salary|money} for {Production Technicians|position}
+what is the {highest|extreme} {amount|money} that a {network engineer|position} is {earning|money}
+{Payrate|money} {avg|function} {Network engineers|position}
+{%|function} of {earners|money} {making|money} {below|comparator} {$34,000|sys_amount-of-money}
+what is the {total|function} amount of {money|money} {earned|money} by {women|sex}

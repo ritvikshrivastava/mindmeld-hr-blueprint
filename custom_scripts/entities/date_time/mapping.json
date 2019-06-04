@@ -3,7 +3,8 @@
         {
             "whitelist": [
                 "start date",
-                "date of starting employment"
+                "date of starting employment",
+                "hiring date"
             ],
             "cname": "date of hire"
         },

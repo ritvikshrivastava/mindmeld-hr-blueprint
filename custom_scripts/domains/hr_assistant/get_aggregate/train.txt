@@ -1,72 +1,72 @@
-What is the number of {married|maritaldesc} employees?
-How many employees were {born in January|date_time}?
-How many {software engineers|position} work for us?
-What {percent|function} of employees are {american citizens|citizendesc}?
-How many of {Mia Brown|name}'s reports left the company?
-{Percentage|function} of Employees in department with prior experience
-How many employees in the {IT department|department}?
-How many employees live in {California|state}?
-What is the {distribution|function} of employees from different states?
-How many {female|sex} managers are there?
-How many employees are {C-levels|title}?
-How many {business analysts|position} are employed?
-How many managers are there?
-How many employees live in {Iowa|state}?
-What's the {average|function} performance of all employees within the company?
-How many employees are named {Ivan|name}?
-How many employees are {over|comparator} the {age of|age} {30|sys_number}?
-How many workers performed {below expectations|performance_score}?
-What is the {average|function} performane score of all employees?
-What are the {M/F|sex} ratios in different departments?
-How many employees are {married|maritaldesc}
-What is the {percentage|function} of employees that {exceeds expectations|performance_score} on his or her performance score?
-What {percentage|function} of employees are {non-citizens|citizendesc}?
-What {percentage|function} of employees are {US Citizens|citizendesc}?
-What is the head count trend within the {Sales department|department}?
-What is the {percentage|function} breakdown of employees that joined via {referrals|employee_source}, {social media|employee_source} and {university career fairs|employee_source}?
-How many employees {meet|performance_score} the expectations of the job role?
-What {percentage|function} of employees are {male|sex}?
-How many employees are {not citizens|citizendesc}?
-What {percentage|function} of workers are {older than|comparator} {30|sys_number} {years old|age}?
-What {percentage|function} of employees are {exceeding expectations|performance_score}?
-How many employees are between {20|sys_number} and {30 years old|age}?
-What {percentage|function} of employees are {married|sex}?
+How many women are in the {Engineering Department|department}?
+Number of {Married|maritaldesc} employees
+What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
+How many employees are {asian|racedesc}?
 How many employees work in {California|state}
+what {proportion|function} of employees were {hired|employment_action} through a {job fair|employee_source}?
+What is the {average|function} {age|age}?
+How many employees {meet|performance_score} the expectations of the job role?
+How many employees are from {New York|state}?
+How many employees are named {Ivan|name}?
+Tell me the {percent|function} of employees are {married|maritaldesc}?
+How many employees are {male|sex}?
+How many of {Mia Brown|name}'s reports left the company?
+What is the number of {married|maritaldesc} employees?
+How many employees are {C-levels|title}?
+What is the {percentage|function} of new grads in {engineerng|department}
+What is the {distribution|function} of employees from different states?
+{Percentage|function} of Employees in department with prior experience
+How many employees were born in the {year 2009|date_time}?
+How many employees are there?
+How many workers performed {below expectations|performance_score}?
+How many managers are there?
+What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
+How many employees live in {California|state}?
+What is the {average|function} performane score of all employees?
+What {percentage|function} of employees {meet or exceed expectations|performance_score}?
+What {percentage|function} of employees are {non-citizens|citizendesc}?
+What {percentage|function} of employees are parents?
+How many employees were {born in January|date_time}?
+What are the {M/F|sex} ratios in different departments?
+What {percentage|function} of employees are {exceeding expectations|performance_score}?
 How many people are there under {30|sys_number}?
-When do we most often {hire/fire|employment_status} people?
-What is the {median|function} {age of|age} employees in the {sales and marketing departments|department}?
-How many employees are {asian|race}?
-How many employees are {married|maritaldesc}?
-How many people are {over|comparator} {21|sys_number}?
-How many employees fall {below expectations|performance_score}?
 What is the {total|function} number of {us citizens|citizendesc}?
-What {fraction|function} of {terminations|employment_action} were due to {sexual harassment|reason_for_termination}? 
-What is the total number of {Black or African American|racedesc} folks that currently work in the US?
+How many employees in the {IT department|department}?
+How many people are {over|comparator} {21|sys_number}?
+What {percent|function} of employees {exceeded expectations|performance_score}?
+How many employees are {married|maritaldesc}?
+Hiow many employees are in our department?
+What is the ratio of races in our company?
+How many employees fall {below expectations|performance_score}?
+What {percent|function} of employees are {female|sex}?
+What {percentage|function} of employees are {US Citizens|citizendesc}?
+How many {software engineers|position} do we have?
+How many employees work in the {MA|state} office?
+{Percentage|function} of {termination|employment_status} due to {lack of innovation|reason_for_termination}
+How many people are {performing badly|performance_score}? 
 What's the {average|function} {age of|age} employees?
 Give an estimate {total|function} of the {female|sex} strength in this company?
-What is the {average|function} {age|age}?
-How many {software engineers|position} do we have?
-How many people are {performing badly|performance_score}? 
-What is the ratio of races in our company?
-What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
-What {percentage|function} of employees {meet or exceed expectations|performance_score}?
-How many employees are out of state?
-how many employees work for the {collab department|department}?
-How many employees are minorities?
-What {percentage|function} of employees are parents?
-How many people have worked here since {2015|date_time}?
-What is the {percentage|function} of new grads in {engineerng|department}
-Tell me the {percent|function} of employees are {married|maritaldesc}?
-How many employees {meet or exceed expectations|performance_score}?
+What {percent|function} of employees are {american citizens|citizendesc}?
+How many of employees are {married|maritaldesc}?
 How many employees are above 35?
+What {percent|function} of people working here are {female|sex}? 
+How many employees are {not citizens|citizendesc}?
+What's the {average|function} performance of all employees within the company?
+What {percentage|function} of employees are {married|sex}?
 What is the {average|function} tenure of employees in {California|state}?
-How many employees work in the {MA|state} office?
-How many employees are there in {sales|department}
-What {percent|function} of employees {exceeded expectations|performance_score}?
-What {percent|function} of employees are {female|sex}?
-How many women are in the {Engineering Department|department}?
-What {percentage|function} of the employees are minorities?
-What percent of employees are managers?
-What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
-{Percentage|function} of {termination|employment_status} due to {lack of innovation|reason_for_termination}
+How many employees are between {20|sys_number} and {30 years old|age}?
+How many people have worked here since {2015|sys_time}?
+When do we most often {hire/fire|employment_status} people?
+What {percentage|function} of employees are {female|sex}?
 Employees with more than {5 yrs|sys_duration} of experience in their field
+How many employees are there in {sales|department}
+What is the {percentage|function} of {engineers|position} who are promoted to manager
+What percent of employees are managers?
+How many jobs have you had previous?
+What is the employee's race?
+What is the {median|function} {age of|age} employees in the {sales and marketing departments|department}?
+What is the {percentage|function} breakdown of employees that joined via {referrals|employee_source}, {social media|employee_source} and {university career fairs|employee_source}?
+How many employees are {married|maritaldesc}
+How many employees are minorities?
+how many employees work for the {collab department|department}?
+How many employees are out of state?
