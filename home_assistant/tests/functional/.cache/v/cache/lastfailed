@@ -1,0 +1,6 @@
+{
+  "test_smart_home.py::TestSmartHome::()::test_turn_appliance_off[turn off the kitchen oven-oven-kitchen]": true,
+  "test_smart_home.py::TestSmartHome::()::test_turn_appliance_off[turn off the living room tv-tv-living room]": true,
+  "test_smart_home.py::TestSmartHome::()::test_turn_appliance_on[turn on the kitchen oven-oven-kitchen]": true,
+  "test_smart_home.py::TestSmartHome::()::test_turn_appliance_on[turn on the living room tv-tv-living room]": true
+}

@@ -1,17 +1,17 @@
-Which employees are not {US citizens|citizendesc}?
+get me a list of {IT support|position} staff
+give me a list of employes that are based in {MA|state}
+workers that aren't {citizens|citizendesc}
+{female|sex} employees
+employee {managers|position}
+Which employees are {activley employed|employment_status}?
+Which employees are {over|comparator} {30|sys_number} {years old|age}?
 i want the {youngest|age} {third|sys_ordinal} of employees
-employees in their {20|sys_number}'s
-Which employees have been {terminated|employment_action}?
-nan
-employees between the {age of|age} {20|sys_number} and {40|sys_number}
-provide me a list of {senior database admins|position}
-employee with the {highest|extreme} {age|age}
-Which employees have a {spouse|maritaldesc}?
-{MA|state} based employees
+Which employees are {managers|position}?
+how many employees work from {California|state}
+Which employees were {hired last May|date_time}?
+{Sr. DBAs|position}
 workers that have been {divorced|maritaldesc}
-{managers|position} list
-Give me employees who are {single|maritaldesc}
-employees that live in {california|state}
-Which employees were {recruited|employment_action} at {job fairs|employee_source}?
-All the {September|sys_time} {birthdays|date_time}
+workers doing {information technology support|position}
+{divorced|maritaldesc} employees
+who is {working for|manager} {IT support|position}?
 Which employees have been recently {terminated|employment_action}?

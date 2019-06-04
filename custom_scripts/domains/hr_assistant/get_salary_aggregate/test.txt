@@ -1,14 +1,14 @@
-Employees {hired between 2013 and 2014|date_time}, {average|function} {pay|money}
 How much does the {average|function} employee {hired after 2017|date_time} {make|money}?
-what {fraction|function} of employees {make|money} {less than|comparator} {69 grand|sys_amount-of-money}?
+What is the {average|function} {amount of money|money} that an employee {hired last year|date_time} earns?
+among all of the employees that found their job from an {internet search|employee_source}, what is the {average|function} {salary|money}?
 what portion of {citizens|citizendesc} were {compensated|money} with {more than|comparator} {60k|sys_amount-of-money} from {2013|sys_time} to {2016|sys_time}?
 what {percentage|function} of employees make {25|sys_number} {rate|money}?
-What's the {average|function} {pay rate|money}?
-what number of people {earn|money} {fewer than|comparator} {30|sys_number} {dollars|money} {an hour|sys_duration}?
-nan
-how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
-What is the {average|function} {pay|money} of new grad hires?
-fetch me the {min|extreme} {compensation|money} for a {network engineer|position} at this organization
-{percentage|function} of employees {earning|money} {below|comparator} {80k|sys_number}
-what do {guys|sex} {make|money} here on {average|function}?
 {Payrate|money} {avg|function} {Network engineers|position}
+Tell me about the {range|function} of {salaries|money} for employees {hired within the last year|date_time}
+what number of people {earn|money} {fewer than|comparator} {30|sys_number}?
+fetch me the {min|extreme} {compensation|money} for a {network engineer|position} at this organization
+how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
+what is the {lowest|extreme} {pay|money} in the {Sales department|department}
+get me the {total|function} amount that the {sales|department} {pays|money} current workers
+how much are {referred employees|employee_source} {making|money} on {average|function}?
+what do {guys|sex} {make|money} here on {average|function}?

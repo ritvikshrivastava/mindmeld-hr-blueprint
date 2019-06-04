@@ -1,18 +1,18 @@
-What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
-What is the {median|function} {age of|age} employees in the {sales and marketing departments|department}?
-How many {business analysts|position} are employed?
-What is the ratio of races in our company?
-How many employees in the {IT department|department}?
-What is the number of {married|maritaldesc} employees?
-What {percent|function} of employees are {american citizens|citizendesc}?
-What percent of employees are managers?
-What {percent|function} of people working here are {female|sex}? 
-What is the employee's race?
-How many people are {performing badly|performance_score}? 
-What {percentage|function} of employees are parents?
-How many employees were {born in January|date_time}?
-What {percentage|function} of employees are {non-citizens|citizendesc}?
+Tell me the {percent|function} of employees are {married|maritaldesc}?
+How many of employees are {married|maritaldesc}?
+How many employees are there in {sales|department}
+What is the {percentage|function} breakdown of employees that joined via {referrals|employee_source}, {social media|employee_source} and {university career fairs|employee_source}?
+How many employees live in {Iowa|state}?
+How many people are {over|comparator} {21|sys_number}?
+Employees with more than {5 yrs|sys_duration} of experience in their field
 What is the {average|function} tenure of employees in {California|state}?
-How many employees work for {Michael Albert|manager}?
-What is the {total|function} number of {us citizens|citizendesc}?
+How many employees are {asian|racedesc}?
+What is the {median|function} {age of|age} employees in the {sales and marketing departments|department}?
+How many jobs have you had previous?
+Number of {Married|maritaldesc} employees
 How many employees are above 35?
+How many employees {meet|performance_score} the expectations of the job role?
+What percent of employees are managers?
+How many women are in the {Engineering Department|department}?
+What {percentage|function} of employees are {married|sex}?
+{Percentage|function} of {termination|employment_status} due to {lack of innovation|reason_for_termination}

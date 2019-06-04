@@ -1,6 +1,6 @@
-what is the {total|function} number of employees that {started working|date_time} here {before 2012|sys_interval}
-What {percentage|function} of employees were {born after|date_time} {2010|sys_time}?
-have there been any employees that have been {working here for|date_time} {3 years|sys_duration} or even {more than|comparator} that
-How many people are there under {30|sys_number}?
 How many employees were born in the {year 2009|date_time}?
-How many employees were {hired|employment_action} {last year|sys_time}?
+How many people have worked here since {2015|date_time}?
+Employees with more than {5 yrs|sys_duration} of experience in their field
+what is the {fraction|function} of employees that have been {here since|date_time} the {2000's|time_interval}
+i want the {count|function} of employees that have their {bday|date_time} {before 1996|sys_interval}
+have there been any employees that have been {working here for|date_time} {3 years|sys_duration} or even {more than|comparator} that

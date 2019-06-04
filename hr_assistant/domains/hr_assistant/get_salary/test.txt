@@ -1,15 +1,15 @@
-How much does {Mia|name} {make|money} {every month|time_interval}?
-{Mia|name} {hourly|time_interval} {pay|money}
-{Mia|name} {Salary|money} {Monthly|time_interval}
-{Payrate|money} {Mia|name}
-{Monthly|time_interval} {compensation|money}, {Mia|name}
-Tell me about {Mia|name}'s {month to month|sys_interval} {paycheck|money}?
-Is it true that {Mia|name} has a {six figure|sys_number} {salary|money}?
-How much {money|money} does {Mia|name} bring in {every year|time_interval}?
-How much is {Mia|name} {making|money} on {Payroll|money}
-What does the {payroll|money} say about {Mia|name}'s {earning|money}
-{Mia|name} {earning|money} amount {yearly|time_interval}
-{Yearly|time_interval} {compensation|money}, {Mia|name}
-What is the {yearly|time_interval} {compensation|money} for {Mia|name} at Cisco?
-{Mia|name} {Payroll|money} {Salary|money}
-What is {Mia|name}'s pay?
+Does {nan singh|name} {make|money} {6 figs|sys_number}?
+Tell me how much {Ivan Rogers|name} {making|money}
+When we let {Mia|name} go {fired|employment_action} ?
+What is the pay rate of {ivan rogers|name}?
+How much {money|money} does {ivan|name} bring in {every year|time_interval}?
+What is {nan|name}'s {hourly|time_interval} {salary|money}
+What does {Mia Brown|name} {make|money} on the {Payroll|money}
+What is the {yearly|time_interval} {compensation|money} for {Nan Singh|name} at Cisco?
+{nan|name} {hourly|time_interval} {compensation|money}
+{Nan Singh|name} {pay|money} amount
+{Julia|name} {compensation|money}
+What is {Julia|name} {making|money}
+What does the {payroll|money} say about {Julia Soto|name}'s {earning|money}
+{Monthly|time_interval} {compensation|money}, {Julia Soto|name}
+What is {julia|name} {compensated|money} on a {year to year|time_interval} basis?

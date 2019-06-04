@@ -1,13 +1,13 @@
-get me ms. {dunn|name}'s {manager|manager} full name
-are {Nan|name} and {Mia|name} {reporting to|manager} the same {manger|manager}?
-What is {Mia|name}'s manager's name?
-Who is the manager for {Bob|name}
-does {Amy|name} have the role of being a {manager|manager}
-which employees is {Nan singh|name} the {manager|manager} for
-{nan singh|name} is the {manager|manager} for which of our employees
-Who reports into {Nan Singh|name}
-{manager|manager} of {amy dunn|name}
-Tell who is {working under|manager} Mr. {Singh|name}
-who {works for|manager} {Nan Singh|name}
-who do {Nan|name} and {Mia|name} {report to|manager}?
-who all is {working for|manager} {Nan Singh|name}
+tell me the {supervisor|manager} that is {reponsible for|manager} {Nan|name} as well as the {supervisor|manager} reponsible for {Ivan Rogers|name}
+which employees is {nan singh|name} the {manager|manager} for
+who are {Nan|name} and {Ivan Rogers|name} {working under|manager} currently
+{amy dunn|name}'s {supervisor|manager} name
+are {Nan|name} and {Julia Soto|name} {reporting to|manager} the same {manger|manager}?
+{ivan rogers|name} is the {manager|manager} for which of our employees
+Who is {Michael|name}'s manager?
+which employees have a {manager|manager} that goes by the name {Peter Monroe|name}
+employees that directly {report|manager} to Mr. {julia|name}
+Which employees are under the Manager {Amy|name}?
+Who is {Nan|name}'s manager? 
+who {works for|manager} {Ivan|name}
+is it correct to say that {Amy|name} is a {boss|manager}?

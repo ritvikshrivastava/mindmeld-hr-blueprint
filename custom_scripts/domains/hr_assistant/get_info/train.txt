@@ -1,56 +1,56 @@
-What does {Nan|name} do?
-What is {Nan|name}'s last name?
-What does {Michael|name} look like?
-What is {Hakim|name}'s level in the organization?
-please tell me {Michael|name}'s age as well as his gender?
-which branch is {Nan|name} working in
-Where is {Mia|name} from?
-where is {Mia|name} from
-is {Mia|name} {currently active|employment_status} or not
-What is {Nan|name}'s official position?
-why did we {let go|employment_action} of {Nan|name}
-What is {Mia|name}'s performance score?
-is {Mia|name} a {citizen|citizendesc}
-Does {Mia|name}'s race affect her indulgence?
-what does {Mia|name} do
-sex and age of {Michael|name}
-Which department is {Michael|name} in?
-Is {Nan|name} {married|maritaldesc}?
-Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
-Does {Michael|name} still work at Cisco? 
-is {Mia|name} a {network engineer|position}
-Was {Michael Albert|name} {terminated|employment_action} due to {performance reasons|reason_for_termination}?
-Tell me {Nan|name}'s occupation?
-Why was {Mia|name} fired?
-What race is {nan|name}'s?
-Please tell me, is {Michael|name} {married|maritaldesc} or not?
-Is {Ivan|name} from out of state?
-did we {fire|employment_action} Mr. {Nan|name} Singh
-Does {Julia|name}'s {manger|manager} provide her with enough work and exposure?
-Which department does {Mia|name} work for?
-What is the manager name of {Julia|name}?
-I want {Mia|name}'s state
-What is {Mia|name}'s employment status?
-whats {Mia|name}'s employment status
-give me {Nan|name}'s race please
-what department does {Mia|name} currently work in
-is {Mia|name} based in {MA|state}
-Where does {Mia|name} live?
-Is {Nan|name} {actively employed|employment_status}?
-get me that state that {Mia|name} is from
-can you desribe the race of {Nan|name} Singh
-nan
-does {Mia|name} work as a {network engineer|position}
-how did {Nan|name} hear about us
-What was the reason for {Mia|name}'s termination?
-Get me {nan|name}'s race
+is {Nan|name} a {network engineer|position}
+how old is {Michael|name} and is he a boy or a girl?
+Does {mia brown|name}'s {manger|manager} provide her with enough work and exposure?
+How old is the {Nan|name}?
 How well is the employee doing?
-What position is {Julia|name} in?
+Is {Michael|name} {married|maritaldesc}?
+Where is {Mia Brown|name} from?
+what department does {nan|name} currently work in
+is {nan singh|name} based in {MA|state}
+how did {Julia Soto|name} hear about us
+is {mia brown|name} a {citizen|citizendesc}
+Please tell me, is {Michael|name} {married|maritaldesc} or not?
+Which department is {Michael|name} in?
+Is {Julia|name} from out of state?
+What is {Julia Soto|name}'s performance score?
+whats {mia brown|name}'s role at the organization
+get me that state that {Nan|name} is from
+What is {mia brown|name}'s employment status?
+How {old|age} is the manager for the engineering department?
+is {Julia|name} in the {Admin Offices department|department}
+did we {fire|employment_action} Mr. {Nan Singh|name} Singh
+None
+where is {julia|name} from
+state of {Ivan Rogers|name}
+What is {Nan|name}'s performance evaluation history?
+did {Julia Soto|name} hear about us through {Glassdoor|employee_source}?
+Is {ivan|name} a citizen?
+What position is {Mia|name} in?
+tell me what is {Julia|name}'s citizenship status
+I want {Ivan|name}'s state
+What is {Hakim|name}'s level in the organization?
+can you desribe the race of {Mia Brown|name} Singh
+tell me, is {Michael|name} a {bachelor|maritaldesc}?
+Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
+please tell me {Michael|name}'s age as well as his gender?
+Was {Michael Albert|name} {terminated|employment_action} due to {performance reasons|reason_for_termination}?
+What is {nan singh|name}'s race?
 does {Mia|name} live in {Cali|state}
-Is {Nan|name}'s race {Asian|racedesc}?
-Is {Mia|name} a citizen?
-What is {Mia|name}'s position? 
-Why did {Mia|name} get fired?
-What is {Nan|name}'s job?
-whats {Mia|name}'s role at the organization
-What is {nan|name}'s race?
+which branch is {nan singh|name} working in
+is the job title of {ivan rogers|name} a {network engineer|position}
+which state is {mia brown|name} from
+why did we {let go|employment_action} of {Ivan|name}
+What does {Michael|name} look like?
+What is {julia|name}'s official position?
+Get me {julia|name}'s race
+Is {ivan|name} {married|maritaldesc}?
+Does {Michael|name} still work at Cisco? 
+Is {Nan|name} {actively employed|employment_status}?
+What race is {Ivan Rogers|name}'s?
+Tell me {Ivan|name}'s occupation?
+Does {Julia|name}'s race affect her indulgence?
+What was the reason for {julia soto|name}'s termination?
+give me {Nan Singh|name}'s race please
+Why was {Nan Singh|name} fired?
+How much does {julia soto|name} get {paid|money}?
+What is {nan|name}'s position? 

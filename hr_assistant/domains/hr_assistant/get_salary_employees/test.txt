@@ -1,14 +1,14 @@
-list of {top|extreme} twenty {earners|money} in the {Production department|department}
-{IT support|position} {lowest|extreme} {earner|money}
-Tell me who earned the {least|extreme} that was {hired this year|date_time}?
-show me the {yearly|time_interval} {earnings|money} of the {men|sex}
+show me the employee {salaries|money} for {females|sex} {hired in the last 2 years|date_time}
+{women|sex} {salaries|money}
+{male|sex} {incomes|money}
 {men|sex} {yearly|time_interval} {earnings|money}
-{lowest|extreme} {income|money} {salaries|money}
-Which employee(s) have {lowest|comparator} {income|money}?
-folks {making|money} {less than|comparator} the {avg|function}
+get the {salaries|money} of workers that are {paid|money} in the {highest|extreme} {income|money} bracket
+Which {software engineers|position} are {paid|money} {less than|comparator} ${90k|sys_number}?
+give me the {salaries|money} of {interracial|racedesc} employees in this company
 {IT support|position} {top|extreme} {earner|money}
-{men|sex} {salaries|money}
-what are the {salaries|money} for {active|employment_status} employees
-Who {earns|money} the {most|extreme} in the {production department|department}
-get the {salaries|money} of employees in the {lowest|extreme} {income|money} bracket
-below {average|function} {earning|money} workers
+For employees {hired|employment_action} {between 5 to 2 years ago|time_interval}, which employee {earns|money} the {most|extreme}?
+show me the {yearly|time_interval} {earnings|money} of the {men|sex}
+the {lowest|extreme} 10 {earners|money} in {Sales|department}
+above {average|function} {earning|money} employees
+{lowest|extreme} {income|money} {salaries|money}
+folks {making|money} {less than|comparator} the {avg|function}
