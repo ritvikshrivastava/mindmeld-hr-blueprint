@@ -1,14 +1,14 @@
-Employees {hired between 2013 and 2014|date_time}, {average|function} {pay|money}
-How much does the {average|function} employee {hired after 2017|date_time} {make|money}?
-what {fraction|function} of employees {make|money} {less than|comparator} {69 grand|sys_amount-of-money}?
-what portion of {citizens|citizendesc} were {compensated|money} with {more than|comparator} {60k|sys_amount-of-money} from {2013|sys_time} to {2016|sys_time}?
-what {percentage|function} of employees make {25|sys_number} {rate|money}?
-What's the {average|function} {pay rate|money}?
-what number of people {earn|money} {fewer than|comparator} {30|sys_number} {dollars|money} {an hour|sys_duration}?
-nan
-how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
-What is the {average|function} {pay|money} of new grad hires?
-fetch me the {min|extreme} {compensation|money} for a {network engineer|position} at this organization
-{percentage|function} of employees {earning|money} {below|comparator} {80k|sys_number}
-what do {guys|sex} {make|money} here on {average|function}?
-{Payrate|money} {avg|function} {Network engineers|position}
+How much {money|money} did all the employees {hired in the last three months|date_time} {make|money} combined?
+{average|function} {pay rate|money} for {women|sex}?
+how many people are {paid|money} {less than|comparator} {30|sys_number} {dollars|money}?
+what number of people {earn|money} {fewer than|comparator} {30|sys_number}?
+{compensation|money} {avg|function} amt for {network engineers|position}
+what is the {average|function} {salary|money} that the company offered its employees for the {last four and a half years|time_interval}?
+of all the {network engineer|position}s, what is the {highest|extreme} {earning|money} {amount|money}
+How many employees are paid above {$|money}{200,000|sys_number} {a year|sys_duration}?
+what is the {fraction|function} of {female|sex} employees that {make|money} {above|comparator} {$75,000|sys_amount-of-money}
+What is the {typical|function} {compensation|money} for company employees {born after 1980 but before 1990|date_time}?
+on {average|function}, how much are {referred employees|employee_source} {earning|money}?
+What is the {average|function} {amount of money|money} that an employee {hired last year|date_time} earns?
+how much is the {sales department|department} {paying|money} its employees in aggregate
+What is the {average|function} {pay rate|money} for {executives|position}?

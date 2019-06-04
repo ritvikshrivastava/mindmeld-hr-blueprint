@@ -1,17 +1,17 @@
-top {10|sys_number} {oldest|age} employees, who are they?
-Which employees have a {spouse|maritaldesc}?
-{MA|state} employees
-who are the top {10|sys_number}{%|function} {oldest|age} employees
-get me the {youngest|age} {five|sys_number} {percent|function} of employees
+get me a list of {IT support|position} staff
 give me a list of employes that are based in {MA|state}
+workers that aren't {citizens|citizendesc}
+{female|sex} employees
+employee {managers|position}
+Which employees are {activley employed|employment_status}?
+Which employees are {over|comparator} {30|sys_number} {years old|age}?
+i want the {youngest|age} {third|sys_ordinal} of employees
+Which employees are {managers|position}?
+how many employees work from {California|state}
+Which employees were {hired last May|date_time}?
+{Sr. DBAs|position}
+workers that have been {divorced|maritaldesc}
+workers doing {information technology support|position}
 {divorced|maritaldesc} employees
-Which employees {quit working|employment_status} at Cisco?
-{MA|state} based employees
-which staff work in {IT|department}
-Which employees are {married|maritaldesc}?
-Which employees were {recruited|employment_action} at {job fairs|employee_source}?
-Which employee(s) {do not meet|performance_score} company's expectations?
-Which employees are {not citizens|citizendesc} at my office location?
-Which employees are {citizens|citizendesc}?
-Which employee(s) are from {Asia|racedesc}?
-Which employees are {terminated|employment_action}?
+who is {working for|manager} {IT support|position}?
+Which employees have been recently {terminated|employment_action}?
