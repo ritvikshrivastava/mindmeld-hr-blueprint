@@ -1,13 +1,13 @@
-None
-employee list with {manager|manager} being {mia brown|name}
-Which employees are under the Manager {Amy|name}?
-who {works for|manager} {Ivan|name}
-{amy|name} is a {boss|manager}, right?
-Who reports into {julia soto|name}
-Does {Amy Dunn|name} have a {manager|manager}, if so who is it?
-as of today Ms. {Dunn|name} is {managing|manager} which employees
-which employees is {Ivan Rogers singh|name} the {manager|manager} for
-{Amy Dunn|name} {manager|manager}
-{Amy Dunn|name} {manages|manager} which individuals?
-can you tell me whether {Amy|name} is a {boss|manager} or not?
-are {Nan|name} and {Nan Singh|name} {reporting to|manager} the same {manger|manager}?
+Who is {John Reeder|name}'s manager?
+can you tell me who the {supervisor|manager} is that is {supervising|manager} Ms. {Amy Dunn|name}
+{manager|manager} for {amy dunn|name}
+Tell who is {working under|manager} Mr. {Singh|name}
+who {works for|manager} {mia brown|name}
+is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
+get me a list of all of the employees that are currently {reporting|manager} directly to {Julia Soto|name}
+who are {Nan|name} and {ivan|name} {working under|manager} currently
+{manager|manager} of {amy dunn|name}
+I want to know if {Amy Dunn|name} is a {manger|manager}
+is {Amy|name} a {manager|manager} in our company
+Which employees are {under|comparator} the {Manager|manager} {Amy|name}?
+is {Peter Monroe|name} {managing|manager} {Amy Dunn|name} or is it the other way around?

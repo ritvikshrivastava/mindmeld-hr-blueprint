@@ -1,0 +1,22 @@
+time_recurr
+yearly
+monthly
+annually
+bi-weekly
+hourly
+month to month
+month-to-month
+by the year
+by the month
+by the day
+by the week
+by the hour
+every month
+every hour
+each hour
+every month
+each month
+every year
+each year
+every week
+each week

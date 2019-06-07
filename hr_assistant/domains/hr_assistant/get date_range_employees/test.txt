@@ -1,14 +1,14 @@
-Give me all the employees that have a {birthday|date_time} {this month|sys_time}
-{asians|racedesc} {born in|date_time} the {80's|time_interval}
 list the employees who {joined last Monday|date_time}
-{August|sys_time}-{born|date_time} employees
-{90's|time_interval} {born|date_time} {white|racedesc} employees
-{MA|state} employees {hired|employment_action} {4 years ago|sys_time}
+Which employees were not yet {born|date_time} when {9/11|sys_time} happened?
+Get me the employees that were {born|date_time} before {August|sys_time} but after {May|sys_time}
+{asians|racedesc} {born in|date_time} the {80's|time_interval}
+Which employees were {born in|date_time} the {80's|time_interval}?
+Can you please tell me the employees that have already had thier {birthday|date_time} {this year|sys_time}
 {oldest|age} employees list
-which employees from the {software engineering department|department} {join us in|date_time} {2014|sys_time}
-Which employees are {born in|date_time} {May|sys_time}
-{male|sex} workers {born in|date_time} the {90's|time_interval}
-get me {accountants|position} {born|date_time} {after 1990's|sys_interval}
-Which employees have {been with us|date_time} for {less than|comparator} {five years|sys_duration}?
-Do we have any {feb|sys_time} {born|date_time} employees
 workers from {CT|state} {hired|employment_action} {more than|comparator} {three yrs ago|time_interval}
+{females|sex} {fired|employment_action} in {2016|sys_time}
+None
+Give me a list of employees that were {hired into the company in|date_time} {July|sys_time}
+{married|maritaldesc} employees {hired|employment_action} {last year|sys_time}
+Give me a list of people {hired this year|date_time}.
+Which employees have {been with us|date_time} for {less than|comparator} {five years|sys_duration}?

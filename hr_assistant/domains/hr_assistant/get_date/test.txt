@@ -1,15 +1,15 @@
-{nan singh|name} {termination date|date_time}
-Which date was {nan singh|name} {let go|employment_action}?
-{Amy|name} {date of birth|date_time}
-What was {Amy|name}'s official join date at this company?
-I want the date when {Nan Singh|name} {starting working|date_time} here
-When did we {fire|employment_action} {Jeff|name}?
-What day was it when {Amy|name} was {hired|employment_action}
-{Julia Soto|name} {start date|date_time}
-Please get me {DOB|date_time} of {julia soto|name}
+{Mia|name} {birth date|date_time}
+When was {Ivan Rogers|name} {born|date_time}?
+{Amy|name} {DOB|date_time}
+tell me the date when {Ivan Rogers|name} had to {leave|employment_action} the company
+Give me {julia soto|name}'s {hiring date|date_time}
+When did {Amy|name} join the company?
+Can you tell me how long has {Ivan|name} worked in the firm
 {Amy|name} {date of fire|date_time}
-{start date|date_time}, {julia soto|name}
-Did we {let go|employment_action} of {Amy|name} in {May|sys_time}
-{mia|name} {date of employment termination|date_time}
-None
-What was the {Amy|name}'s date of hire?
+How long was {julia soto|name} working for?
+When {ivan|name} {began her employment|date_time}, what was the date
+What is the duration of {ivan|name}'s employment with the company?
+tell me {birth date|date_time} of {ivan|name}
+{julia soto|name} {date of employment termination|date_time}
+Was it {May|sys_time} or {June|sys_time} when we had to let {Nan|name} go?
+How long has {Mia|name} worked here?

@@ -1,6 +1,5 @@
-have there been any employees that have been {working here for|date_time} {3 years|sys_duration} or even {more than|comparator} that
-How many employees are below the {age of|age} {30|sys_number}
-number of people {working since 2016|date_time}
-What {percentage|function} of employees were {born before|date_time} {1992|sys_time}?
-how many employees were {born|date_time} within {five years of 1980|time_interval}
-Employees with more than {5 yrs|sys_duration} of experience in their field
+What {percent|function} of all our employees were {hired this year|date_time}?
+{How many|function} employees were {hired|employment_action} {last year|sys_time}?
+what is the {total|function} number of employees that {started working|date_time} here {before 2012|sys_interval}
+what is the {fraction|function} of employees that have been {here since|date_time} the {2000's|time_interval}
+{How many|function} people have worked here since {2015|date_time}?

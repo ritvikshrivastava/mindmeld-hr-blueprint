@@ -2,13 +2,15 @@
     "entities": [
         {
             "whitelist": [
-                "yearly",
-                "monthly",
-                "annually",
-                "bi-weekly",
-                "hourly",
-                "month to month",
-                "month-to-month"
+                "tens",
+                "twenties",
+                "thirties",
+                "forties",
+                "fifties",
+                "sixties",
+                "seventies",
+                "eighties",
+                "nineties"
             ],
             "cname": "time_interval"
         }

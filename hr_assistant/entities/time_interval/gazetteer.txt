@@ -1,11 +1,13 @@
 time_interval
-yearly
-monthly
-annually
-bi-weekly
-hourly
-month to month
-month-to-month
+tens
+twenties
+thirties
+forties
+fifties
+sixties
+seventies
+eighties
+nineties
 00's
 10's
 20's
@@ -26,15 +28,6 @@ month-to-month
 70s
 80s
 90s
-tens
-twenties
-thirties
-forties
-fifties
-sixties
-seventies
-eighties
-nineties
 1900s
 1910s
 1920s
@@ -59,4 +52,3 @@ nineties
 1990's
 2000's
 2010's
-by the month

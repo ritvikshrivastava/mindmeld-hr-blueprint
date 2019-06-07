@@ -1,18 +1,19 @@
-Tell me the {percent|function} of employees are {married|maritaldesc}?
-How many employees work for {Michael Albert|manager}?
-What is the number of {married|maritaldesc} employees?
-What is the {percentage|function} of employees that {exceeds expectations|performance_score} on his or her performance score?
-How many {software engineers|position} do we have?
-What is the {percentage|function} of {senior engineers|position} in the company
-What {percentage|function} of employees are {US Citizens|citizendesc}?
-Hiow many employees are in our department?
-How many employees {meet|performance_score} the expectations of the job role?
-How many managers are there?
-What {percent|function} of employees are {female|sex}?
-What is the total number of {Black or African American|racedesc} folks that currently work in the US?
-How many employees are {C-levels|position}?
-Give an estimate {total|function} of the {female|sex} strength in this company?
-How many employees are from {New York|state}?
-How many jobs have you had previous?
-What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
-How many {software engineers|position} work for us?
+What is the {total|function} number of {us citizens|citizendesc}?
+{How many|function} of {ivan|name}'s reports left the company?
+Employees with more than {5 yrs|sys_duration} of experience in their field
+{How many|function} employees work in {California|state}
+When do we {most|extreme} often {hire/fire|employment_status} people?
+Which office location has the {most|extreme} employees?
+{How many|function} employees live in {Iowa|state}?
+{How many|function} employees work for {Michael Albert|manager}?
+{How many|function} employees fall {below expectations|performance_score}?
+{How many|function} employees are out of state?
+What are the {M/F|sex} ratios in different departments?
+{How many|function} employees are {C-levels|position}?
+What {percentage|function} of the employees are minorities?
+What {percentage|function} of workers are {older than|comparator} {30|sys_number} {years old|age}?
+{How many|function} employees are there?
+{How many|function} employees {meet or exceed expectations|performance_score}?
+What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
+{How many|function} employees are {under|comparator} {30|sys_number}?
+What {percentage|function} of employees are {exceeding expectations|performance_score}?

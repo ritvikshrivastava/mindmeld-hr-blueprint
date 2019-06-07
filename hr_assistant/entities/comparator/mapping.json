@@ -14,7 +14,8 @@
             "whitelist": [
                 "is exactly",
                 "is equal to",
-                "equates to"
+                "equates to",
+                "equal to"
             ],
             "cname": "equals to"
         },

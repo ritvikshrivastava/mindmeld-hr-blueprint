@@ -1,14 +1,14 @@
-How much {money|money} did all the employees {hired in the last three months|date_time} {make|money} combined?
-{average|function} {pay rate|money} for {women|sex}?
-how many people are {paid|money} {less than|comparator} {30|sys_number} {dollars|money}?
-what number of people {earn|money} {fewer than|comparator} {30|sys_number}?
-{compensation|money} {avg|function} amt for {network engineers|position}
-what is the {average|function} {salary|money} that the company offered its employees for the {last four and a half years|time_interval}?
-of all the {network engineer|position}s, what is the {highest|extreme} {earning|money} {amount|money}
-How many employees are paid above {$|money}{200,000|sys_number} {a year|sys_duration}?
-what is the {fraction|function} of {female|sex} employees that {make|money} {above|comparator} {$75,000|sys_amount-of-money}
-What is the {typical|function} {compensation|money} for company employees {born after 1980 but before 1990|date_time}?
+{How many|function} employees {make|money} {6 figure|sys_number} {salaries|money}?
+what is the {total|function} {amount of money|money} that employees that are {citizens|citizendesc} have earned?
+Of the employees {born before 1990|date_time}, what is the {average|function} {pay|money}?
+what is the {highest|extreme} {amount|money} that a {network engineer|position} is {earning|money}
+what is the {mean|function} of {salaries|money} for {referred employees|employee_source}?
+What is the {total|function} {earnings|money} of employes {hired after 2016|date_time}?
 on {average|function}, how much are {referred employees|employee_source} {earning|money}?
-What is the {average|function} {amount of money|money} that an employee {hired last year|date_time} earns?
-how much is the {sales department|department} {paying|money} its employees in aggregate
-What is the {average|function} {pay rate|money} for {executives|position}?
+{How many|function} employees are paid {above|comparator} {$|money}{200,000|sys_number} {a year|sys_duration}?
+What is the {average|function} {pay|money} of new grad hires?
+{Mean|function} {pay|money} of workers {hired between 2013 and 2014|date_time}
+among all of the employees that found their job from an {internet search|employee_source}, what is the {average|function} {salary|money}?
+of all the {network engineer|position}s, what is the {highest|extreme} {earning|money} {amount|money}
+What is the {average|function} {pay rate|money}?
+what number of people {earn|money} {fewer than|comparator} {30|sys_number}?

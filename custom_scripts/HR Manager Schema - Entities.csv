@@ -37,7 +37,7 @@ reason_for_termination,"return to school',","went back to school, had to go to s
 ,performance',"poor performance, performed below expectations",
 employment_status,"terminated for cause',","fired, let go, evicted, kicked out, removed, dismissed","renounce, employment status, current job status"
 ,"leave of absence',",on absence leave,
-,"active',","currently employed, currently working, currently works",
+,"active',","currently employed, currently working, currently works, still works at, still working at, still work at",
 ,"voluntarily terminated',","quit, quitted, resigned, sent in a resignation",
 ,future start',"will start at a future time, will start later, will start some time in the future",
 department,"executive office',",,"department, team, group, section, division, sector"
@@ -100,15 +100,17 @@ performance_score,"exceptional',",extraordinary,"performance rating, performance
 ,90-day meets',,
 money,pay rate,"salary, income, pay, earn, earnings, make, dollars, $, paycheck, earns, earning, earners, earner","earns, makes, amount"
 comparator,more than,"greater than, higher than, longer, over, older than",
-,equals to,"is exactly, is equal to, equates to",
+,equals to,"is exactly, is equal to, equates to, equal to",
 ,less than,"lower than, below, under, fewer than",
 date_time,"date of hire',","start date, date of starting employment, hiring date",year
 ,"date of termination',","end date, date of leaving job, date of ending employment",
 ,"dob',","birthday, birthdate, birth date, date of birth, day of birth, born on, born on the, born in, born after, born before",
-time_interval,time_interval,"yearly, monthly, annually, bi-weekly, hourly, month to month, month-to-month","00's, 10's, 20's, 30's, 40's, 50's, 60's, 70's, 80's, 90's,  00s, 10s, 20s, 30s, 40s, 50s, 60s, 70s, 80s, 90s, tens, twenties, thirties, forties, fifties, sixties, seventies, eighties, nineties, 1900s, 1910s, 1920s, 1930s, 1940s, 1950s, 1960s, 1970s, 1980s, 1990s, 2000s, 2010s, 1900's, 1910's, 1920's, 1930's, 1940's, 1950's, 1960's, 1970's, 1980's, 1990's, 2000's, 2010's, by the month"
+time_interval,time_interval,"tens, twenties, thirties, forties, fifties, sixties, seventies, eighties, nineties","00's, 10's, 20's, 30's, 40's, 50's, 60's, 70's, 80's, 90's,  00s, 10s, 20s, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 1900s, 1910s, 1920s, 1930s, 1940s, 1950s, 1960s, 1970s, 1980s, 1990s, 2000s, 2010s, 1900's, 1910's, 1920's, 1930's, 1940's, 1950's, 1960's, 1970's, 1980's, 1990's, 2000's, 2010's"
+time_recurr,time_recurr,"yearly, monthly, annually, bi-weekly, hourly, month to month, month-to-month","by the year, by the month, by the day, by the week, by the hour, every month, every hour, each hour, every month, each month, every year, each year, every week, each week"
 function,percent,"fraction, portion, proportion, percentage, %","distribution, turn over rate, pct"
 ,sum,"total, cumulative, added up, summed up. totalled, summed",
 ,average,"mean, typical, typically",
+,count,how many,
 extreme,highest,"top, maximum, most, greatest, max",
 ,lowest,"least, minimum, bottom, lowest, min",
 employment_action,hired,"employed, recruited",joined

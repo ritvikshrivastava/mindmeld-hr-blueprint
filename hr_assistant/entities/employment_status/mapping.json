@@ -21,7 +21,10 @@
             "whitelist": [
                 "currently employed",
                 "currently working",
-                "currently works"
+                "currently works",
+                "still works at",
+                "still working at",
+                "still work at"
             ],
             "cname": "active"
         },
