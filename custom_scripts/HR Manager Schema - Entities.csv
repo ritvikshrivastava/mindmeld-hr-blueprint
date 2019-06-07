@@ -105,8 +105,21 @@ comparator,more than,"greater than, higher than, longer, over, older than",
 date_time,"date of hire',","start date, date of starting employment, hiring date",year
 ,"date of termination',","end date, date of leaving job, date of ending employment",
 ,"dob',","birthday, birthdate, birth date, date of birth, day of birth, born on, born on the, born in, born after, born before",
-time_interval,time_interval,"tens, twenties, thirties, forties, fifties, sixties, seventies, eighties, nineties","00's, 10's, 20's, 30's, 40's, 50's, 60's, 70's, 80's, 90's,  00s, 10s, 20s, 30s, 40s, 50s, 60s, 70s, 80s, 90s, 1900s, 1910s, 1920s, 1930s, 1940s, 1950s, 1960s, 1970s, 1980s, 1990s, 2000s, 2010s, 1900's, 1910's, 1920's, 1930's, 1940's, 1950's, 1960's, 1970's, 1980's, 1990's, 2000's, 2010's"
-time_recurr,time_recurr,"yearly, monthly, annually, bi-weekly, hourly, month to month, month-to-month","by the year, by the month, by the day, by the week, by the hour, every month, every hour, each hour, every month, each month, every year, each year, every week, each week"
+time_interval,2000s',"00's, 2000's, two thousands",
+,2010s',"10's, two thousand tens, tens, 2010's",
+,1920s',"20's, nineteen twenties, twenties, 1920's",
+,1930s',"30's, nineteen thirties, thirties, 1930's",
+,1940s',"40's, nineteen forties, forties, 1940's",
+,1950s',"50's, nineteen fifties, fifties, 1950's",
+,1960s',"60's, nineteen sixties, sixties, 1960's",
+,1970s',"70's, nineteen seventies, seventies, 1970's",
+,1980s',"80's, nineteen eighties, eighties, 1980's",
+,1990s',"90's, nineteen nineties, nineties, 1990's",
+time_recur,yearly,"by the year, every year, each year, annually, on a yearly basis",
+,monthly,"by the month, every month, each month, month to month, month-to-month, on a monthly basis",
+,weekly,"by the week, every week, each week, week by week, on a weekly basis",
+,daily,"daily, every day, day by day, each day, on a daily basis",
+,hourly,"every hour, each hour, on an hourly basis, on the hour",
 function,percent,"fraction, portion, proportion, percentage, %","distribution, turn over rate, pct"
 ,sum,"total, cumulative, added up, summed up. totalled, summed",
 ,average,"mean, typical, typically",
