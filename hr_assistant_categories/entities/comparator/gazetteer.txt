@@ -9,6 +9,7 @@ older than
 is exactly
 is equal to
 equates to
+equal to
 lower than
 below
 under

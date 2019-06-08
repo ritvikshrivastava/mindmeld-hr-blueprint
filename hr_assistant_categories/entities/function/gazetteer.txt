@@ -1,6 +1,7 @@
 percent
 sum
 average
+count
 fraction
 portion
 proportion
@@ -14,6 +15,7 @@ summed
 mean
 typical
 typically
+how many
 distribution
 turn over rate
 pct

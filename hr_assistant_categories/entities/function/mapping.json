@@ -27,6 +27,12 @@
                 "typically"
             ],
             "cname": "average"
+        },
+        {
+            "whitelist": [
+                "how many"
+            ],
+            "cname": "count"
         }
     ]
 }

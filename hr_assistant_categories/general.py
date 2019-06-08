@@ -6,6 +6,72 @@ the MindMeld HR assistant blueprint application
 from .root import app
 import numpy as np
 
+
+@app.handle(intent='get_info', has_entity='age')
+def get_info_age(request, responder):
+	responder = _get_person_info(responder, 'age')
+	responder.reply("The age of {name} is {age}")
+
+@app.handle(intent='get_info', has_entity='state')
+def get_info_status(request, responder):
+	responder = _get_person_info(request, responder, 'state')
+	responder.reply("{name} is from {state}")
+
+
+@app.handle(intent='get_info', has_entity='maritaldesc')
+def get_info_maritaldesc(request, responder):
+	responder = _get_person_info(request, responder, 'maritaldesc')
+	responder.reply("{name} is {maritaldesc}")
+
+
+@app.handle(intent='get_info', has_entity='citizendesc')
+def get_info_citizendesc(request, responder):
+	responder = _get_person_info(request, responder, 'citizendesc')
+	responder.reply("{name} is a {citizendesc}")
+
+
+@app.handle(intent='get_info', has_entity='racedesc')
+def get_info_racedesc(request, responder):
+	responder = _get_person_info(request, responder, 'racedesc')
+	responder.reply("{name}'s race is {racedesc}")
+
+
+@app.handle(intent='get_info', has_entity='performance_score')
+def get_info_performance_score(request, responder):
+	responder = _get_person_info(request, responder, 'performance_score')
+	responder.reply("{name}'s performance status is: {performance_score}")
+
+
+@app.handle(intent='get_info', has_entity='reason_for_termination')
+def get_info_rft(request, responder):
+	responder = _get_person_info(request, responder, 'reason_for_termination')
+	responder.reply("{name}'s reason for termination was: {rft}")
+
+
+@app.handle(intent='get_info', has_entity='employee_source')
+def get_info_employee_source(request, responder):
+	responder = _get_person_info(request, responder, 'employee_source')
+	responder.reply("{name}'s discovered the organisation through: {employee_source}")
+
+
+@app.handle(intent='get_info', has_entity='position')
+def get_info_position(request, responder):
+	responder = _get_person_info(request, responder, 'position')
+	responder.reply("{name}'s position in the organisation is: {position}")
+
+
+@app.handle(intent='get_info', has_entity='employment_status')
+def get_info_employment_status(request, responder):
+	responder = _get_person_info(request, responder, 'employment_status')
+	responder.reply("{name}'s employment status is: {employment_status}")
+
+
+@app.handle(intent='get_info', has_entity='department')
+def get_info_dept(request, responder):
+	responder = _get_person_info(request, responder, 'department')
+	responder.reply("{name} was in the {department} department")
+
+
 @app.handle(intent='get_info')
 def get_info(request, responder):
 	name_ent = [e for e in request.entities if e['type'] == 'name']
@@ -14,71 +80,6 @@ def get_info(request, responder):
 	responder.slots['name'] = responder.frame['name']
 	responder.reply("What information would you like to know about {name}?")
 	responder.listen()
-
-
-@app.handle(intent='get_info', entity='age')
-def get_info_age(request, responder):
-	responder = _get_person_info(responder, 'age')
-	responder.reply("The age of {name} is {age}")
-
-@app.handle(intent='get_info', entity='state')
-def get_info_status(request, responder):
-	responder = _get_person_info(request, responder, 'state')
-	responder.reply("{name} is from {state}")
-
-
-@app.handle(intent='get_info', entity='maritaldesc')
-def get_info_maritaldesc(request, responder):
-	responder = _get_person_info(request, responder, 'maritaldesc')
-	responder.reply("{name} is {maritaldesc}")
-
-
-@app.handle(intent='get_info', entity='citizendesc')
-def get_info_citizendesc(request, responder):
-	responder = _get_person_info(request, responder, 'citizendesc')
-	responder.reply("{name} is a {citizendesc}")
-
-
-@app.handle(intent='get_info', entity='racedesc')
-def get_info_racedesc(request, responder):
-	responder = _get_person_info(request, responder, 'racedesc')
-	responder.reply("{name}'s race is {racedesc}")
-
-
-@app.handle(intent='get_info', entity='performance_score')
-def get_info_performance_score(request, responder):
-	responder = _get_person_info(request, responder, 'performance_score')
-	responder.reply("{name}'s performance status is: {performance_score}")
-
-
-@app.handle(intent='get_info', entity='reason_for_termination')
-def get_info_rft(request, responder):
-	responder = _get_person_info(request, responder, 'reason_for_termination')
-	responder.reply("{name}'s reason for termination was: {rft}")
-
-
-@app.handle(intent='get_info', entity='employee_source')
-def get_info_employee_source(request, responder):
-	responder = _get_person_info(request, responder, 'employee_source')
-	responder.reply("{name}'s discovered the organisation through: {employee_source}")
-
-
-@app.handle(intent='get_info', entity='position')
-def get_info_position(request, responder):
-	responder = _get_person_info(request, responder, 'position')
-	responder.reply("{name}'s position in the organisation is: {position}")
-
-
-@app.handle(intent='get_info', entity='employment_status')
-def get_info_employment_status(request, responder):
-	responder = _get_person_info(request, responder, 'employment_status')
-	responder.reply("{name}'s employment status is: {employment_status}")
-
-
-@app.handle(intent='get_info', entity='department')
-def get_info_dept(request, responder):
-	responder = _get_person_info(request, responder, 'department')
-	responder.reply("{name} was in the {department} department")
 
 
 @app.handle(intent='get_aggregate')
@@ -99,7 +100,10 @@ def get_aggregate(request, responder):
 			'racedesc','performance_score','employment_status','employee_source','position','department')][0]
 
 		qa = app.question_answerer.build_search(index='user_data')
-		qa = qa.query(categorical_entity['type']=categorical_entity['text'])
+
+		key = categorical_entity['type']
+		val = categorical_entity['value'][0]['cname']
+		qa = qa.query(key=val)
 		responder.slots['function'] = func_entity['value'][0]['cname']
 
 		if age_entities:
@@ -130,7 +134,9 @@ def get_employees(request, responder):
 	qa = app.question_answerer.build_search(index='user_data')
 
 	for categorical_entity in categorical_entities:
-		qa = qa.query(categorical_entity['type']=categorical_entity['value'][0]['cname'])
+		key = categorical_entity['type']
+		val = categorical_entity['value'][0]['cname']
+		qa = qa.query(key=val)
 
 	size = 300
 
@@ -146,12 +152,13 @@ def get_employees(request, responder):
 # Helper Functions
 
 def _get_person_info(request, responder, entity_type):
-	try:
-		name = responder.frame.pop('name')
-	except:
-		name_ent = [e for e in request.entities if e['type'] == 'name']
-		name = name_ent[0]['value'][0]['cname']
+	# try:
+	# 	name = responder.frame.pop('name')
+	# except:
+	name_ent = [e for e in request.entities if e['type'] == 'name']
+	name = name_ent[0]['value'][0]['cname']
 
+	app.question_answerer.load_kb('hr_assistant_categories', 'user_data', './hr_assistant_categories/data/user_data.json')
 	employee = app.question_answerer.get(index='user_data', emp_name=name)
 	entity_option = employee[0][entity_type]
 

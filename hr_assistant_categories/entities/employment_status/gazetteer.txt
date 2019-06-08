@@ -13,6 +13,9 @@ on absence leave
 currently employed
 currently working
 currently works
+still works at
+still working at
+still work at
 quit
 quitted
 resigned
