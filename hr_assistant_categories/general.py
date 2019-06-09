@@ -90,30 +90,38 @@ def get_aggregate(request, responder):
 
 	if func_entities:
 
-		func_entity = func_entity[0]
+		func_entity = func_entities[0]
 		func_dic = {'percent':'pct', 'sum':'sum', 'average':'avg', 'count':'ct'}
 
 		## mapping text entry's canonical entity form using the function dictionary
-		function = func_dic.get(func_entity['value'][0]['cname'], default='avg') 
-
-		categorical_entity = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
-			'racedesc','performance_score','employment_status','employee_source','position','department')][0]
+		key = func_entity['value'][0]['cname']
+		print(key)
+		# function = func_dic.get(key, default='avg') 
+		function = func_dic[key]
+		responder.slots['function'] = func_entity['value'][0]['cname']
 
 		qa = app.question_answerer.build_search(index='user_data')
 
-		key = categorical_entity['type']
-		val = categorical_entity['value'][0]['cname']
-		qa = qa.query(key=val)
-		responder.slots['function'] = func_entity['value'][0]['cname']
+		
+		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
+			'racedesc','performance_score','employment_status','employee_source','position','department')]
+
+		if categorical_entities:
+			key = categorical_entities[0]['type']
+			val = categorical_entities[0]['value'][0]['cname']
+			kw = {key : val}
+			qa = qa.query(**kw)
 
 		if age_entities:
 			qa, size = _apply_age_filter(qa, age_entities, request, responder)
 			qa_out = qa.execute(size=size)
 			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
+			responder.reply('The {function} age is {value}')
 
 		elif func_entity not in ('avg','sum'):
 			qa_out = qa.execute()
 			responder.slots['value'] = _agg_function(qa_out, func=function)
+			responder.reply('The {function} is {value}')
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
@@ -133,11 +141,12 @@ def get_employees(request, responder):
 
 	qa = app.question_answerer.build_search(index='user_data')
 
-	for categorical_entity in categorical_entities:
-		key = categorical_entity['type']
-		val = categorical_entity['value'][0]['cname']
-		qa = qa.query(key=val)
-
+	if categorical_entities:
+		for categorical_entity in categorical_entities:
+			key = categorical_entity['type']
+			val = categorical_entity['value'][0]['cname']
+			kw = {key : val}
+			qa = qa.query(**kw)
 	size = 300
 
 	if age_entities:
@@ -236,15 +245,30 @@ def _apply_age_filter(qa, age_entities, request, responder):
 			size = 1
 
 
-	else:
-		if len(num_entity)>1:
-			qa = qa.filter(filter='age', gte=np.min(num_entity), lte=np.max(num_entity))
-		else:
-			qa = qa.filter(filter='age', gte=num_entity[0]['text'], lte=num_entity[0]['text'])
+	elif len(num_entity)>=1:
+		qa = qa.filter(filter='age', gte=np.min(num_entity), lte=np.max(num_entity))
+		# else:
+		# 	qa = qa.filter(filter='age', gte=num_entity[0]['text'], lte=num_entity[0]['text'])
 
+		size = 300
+
+	else:
 		size = 300
 
 	return qa, size
 
 
+def _agg_function(qa_out, func='avg', num_col='money'):
+    if(func=='avg'): return np.mean([emp[num_col] for emp in qa_out])
+    elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
+    elif(func=='ct'): return len(qa_out)
+    elif(func=='pct'): return len(qa_out)/300
 
+  
+# Filter the output of the Question Answerer
+# param ent (str) Entity to filter on
+# param val (str) Value to filter for
+# param qa_out (list) List of Json Objects Representing Users
+# Return qa_out_filtered (list) List if JSON Objects filtered by entity and value
+def _categ_filter(ent, val, qa_out): 
+    return [x for x in users if x[ent] == val]
