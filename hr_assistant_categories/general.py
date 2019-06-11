@@ -9,7 +9,7 @@ import numpy as np
 
 @app.handle(intent='get_info', has_entity='age')
 def get_info_age(request, responder):
-	responder = _get_person_info(responder, 'age')
+	responder = _get_person_info(request, responder, 'age')
 	responder.reply("The age of {name} is {age}")
 
 @app.handle(intent='get_info', has_entity='state')
@@ -79,30 +79,38 @@ def get_info(request, responder):
 	responder.frame['name'] = name
 	responder.slots['name'] = responder.frame['name']
 	responder.reply("What information would you like to know about {name}?")
+	responder.params.allowed_intents = ('general.get_info*')
 	responder.listen()
 
 
 @app.handle(intent='get_aggregate')
 def get_aggregate(request, responder):
 
+	# print(request.frame.get('function'))
+	func_entity = request.frame.get('function')
+
+
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	age_entities = [e for e in request.entities if e['type'] == 'age']
 
 	if func_entities:
-
 		func_entity = func_entities[0]
+
+	if func_entity:
 		func_dic = {'percent':'pct', 'sum':'sum', 'average':'avg', 'count':'ct'}
 
 		## mapping text entry's canonical entity form using the function dictionary
 		key = func_entity['value'][0]['cname']
-		print(key)
-		# function = func_dic.get(key, default='avg') 
+
 		function = func_dic[key]
+
 		responder.slots['function'] = func_entity['value'][0]['cname']
+		responder.frame['function'] = func_entity
 
 		qa = app.question_answerer.build_search(index='user_data')
 
 		
+		# Handles Categorical Variables
 		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
 			'racedesc','performance_score','employment_status','employee_source','position','department')]
 
@@ -110,26 +118,32 @@ def get_aggregate(request, responder):
 			key = categorical_entities[0]['type']
 			val = categorical_entities[0]['value'][0]['cname']
 			kw = {key : val}
+			print(kw)
 			qa = qa.query(**kw)
 
+
+		# Handles Numerical Variables
 		if age_entities:
 			qa, size = _apply_age_filter(qa, age_entities, request, responder)
 			qa_out = qa.execute(size=size)
 			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
 			responder.reply('The {function} age is {value}')
 
-		elif func_entity not in ('avg','sum'):
-			qa_out = qa.execute()
+		elif function not in ('avg','sum'):
+			qa_out = qa.execute(size=300)
 			responder.slots['value'] = _agg_function(qa_out, func=function)
 			responder.reply('The {function} is {value}')
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
+			responder.params.allowed_intents = ('general.get_aggregate', 'general.get_employees')
 			responder.listen()
 
 	else:
 		responder.reply('What statistic would you like to know?')
+		responder.params.allowed_intents = ('general.get_aggregate', 'general.get_employees')
 		responder.listen()
+
 
 
 @app.handle(intent='get_employees')
@@ -151,7 +165,7 @@ def get_employees(request, responder):
 
 	if age_entities:
 		qa, size = _apply_age_filter(qa, age_entities,request, responder)
-		size = 1
+		#size = 1
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
@@ -262,7 +276,7 @@ def _agg_function(qa_out, func='avg', num_col='money'):
     if(func=='avg'): return np.mean([emp[num_col] for emp in qa_out])
     elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
     elif(func=='ct'): return len(qa_out)
-    elif(func=='pct'): return len(qa_out)/300
+    elif(func=='pct'): return len(qa_out)/3
 
   
 # Filter the output of the Question Answerer

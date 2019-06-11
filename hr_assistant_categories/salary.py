@@ -53,16 +53,12 @@ def get_salary_for_interval(request, responder):
 # 	responder.frame['comparator'] = comparator_entities
 
 
-
-
-
-
 @app.handle(intent='get_salary_aggregate')
 def get_salary_aggregate(request, responder):
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
-	age_entities = [e for e in request.entities if e['type'] == 'age']
+	# age_entities = [e for e in request.entities if e['type'] == 'age']
 
 
 	if func_entities:
@@ -80,25 +76,27 @@ def get_salary_aggregate(request, responder):
 		qa = app.question_answerer.build_search(index='user_data')
 
 		
-		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
+		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'age', 'maritaldesc','citizendesc',
 			'racedesc','performance_score','employment_status','employee_source','position','department')]
 
 		if categorical_entities:
-			key = categorical_entities[0]['type']
-			val = categorical_entities[0]['value'][0]['cname']
-			kw = {key : val}
-			qa = qa.query(**kw)
+			for categorical_entity in categorical_entities:
+				key = categorical_entity[0]['type']
+				val = categorical_entity[0]['value'][0]['cname']
+				kw = {key : val}
+				qa = qa.query(**kw)
 
-		if age_entities:
-			qa, size = _apply_age_filter(qa, age_entities, request, responder)
-			qa_out = qa.execute(size=size)
-			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
-			responder.reply('The {function} age is {value}')
+		# if age_entities:
+		# 	qa, size = _apply_age_filter(qa, age_entities, request, responder)
+		# 	qa_out = qa.execute(size=size)
+		# 	responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
+		# 	responder.reply('The {function} age is {value}')
 
 		if money_entities:
 			qa, size = _apply_money_filter(qa, money_entities, request, responder)
 			qa_out = qa.execute(size=size)
 			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='money')
+			responder.reply('The {function} salary is {value}')
 
 		elif func_entity not in ('avg','sum'):
 			qa_out = qa.execute()
@@ -113,6 +111,36 @@ def get_salary_aggregate(request, responder):
 		responder.reply('What salary statistic would you like to know?')
 		responder.listen()
 
+
+
+@app.handle(intent='get_salary_employees')
+def get_salary_employees(request, responder):
+	money_entities = [e for e in request.entities if e['type'] == 'money']
+
+	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'age', 'maritaldesc','citizendesc',
+		'racedesc','performance_score','employment_status','employee_source','position','department')]
+
+	qa = app.question_answerer.build_search(index='user_data')
+
+	if categorical_entities:
+		for categorical_entity in categorical_entities:
+			key = categorical_entity['type']
+			val = categorical_entity['value'][0]['cname']
+			kw = {key : val}
+			qa = qa.query(**kw)
+	size = 300
+
+	if age_entities:
+		qa, size = _apply_money_filter(qa, money_entities,request, responder)
+		# size = 1
+
+	qa_out = qa.execute(size=size)
+	responder.slots['emp_list'] = _get_names(qa_out)
+	responder.reply('Here\'s some employees: {emp_list}')
+
+
+
+# Helper functions
 
 def _apply_money_filter(qa, age_entities, request, responder):
 
@@ -178,7 +206,6 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(filter='money', gte=np.min(num_entity), lte=np.max(num_entity))
-
 		size = 300
 
 	else:
