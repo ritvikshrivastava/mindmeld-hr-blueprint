@@ -3,9 +3,17 @@
 the MindMeld HR assistant blueprint application
 """
 from .root import app
+from hr_assistant_categories.general import _fetch_from_kb
 
 
-@app.handle(intent='get_hierarchy')
+@app.handle(intent='get_hierarchy', has_entity='name')
 def heirarchy(request, responder):
-    replies = ["The manager for {name} is {name}"]
-    responder.reply(replies)
+	name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
+
+	manager_dict = {}
+
+	for name in name_ent:
+		responder = _fetch_from_kb(responder, name, 'manager')
+		manager_dict = {responder.slots['name'], responder.slots['manager']}
+		reply = ["{manager} is {name}'s manager"]
+		responder.reply(reply)

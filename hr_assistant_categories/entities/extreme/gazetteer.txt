@@ -5,8 +5,10 @@ maximum
 most
 greatest
 max
+oldest
 least
 minimum
 bottom
 lowest
 min
+youngest

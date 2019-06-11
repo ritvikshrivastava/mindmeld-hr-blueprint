@@ -1,2 +1,18 @@
+provide me a list of {senior database admins|position}
+Which employees have a {spouse|maritaldesc}?
+Which employees have been {terminated|employment_action}?
+employees in their {20|sys_number}'s
+Which employees were {let go|employment_action} for {failure to complete compliance training|reason_for_termination}?
+Who is {married|maritaldesc} in {Collaboration Department|department}?
+{MA|state} employees list
+which staff work in {IT|department}
 Which employees have been recently {terminated|employment_action}?
-All employees from {MA|state}
+Which employees were found via {referrals|employee_source}?
+Which employees are {males|sex}?
+get me the {youngest|extreme} {five|sys_number} {percent|function} of employees
+workers doing {information technology support|position}
+Which employees were {hired|employment_action} {last|date_compare} {May|sys_time}?
+Which employees have a position?
+Which employee(s) are from {Asia|racedesc}?
+who is doing {IT support|position} at this company?
+who is {married|maritaldesc}

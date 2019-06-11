@@ -6,7 +6,8 @@
                 "maximum",
                 "most",
                 "greatest",
-                "max"
+                "max",
+                "oldest"
             ],
             "cname": "highest"
         },
@@ -16,7 +17,8 @@
                 "minimum",
                 "bottom",
                 "lowest",
-                "min"
+                "min",
+                "youngest"
             ],
             "cname": "lowest"
         }

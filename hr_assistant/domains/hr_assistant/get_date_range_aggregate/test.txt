@@ -1,5 +1,5 @@
-What {percent|function} of all our employees were {hired this year|date_time}?
+employees {born|dob} {before|date_compare} {1994|sys_interval}, give me the {total|function} {count|function}
+what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
+None
+{1980|sys_time} {born|dob} employees {total|function} {count|function}
 {How many|function} employees were {hired|employment_action} {last year|sys_time}?
-what is the {total|function} number of employees that {started working|date_time} here {before 2012|sys_interval}
-what is the {fraction|function} of employees that have been {here since|date_time} the {2000's|time_interval}
-{How many|function} people have worked here since {2015|date_time}?

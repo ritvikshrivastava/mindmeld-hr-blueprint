@@ -29,3 +29,4 @@ ethnic group
 ethnic type
 racial indentity
 community
+minorities

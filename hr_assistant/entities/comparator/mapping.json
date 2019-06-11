@@ -24,9 +24,17 @@
                 "lower than",
                 "below",
                 "under",
-                "fewer than"
+                "fewer than",
+                "younger than"
             ],
             "cname": "less than"
+        },
+        {
+            "whitelist": [
+                "between",
+                "in between"
+            ],
+            "cname": "between"
         }
     ]
 }

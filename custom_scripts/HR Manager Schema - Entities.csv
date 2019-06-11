@@ -1,18 +1,18 @@
 Entity,Options,Synonyms,Gazetteer
 name,,,
-state,"MA', 'TX', 'CT', 'VA', 'VT', 'CA', 'WA', 'NH', 'NY', 'OH', 'IN', 'ID', 'TN', 'NV', 'CO', 'UT', 'AL', 'GA', 'FL', 'NC', 'KY', 'ND', 'MT', 'OR', 'AZ', 'ME', 'RI', 'PA'","Massachussets, Texas, Connecticut, Virginia, Vermony, California, Washington, New Hampshire, New York, Ohio, Indiana, Idaho, Tennessee, Nevada, Colarado, Utah, Alabama, Georgia, Florida, North Carolina, Kentucky, North Dakota, Montana, Oregon, Arizona, Maine, Rhode Island, Pennsylvania","state, state of birth, state of residence, office location, location"
-age,age,"old, years old, age of, ages of",
-sex,male,"men, males, guys, dudes, gents, gentlemen, boys","sex, gender, masculine, feminine, male person"
-,female,"women, females, ladies, lady, ladys, girls, gals, woman",
+state,"MA', 'TX', 'CT', 'VA', 'VT', 'CA', 'WA', 'NH', 'NY', 'OH', 'IN', 'ID', 'TN', 'NV', 'CO', 'UT', 'AL', 'GA', 'FL', 'NC', 'KY', 'ND', 'MT', 'OR', 'AZ', 'ME', 'RI', 'PA'","Massachussets, Texas, Connecticut, Virginia, Vermony, California, Washington, New Hampshire, New York, Ohio, Indiana, Idaho, Tennessee, Nevada, Colarado, Utah, Alabama, Georgia, Florida, North Carolina, Kentucky, North Dakota, Montana, Oregon, Arizona, Maine, Rhode Island, Pennsylvania","state, state of birth, state of residence, office location, location, out of state, live, lives, live in, based in, lives in, where, works in, works at"
+age,age,"old, years old, age of, ages of",age
+sex,male,"men, males, guys, dudes, gents, gentlemen, boys, boy","sex, gender, masculine, feminine, male person, m/f, male/female, M/F, Male/Female"
+,female,"women, females, ladies, lady, ladys, girls, gals, woman, girl",
 maritaldesc,married,"wed, legally married, espoused, joined in holy matrimony, hitched","husbandless, without a partner, unwedded, wifeless, no longer married, without a husband, without a wife, maritaldesc, marital status, spouse, husband, wife"
 ,divorced,,
 ,single,"unmarried, bachelor, bachelorette",
 ,separated,,
 ,widowed,,
-citizendesc,us citizen,,"immigrant, illegal immigrant, h1 visa, foreigner, foreign, imported, out of country, from abroad, citizenship status, citizenship"
-,eligible noncitizen,,
+citizendesc,us citizen,"citizen, usa citizen, american citizen, citizen of the us, citizen of America, citizen of the usa, citizens","immigrant, illegal immigrant, h1 visa, foreigner, foreign, imported, out of country, from abroad, citizenship status, citizenship"
+,eligible noncitizen,,"non citizen, not a citizen, non us citizen"
 ,non-citizen,,
-racedesc,black or african american,"black, african american, african-american","ethnicity, race, racial background, ethnic group, ethnic type, racial indentity, community"
+racedesc,black or african american,"black, african american, african-american","ethnicity, race, racial background, ethnic group, ethnic type, racial indentity, community, minorities"
 ,asian,from asia,
 ,two or more races,"multiracial, multi-racial, mixed, mixed race, biracial, interracial",
 ,"white',",caucasian,
@@ -37,16 +37,16 @@ reason_for_termination,"return to school',","went back to school, had to go to s
 ,performance',"poor performance, performed below expectations",
 employment_status,"terminated for cause',","fired, let go, evicted, kicked out, removed, dismissed","renounce, employment status, current job status"
 ,"leave of absence',",on absence leave,
-,"active',","currently employed, currently working, currently works, still works at, still working at, still work at",
+,"active',","currently employed, currently working, currently works, still works at, still working at, still work at, actively employed",
 ,"voluntarily terminated',","quit, quitted, resigned, sent in a resignation",
 ,future start',"will start at a future time, will start later, will start some time in the future",
-department,"executive office',",,"department, team, group, section, division, sector"
+department,"executive office',",,"department, team, group, section, division, sector, office, office group, dpt, dept, dept., branch"
 ,"admin offices',",,
 ,"production',",,
 ,"it/is',",,
 ,"software engineering',","programming, coding, software development",
 ,sales',,
-position,"it manager - infra',",,"title, job title, role"
+position,"it manager - infra',",,"title, job title, role, position, level in the organization, level, job, occupation"
 ,"cio',",chief information officer,
 ,"sales manager',",,
 ,"president & ceo',",chief executive officer,
@@ -71,7 +71,7 @@ position,"it manager - infra',",,"title, job title, role"
 ,"software engineer',","software developer, programmer",
 ,production manager',,
 manager,manager,"manager name, manager, incharge, supervisor, mentor, leadership, boss, management, head, lead, chairman, working for, works for, work for, manage, managed by, managing, manages, reports to, report to, reporting to, reporting, working under, is under, leads",
-employee_source,"information session',",info session,"how did you learn about this position, how did you find out about this job, how did you find out about this position, how did you learn about this job"
+employee_source,"information session',",info session,"how did you learn about this position, how did you find out about this job, how did you find out about this position, how did you learn about this job. how did you hear about this, heard about us, hear about us, how you heard about us, how did you hear of us, hear of us"
 ,"company intranet - partner',",,
 ,"social networks - facebook twitter etc',","social media, social media apps, facebook, instagram, twitter, snapchat, social network",
 ,"newspager/magazine',","newspaper, magazine",
@@ -91,20 +91,19 @@ employee_source,"information session',",info session,"how did you learn about th
 ,"on-campus recruiting',","on-campus job fair, career fair",
 ,"website banner ads',",,
 ,"employee referral',",referred by employee,
-performance_score,"exceptional',",extraordinary,"performance rating, performance score"
-,"fully meets',","up to the mark, meet expectations",
+performance_score,"exceptional',",extraordinary,"performance rating, performance score, performance evaluation, performance eval, evalation, eval, performance evaluation history, performance eval history, performance, performance history, how well"
+,"fully meets',","up to the mark, meet expectations, meet, meets",
 ,"n/a- too early to review',",,
 ,"pip',",,
-,"needs improvement',",,
-,"exceeds',","beyond expectations, more than expected, better than expected, higher than excpected",
+,"needs improvement',","performing badly, performing below expectations, not meeting standards, not meeting expectations, poor performance, performing poorly, poorly performing, does not meet, do not meet",
+,"exceeds',","beyond expectations, more than expected, better than expected, higher than excpected, exceed expectations",
 ,90-day meets',,
-money,pay rate,"salary, income, pay, earn, earnings, make, dollars, $, paycheck, earns, earning, earners, earner","earns, makes, amount"
+money,pay rate,"salary, income, pay, earn, earnings, make, dollars, $, paycheck, earns, earning, earners, earner, incomes, paycheck","earns, makes, amount"
 comparator,more than,"greater than, higher than, longer, over, older than",
 ,equals to,"is exactly, is equal to, equates to, equal to",
-,less than,"lower than, below, under, fewer than",
-date_time,"date of hire',","start date, date of starting employment, hiring date",year
-,"date of termination',","end date, date of leaving job, date of ending employment",
-,"dob',","birthday, birthdate, birth date, date of birth, day of birth, born on, born on the, born in, born after, born before",
+,less than,"lower than, below, under, fewer than, younger than",
+,between,"between, in between",
+dob,"dob',","birthday, birthdate, birth date, date of birth, day of birth, born on, born on the, born in, born after, born before, DOB",
 time_interval,2000s',"00's, 2000's, two thousands",
 ,2010s',"10's, two thousand tens, tens, 2010's",
 ,1920s',"20's, nineteen twenties, twenties, 1920's",
@@ -120,11 +119,13 @@ time_recur,yearly,"by the year, every year, each year, annually, on a yearly bas
 ,weekly,"by the week, every week, each week, week by week, on a weekly basis",
 ,daily,"daily, every day, day by day, each day, on a daily basis",
 ,hourly,"every hour, each hour, on an hourly basis, on the hour",
-function,percent,"fraction, portion, proportion, percentage, %","distribution, turn over rate, pct"
-,sum,"total, cumulative, added up, summed up. totalled, summed",
+function,percent,"fraction, portion, proportion, percentage, %, ratio, ratios","distribution, turn over rate, pct"
+,sum,"total, cumulative, added up, summed up. totalled, summed, combined, aggregate",
 ,average,"mean, typical, typically",
-,count,how many,
-extreme,highest,"top, maximum, most, greatest, max",
-,lowest,"least, minimum, bottom, lowest, min",
-employment_action,hired,"employed, recruited",joined
-,terminated,"fired, let go",
+,count,"how many, total number, number of",
+extreme,highest,"top, maximum, most, greatest, max, oldest",
+,lowest,"least, minimum, bottom, lowest, min, youngest",
+employment_action,hired,"employed, recruited, start date, date of starting employment, hiring date, date of hire, join, joined, date of hiring, began her employment, began his employment, started working, join date, worked here, started, been with us, began working for","been with the company, been here, long has worked here, been working here, years of experience, of experience, employees that have been here, working here for"
+,fired,"terminated, let go, end date, date of leaving job, date of ending employment, date of termination, firing date, end employment, end his employment, end her employment","out of the company, kicked out, booted from the company, booted from the corporation"
+date_compare,prev,"before, pre",
+,post,"after, last, post, this year, this month, this week, atleast",

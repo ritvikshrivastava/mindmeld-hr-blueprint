@@ -7,15 +7,21 @@ portion
 proportion
 percentage
 %
+ratio
+ratios
 total
 cumulative
 added up
 summed up. totalled
 summed
+combined
+aggregate
 mean
 typical
 typically
 how many
+total number
+number of
 distribution
 turn over rate
 pct

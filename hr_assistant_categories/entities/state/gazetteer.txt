@@ -59,3 +59,12 @@ state of birth
 state of residence
 office location
 location
+out of state
+live
+lives
+live in
+based in
+lives in
+where
+works in
+works at

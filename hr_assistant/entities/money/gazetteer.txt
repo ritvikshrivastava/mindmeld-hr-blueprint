@@ -12,6 +12,8 @@ earns
 earning
 earners
 earner
+incomes
+paycheck
 earns
 makes
 amount

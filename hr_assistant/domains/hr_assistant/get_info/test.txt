@@ -1,14 +1,14 @@
-how did {Mia Brown|name} hear about us
-What is {Julia|name}'s race?
-can you desribe the race of {Ivan Rogers|name} Singh
-Which department is {Michael|name} in?
-How {old|age} is the {manager|manager} for the engineering department?
-what department does {Julia Soto|name} currently work in
-Why did {Nan Singh|name} get fired?
-What is {Mia Brown|name}'s performance score?
-What is the {manager|manager} name of {nan|name}?
-is {Julia|name} a {citizen|citizendesc}
-how {old|age} is {Michael|name} and is he a boy or a girl?
-I want {mia brown|name}'s state
-What does {Julia|name} do?
-Why was {Julia|name} fired?
+What is {nan singh|name}'s {performance score|performance_score}?
+is {Nan|name} a {network engineer|position}
+whats {ivan|name}'s role at the organization
+Tell me {nan|name}'s occupation?
+What is {Mia Brown|name}'s job?
+did {Mia|name} hear about us through {Glassdoor|employee_source}?
+Is {nan|name} from out of state?
+How well is the employee doing?
+What does {Ivan Rogers|name} do?
+What position is {ivan rogers|name} in?
+tell me, is {Michael|name} a {bachelor|maritaldesc}?
+What is {nan singh|name}'s position? 
+get me that state that {Julia|name} is from
+None

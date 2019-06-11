@@ -47,3 +47,8 @@ programmer
 title
 job title
 role
+position
+level in the organization
+level
+job
+occupation

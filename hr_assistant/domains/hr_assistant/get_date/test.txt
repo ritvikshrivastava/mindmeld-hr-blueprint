@@ -1,15 +1,15 @@
-{Mia|name} {birth date|date_time}
-When was {Ivan Rogers|name} {born|date_time}?
-{Amy|name} {DOB|date_time}
-tell me the date when {Ivan Rogers|name} had to {leave|employment_action} the company
-Give me {julia soto|name}'s {hiring date|date_time}
-When did {Amy|name} join the company?
-Can you tell me how long has {Ivan|name} worked in the firm
-{Amy|name} {date of fire|date_time}
-How long was {julia soto|name} working for?
-When {ivan|name} {began her employment|date_time}, what was the date
-What is the duration of {ivan|name}'s employment with the company?
-tell me {birth date|date_time} of {ivan|name}
-{julia soto|name} {date of employment termination|date_time}
-Was it {May|sys_time} or {June|sys_time} when we had to let {Nan|name} go?
-How long has {Mia|name} worked here?
+{mia|name} {start date|employment_action}
+How long was {Mia|name} working for?
+When {Amy|name} was {born|dob}, what was the month
+{Amy|name} {date of birth|dob}
+When was {Michael|name} {hired|employment_action}?
+What was the exact date when {Amy|name} {started her job|employment_action} at our company?
+When did Cisco kick {mia|name} out of the company
+find me the official {start date|employment_action} of {nan singh|name} at this company
+{Julia|name} {birthday|dob}
+What year was {mia|name} {hired|employment_action}?
+Get me {Mia|name}'s {Bday|dob}
+Tell me {julia|name}'s {dob|dob}
+{date of birth|dob} of {Amy|name}
+Which date was {Ivan|name} {let go|employment_action}?
+{Amy|name} {hiring date|employment_action}

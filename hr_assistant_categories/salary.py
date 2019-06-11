@@ -7,10 +7,11 @@ import os
 import requests
 
 from .root import app
-# from .exceptions import UnitNotFound
-from hr_assistant_categories.general import _apply_age_filter
+# # from .exceptions import UnitNotFound
+# from hr_assistant_categories.general import _apply_age_filter
 from hr_assistant_categories.general import _agg_function
-
+from hr_assistant_categories.general import _get_names
+import numpy as np
 
 @app.handle(intent='get_salary')
 def get_salary(request, responder):
@@ -30,19 +31,19 @@ def get_salary(request, responder):
 @app.handle(intent='get_salary', has_entity='time_recur')
 def get_salary_for_interval(request, responder):
 
-	name_ent = [e for e in request.entities if e['type'] == 'name']
-	name = name_ent[0]['value'][0]['cname']
+	name_ent = [e for e in request.entities if e['type'] == 'name'][0]
+	name = name_ent['value'][0]['cname']
 
-	recur_ent = [e for e in request.entities if e['type'] == 'time_recur'][0]['value'][0]['cname']
+	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur'][0]
 
 	employee = app.question_answerer.get(index='user_data', emp_name=name)[0]
 	money = employee['money']
 
-	total_money, interval = _get_interval_amount(recur_ent, money)
+	total_money = _get_interval_amount(recur_ent, money)
 
 	responder.slots['name'] = name
 	responder.slots['money'] = total_money
-	responder.slots['interval'] = interval
+	responder.slots['interval'] = recur_ent
 	
 	responder.reply("{name}'s {interval} salary is {money}")
 
@@ -58,8 +59,7 @@ def get_salary_aggregate(request, responder):
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
-	# age_entities = [e for e in request.entities if e['type'] == 'age']
-
+	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
 
 	if func_entities:
 
@@ -68,40 +68,36 @@ def get_salary_aggregate(request, responder):
 
 		## mapping text entry's canonical entity form using the function dictionary
 		key = func_entity['value'][0]['cname']
-		print(key)
-		# function = func_dic.get(key, default='avg') 
 		function = func_dic[key]
 		responder.slots['function'] = func_entity['value'][0]['cname']
 
 		qa = app.question_answerer.build_search(index='user_data')
 
 		
-		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'age', 'maritaldesc','citizendesc',
+		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
 			'racedesc','performance_score','employment_status','employee_source','position','department')]
 
 		if categorical_entities:
 			for categorical_entity in categorical_entities:
-				key = categorical_entity[0]['type']
-				val = categorical_entity[0]['value'][0]['cname']
+				key = categorical_entity['type']
+				val = categorical_entity['value'][0]['cname']
 				kw = {key : val}
-				qa = qa.query(**kw)
-
-		# if age_entities:
-		# 	qa, size = _apply_age_filter(qa, age_entities, request, responder)
-		# 	qa_out = qa.execute(size=size)
-		# 	responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
-		# 	responder.reply('The {function} age is {value}')
+				qa = qa.filter(**kw)
 
 		if money_entities:
 			qa, size = _apply_money_filter(qa, money_entities, request, responder)
 			qa_out = qa.execute(size=size)
-			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='money')
-			responder.reply('The {function} salary is {value}')
+			if recur_ent and function in ('avg','sum'):
+				responder = _calculate_agg_salary(responder, qa_out, function, recur_ent[0])
+				responder.reply("The {function} {interval} is {value}")
+			else:
+				responder = _calculate_agg_salary(responder, qa_out, function)
+				responder.reply('The {function} is {value}')
 
-		elif func_entity not in ('avg','sum'):
+		elif function not in ('avg','sum'):
 			qa_out = qa.execute()
-			responder.slots['value'] = _agg_function(qa_out, func=function)
-			responder.reply('The {function} salary is {value}')
+			responder = _calculate_agg_salary(responder, qa_out, function)
+			responder.reply("The {function} of employees is {value}")
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
@@ -117,7 +113,7 @@ def get_salary_aggregate(request, responder):
 def get_salary_employees(request, responder):
 	money_entities = [e for e in request.entities if e['type'] == 'money']
 
-	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'age', 'maritaldesc','citizendesc',
+	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
 		'racedesc','performance_score','employment_status','employee_source','position','department')]
 
 	qa = app.question_answerer.build_search(index='user_data')
@@ -127,11 +123,11 @@ def get_salary_employees(request, responder):
 			key = categorical_entity['type']
 			val = categorical_entity['value'][0]['cname']
 			kw = {key : val}
-			qa = qa.query(**kw)
+			qa = qa.filter(**kw)
 	size = 300
 
-	if age_entities:
-		qa, size = _apply_money_filter(qa, money_entities,request, responder)
+	if money_entities:
+		qa, size = _apply_money_filter(qa, money_entities, request, responder)
 		# size = 1
 
 	qa_out = qa.execute(size=size)
@@ -144,7 +140,24 @@ def get_salary_employees(request, responder):
 
 def _apply_money_filter(qa, age_entities, request, responder):
 
-	num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number'] 
+	num_entity = [e['text'] for e in request.entities if e['type'] == 'sys_number']
+
+	for i in range(len(num_entity)):
+		if 'k' in num_entity[i]:
+			num_entity[i] = num_entity[i].strip('k')
+			num_entity[i] = str(float(num_entity[i])*1000)
+
+
+	sys_amount_ent =  [e['text'] for e in request.entities if e['type'] == 'sys_amount-of-money']
+	for i in range(len(sys_amount_ent)):
+		sys_amount_ent[i].strip('$')
+		if 'k' in sys_amount_ent[i]:
+			sys_amount_ent[i] = sys_amount_ent[i].strip('k')
+			sys_amount_ent[i] = str(float(sys_amount_ent[i])*1000)
+
+		num_entity.append(sys_amount_ent[i])
+
+	num_entity = [float(i) for i in num_entity]
 
 	try:
 		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
@@ -167,25 +180,25 @@ def _apply_money_filter(qa, age_entities, request, responder):
 	if comparator_entity:
 		comparator_canonical = comparator_entity['value'][0]['cname']
 
-		if comparator_canonical == 'more than':
-			gte_val = num_entity[0]['text']
+		if comparator_canonical == 'more than' and len(num_entity)==1:
+			gte_val = num_entity[0]
 			lte_val = 100
 			# filter_set = True
 
-		elif comparator_canonical == 'less than':
-			lte_val = num_entity[0]['text']
+		elif comparator_canonical == 'less than' and len(num_entity)==1:
+			lte_val = num_entity[0]
 			gte_val = 0
 			# filter_set = True
 
 		elif comparator_canonical == 'equals to':
-			gte_val = num_entity[0]['text']
-			lte_val = num_entity[0]['text']
+			gte_val = num_entity[0]
+			lte_val = num_entity[0]
 
 		elif len(num_entity)>1:
 			gte_val = np.min(num_entity)
 			lte_val = np.max(num_entity)
 		
-		qa = qa.filter(field='money', gte=gte, lte=lte_val).execute()
+		qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
 		size = 300
 
 
@@ -196,19 +209,44 @@ def _apply_money_filter(qa, age_entities, request, responder):
 			qa = qa.sort(field='money', sort_type='desc')
 		
 		elif extreme_canonical == 'lowest':
-			qa = qa.sort(field='money', sort_type='desc')
+			qa = qa.sort(field='money', sort_type='asc')
 		
 		if num_entity:
-			size = num_entity[0]
+			size = int(num_entity[0])
 		else:
 			size = 1
 
 
 	elif len(num_entity)>=1:
-		qa = qa.filter(filter='money', gte=np.min(num_entity), lte=np.max(num_entity))
+		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
 		size = 300
 
 	else:
 		size = 300
 
 	return qa, size
+
+
+# Get the Salary Amount Based on a Recurring Period of Time
+# param recur_ent (str): 'yearly', 'monthly', 'weely', 'daily', 'hourly'
+# param money (float): Hourly Salary of an employee
+def _get_interval_amount(recur_ent, money):
+    intv_mult = { "yearly": 12*4*5*8, "monthly": 4*5*8, "weekly":5*8, "daily": 8,"hourly": 1}
+    return round(intv_mult[recur_ent] * money, 2)         
+
+
+# Calculate Salary by first fetching it from the knowledge base and then
+# multiplying by the appropriate time factor that the user is seeking
+def _calculate_agg_salary(responder, qa_out, function, recur_ent='hourly'):
+	value = _agg_function(qa_out, func=function, num_col='money')
+
+	if recur_ent:
+		value = _get_interval_amount(recur_ent, value)
+		responder.slots['interval'] = recur_ent
+		
+	responder.slots['value'] = value
+
+	return responder
+
+
+

@@ -9,7 +9,9 @@
         {
             "whitelist": [
                 "up to the mark",
-                "meet expectations"
+                "meet expectations",
+                "meet",
+                "meets"
             ],
             "cname": "fully meets"
         },
@@ -22,7 +24,17 @@
             "cname": "pip"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "performing badly",
+                "performing below expectations",
+                "not meeting standards",
+                "not meeting expectations",
+                "poor performance",
+                "performing poorly",
+                "poorly performing",
+                "does not meet",
+                "do not meet"
+            ],
             "cname": "needs improvement"
         },
         {
@@ -30,7 +42,8 @@
                 "beyond expectations",
                 "more than expected",
                 "better than expected",
-                "higher than excpected"
+                "higher than excpected",
+                "exceed expectations"
             ],
             "cname": "exceeds"
         },

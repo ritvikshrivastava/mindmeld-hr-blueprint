@@ -1,19 +1,19 @@
-What is the {total|function} number of {us citizens|citizendesc}?
-{How many|function} of {ivan|name}'s reports left the company?
-Employees with more than {5 yrs|sys_duration} of experience in their field
-{How many|function} employees work in {California|state}
+What is the {percentage|function} of {engineers|position} who are promoted to {manager|manager}
+What {percent|function} of people working here are {female|sex}? 
+{How many|function} of employees are {married|maritaldesc}?
+{How many|function} employees are there in {sales|department}
+{How many|function} employees are minorities?
+{How many|function} employees are {over|comparator} the {age of|age} {30|sys_number}?
 When do we {most|extreme} often {hire/fire|employment_status} people?
-Which office location has the {most|extreme} employees?
-{How many|function} employees live in {Iowa|state}?
-{How many|function} employees work for {Michael Albert|manager}?
-{How many|function} employees fall {below expectations|performance_score}?
+{How many|function} employees {meet|performance_score} or {exceed expectations|performance_score}?
+{How many|function} employees are {married|maritaldesc}
 {How many|function} employees are out of state?
-What are the {M/F|sex} ratios in different departments?
-{How many|function} employees are {C-levels|position}?
-What {percentage|function} of the employees are minorities?
-What {percentage|function} of workers are {older than|comparator} {30|sys_number} {years old|age}?
-{How many|function} employees are there?
-{How many|function} employees {meet or exceed expectations|performance_score}?
+{How many|function} employees work from {California|state}
+What is the {distribution|function} of employees from different states?
+What is the {percentage|function} breakdown of employees that joined via {referrals|employee_source}, {social media|employee_source} and {university career fairs|employee_source}?
+{How many|function} employees fall {below expectations|performance_score}?
 What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
-{How many|function} employees are {under|comparator} {30|sys_number}?
-What {percentage|function} of employees are {exceeding expectations|performance_score}?
+What is the {percentage|function} of {senior engineers|position} in the company
+Which office location has the {most|extreme} employees?
+What {percent|function} of employees are managers?
+What are the {M/F|sex} {ratios|function} in different departments?

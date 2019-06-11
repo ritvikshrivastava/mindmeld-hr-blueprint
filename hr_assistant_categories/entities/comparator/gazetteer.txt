@@ -1,6 +1,7 @@
 more than
 equals to
 less than
+between
 greater than
 higher than
 longer
@@ -14,3 +15,6 @@ lower than
 below
 under
 fewer than
+younger than
+between
+in between

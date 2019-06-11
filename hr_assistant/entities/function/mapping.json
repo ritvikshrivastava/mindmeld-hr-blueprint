@@ -6,7 +6,9 @@
                 "portion",
                 "proportion",
                 "percentage",
-                "%"
+                "%",
+                "ratio",
+                "ratios"
             ],
             "cname": "percent"
         },
@@ -16,7 +18,9 @@
                 "cumulative",
                 "added up",
                 "summed up. totalled",
-                "summed"
+                "summed",
+                "combined",
+                "aggregate"
             ],
             "cname": "sum"
         },
@@ -30,7 +34,9 @@
         },
         {
             "whitelist": [
-                "how many"
+                "how many",
+                "total number",
+                "number of"
             ],
             "cname": "count"
         }
