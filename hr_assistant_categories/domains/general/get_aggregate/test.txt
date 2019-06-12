@@ -1,19 +1,46 @@
-What is the {percentage|function} of {engineers|position} who are promoted to {manager|manager}
-What {percent|function} of people working here are {female|sex}? 
-{How many|function} of employees are {married|maritaldesc}?
-{How many|function} employees are there in {sales|department}
-{How many|function} employees are minorities?
-{How many|function} employees are {over|comparator} the {age of|age} {30|sys_number}?
-When do we {most|extreme} often {hire/fire|employment_status} people?
-{How many|function} employees {meet|performance_score} or {exceed expectations|performance_score}?
-{How many|function} employees are {married|maritaldesc}
-{How many|function} employees are out of state?
-{How many|function} employees work from {California|state}
-What is the {distribution|function} of employees from different states?
-What is the {percentage|function} breakdown of employees that joined via {referrals|employee_source}, {social media|employee_source} and {university career fairs|employee_source}?
-{How many|function} employees fall {below expectations|performance_score}?
+{total|function} employees {male|sex}?
+What {percentage|function} of employees {meet|performance_score} or {exceed expectations|performance_score}?
 What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
-What is the {percentage|function} of {senior engineers|position} in the company
-Which office location has the {most|extreme} employees?
+whats the {added up|function} number of employees that are {37|age}?
+{distribution|function} of {47|age} year old employees?
+{Percentage|function} of {termination|employment_status} due to {lack of innovation|reason_for_termination}
+{How many|function} people are {performing badly|performance_score}? 
+{How many|function} employees are {over|comparator} {50|sys_number} {years old|age}?
+{percentage|function} of employees who say they are {female|sex}?
+whats the {cumulative|function} {non citizen|citizendesc} {count|function}?
+{How many|function} employees live in {California|state}?
+What {total number|function} of employees are {meeting 90 day expectations|performance_score}?
+What {fraction|function} of {terminations|employment_action} were due to {sexual harassment|reason_for_termination}? 
+{percentage|function} working here that r {male|sex}?
+{How many|function} employees are {over|comparator} the {age of|age} {30|sys_number}?
+What's the {total number|function} of employees that {need improvement|performance_score} of all employees within the company?
+Which office location has the {lowest|extreme} employees?
+{fraction|function} {male|sex} managers there are
+{proportion|function} employees that are minorities?
 What {percent|function} of employees are managers?
+What {percentage|function} of employees are {married|maritaldesc}?
+{count|function} of employees that {need improvement|performance_score} on his or her {performance score|performance_score}?
+What {average|function} of employees that {meet 90-day expectations|performance_score}?
+{How many|function} people have {worked here|employment_action} since {2015|sys_time}?
+what's the {distribution|function} of new grads in {software engineering|department}
+Which office location has the {most|extreme} employees?
+{combined|function} {number of|function} employees from different states?
+What is the {combined|function} number of employees the are of the age of {40|age}?
 What are the {M/F|sex} {ratios|function} in different departments?
+{How many|function} people are there {under|comparator} {30|sys_number}?
+{How many|function} {software engineers|position} do we have?
+{percentage|function} of Employees in department
+{total|function} of employees are {single|maritaldesc}?
+Get me the {fraction|function} of employees that {need improvement|performance_score} of all employees within the org
+What is the {percentage|function} of {senior engineers|position} in the company
+{How many|function} employees were {born|dob} in {January|sys_time}?
+{typical|function} age of the employees who are minorities?
+Which office location has the {min|extreme} employees?
+{proportion|function} breakdown of employees that joined via {billboard|employee_source} and {on-campus recruiting|employee_source}?
+What is the {combined|function} final {number of|function} employees are that {are exceptional|performance_score} in their performance?
+{How many|function} employees are between {20|sys_number} and {30|sys_number} {years old|age}?
+What {percent|function} of employees are managers?
+{how many|function} {female|sex} managers are there?
+{%|function} of {active|employment_status}
+None
+What is the {distribution|function} of employees from different states?

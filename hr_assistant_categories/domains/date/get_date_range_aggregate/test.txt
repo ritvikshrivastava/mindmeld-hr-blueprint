@@ -1,5 +1,14 @@
-employees {born|dob} {before|date_compare} {1994|sys_interval}, give me the {total|function} {count|function}
-what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
-None
-{1980|sys_time} {born|dob} employees {total|function} {count|function}
-{How many|function} employees were {hired|employment_action} {last year|sys_time}?
+Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
+{total|function} {num of|date_compare} {CA|state} employees {hired|employment_action} in the {last|date_compare} {three|sys_number} {months|sys_duration}
+For all of those that {joined|employment_action} the organization {before|date_compare} {1995|sys_time}, what is the {total|function} {count|function}
+I want the {total|function} {number of|function} employees that {joined|employment_action} {this|date_compare} {year|sys_duration}
+{total|function} employees were {born|dob} around {five years|sys_duration} of {1963|sys_time}
+{hired|employment_action} for {less than|comparator} {5 yrs|sys_duration} ago, {total|function}
+What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
+{count|function} of folks from {FL|state} in the {last|date_compare} {two|sys_number} {years|sys_duration}
+{1980|sys_time} {born|dob} employees {total|function} {%|function}
+{sum|function} {joined|employment_action} for {less than|comparator} {4.3 yrs|sys_duration} ago
+{headcount|function} people who {have worked here|employment_action} for {less than|comparator} {7 years|sys_duration}
+What {percentage|function} of employees were {born|dob} {before|date_compare} {1992|sys_time}?
+What is the {total|function} of employees with {bdays|dob} {prior to|date_compare} {1990|sys_time}
+{How many|function} employees were {born|dob} within {five years|sys_duration} of {1980|sys_time}

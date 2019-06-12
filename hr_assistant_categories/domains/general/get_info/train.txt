@@ -1,53 +1,200 @@
-What is {mia|name}'s {performance evaluation|performance_score} history?
-What is {nan|name}'s last name?
-Is {ivan|name} {married|maritaldesc}?
-what does {nan singh|name} do
-Where is {mia brown|name} from?
-What race is {Julia|name}'s?
-tell me what is {Ivan Rogers|name}'s citizenship status
-sex and age of {Michael|name}
-Is {Michael|name} {married|maritaldesc}?
-why did we {let go|employment_action} of {Mia Brown|name}
-is {nan|name} based in {MA|state}
-is {julia|name} a {citizen|citizendesc}
-What does {Michael|name} look like?
-is the job title of {mia brown|name} a {network engineer|position}
-What is {Julia Soto|name}'s race?
-which state is {ivan rogers|name} from
-What is {ivan rogers|name}'s employment status?
-did we {fire|employment_action} Mr. {Ivan Rogers|name}
-Please tell me, is {Michael|name} {married|maritaldesc} or not?
-I want {Ivan|name}'s state
+What does {sophia theamstern|name} do?
+tell me what is {Nader Barton|name}'s citizenship status
+tell me, is {Bartholemew Khemmich|name} {single|maritaldesc}?
+Is {mia brown|name} from out of state?
+whats {ivan rogers|name}'s role at the organization
+Get me the reason for {ludwick harrell|name}'s {termination|employment_action}?
+can you desribe the race of {mia brown|name}
+the reason for {paula gross|name}'s sudden {end date|employment_action}?
+{Brandon LeBlanc|name}'s age as well as his gender
+is {abdellah veera|name} a {cio|position} or not?
+Why was {Melinda Saar-Beckles|name} {terminated|employment_action}?
+does {Shakira|name} work as a {software engineering manager|position}
+Tell me what does {nan singh|name} do
+Where does {Kara|name} live?
+tell me, is {Julissa Hunts|name} a {widowed|maritaldesc} {lady|sex}?
+What is {Alexandra Kirill|name}'s official position?
+did {mia|name} hear about us through {Glassdoor|employee_source}?
+Whats {brandon|name}'s level in the organization?
+Is {julia soto|name} {actively employed|employment_status}?
+what is {Adell|name}'s official position?
+Get me {ivan rogers|name}'s race
 Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
-Which department does {nan singh|name} work for?
-Which department is {Michael|name} in?
-How {old|age} is the {Ivan|name}?
-how did {julia soto|name} hear about us
-Is {julia|name} a citizen?
-Is {nan singh|name}'s race {Asian|racedesc}?
-give me {Mia Brown|name}'s race please
-where is {Ivan Rogers|name} from
-What is {Julia|name}'s official position?
-what {department|department} does {nan singh|name} currently work in
-Why was {mia brown|name} fired?
-is {Julia|name} in the {Admin Offices department|department}
-What was the reason for {nan singh|name}'s {termination|employment_action}?
-does {Mia Brown|name} work as a {network engineer|position}
-can you desribe the race of {Mia Singh|name}
+Which department is {adrienne homberger|name} in?
+What is {Mia Brown|name}'s last name?
+Which department is {Jenna|name} a part of?
+Does {Daniel|name}'s race affect her indulgence?
+which branch is {Nan Singh|name} working in
+sex and age of {Geoff Dickinson|name}
+Why was {Raul Garcia|name} {fired|employment_action}?
+why did we {fire|employment_action} {Josephine|name}
+does {Nan Singh|name} work as a {network engineer|position}
+Is mr.{Louis Punjabhi|name} located from out of state?
+what is {Donysha|name}'s {performance score|performance_score} history?
+How {old|age} is the {julia|name}?
+What's {jereJuliah semizoglou|name}'s level in the organization?
+What is {Caroline|name}'s position?
+is {marilyn|name} a {us citizen|citizendesc}
+what is {Denisa dobrin|name}'s employment status
+tell me, is {julia|name} {separated|maritaldesc}?
+reason for {Jayne|name}'s {end of employment|employment_action}?
+what does {Jene'ya|name} do
+Why and when did {Rex England|name} get {join|employment_action}?
+is {nan singh|name} in the {Admin Offices department|department}
+What is {Nan|name}'s {performance score|performance_score}?
+is {Mia|name} based in {MA|state}
+Why was {Scott Whittier|name} {fired|employment_action}?
+tell me what is {Julia|name}'s citizenship status
+Is {Sarah|name}'s race {white|racedesc}?
+What is {ivan rogers|name}'s job?
+desribe the race of {april evensen|name}
+Where is {francesco barone|name} from?
+how {old|age} is {hogland|name} and is he a {boy|sex} or a {girl|sex}?
+does {jessica bunbury|name} live in {california|state}
+where is {Eric|name} from
+how did {dawn|name} hear about our corporation
+I want {mia|name}'s state
+Is Mr.{Murray|name} working from out of state?
+does {geoff|name} live in {CO|state}
+find me the position that {Jasmine Onque|name} is in?
+whats {Colleen Volk|name}s role at the org
+Is {Mohammed Latif|name} a citizen of the us?
+Does {Tayana Jeannite|name}'s race affect her indulgence?
 Does {Michael|name} {still work at|employment_status} Cisco? 
-does {Mia|name} live in {Cali|state}
+Show the state that {Rosalie Hutter|name} is from
+get me that state that {Ivan Rogers|name} is from
+Is {ivan|name}'s race {Asian|racedesc}?
+What does {Nan Singh|name} do?
+what is {Jason Salter|name}'s official position?
+{Nori Sewkumar|name} occupation title?
+Please tell me, is {Michael|name} {married|maritaldesc} or not?
+is {francesco barone|name} a {non-citizen|citizendesc}
+Pls describe the race of {Lei-Ming Nguyen|name}
+Is {Elijian|name} {widowed|maritaldesc} or not?
+what's {Louis Punjabhi|name}'s employment status
+whats {Barry|name}'s job?
+how did {Wilson Adinolfi|name} hear about this company?
+is {Joanne Handschiegl|name} {active|employment_status} or not so
+is {ricardo ruiz|name} based in {Rhode Island|state}
+How did {Morissa Power|name} hear about our company?
+tell me what is {Marianne Eaton|name}'s citizen status
+What is Mrs.{Nowlan|name}'s position?
+is {Abdellah Veera|name} {terminated|employment_status} or not
+Tell me the position is {kamrin sander|name} in?
+Why did {mia brown|name} get {fired|employment_action}?
+Is {Lauren mahoney|name} {active|employment_status} at Mcdonalds?
+is {Bonalyn|name} {terminated|employment_status} from the company or not
+did we {fire|employment_action} Mr. {Mia|name}
+What does {Michael|name} look like?
+Does {judy jung|name} {actively|employment_status} work at Cisco?
+which is the branch that {Bradley Knapp|name} working in
+how did {nina panjwani|name} hear of us
+Tell me {Leigh Smith|name}'s occupation currently
+Is {Jyoti|name} {widowed|maritaldesc} or {single|maritaldesc}?
+how {old|age} is {Howard|name} and is he a {boy|sex} or a {girl|sex}?
+what does {julia|name} do
+why did we {let go|employment_action} of {Nan|name}
+Is {karen mancuso|name} a citizen of America?
+give me {Jonathan hogland|name}'s race please
+Is Mr.{Cockel|name} {married|maritaldesc}?
+Which department is the one that {thomas|name} works for?
 please tell me {Michael|name}'s age as well as his gender?
-how {old|age} is {Michael|name} and is he a boy or a girl?
-Is {nan singh|name} {actively employed|employment_status}?
-state of {Ivan Rogers|name}
-is {nan singh|name} {currently active|employment_status} or not
-Why did {Mia Brown|name} get {fired|employment_action}?
-Where does {Mia Brown|name} live?
-Get me {Nan Singh|name}'s race
-How did {nan singh|name} hear about our company?
-whats {ivan|name}'s employment status
-Does {ivan rogers|name}'s race affect her indulgence?
-which branch is {ivan rogers|name} working in
+which branch is it that {Melisa Gerke|name} is working in
+{Adell Saada|name}'s occupation?
+did {Brad Pitt|name} hear about us through {newspager/magazine|employee_source}?
+which branch is the one that {Brannon Miller|name} works in
+Please tell, is {barbara gaul|name} {widowed|maritaldesc} or not?
+Is {Sarah Warfield|name}'s {exceeding expectations|performance_score}?
+why did we {hire|employment_action} {Quinn Rarrick|name}
+what's {Shakira|name}'s role at the organization
+whats {mia|name}'s employment status
+is the job title of {Ivan|name} a {network engineer|position}
+Was {Josephine|name} {let go|employment_action} of due to {performance reasons|reason_for_termination}?
+is Mr.{ivan|name} based in {Oregon|state}
+Is {sales|department} the department that {william larotonda|name} currently is working in
+Where is {Mia Brown|name} from?
+state of {Mia|name}
+is the job title of {ludwick harrell|name} an {it support|position} techie
+Is {28|age} the age of {lauren mahoney|name}?
+department {lindsay lynch|name} is in?
+what does {brooke oliver|name} do
+Where does {Ivan Rogers|name} live?
+does Mr.{Hogland|name} work as a {senior dba|position}
+whats {enola chivukula|name}'s current position?
+What is {Ivan Rogers|name}'s official position?
+whats {Daniff HerJuliadez|name}'s race?
+is the job title of {adeel osturnka|name} a {shared services manager|position}
+What is {phil close|name}'s race?
+What is {Nan|name}'s race?
+What does {Colombui|name} do?
+is the job title of {elijian clukey|name} a {production manager|position}
+Does {mia|name}'s race affect her indulgence?
+Whats {Ermine|name}'s employment status?
+does {Daniel|name} live in {UT|state}
+How did {mia|name} hear about our company?
+what {department|department} does {julia soto|name} currently work in
+does {Kelley|name} work as a {sr. dba|position}
+Is {ivan|name} {on a leave of absence|employment_status}?
+Where is {Sarah|name} from?
+is {sophia theamstern|name} a {eligible noncitizen|citizendesc}
+What is {nan|name}'s {performance evaluation|performance_score} history?
+tell me what is the citizenship status for {Jennifer|name}'s
+What is {adrienne homberger|name}'s last name?
+Is {Michael|name} {married|maritaldesc}?
+is {Maria Gonzalez|name} {widowed|maritaldesc} or nah
+What is {brooke oliver|name}'s last name?
+where is {wilson adinolfi|name} from
+Is {mia brown|name} a citizen?
+Where does {mia brown|name} live?
+which state is {nan|name} from
+is {Alex|name} in the {admin offices|department} department
+Whats {cybil|name}'s last name?
+None
+which state is {Geoff|name} from
+Why did {Linda|name} {end employment|employment_action}?
+What was the reason for {Julia Soto|name}'s {termination|employment_action}?
 Was {Michael Albert|name} {terminated|employment_action} due to {performance reasons|reason_for_termination}?
-What is the {manager|manager} name of {Julia Soto|name}?
+state of {Janet King|name}
+Is {it/is|department} the department that {Phil Close|name} currently works in
+What race is {rick clayton|name}'s?
+What way did {Judy Jung|name} hear about us?
+What position is {julia soto|name} in?
+Get me {Simon Roup|name}'s employment status?
+How well is the employee doing?
 What is {Hakim|name}'s level in the organization?
+Tell me {Betsy Bondwell|name}'s employment status?
+What is {brooke oliver|name}'s score, is it {meeting 90-day expectations|performance_score}?
+what is {Phylicia Gosciminski|name}s org role
+Is {Julia Soto|name} {married|maritaldesc}?
+what is {thomas murray|name}'s race?
+How {old|age} is {Christie|name}?
+Why did {Megan|name} get {fired|employment_action}?
+how {old|age} is {abdellah|name} and is he a {boy|sex} or a {girl|sex}?
+is {Quinn|name} {divorced|maritaldesc}?
+does {Ivan|name} live in {Cali|state}
+Which department does {Janine|name} work for?
+I want {sarah warfield|name}'s state
+tell me, is {Michael|name} a {bachelor|maritaldesc}?
+sex and age of {wolk|name}
+give me {alfred|name}'s race please
+Does {Allison Lydon|name} {meet 90-day expectations|performance_score}?
+Is {Lynn|name} {active|employment_status}?
+Find me that state that {Karthikeyan Ait Sidi|name} is from
+sex and age of {Michael|name}
+is {Tanya|name} in the {software engineering|department} dept
+Where does Ms.{bramante|name} live?
+is {Shana maurice|name} a {network engineer|position}
+position that {shari ngodup|name} is in?
+Is {barry|name} {widowed|maritaldesc} or {separated|maritaldesc}?
+can you describe the race of {Noelle Johnson|name}
+What is {julia soto|name}'s position? 
+Tell me {Nan|name}'s occupation?
+Is Ms.{dolan|name}'s race {asian|racedesc}?
+What's {louis punjabhi|name}'s job?
+give me {kissy Sullmia brown|name}'s race please
+Is {42|age} the age {lori|name}?
+Which department is {Michael|name} in?
+is {Lowan Biden|name} based in {TN|state}
+{Rosalie|name} heard of us how?
+where is {Julia|name} from
+Is {Lindsay|name} an American citizen?

@@ -6,6 +6,7 @@ most
 greatest
 max
 oldest
+eldest
 least
 minimum
 bottom

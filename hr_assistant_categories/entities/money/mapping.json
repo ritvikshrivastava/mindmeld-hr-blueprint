@@ -16,7 +16,8 @@
                 "earners",
                 "earner",
                 "incomes",
-                "paycheck"
+                "paycheck",
+                "compensation"
             ],
             "cname": "pay rate"
         }
