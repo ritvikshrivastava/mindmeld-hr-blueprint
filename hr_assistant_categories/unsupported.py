@@ -8,6 +8,6 @@ from .root import app
 @app.handle(intent='unsupported')
 def get_info_age(request, responder):
 	responder.reply("Hello! What information are you looking for? You can ask for an employee's individual information (eg. Is Ivan married?), \
-some statistic about the employees (eg. average salary) \
-or get a list of employees according to your criteria (eg. list of male employees)")
+some statistic about the employees (eg. average salary of females) \
+or get a list of employees according to your criteria (eg. show me all the Sales employees)")
 	responder.listen()

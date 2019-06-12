@@ -93,7 +93,7 @@ def get_date_range_aggregate(request, responder):
 		qa_out = qa.execute(size=size)
 
 		# One way to process date aggregate questions can be to filter it on defined time periods
-		if time_ent:# and not dur_ent:
+		if time_ent and not dur_ent:
 
 			# Check if time entities are in an acceptable format
 			time_ent = _check_time_ent(time_ent)
@@ -126,6 +126,11 @@ def get_date_range_aggregate(request, responder):
 					# qa = qa.filter(field=field, gte=time_ent[0], lte=time_ent[0])
 					qa_out = _filter_by_d_custom(d_type=field, qa_out=qa_out, lte=time_ent[0], gte=time_ent[0])
 
+
+		elif time_ent and dur_ent:
+
+			responder.listen()
+
 		# An alternate way would be to  
 		elif dur_ent:
 			
@@ -135,15 +140,25 @@ def get_date_range_aggregate(request, responder):
 
 			years_ago = datetime.datetime.now() - relativedelta(years=5)
 
+		else:
+			responder.reply('Please repeat your query with a valid date format (YYYY-MM-DD)')
+			responder.listen()
+			return
+
 
 		# if function not in ('avg','sum'):
-			# qa_out = qa.execute(size=size)
+		# 	# qa_out = qa.execute(size=size)
+		# 	responder.slots['value'] = _agg_function(qa_out, func=function)
+		# 	responder.reply('The {function} is {value}')
+		# else:
+		# 	responder.reply('What would you like to know the {function} of?')
+		# 	responder.listen()
+
 		responder.slots['value'] = _agg_function(qa_out, func=function)
 		responder.reply('The {function} is {value}')
 
-		else:
-			responder.reply('What would you like to know the {function} of?')
-			responder.listen()
+
+		
 
 	else:
 		responder.reply('What time-filtered statistic would you like to know?')
