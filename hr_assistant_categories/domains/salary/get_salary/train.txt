@@ -1,224 +1,224 @@
-What are {anthony|name}'s {earners|money} {yearly|time_recur}?
-{Julia|name}'s {compensation|money} {yearly|time_recur}
-What does {Erasumus monkfish|name}'s {earnings|money} look like?
-How much {pay|money} does {Phil Close|name} bring in {every day|time_recur}?
-How much is {Helen Billis|name} {earner|money}?
-{julia soto|name} {earning|money} amount {daily|time_recur}
-What are {Nan Singh|name}'s {earnings|money} {year to year|time_recur}?
-{Jacquelyn Williams|name}'s {salary|money}?
-How much does {Mildred Gentry|name} get in {earnings|money}?
-What is {nan|name} {compensated|money} on a {year to year|time_recur} basis?
-None
-Tell me who earned the {most|extreme} that has  {been here|employment_action} this {year|sys_duration}?
-Does {claudia carr|name} {$|money} {more|comparator} money than {seventy thousand|sys_number} {each day|time_recur}?
-{Donald|name} {paycheck|money} amount
-{maruk|name} {incomes|money}
-Tell me about {lindsay|name}'s {paycheck|money}
-What does {mia|name} get for {compensation|money}?
-{Keyla Del Bosque|name} {income|money}
-How much {earning|money} does {Geoff Dickinson|name} bring in {each week|time_recur}?
-What is cisco giving {Nan|name} to {pay|money} her
-Is {55k|sys_number} {more than|comparator} what {Tayana|name} {earn|money}s in {a year|sys_duration}?
-{Melisa Gerke|name} {incomes|money} amount info
-{mia|name} {Payroll|money} {Salary|money}
-According to the {payroll|money}, how much does {Libby Fidelia|name} {earn|money}?
-how much {make|money} does {Rex England|name} make?
-How much does Cisco give {Julia|name} in {compensation|money} {every year|time_recur}?
-Describe {debbie mangal|name}'s {$|money}
-{nan singh|name} {earning|money} amount {monthly|time_recur}
-What's {raul garcia|name}'s exact {paycheck|money} in {make|money}?
-What is {Adrienne Homberger|name}'s {by the month|time_recur} {earnings|money}
-{nan|name}'s {yearly|time_recur} {compensation|money}
-What is {Robyn Manchester|name}'s exact {incomes|money} in {make|money}?
-{mathew linden|name} {paycheck|money} {every year|time_recur}
-Tell me how much {Lori Roby|name} {earn|money}
-What is {Mia Brown|name}'s {pay|money}?
+{nan singh|name} {pay|money} amount
 {Scott Whittier|name} {earners|money} amount
-What are {Taylor|name}'s {paycheck|money} {by the year|time_recur}?
-Describe {sophia theamstern|name}'s {pay|money}
-How much does {kara|name} get in {dollars|money}?
-{susan|name} {earns|money} how much {day by day|time_recur}
-What does the {payroll|money} say about {Joe South|name}'s {salary|money}
-Does {Lei-Ming Nguyen|name} {dollars|money} {more than|comparator} {50k|sys_number}?
-{joanne handschiegl|name} {each month|time_recur} {earnings|money}
-How much does {David Stanley|name} {pay|money} {on an hourly basis|time_recur}?
-Ms.{Power|name}s {make|money} a lot{on a monthly basis|time_recur}
-Is {Leigh|name} being {paid|money} {40k|sys_number}?
-Does {abdellah|name} {incomes|money} {more|comparator} money than {forty thousand|sys_number} {on a yearly basis|time_recur}?
-What is {Ann Daniele|name}'s {annually|time_recur} {$|money}
-What is {Brigit McCarthy|name} {earning|money}
-{Hourly|time_recur} {pay|money} {nan singh|name}
-{Bradley Knapp|name}s {each year|time_recur} {earners|money}
-How much does Cisco {pay|money} {Mia Brown|name} {each year|time_recur}?
-Is it true that {Nan|name} has a {six figure|sys_number} {salary|money}?
-What does {nan singh|name} {make|money}?
-How much does Cisco give {Susan Ferguson|name} in {make|money} {by the week|time_recur}?
-{$|money} {Judith Carabbio|name}
-How much is {Sandy Mckenna|name} {earning|money} on the {payroll|money}
-Is it true that {Taisha Goble|name} has a {six figure|sys_number} {incomes|money}?
-Does {yen|name}s {income|money} exceed {48,000|sys_number}?
-Amount that {nan|name} gets as his {earning|money}s
-Does {Brad Pitt|name} {income|money} {more than|comparator} {75k|sys_number}?
-Describe {Kelley|name}'s {earnings|money}
-Is {50k|sys_number} {more than|comparator} what {Mia|name} {make|money}s in {a year|sys_duration}?
-{earns|money} Amount {gerry|name}
-How much does {Richard|name} {earns|money} {month to month|time_recur}?
-What is the {each year|time_recur} {income|money} for {Myriam Givens|name} at Cisco?
-Does {Mia Brown|name}'s {compensation|money} exceed {48,000|sys_number}?
-What is {Constance Sloan|name} {paycheck|money} on a {each day|time_recur} basis?
-{pay|money} {Constance Sloan|name}
-{Ivan|name} {salary|money} amount info
-Does {nan singh|name} {make|money} {6 figs|sys_number}?
-What does {Phylicia Gosciminski|name} get for {$|money}?
-{income|money} {Jayne|name}
-Does {nan|name} {make|money} {6 figures|sys_number}?
-Is {Nan Singh|name} being {paid|money} {$|money}{40k|sys_amount-of-money}?
-{jeanette|name} {earns|money} {every year|time_recur}
-Does {Colby Andreola|name}'s {make|money} {more than|comparator} {48,000|sys_number}?
-{Sharlene Terry|name} {pay|money} info
-{webster|name} is {earning|money} what amount {on a monthly basis|time_recur}
-Does {andrew szabo|name} {make|money}{70k|sys_number} in {earnings|money}?
-What does {mia|name} {make|money} {on the hour|time_recur}
-What is {Xana Potts|name}'s {yearly|time_recur} {earnings|money}?
-how much {money|money} does {mia brown|name} make?
-{on a daily basis|time_recur} {income|money} {jason salter|name}
-Tell me how much {mia|name} {making|money}
-Does {Jennifer Zamora|name} {earner|money} {6 figures|sys_number}?
-{Jean Crimmings|name} {on the hour|time_recur} {earners|money}
-{earnings|money} {Travis Ozark|name}
-{Monthly|time_recur} {compensation|money}, {julia|name}
-Is it true that {Giovanni Leruth|name} has a {six figure|sys_number} {paycheck|money}?
-How much does Cisco give {julia soto|name} in {$|money} {monthly|time_recur}?
-{april Evensen|name} {incomes|money}
-Does {Travis Ozark|name} {paycheck|money} {6 figs|sys_number}?
-Does {julia soto|name} get {$|money}{70k|sys_number} in {pay|money}?
-What does {julia|name} {make|money} on the {Payroll|money}
-{earning|money} amount {Michelle|name}
-{melisa|name} {each day|time_recur} {earnings|money}
-{Joe South|name}{incomes|money}
-Does {Haley|name} get {$|money}{70k|sys_number} in {income|money}?
-What is {John Kretschmer|name}'s {paycheck|money}?
-Does {debra|name} get {70k|sys_number} in her {paycheck|money}?
-Amount that {ivan rogers|name} gets {paid|money}
-{Morissa|name} {earnings|money} amount {each day|time_recur}
-What does {Rose Ivey|name} get for {income|money}?
-{earn|money} of  {Taylor sparks|name}
-{Kissy SullNan|name} {earning|money} amount info
-Does {Lisa Galia|name} {earner|money} {6 figures|sys_number}?
-What does {Louis Punjabhi|name}'s {earnings|money} look like?
-Does {Mia Brown|name} {make|money} {more than|comparator} {50k|sys_number}?
-{earn|money} {Violeta Ferreira|name}
-According to the {payroll|money}, how much does {Carol Anderson|name} {earn|money}?
-What does {thelma petrowsky|name} {earner|money} {each day|time_recur}
-What is {Samuel MacLennan|name} {income|money}
-Tell me how much {Anthony Cisco|name} {earns|money}
-What is Mrs.{Williams|name}'s {$|money}?
-{mia|name} {pay|money} amount
-How much {earning|money} does {Samuel MacLenJulia|name} {pay|money} from Cisco {on an hourly basis|time_recur}?
-{dianna blount|name} {earns|money} how much {by the week|time_recur}
-{each week|time_recur}, how much does {Jackie Valentin|name} bring in {income|money}?
-Tell me who earned the {min|extreme} that has {been with the company|employment_action} this {year|sys_duration}?
-{Marianne Eaton|name} {pay|money} amount info
-What is {Myriam Givens|name} {salary|money}
-What is the {$|money} of {Mia Brown|name}?
-Amnt that {Amy Foster-Baker|name} gets as her {income|money}
-Whats{Claudia Carr|name}'s {paycheck|money}?
-Does {haley|name} {earn|money} {more|comparator} money than {sixty thousand|sys_number} {daily|time_recur}?
-How much {pay|money} does {Anthony Cisco|name} {earner|money} from Cisco {hourly|time_recur}?
-{paycheck|money} {adell Saada|name}
-{Walter immediato|name} is {earning|money} {every year|time_recur} how much
-{betsy Bondwell|name} {dollars|money} amt
-{bradley knapp|name} {makes|money} what {weekly|time_recur}
-How much does the company {pay|money} {Taisha|name} {by the week|time_recur}?
-{jyoti|name} {pay|money}
-{Mike Guilianno|name} {salary|money} {every year|time_recur}
-What does {Ivan|name}'s {compensation|money} look like?
-{every year|time_recur} {paycheck|money} {Anna Von Massenbach|name}
-{Nan Singh|name} {earning|money} amount {yearly|time_recur}
-What is the {every week|time_recur} {income|money} for {Rosalie Hutter|name} at Cisco?
-According to the {payroll|money}, how much does {Nan Singh|name} get {paid|money}?
-Tell me how much {Robyn Manchester|name} {earn|money}
-How much does Cisco give {Latia Costa|name} in {earnings|money} {on the hour|time_recur}?
 {Nicole|name} {makes|money} amount {each week|time_recur}
-{earners|money} of  {Wilson Adinolfi|name}
-Is {34k|sys_number} {more than|comparator} what {janine Purinton|name} {income|money}s she has in {a year|sys_duration}?
-How much does {mia|name} get {paid|money}?
-Amt that {Lei-Ming Nguyen|name} {earn|money}s
-{Mei Trang|name}'s {every month|time_recur} {earnings|money}
-What does {Maliki|name}'s {salary|money} look like?
-{Nan|name} {Salary|money} {Daily|time_recur}
-{Nan Singh|name} {Salary|money} {Yearly|time_recur}
-{Luisa Monterro|name} {paycheck|money} info
-How much is {Lenora Tejeda|name} {earning|money} on her {paycheck|money}
-What is {mia|name} {making|money}
-What are {Ivan Rogers|name}'s {income|money} {each day|time_recur}?
-{Samuel|name} {earnings|money} {every hour|time_recur}
-How much does {Lauren|name} {earn|money}?
-What is {Lori Roby|name}'s {every year|time_recur} {pay|money}
-What does the {payroll|money} say about {Brandon LeBlanc|name}'s {$|money}
-What is the {yearly|time_recur} {compensation|money} for {ivan|name} at Cisco?
-{on a yearly basis|time_recur} {income|money}, for {Enola|name}
-Does {Maryellen Jackson|name} {incomes|money} {6 figs|sys_number}?
-How much {earnings|money} does {anna von massenbach|name} {paycheck|money} from the organization {every week|time_recur}?
-{on a monthly basis|time_recur} {earnings|money}, {Sam Athwal|name}
-Does {60,000|sys_number} exceed what {Mia Brown|name} {earns|money} {every year|time_recur}?
-Tell me who earned the {minimum|extreme} that {began his employment|employment_action} this {year|sys_duration}?
-Does {23,240|sys_number} exceed what {webster|name} has for {income|money} {each month|time_recur}?
-What does {Noah Villanueva|name} {paycheck|money}?
-{every month|time_recur} {paycheck|money}, {Elijian Clukey|name}
-Does {Colleen Volk|name} {earn|money} {more than|comparator} {60k|sys_number}?
-Tell me about {ivan rogers|name}'s {month to month|time_recur} {paycheck|money}?
-What does {Joseph Buccheri|name} {dollars|money}?
-{punjabhi|name}s {income|money} {every hour|time_recur}
 What does {elizabeth meads|name}'s {$|money} look like?
-{Payrate|money} {Julia|name}
-{Ermine Pelletier|name} {earnings|money} amt
-What does {Nore Sadki|name} {earnings|money}?
-{Yearly|time_recur} {compensation|money}, {ivan|name}
-{Each year|time_recur}, how much does {nan|name} {earn|money}?
-Is it true that {Donovan Chang|name} has a {six figure|sys_number} {salary|money}?
-{julia soto|name} {compensation|money}
-How much does {denisa|name} {earns|money} {on the hour|time_recur}?
-{abdellah|name} {earns|money} what amount {every day|time_recur}
-{Karthikeyan Ait Sidi|name} {$|money} {earn|money}
-{Nan Singh|name} {hourly|time_recur} {pay|money}
-Does {54,000|sys_number} exceed what {jessica|name}'s {earnings|money} {daily|time_recur}?
-What does the {payroll|money} say about {Ivan|name}'s {earning|money}
-What is {Brooke oliver|name}'s {each year|time_recur} {salary|money}?
-What is {nan singh|name}'s {annual|time_recur} {salary|money}?
-Tell me who earned the {least|extreme} that was {hired|employment_action} this {year|sys_duration}?
-What does {Barbara gaul|name} {dollars|money} {by the month|time_recur}
-{Shana|name} {income|money} amount {month-to-month|time_recur}
-Does {Helen Billis|name} {earnings|money} {6 figs|sys_number}?
-whats {jordan |name}'s exact {income|money} in {paycheck|money}?
-{Shana Maurice|name}s {yearly|time_recur} {income|money}
-How much {salary|money} does {Mia|name} {earn|money} from Cisco {every year|time_recur}?
-Does {Josephine Bugali|name} {earn|money} {6 figures|sys_number}?
-How much {salary|money} does {Luisa Monterro|name} bring in {daily|time_recur}?
-How much does the company give in {dollars|money} to {Keyla Del Bosque|name} {daily|time_recur}?
-{daily|time_recur}, how much does {Elizabeth Meads|name} {$|money}?
-How much does Mr.{oliver|name} have in {earnings|money}?
-What is the {every year|time_recur} {dollars|money} for {Beatrice Chace|name} at Cisco?
-What does {Renee Becker|name} get for {paycheck|money}?
-How much is {Luisa Monterro|name} {earnings|money}?
-{ivan|name} {payrate|money}
-How much does {Anna Von Massenbach|name} get in {earnings|money}?
-What does {ivan rogers|name}'s {paycheck|money} look like?
-Tell me about {nan|name}'s {pay|money}
-How much is {Mia|name} {making|money} on {Payroll|money}
-What is {Brannon|name}'s {daily basis|time_recur} {paycheck|money}?
-How much does {Michael|name} {make|money}?
-{Payroll|money} {Nan Singh|name}
-{Marilyn Linares|name} {salary|money} {$|money}
-How much does the org {pay|money} {Simon Roup|name} {daily|time_recur}?
+How much does {julia|name} get {paid|money}?
+What is {Brigit McCarthy|name} {earning|money}
+What is the {yearly|time_recur} {compensation|money} for {ivan|name} at Cisco?
+{Violeta Ferreira|name} {pay|money} info
 {Colombui Ndzi|name} is {earning|money} what amount {each month|time_recur}
+According to the {payroll|money}, how much does {Libby Fidelia|name} {earn|money}?
+{jyoti|name} {pay|money}
+{pay rate|money} of  {Ivan Rogers|name}
+{webster|name} is {earning|money} what amount {on a monthly basis|time_recur}
+{daily|time_recur}, how much does {Elizabeth Meads|name} {$|money}?
+What is {julia|name} {making|money}
+{joanne handschiegl|name} {each month|time_recur} {earnings|money}
+What does {Louis Punjabhi|name} {earn|money} {weekly|time_recur}?
+{salary|money} {lindsay|name}
+What is {nan|name}'s {hourly|time_recur} {salary|money}
+According to the {payroll|money}, how much does {Carol Anderson|name} {earn|money}?
+How much does {Lauren|name} {earn|money}?
+Does {ivan rogers|name} {make|money} {6 figures|sys_number}?
+{Jumil Turpin|name} {month to month|time_recur} {dollars|money}
+{betsy Bondwell|name} {dollars|money} amt
+Does {mia brown|name} {make|money} {6 figs|sys_number}?
 how much {$|money} does {Carl Desimone|name} make?
-{make|money} Amount {Enrico Langton|name}
+{Gerry|name} {income|money} {each hour|time_recur}
+What is {Myriam Givens|name} {salary|money}
+Does {Josephine Bugali|name} {earn|money} {6 figures|sys_number}?
+What does {Joseph Buccheri|name} {dollars|money}?
+What does {ivan|name}'s {paycheck|money} look like?
+how much {make|money} does {Rex England|name} make?
+{incomes|money} {julia soto|name}
+Describe {sophia theamstern|name}'s {pay|money}
+What does {Julia|name} {make|money}?
+What is {Brooke oliver|name}'s {each year|time_recur} {salary|money}?
+What does {ivan rogers|name} {make|money} {on the hour|time_recur}
+{compensation|money} {Ivan Rogers|name}
+{on a yearly basis|time_recur}, how much does {Ricardo|name} {$|money}?
+How much does {Anna Von Massenbach|name} get in {earnings|money}?
+{every year|time_recur} {paycheck|money} {Anna Von Massenbach|name}
+{susan|name} {earns|money} how much {day by day|time_recur}
+Is {23k|sys_number} {more than|comparator} what mr.{Knapp|name} {earns|money}s in {a year|sys_duration}?
+{Samuel|name} {earnings|money} {every hour|time_recur}
+How much does Cisco give {Mia|name} in {$|money} {monthly|time_recur}?
+{earn|money} of  {Taylor sparks|name}
+{mathew linden|name} {paycheck|money} {every year|time_recur}
+How much is {Lenora Tejeda|name} {earning|money} on her {paycheck|money}
+Does {Travis Ozark|name} {paycheck|money} {6 figs|sys_number}?
+What are {nan|name}'s {income|money} {each day|time_recur}?
+{jeanette|name} {earns|money} {every year|time_recur}
+When we let {Julia Soto|name} go {fired|employment_action} ?
+Tell me who earned the {min|extreme} that has {been with the company|employment_action} {this year|sys_time}?
+How much {earning|money} does {Geoff Dickinson|name} bring in {each week|time_recur}?
+What is Mrs.{Williams|name}'s {$|money}?
+Does {Helen Billis|name} {earnings|money} {6 figs|sys_number}?
+Describe {Kelley|name}'s {earnings|money}
+How much does Cisco give {Susan Ferguson|name} in {make|money} {by the week|time_recur}?
+whats {jordan |name}'s exact {income|money} in {paycheck|money}?
+What does {Maliki|name}'s {salary|money} look like?
+{Yearly|time_recur} {compensation|money}, {Nan Singh|name}
+Amount that {mia|name} gets as his {earning|money}s
+How much does Cisco {pay|money} {ivan rogers|name} {each year|time_recur}?
+What is {Susan Ferguson|name} {earners|money} on a {on a monthly basis|time_recur} basis?
+What are {Taylor|name}'s {paycheck|money} {by the year|time_recur}?
+What are {anthony|name}'s {earners|money} {yearly|time_recur}?
+How much {salary|money} does {Luisa Monterro|name} bring in {daily|time_recur}?
+What does {julia|name} {make|money} {monthly|time_recur}?
+{Josephine Bugali|name} {$|money} {on the hour|time_recur}
+Tell me about {lindsay|name}'s {paycheck|money}
+How much does the org {pay|money} {Simon Roup|name} {daily|time_recur}?
+What does {Rose Ivey|name} get for {income|money}?
+{Mike Guilianno|name} {salary|money} {every year|time_recur}
 Is {Nicole Fancett|name} being {paid|money} {50k|sys_amount-of-money}?
-{pay rate|money} of  {mia|name}
-{incomes|money} {Mia Brown|name}
-Tell me about {Francesco Barone|name}'s {on a yearly basis|time_recur} {paycheck|money}?
-{earnings|money} of  {Lindsey|name}
-What does {Donysha Kampew|name} {earn|money} {on a daily basis|time_recur}?
-What does {Mia|name} {make|money} {monthly|time_recur}?
+Does {ivan|name} get {$|money}{70k|sys_number} in {pay|money}?
+How much does Cisco give {Nan|name} in {compensation|money} {every year|time_recur}?
+{maruk|name} {incomes|money}
+{earners|money} of  {Wilson Adinolfi|name}
+How much {pay|money} does {Anthony Cisco|name} {earner|money} from Cisco {hourly|time_recur}?
+{earning|money} amount {Michelle|name}
+What does {thelma petrowsky|name} {earner|money} {each day|time_recur}
+{ivan|name} {Salary|money} {Yearly|time_recur}
+{Bradley Knapp|name}s {each year|time_recur} {earners|money}
+What is {mia|name}'s {annual|time_recur} {salary|money}?
+Is {Nan|name} being {paid|money} {$|money}{40k|sys_amount-of-money}?
+Tell me how much {Lori Roby|name} {earn|money}
+Tell me who earned the {minimum|extreme} that {began his employment|employment_action} {this year|sys_time}?
+What's {raul garcia|name}'s exact {paycheck|money} in {make|money}?
+According to the {payroll|money}, how much does {Nan|name} get {paid|money}?
+{Shana|name} {income|money} amount {month-to-month|time_recur}
+{Gerry Friedman|name} {makes|money}
+{Keyla Del Bosque|name} {income|money}
+What does the {payroll|money} say about {Joe South|name}'s {salary|money}
+{charles|name} {every day|time_recur} {paycheck|money}
+What does {nan|name} {make|money} on the {Payroll|money}
+Does {debra|name} get {70k|sys_number} in her {paycheck|money}?
+What does {Louis Punjabhi|name}'s {earnings|money} look like?
+What is the {each year|time_recur} {income|money} for {Myriam Givens|name} at Cisco?
+Is it true that {Taisha Goble|name} has a {six figure|sys_number} {incomes|money}?
+How much is {ivan|name} {making|money} on {Payroll|money}
+Does {Haley|name} get {$|money}{70k|sys_number} in {income|money}?
+What is the {pay rate|money} of {Nan|name}?
+{Jacquelyn Williams|name}'s {salary|money}?
+{nan singh|name}'s {yearly|time_recur} {compensation|money}
+What does {Jeremy Prater|name}'s {paycheck|money} look like?
+how much {earner|money} does {Paula Gross|name} make?
+{income|money} {Jayne|name}
 {daily|time_recur} {earnings|money}, {Noelle|name}
+What does the {payroll|money} say about {Brandon LeBlanc|name}'s {$|money}
+Tell me about {Maryellen Jackson|name}'s {every hour|time_recur} {earning|money}?
+Tell me about {Wilson|name}'s {pay|money}
+How much does {David Stanley|name} {pay|money} {on an hourly basis|time_recur}?
+What are {mia|name}'s {earnings|money} {year to year|time_recur}?
+What is {Lori Roby|name}'s {every year|time_recur} {pay|money}
+Describe {Ivan|name}'s {paycheck|money}
+Does {yen|name}s {income|money} exceed {48,000|sys_number}?
+What is mr.{Chang|name}'s {income|money}?
+What does {Rose Ivey|name}'s {make|money} look like?
+{each week|time_recur}, how much does {Jackie Valentin|name} bring in {income|money}?
+{Shana Maurice|name}s {yearly|time_recur} {income|money}
+Is it true that {Giovanni Leruth|name} has a {six figure|sys_number} {paycheck|money}?
+{nan|name}'s {compensation|money} {yearly|time_recur}
+Whats{Claudia Carr|name}'s {paycheck|money}?
+{ivan rogers|name} {earning|money} amount {monthly|time_recur}
+{dianna blount|name} {earns|money} how much {by the week|time_recur}
+{Pay|money} Amount {Julia Soto|name}
+{punjabhi|name}s {income|money} {every hour|time_recur}
+How much is {Luisa Monterro|name} {earnings|money}?
+Amnt that {Amy Foster-Baker|name} gets as her {income|money}
+What does the {payroll|money} say about {nan singh|name}'s {earning|money}
+How much is {Lori Roby|name}s {salary|money} on {paycheck|money}
+{paycheck|money} {adell Saada|name}
+{abdellah|name} {earns|money} what amount {every day|time_recur}
+What does {Donysha Kampew|name} {earn|money} {on a daily basis|time_recur}?
+{every month|time_recur} {paycheck|money}, {Elijian Clukey|name}
+Tell me who earned the {most|extreme} that has  {been here|employment_action} {this year|sys_time}?
+{Luisa Monterro|name} {paycheck|money} info
+How much does the company give in {dollars|money} to {Keyla Del Bosque|name} {daily|time_recur}?
+{Nan|name} {Payroll|money} {Salary|money}
+What is {John Kretschmer|name}'s {paycheck|money}?
+{earnings|money} {Travis Ozark|name}
+Is {55k|sys_number} {more than|comparator} what {Tayana|name} {earn|money}s in {a year|sys_duration}?
+{on a yearly basis|time_recur} {income|money}, for {Enola|name}
+How much {earnings|money} does {anna von massenbach|name} {paycheck|money} from the organization {every week|time_recur}?
+What does {Erasumus monkfish|name}'s {earnings|money} look like?
+Tell me about {Francesco Barone|name}'s {on a yearly basis|time_recur} {paycheck|money}?
+{each week|time_recur} {earnings|money}, {Megan Faller|name}
+What is {Samuel MacLenivan|name} {income|money}
+Tell me about {Ivan|name}'s {pay|money}
+What does the {payroll|money} say about {Barbara Gaul|name}'s {earning|money}
+{Jean Crimmings|name} {on the hour|time_recur} {earners|money}
+Does {Mia Brown|name} {earn|money} {more|comparator} money than {seventy thousand|sys_number} {per year|time_recur}?
+What is {Adrienne Homberger|name}'s {by the month|time_recur} {earnings|money}
+According to the {payroll|money}, how much does {Carla Demita|name} get in{earnings|money}?
+{Rex England|name} {earns|money} how much amt {day by day|time_recur}
+What is {mia|name} {compensated|money} on a {year to year|time_recur} basis?
+{ivan|name} {earning|money} amount {yearly|time_recur}
+How much does {kara|name} get in {dollars|money}?
+{Hourly|time_recur} {pay|money} {ivan rogers|name}
+How much {earning|money} does {Samuel MacLenMia|name} {pay|money} from Cisco {on an hourly basis|time_recur}?
+What is {Julia Soto|name}'s exact {salary|money} in {dollars|money}?
+How much does Cisco give {Latia Costa|name} in {earnings|money} {on the hour|time_recur}?
+Does {Nan|name} {make|money} {more than|comparator} {50k|sys_number}?
+What does {Ivan|name} get for {compensation|money}?
+Is {50k|sys_number} {more than|comparator} what {ivan|name} {make|money}s in {a year|sys_duration}?
+How much does {Richard|name} {earns|money} {month to month|time_recur}?
+{Nan Singh|name} {hourly|time_recur} {compensation|money}
+What is {Rex England|name} {paycheck|money} on a {every day|time_recur} basis?
+Does {Lei-Ming Nguyen|name} {dollars|money} {more than|comparator} {50k|sys_number}?
+{Each year|time_recur}, how much does {mia brown|name} {earn|money}?
+Is {34k|sys_number} {more than|comparator} what {janine Purinton|name} {income|money}s she has in {a year|sys_duration}?
+{earn|money} {Violeta Ferreira|name}
+What is the {every week|time_recur} {income|money} for {Rosalie Hutter|name} at Cisco?
+Amt that {Lei-Ming Nguyen|name} {earn|money}s
+Tell me about {Lei-Ming Nguyen|name}'s {earning|money} rate
+{Mei Trang|name}'s {every month|time_recur} {earnings|money}
+How much does {Michael|name} {make|money}?
+Does {Colleen Volk|name} {earn|money} {more than|comparator} {60k|sys_number}?
+{april Evensen|name} {incomes|money}
+{on a daily basis|time_recur} {income|money} {jason salter|name}
+What does {nan singh|name}'s {compensation|money} look like?
+{Marianne Eaton|name} {pay|money} amount info
+What is {Constance Sloan|name} {paycheck|money} on a {each day|time_recur} basis?
+{Julia Soto|name} {hourly|time_recur} {pay|money}
+What does {Hang Wolk|name} get for {income|money} {each month|time_recur}?
+Amount that {Ivan Rogers|name} gets {paid|money}
+What does {Nore Sadki|name} {earnings|money}?
+{bradley knapp|name} {makes|money} what {weekly|time_recur}
+{Nina|name}'s {paycheck|money} {every year|time_recur}
+Does {54,000|sys_number} exceed what {jessica|name}'s {earnings|money} {daily|time_recur}?
+What is {Ann Daniele|name}'s {annually|time_recur} {$|money}
+Does {claudia carr|name} {$|money} {more|comparator} money than {seventy thousand|sys_number} {each day|time_recur}?
+{every year|time_recur} {earnings|money}, {Jeanette Tippett|name}
+Does {andrew szabo|name} {make|money}{70k|sys_number} in {earnings|money}?
+How much does {Lindsey|name} get for {salary|money}?
+{ivan|name} {pay|money} info
+Does {haley|name} {earn|money} {more|comparator} money than {sixty thousand|sys_number} {daily|time_recur}?
+Is it true that {Donovan Chang|name} has a {six figure|sys_number} {salary|money}?
+Tell me how much {nan|name} {making|money}
+How much does {nan|name} {make|money} {every month|time_recur}?
+{Sharlene Terry|name} {pay|money} info
+Does {Lisa Galia|name} {earner|money} {6 figures|sys_number}?
+What does {Noah Villanueva|name} {paycheck|money}?
+Describe {debbie mangal|name}'s {$|money}
+How much does Mr.{oliver|name} have in {earnings|money}?
+{Ivan Rogers|name} {earning|money} amount {daily|time_recur}
+How much does {Mildred Gentry|name} get in {earnings|money}?
+How much is {Sandy Mckenna|name} {earning|money} on the {payroll|money}
+What is the {every year|time_recur} {dollars|money} for {Beatrice Chace|name} at Cisco?
+{Payrate|money} {julia soto|name}
+Tell me how much {Anthony Cisco|name} {earns|money}
+Tell me who earned the {least|extreme} that was {hired|employment_action} {this year|sys_time}?
+{Marilyn Linares|name} {salary|money} {$|money}
+Does {624,450|sys_number} exceed what mr.{Sloan|name} {paycheck|money} {month to month|time_recur}?
+{Walter immediato|name} is {earning|money} {every year|time_recur} how much
+Does {Brad Pitt|name} {income|money} {more than|comparator} {75k|sys_number}?
+How much is {julia|name} {compensated|money}?
+{patrick|name} {month to month|time_recur} {pay|money}
+{Monthly|time_recur} {compensation|money}, {nan|name}
+{Ermine Pelletier|name} {earnings|money} amt
+What is {mia|name}'s {pay|money}?
+{Joe South|name}{incomes|money}
+Tell me how much {Robyn Manchester|name} {earn|money}
+What is {Brannon|name}'s {daily basis|time_recur} {paycheck|money}?

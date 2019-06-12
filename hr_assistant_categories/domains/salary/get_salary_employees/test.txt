@@ -1,0 +1,35 @@
+{earners|money} {female|sex}
+Which employee that {works under|manager} {Simon Roup|name} {makes|money} the {most|extreme}?
+Which employee(s) have {highest|extreme} {paycheck|money}?
+who {make|money} a {salary|money} {more than|comparator} {200k|sys_number}?
+Show me the {earnings|money} of {male|sex} in this company
+I want a list with {salaries|money} of employees that are {eligible noncitizen|citizendesc}
+what are the {salaries|money} for employees that have been {terminated|employment_action}
+which {it support|position} are {$|money} {less than|comparator} {$|money} {32k|sys_number}?
+who are the company's {highest|extreme} {21|sys_number} {american indian or alaska native|racedesc} {earners|money}
+show me the {min|extreme} {earners|money} that are {senior database admins|position}
+Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
+all the {earnings|money} of {female|sex} in the company
+Tell me who all are {making|money} {more than|comparator} {50k|sys_number}
+what are the {earnings|money} for {active|employment_status} employees
+{earn|money} {male|sex}
+{IT support|position} {top|extreme} {earner|money}
+give me the {earners|money} for all of the employees that are {eligible noncitizen|citizendesc}
+Who makes the {most|extreme} {money|money}?
+Tell me who all are getting an {income|money} {more than|comparator} {88k|sys_number}
+Which {director of sales|position} {makes|money} the {highest|extreme} {income|money}?
+give me the {salaries|money} for all of the employees that have a {US citizenship|citizendesc}
+get the {income|money} of workers that are {paid|money} in the {highest|extreme} {salary|money} bracket
+what are our {top|extreme} {earners|money} {making|money}
+Tell me who all have an {income|money} {more than|comparator} {60k|sys_number}
+what are our {least|extreme} {earners|money}
+what are the {earnings|money} for people {on a leave of absence|employment_status}
+Of all employees who are the {employees that have been here|employment_action} from {3|sys_number} to {6 years|sys_duration}
+Get me the {3|sys_number}{lowest|extreme} {earners|money} in the {production|department} dept
+give me the {salaries|money} of {hispanic|racedesc} employees in this company
+how much are {diversity job fair|employee_source} {paycheck|money}?
+Of the employees {hired|employment_action} {after|date_compare} {2014|sys_time} which employees {earn|money} between {$20,000|sys_amount-of-money} and {$56,000|sys_amount-of-money}?
+{income|money} of {female|sex} in the org
+{lowest|extreme} {income|money} {salaries|money}
+I want the {7|sys_number}{highest|extreme} {earner|money}s in the {executive office|department} department
+how much {money|money} does {Nan|name} {make|money}?

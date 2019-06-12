@@ -1,37 +1,37 @@
-Get me the employees that were {born|dob} {before|date_compare} {August|sys_time} but {after|date_compare} {May|sys_time}
-{black or african american|racedesc} {born|dob} in the {thirties|time_interval}
 Workers in {admin offices|department} {terminated|employment_action} {atleast|date_compare} {four months|sys_duration} ago?
-Give me all the employees that have a {birthday|dob} {this month|sys_time}
-any {march|sys_time} {born|dob} employees?
-Employees that worked for the company for {less than|comparator} {a year|sys_duration}
-get me {senior database admins|position} {born|dob} {this year|sys_time}
-Those in {IT|department} department that have a {start date|employment_action} with us {before|date_compare} {6 months|sys_duration} ago
-{fired|employment_action} {this month|date_compare} employees
-Create me a list of people who {joined|employment_action} {pre|date_compare} {2000|sys_time}
-All employees were {born in|dob} the {30's|time_interval}?
-{non citizens|citizendesc} {terminated|employment_action} in {2015|sys_time}
-{married|maritaldesc} employees {hired|employment_action} {last|date_compare} {year|sys_time}
-Show me employees how have a {birthday|dob} in the {nineteen eighties|time_interval}?
-{2013|sys_time} {hired|employment_action} here, who are such people?
-Fetch me a list of workers that have their {birthdays|dob} in the {1970's|time_interval}
-Which employees had their {end date|employment_action} {before|date_compare} {five years|sys_duration} from now?
-get me all of the folks who were {born|dob} in the {eighties|time_interval}
-Can you tell me whether there are any {June|sys_time} {bday|dob} people
-Which employees have {been with the company|employment_action} the company recently
-Which workers at the company have a {birthday|dob} {this year|sys_time}
-employees who were {born|dob} in the month of {May|sys_time}
-{asians|racedesc} {born|dob} in the {80's|time_interval}
-Employees with {more than|comparator} {5 yrs|sys_duration} of experience in their field
 People {terminated|employment_action} {prior to|date_compare} {this month|date_compare}
-Give me a list of employees that were {hired|employment_action} into the company in {July|sys_time}
-{seventies|time_interval} {born|dob} employees list
-Fetch me a list of workers that have their {bdays|dob} in the {thirties|time_interval}
-Which are the employees such that in {2005|sys_time} {joined|employment_action} the organization
-Which employees were not yet {born|dob} when {9/11|sys_time} happened?
-{August|sys_time} - {born|dob} employees
-Give me the employees that have been {working here for|employment_action} {six years|sys_duration} or more
-{separated|maritaldesc} employees that have {been with the company|employment_action} starting {last|date_compare} {year|sys_time}
+find me {asian|racedesc} {born|dob} {between 1980 and today|sys_interval}
+{1980s|time_interval} {bday|dob} {dudes|sex}
+which employees from the {software engineering department|department} {began working for|employment_action} us within the {last|date_compare} {four months|sys_duration}
+{two thousand tens|time_interval} {born|dob} {women|sex}
+Give me all the employees that have a {birthday|dob} {this month|sys_time}
+{90's|time_interval} {born|dob} {males|sex}
+{eligible noncitizen|citizendesc} started {working here|employment_action} in {2012|sys_time}
 Show me {female|sex}s {born|dob} in the {nineteen forties|time_interval}
+Which employees have been {start date|employment_action} {this month|date_compare}?
+any {august|sys_time} {born|dob}?
+Which employees were {born in|dob} the {80's|time_interval}?
+{CT|state} employees {hired|employment_action} {atleast|date_compare} {three years ago|sys_time}
+{married|maritaldesc} employees {hired|employment_action} {last year|sys_time}
+Tell me about employees who were {hired|employment_action} here in the Spring {2015|sys_time}
+{forties|time_interval} {born|dob} employees with {two or more races|racedesc}
+Which employee was {hired|employment_action} within the {last|date_compare} {month|sys_duration}?
+Which employees have been {started working|employment_action} {this year|date_compare}?
+{November|sys_time} {born|dob} employees
+{hispanic|racedesc} employees {born|dob} {after|date_compare} {1950|sys_time}
+{1990's|time_interval} {DOB|dob} {asian|racedesc} employees
+{1950's|time_interval} {born|dob} {men|sex}
+Which workers at the company have a {birthday|dob} {this year|sys_time}
+{six|sys_number} {most|extreme} recently {hired|employment_action} employees
+Employees that worked for the company for {less than|comparator} {a year|sys_duration}
+list of employees that were {born|dob} the {seventies|time_interval}
+{women|sex} {born|dob} in the {60's|time_interval}
+{March|sys_time} {born|dob} folks
+{fired|employment_action} {this month|date_compare} employees
 who are our {thirties|time_interval} {born|dob} {it support|position} staff
-Which employees share the same {birthday|dob}
-Fetch me a list of workers that have their {b day|dob} in the {eighties|time_interval}
+All employees with {bday|dob} in the month of {June|sys_time}
+All employees were {born in|dob} the {30's|time_interval}?
+Get me list of employees that have a {DOB|dob} the {nineteen thirties|time_interval}
+Which employees are {DOB|dob} in the second week of {march|sys_time}
+I want a list of employees that were {born in|dob} the {1990's|time_interval}
+{40's|time_interval} {Bday|dob} {women|sex}
