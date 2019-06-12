@@ -9,7 +9,6 @@ import requests
 from .root import app
 from hr_assistant_categories.general import _apply_age_filter
 from hr_assistant_categories.general import _agg_function
-from hr_assistant_categories.general import _categ_filter
 from hr_assistant_categories.general import _resolve_categorical_entities
 from hr_assistant_categories.general import _resolve_function_entity
 from dateutil.relativedelta import relativedelta

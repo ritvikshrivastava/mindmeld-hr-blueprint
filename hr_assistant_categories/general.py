@@ -332,12 +332,3 @@ def _agg_function(qa_out, func='avg', num_col='money'):
     elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
     elif(func=='ct'): return len(qa_out)
     elif(func=='pct'): return len(qa_out)/3
-
-  
-# Filter the output of the Question Answerer
-# param ent (str) Entity to filter on
-# param val (str) Value to filter for
-# param qa_out (list) List of Json Objects Representing Users
-# Return qa_out_filtered (list) List if JSON Objects filtered by entity and value
-def _categ_filter(ent, val, qa_out): 
-    return [x for x in users if x[ent] == val]
