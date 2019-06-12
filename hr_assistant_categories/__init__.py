@@ -7,5 +7,6 @@ import hr_assistant_categories.salary
 import hr_assistant_categories.general
 import hr_assistant_categories.date
 import hr_assistant_categories.hierarchy
+import hr_assistant_categories.unsupported
 
 __all__ = ['app']

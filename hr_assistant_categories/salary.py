@@ -11,7 +11,11 @@ from .root import app
 # from hr_assistant_categories.general import _apply_age_filter
 from hr_assistant_categories.general import _agg_function
 from hr_assistant_categories.general import _get_names
+from hr_assistant_categories.general import _resolve_categorical_entities
+from hr_assistant_categories.general import _resolve_function_entity
+
 import numpy as np
+
 
 @app.handle(intent='get_salary')
 def get_salary(request, responder):
@@ -63,26 +67,9 @@ def get_salary_aggregate(request, responder):
 
 	if func_entities:
 
-		func_entity = func_entities[0]
-		func_dic = {'percent':'pct', 'sum':'sum', 'average':'avg', 'count':'ct'}
+		function, responder = _resolve_function_entity(responder, func_entities[0])
 
-		## mapping text entry's canonical entity form using the function dictionary
-		key = func_entity['value'][0]['cname']
-		function = func_dic[key]
-		responder.slots['function'] = func_entity['value'][0]['cname']
-
-		qa = app.question_answerer.build_search(index='user_data')
-
-		
-		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
-			'racedesc','performance_score','employment_status','employee_source','position','department')]
-
-		if categorical_entities:
-			for categorical_entity in categorical_entities:
-				key = categorical_entity['type']
-				val = categorical_entity['value'][0]['cname']
-				kw = {key : val}
-				qa = qa.filter(**kw)
+		qa, size = _resolve_categorical_entities(request, responder)
 
 		if money_entities:
 			qa, size = _apply_money_filter(qa, money_entities, request, responder)
@@ -116,15 +103,7 @@ def get_salary_employees(request, responder):
 	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
 		'racedesc','performance_score','employment_status','employee_source','position','department')]
 
-	qa = app.question_answerer.build_search(index='user_data')
-
-	if categorical_entities:
-		for categorical_entity in categorical_entities:
-			key = categorical_entity['type']
-			val = categorical_entity['value'][0]['cname']
-			kw = {key : val}
-			qa = qa.filter(**kw)
-	size = 300
+	qa, size = _resolve_categorical_entities(request, responder)
 
 	if money_entities:
 		qa, size = _apply_money_filter(qa, money_entities, request, responder)

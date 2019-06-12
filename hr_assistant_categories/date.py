@@ -10,7 +10,12 @@ from .root import app
 from hr_assistant_categories.general import _apply_age_filter
 from hr_assistant_categories.general import _agg_function
 from hr_assistant_categories.general import _categ_filter
-
+from hr_assistant_categories.general import _resolve_categorical_entities
+from hr_assistant_categories.general import _resolve_function_entity
+from dateutil.relativedelta import relativedelta
+import datetime
+from word2number import w2n
+import re
 
 @app.handle(intent='get_date')
 def get_date(request, responder):
@@ -51,72 +56,156 @@ def get_date(request, responder):
 	
 	
 
-@app.handle(intent='get_date_aggregate', has_entity='date_time')
-def get_date_aggregate(request, responder):
+@app.handle(intent='get_date_range_aggregate')
+def get_date_range_aggregate(request, responder):
+
+	# Fetch the different types of entities
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
-	money_entities = [e for e in request.entities if e['type'] == 'money']
-	time_entities = [e for e in request.entities if e['type'] == 'sys_time']
-
-	date_type_map = {'date of hire':'doh', 'date of termination':'dot', 'dob':'dob'}
-	date_entity = date_type_map[[e['value'][0]['cname'] for e in request.entities if e['type'] == 'date_time'][0]]
+	# money_entities = [e for e in request.entities if e['type'] == 'money']
+	time_ent = [e['text'] for e in request.entities if e['type'] == 'sys_time']
+	dur_ent = [e['text'] for e in request.entities if e['type'] == 'sys_duration']
+	date_compare_ent = [e for e in request.entities if e['type'] == 'date_compare']
+	time_interval = [e for e in request.entities if e['type'] == 'time_interval']
+	action_entity = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
+	dob_entity = [e for e in request.entities if e['type'] == 'dob']
 
 	if func_entities:
 
-		func_entity = func_entities[0]
-		func_dic = {'percent':'pct', 'sum':'sum', 'average':'avg', 'count':'ct'}
+		function, responder = _resolve_function_entity(responder, func_entities[0])
 
-		## mapping text entry's canonical entity form using the function dictionary
-		key = func_entity['value'][0]['cname']
-		print(key)
-		# function = func_dic.get(key, default='avg') 
-		function = func_dic[key]
-		responder.slots['function'] = func_entity['value'][0]['cname']
+		qa, size = _resolve_categorical_entities(request, responder)
 
-		qa = app.question_answerer.build_search(index='user_data')
+		if action_entity:
+			action_entity = action_entity[0]
+			if action_entity=='hired': 
+				field = 'doh'
+			elif action_entity=='fired': 
+				field = 'dot'
+		elif dob_entity:
+			field = 'dob'
+		else:
+			responder.reply("What date would you like to know the statistic about? Hire, termination or birth?")
+			responder.params.allowed_intents = ['date.get_date_aggregate']
+			responder.listen()
+			return
 
-		
-		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
-			'racedesc','performance_score','employment_status','employee_source','position','department')]
+		qa_out = qa.execute(size=size)
 
-		if categorical_entities:
-			for categorical_entity in categorical_entities:
-				key = categorical_entity[0]['type']
-				val = categorical_entity[0]['value'][0]['cname']
-				kw = {key : val}
-				qa = qa.query(**kw)
+		# One way to process date aggregate questions can be to filter it on defined time periods
+		if time_ent:# and not dur_ent:
 
-		# if age_entities:
-		# 	qa, size = _apply_age_filter(qa, age_entities, request, responder)
-		# 	qa_out = qa.execute(size=size)
+			# Check if time entities are in an acceptable format
+			time_ent = _check_time_ent(time_ent)
 
-		if time_entities:
-			qa = qa_out.execute(size=300)
+			if time_ent == None:
+				responder.reply('Please repeat your query with a valid date format (YYYY-MM-DD)')
+				responder.listen()
+				return
 
-		# if age_entities:	
-		# 	responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
-		# 	responder.reply('The {function} age is {value}')
+			# Two time entities specify an exact time period to filter
+			if len(time_ent)==2:
+				# qa = qa.filter(field=field, gte=time_ent[0], lte=time_ent[1])
+				qa_out = _filter_by_d_custom(d_type=field, qa_out=qa_out, gte=time_ent[0], lte=time_ent[1])
 
-		if func_entity not in ('avg','sum'):
-			qa_out = qa.execute()
-			responder.slots['value'] = _agg_function(qa_out, func=function)
-			responder.reply('The {function} is {value}')
+
+			# If there is only one time entity specified, then it could be either 
+			# the beginning or end of an infinite time period from that date
+			elif len(time_ent)==1:
+				if date_compare_ent:
+					date_compare_canonical = date_compare_ent[0]['value'][0]['cname']
+					if date_compare_canonical=='prev':
+						# qa = qa.filter(field=field, lte=time_ent[0])
+						qa_out = _filter_by_d_custom(d_type=field, qa_out=qa_out, lte=time_ent[0])
+
+					elif date_compare_canonical=='post':
+						# qa = qa.filter(field=field, gte=time_ent[0])
+						qa_out = _filter_by_d_custom(d_type=field, qa_out=qa_out, gte=time_ent[0])
+
+				else:
+					# qa = qa.filter(field=field, gte=time_ent[0], lte=time_ent[0])
+					qa_out = _filter_by_d_custom(d_type=field, qa_out=qa_out, lte=time_ent[0], gte=time_ent[0])
+
+		# An alternate way would be to  
+		elif dur_ent:
+			
+			dur_ent = [(i.split()) for i in dur_ent]
+			
+			time_dict = {}
+
+			years_ago = datetime.datetime.now() - relativedelta(years=5)
+
+
+		# if function not in ('avg','sum'):
+			# qa_out = qa.execute(size=size)
+		responder.slots['value'] = _agg_function(qa_out, func=function)
+		responder.reply('The {function} is {value}')
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
 			responder.listen()
 
 	else:
-		responder.reply('What salary statistic would you like to know?')
+		responder.reply('What time-filtered statistic would you like to know?')
 		responder.listen()
 
+
+
+@app.handle(intent='get_salary_employees')
+def get_date_employees(request, responder):
+	# money_entities = [e for e in request.entities if e['type'] == 'money']
+	time_ent = [e for e in request.entities if e['type'] == 'sys_time']
+	dur_ent = [e for e in request.entities if e['type'] == 'sys_duration']
+	date_compare = [e for e in request.entities if e['type'] == 'date_compare']
+
+	qa, size = _resolve_categorical_entities(request, responder)
+
+	# if age_entities:
+	# 	qa, size = _apply_money_filter(qa, money_entities,request, responder)
+		# size = 1
+
+	qa_out = qa.execute(size=size)
+	responder.slots['emp_list'] = _get_names(qa_out)
+	responder.reply('Here\'s some employees: {emp_list}')
 
 
 
 # Helper functions
 
+def _check_time_ent(time_ent):
 
-def _filter_by_d_custom(d_type, qa_out, gt, gte, lt, lte):
+	time_dict = {}
+	time_dict.update(dict.fromkeys(['last year', 'this year', 'past year'], 'years'))
+	time_dict.update(dict.fromkeys(['last month', 'this month', 'past month'], 'months'))
+	time_dict.update(dict.fromkeys(['last week', 'this week', 'past week'], 'weeks'))
+
+	for i in range(len(time_ent)):
+		if time_ent[i] in ('last year', 'last month', 'last week', 'past year', 'past week', 'past month', 'this year', 'this week', 'this month'):
+			d = datetime.datetime.today()
+			kw = {time_dict[time_ent[i]] : 1}
+			old_d = d-relativedelta(**kw)
+			d = d.strftime('%Y-%m-%d')
+			old_d = old_d.strftime('%Y-%m-%d')
+			time_ent[i] = old_d
+			time_ent.append(d)
+
+		elif len(time_ent[i].split('-'))==3:
+			continue
+
+		elif len(re.split('-|\\|/', time_ent[i]))==1:
+			try:
+				int(time_ent[i])
+				time_ent[i] = time_ent[i]+'-01-01'
+			except:
+				return None
+		else:
+			return None
+
+	return time_ent
+
+
+
+def _filter_by_d_custom(d_type, qa_out, gt=None, gte=None, lt=None, lte=None):
 # 
 # Filter the output of the Question Answerer by Date
 # param d_type (str) Date Type to Filter On: 'doh', 'dob', 'dot'
@@ -149,4 +238,4 @@ def _filter_by_d_custom(d_type, qa_out, gt, gte, lt, lte):
 def _ymd_to_d(date_str): 
 	# Str Date Format Converted to Date object
 	# param date_str (str) - String in the Format 'YYYY-MM-DD'
-	return datetime.strptime(date_str, '%Y-%m-%d')
+	return datetime.datetime.strptime(date_str, '%Y-%m-%d')

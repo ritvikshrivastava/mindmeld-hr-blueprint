@@ -111,9 +111,9 @@ def get_info_default(request, responder):
 		name = name_ent[0]['value'][0]['cname']
 		responder.frame['name'] = name
 	except:
-		replies = "Hello! What information are you looking for? You can ask for an employee's individual information (eg. Is Ivan married?),\
-			some statistic about the employees (eg. average salary) \
-			or get a list of employees according to your criteria (eg. list of male employees)"
+		replies = "Hello! What information are you looking for? You can ask for an employee's individual information (eg. Is Ivan married?), \
+some statistic about the employees (eg. average salary) \
+or get a list of employees according to your criteria (eg. list of male employees)"
 		responder.reply(replies)
 		responder.listen()	
 
@@ -133,30 +133,9 @@ def get_aggregate(request, responder):
 		func_entity = func_entities[0]
 
 	if func_entity:
-		func_dic = {'percent':'pct', 'sum':'sum', 'average':'avg', 'count':'ct'}
+		function, responder = _resolve_function_entity(responder, func_entities[0])
 
-		## mapping text entry's canonical entity form using the function dictionary
-		key = func_entity['value'][0]['cname']
-
-		function = func_dic[key]
-
-		responder.slots['function'] = func_entity['value'][0]['cname']
-		responder.frame['function'] = func_entity
-
-		qa = app.question_answerer.build_search(index='user_data')
-
-		
-		# Handles Categorical Variables
-		categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
-			'racedesc','performance_score','employment_status','employee_source','position','department')]
-
-		if categorical_entities:
-			for categorical_entity in categorical_entities:
-				key = categorical_entity['type']
-				val = categorical_entity['value'][0]['cname']
-				kw = {key : val}
-				qa = qa.filter(**kw)
-
+		qa, size = _resolve_categorical_entities(request, responder)
 
 		# Handles Numerical Variables
 		if age_entities:
@@ -198,20 +177,7 @@ def get_employees(request, responder):
 	except:
 		extreme_entity = []
 
-	# Resolving categorical entities
-	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
-		'racedesc','performance_score','employment_status','employee_source','position','department')]
-
-		# Building custom search
-	qa = app.question_answerer.build_search(index='user_data')
-
-	if categorical_entities:
-		for categorical_entity in categorical_entities:
-			key = categorical_entity['type']
-			val = categorical_entity['value'][0]['cname']
-			kw = {key : val}
-			qa = qa.filter(**kw)
-		size = 300
+	qa, size = _resolve_categorical_entities(request, responder)
 
 	if age_entities:
 		qa, size = _apply_age_filter(request, responder, qa, age_entities, num_entity)
@@ -304,6 +270,41 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity):
 	return qa, size
 
 
+def _resolve_categorical_entities(request, responder):
+	# Resolving categorical entities
+	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
+		'racedesc','performance_score','employment_status','employee_source','position','department')]
+
+		# Building custom search
+	qa = app.question_answerer.build_search(index='user_data')
+
+	if categorical_entities:
+		for categorical_entity in categorical_entities:
+			key = categorical_entity['type']
+			val = categorical_entity['value'][0]['cname']
+			kw = {key : val}
+			qa = qa.filter(**kw)
+	
+	size = 300
+
+	return qa, size
+
+
+def _resolve_function_entity(responder, func_entity):
+
+	# A dictionary to convert the canonical form of the function entity to one
+	# that is accepted by the '_agg_function' for calculation of the aggregate value
+	func_dic = {'percent':'pct', 'sum':'sum', 'average':'avg', 'count':'ct'}
+
+	## mapping text entry's canonical entity form using the function dictionary
+	key = func_entity['value'][0]['cname']
+	function = func_dic[key]
+	responder.slots['function'] = func_entity['value'][0]['cname']
+	responder.frame['function'] = func_entity
+
+	return function, responder
+
+
 def _resolve_extremes(qa, extreme_entity, field, num_entity):
 	extreme_canonical = extreme_entity['value'][0]['cname']
 
@@ -319,6 +320,7 @@ def _resolve_extremes(qa, extreme_entity, field, num_entity):
 		size = 1
 
 	return qa, size
+
 
 # Function Helper that does Sum, Average and Percent Calculations
 # param qa_out (list) List of Json Objects Representing Users
