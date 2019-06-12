@@ -1,14 +1,14 @@
-{1945|sys_time} {born|dob} employees {%|function}
-{count|function} of employees {born|dob} {before|date_compare} {1983|sys_time}
-{ratios|function} of employees that were {born|dob} about {five years|sys_duration} from {1975|sys_time}
-For all of those that {joined|employment_action} the organization {before|date_compare} {1995|sys_time}, what is the {total|function} {count|function}
-{%|function} {born|dob} in {1947|sys_time}
-{hired|employment_action} for {less than|comparator} {5 yrs|sys_duration} ago, {total|function}
-{total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
-Get me the {total|function} {num of|function} employees who {joined|employment_action} {before|date_compare} {2008|sys_time}
-Find the {total|function} of workers who were {born|dob} {post|date_compare} {1992|sys_time}
-What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
-What {percentage|function} of employees were {born|dob} {before|date_compare} {1992|sys_time}?
+{how many|function} people were based out of {IN|state} in the {last|date_compare} {4 years|sys_duration}?
+{How many|function} people were based out of {Colarado|state} in the {last|date_compare} {3 years|sys_duration}?
+What is the {total|function} of employees with {bdays|dob} {prior to|date_compare} {1990|sys_time}
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+{how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
+{1945|sys_time} {born|dob} employees {percent|function}
+{How many|function} employees were {born|dob} within {five years|sys_duration} of {1980|sys_time}
+Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
 {started employment|employment_action} {less than|comparator} {3 yrs|sys_duration} ago, what's the {total|function} {count|function}
-what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
-{pct|function} {1902|sys_time} {bday|dob} workers
+Fetch me {percent|function} that {started working|employment_action} {less than|comparator} {3 years|sys_duration} in the past
+{total|function} employees were {born|dob} around {five years|sys_duration} of {1963|sys_time}
+{1980|sys_time} {born|dob} employees {total|function} {count|function}
+i want the {count|function} of employees that have their {bday|dob} {before|date_compare} {1996|sys_interval}
+{ratio|function} {joined|employment_action} {less than|comparator} {5 years|sys_duration}?
