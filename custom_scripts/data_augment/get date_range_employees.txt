@@ -1,0 +1,196 @@
+Give me a list of people {working here|employment_action} {before|date_compare} {2006|sys_time}
+Show me a list of people {hired|employment_action} {this year|sys_time}
+Create me a list of people who {joined|employment_action} {pre|date_compare} {2000|sys_time}
+Tell me about employees who were {hired|employment_action} here in the Spring {2015|sys_time}
+Tell me of employees who {joined|employment_action} this org back in {2014|sys_time}
+{hired|employment_action} {2015|sys_time} who are these employees
+{hired|employment_action} {2016|sys_time} show me a list of such employees
+{hired|employment_action} {2013|sys_time} get me a list of the employees with their names
+Find me the names of those {hired|employment_action} in {2013|sys_time}
+Do tell me who {joined|employment_action} the org in {2013|sys_time}
+{2013|sys_time} {hired|employment_action} employees
+{2012|sys_time} {joined|employment_action} workers
+{2011|sys_time} {started working here|employment_action}
+{2013|sys_time} {hired|employment_action} here, who are such people?
+Who are the people in {2007|sys_time} were {hired|employment_action}
+Which are the employees such that in {2005|sys_time} {joined|employment_action} the organization
+Which employees were not yet {born|dob} when {9/11|sys_time} happened?
+Which people weren't yet {born|dob} when {9/11|sys_time} occurred
+employees not {born|dob} when {9/11|sys_time} went down
+list the employees who {have been here|employment_action} {last year|sys_time}
+list the all of the employees who have a {date of ending employment|employment_action} {post|date_compare} {2006|sys_time}
+list the employees who {began working for|employment_action} the company {after|date_compare} {2004|sys_time}
+list the employees who {started working for|employment_action} us {after|date_compare} {2003|sys_time}
+{November|sys_time} {born|dob} employees
+{May|sys_time} {born|dob}
+{June|sys_time} {born|dob} in - employees
+{July|sys_time} {DOB|dob} workers
+{Jan|sys_time} {date of birth|dob} employees
+{March|sys_time} {born|dob} folks
+employees are {born|dob} in the second week of {feb|sys_time}
+Which employees are {DOB|dob} in the second week of {march|sys_time}
+employees with a {b day|dob} in the third week of {apr|sys_time}
+any {march|sys_time} {born|dob} employees?
+Can you tell me whether there are any {June|sys_time} {bday|dob} people
+any {august|sys_time} {born|dob}?
+list of employees that were {born|dob} the {seventies|time_interval}
+Get me list of employees that have a {DOB|dob} the {nineteen thirties|time_interval}
+Make me a list of employees {born in|dob} {twenties|time_interval}
+employees {born in|dob} the {nineteen sixties|time_interval}?
+All employees were {born in|dob} the {30's|time_interval}?
+Show me employees how have a {birthday|dob} in the {nineteen eighties|time_interval}?
+Fetch me a list of workers that have their {bdays|dob} in the {thirties|time_interval}
+Fetch me a list of workers that have their {bday|dob} in the {60's|time_interval}
+Fetch me a list of workers that have their {b day|dob} in the {eighties|time_interval}
+Which employees were {terminated|employment_action} in the {this month|date_compare}?
+Which employees had their {end date|employment_action} {before|date_compare} {five years|sys_duration} from now?
+Which employees had an {end date|employment_action} in the {last|date_compare} {five years|sys_duration}?
+Who was {fired|employment_action} {this month|date_compare}
+Any one {fired|employment_action} {this year|date_compare}?
+{fired|employment_action} {this month|date_compare} employees
+People {terminated|employment_action} {prior to|date_compare} {this month|date_compare}
+Which employees have a {start date|employment_action} {post|date_compare} {Jan 1, 2014|sys_time}?
+employees w/ {join date|employment_action} {post|date_compare} {Feb 3 2013|sys_time}
+Who worked for this org for {less than|comparator} {a year|sys_duration}
+Employees that worked for the company for {less than|comparator} {a year|sys_duration}
+Who worked for this company for {less than|comparator} {a year|sys_duration}
+Which employees have been {start date|employment_action} {this month|date_compare}?
+Which employees have been {started working|employment_action} {this year|date_compare}?
+Give me the employees that have {been here|employment_action} for {five years|sys_duration} or less
+Give me the employees that have been {working here for|employment_action} {six years|sys_duration} or more
+Give me the employees that have a {join date|employment_action} within {7 years|sys_duration}
+{asian|racedesc} employees {born|dob} {after|date_compare} {1940|sys_time}
+{hispanic|racedesc} employees {born|dob} {after|date_compare} {1950|sys_time}
+{hispanic|racedesc} employees {bday|dob} {after|date_compare} {1980|sys_time}
+{forties|time_interval} {born|dob} employees with {two or more races|racedesc}
+{1960's|time_interval} {born|dob} {asian|racedesc} workers
+{1990's|time_interval} {DOB|dob} {asian|racedesc} employees
+{male|sex} workers {born|dob} in the {10's|time_interval}
+{nineteen thirties|time_interval} {born|dob} {female|sex}s
+{1950's|time_interval} {born|dob} {men|sex}
+{1980s|time_interval} {bday|dob} {dudes|sex}
+{40's|time_interval} {Bday|dob} {women|sex}
+{two thousand tens|time_interval} {born|dob} {women|sex}
+Get me {40's|time_interval} {born|dob} {female|sex}
+I want {male|sex} {born|dob} in the {1930s|time_interval}
+Show me {female|sex}s {born|dob} in the {nineteen forties|time_interval}
+All of the {female|sex} {born|dob} in {two thousands|time_interval}
+employees from the {software engineering|department} department that were {let go|employment_action} of in {2014|sys_time}
+employees out of the {sales|department} dept {employed|employment_action} {before|date_compare} {2010|sys_time}
+{production|department} department employees that {joined|employment_action} us in {2010|sys_time}
+People from {software engineering|department} dept that have been {working here for|employment_action} us within the {pre|date_compare} {five months|sys_duration}
+Workers in {admin offices|department} {terminated|employment_action} {atleast|date_compare} {four months|sys_duration} ago?
+Those in {IT|department} department that have a {start date|employment_action} with us {before|date_compare} {6 months|sys_duration} ago
+{separated|maritaldesc} employees that have {been with the company|employment_action} starting {last|date_compare} {year|sys_time}
+{divorced|maritaldesc} {been with the company|employment_action} for {at least|date_compare} {a year|sys_time}
+{divorced|maritaldesc} {hires|employment_action} {this month|sys_time}
+{married|maritaldesc} employees with a {date of hire|employment_action} {last|date_compare} {2 years|sys_duration}
+Which employees are {born|dob} in {feb|sys_time}
+employees with {DOB|dob} in {April|sys_time}
+All employees who have {bday|dob} in {June|sys_time}
+{non-citizen|citizendesc} {hired|employment_action} in {2014|sys_time}
+{non-citizen|citizendesc} with a {start date|employment_action} in {2013|sys_time}
+{eligible noncitizen|citizendesc} started {working here|employment_action} in {2012|sys_time}
+{single|maritaldesc} employees with a {firing date|employment_action} {last year|sys_time}
+{widowed|maritaldesc} folks that had their employment {start date|employment_action} in the {last year|sys_time}
+{two or more races|racedesc} {born|dob} in the {nineteen thirties|time_interval}
+{white|racedesc} {born|dob} in the {forties|time_interval}
+{black or african american|racedesc} {born|dob} in the {thirties|time_interval}
+find me the {black or african american|racedesc} {born|dob} {between 1980 and today|sys_interval}
+find me {asian|racedesc} {born|dob} {between 1980 and today|sys_interval}
+find me {hispanic|racedesc} {born|dob} {between 1980 and today|sys_interval}
+get me {software engineer|position} {born|dob} in {1990's|sys_interval}
+get me {software engineering manager|position}s {born|dob} in the {1990's|sys_interval}
+get me {senior database admins|position} {born|dob} {this year|sys_time}
+who are our {thirties|time_interval} {born|dob} {it support|position} staff
+who are our {1940's|time_interval} {born|dob} {software engineer|position} staff
+who are our {1960s|time_interval} {born|dob} {area sales manager|position} people
+{15|sys_number} {bottom|extreme} recently {fired|employment_action} employees
+{17|sys_number} {most|extreme} recently {terminated|employment_action} employees
+{8|sys_number} recently {recruited|employment_action} employees
+{fifteen|sys_number} {most|extreme} recently {fired|employment_action} employees
+{six|sys_number} {most|extreme} recently {hired|employment_action} employees
+{four|sys_number} {most|extreme} recently {joined|employment_action} employees
+Which employees have {been with the company|employment_action} the company recently
+Which employees were {hired|employment_action} into the company recently
+Which employees {terminated|employment_action} at the company recently
+employees that were {born|dob} in the month of {March|sys_time}
+All employees with {bday|dob} in the month of {June|sys_time}
+employees who were {born|dob} in the month of {May|sys_time}
+
+
+
+Give me a list of employees that were {let go|employment_action} into the company in {July|sys_time}
+Give me a list of employees that were {end date|employment_action} into the company in {July|sys_time}
+Give me a list of employees that were {began his employment|employment_action} into the company in {July|sys_time}
+Give me a list of folks {been working here|employment_action} {last|date_compare} summer
+Give me a list of folks {date of starting employment|employment_action} {prev|date_compare} summer
+Give me a list of folks {end date|employment_action} {before|date_compare} summer
+Which employees did we {been with the company|employment_action} {this week|date_compare} fall?
+Which employees did we {hiring date|employment_action} {post|date_compare} fall?
+Which employees did we {join date|employment_action} {post|date_compare} fall?
+Give me a list of employees that have a {birthday|dob} in {July|sys_time}
+Give me a list of employees that have a {birthday|dob} in {July|sys_time}
+Give me a list of employees that have a {birthday|dob} in {July|sys_time}
+Give me all the employees that have a {birthday|dob} {this month|sys_time}
+Give me all the employees that have a {birthday|dob} {this month|sys_time}
+Give me all the employees that have a {birthday|dob} {this month|sys_time}
+Which workers at the company have a {birthday|dob} {this year|sys_time}
+Which workers at the company have a {birthday|dob} {this year|sys_time}
+Which workers at the company have a {birthday|dob} {this year|sys_time}
+Which employees have yet to have their {birthday|dob} {this year|sys_time}?
+Which employees have yet to have their {birthday|dob} {this year|sys_time}?
+Which employees have yet to have their {birthday|dob} {this year|sys_time}?
+Can you please tell me the employees that have already had thier {birthday|dob} {this year|sys_time}
+Can you please tell me the employees that have already had thier {birthday|dob} {this year|sys_time}
+Can you please tell me the employees that have already had thier {birthday|dob} {this year|sys_time}
+Which employees share the same {birthday|dob}
+Which employees share the same {birthday|dob}
+Which employees share the same {birthday|dob}
+Get me the employees that were {born|dob} {last|date_compare} {August|sys_time} but {last|date_compare} {May|sys_time}
+Get me the employees that were {born|dob} {post|date_compare} {August|sys_time} but {this week|date_compare} {May|sys_time}
+Get me the employees that were {born|dob} {before|date_compare} {August|sys_time} but {this month|date_compare} {May|sys_time}
+get me all of the folks who were {born|dob} in the {sixties|time_interval}
+get me all of the folks who were {born|dob} in the {2010's|time_interval}
+get me all of the folks who were {born|dob} in the {1950s|time_interval}
+{1940s|time_interval} {born|dob} employees list
+{eighties|time_interval} {born|dob} employees list
+{2010s|time_interval} {born|dob} employees list
+i want the employees that have been {hired|employment_action} in the {this year|date_compare} {two years|sys_interval} working in {AZ|state}
+i want the employees that have been {end her employment|employment_action} in the {this week|date_compare} {two years|sys_interval} working in {AL|state}
+i want the employees that have been {employed|employment_action} in the {atleast|date_compare} {two years|sys_interval} working in {ND|state}
+get me the employees that are from {ME|state} and have been {start date|employment_action} between {2 years ago|sys_time} to {5 years ago|sys_time}
+get me the employees that are from {OH|state} and have been {been working here|employment_action} between {2 years ago|sys_time} to {5 years ago|sys_time}
+get me the employees that are from {CT|state} and have been {date of termination|employment_action} between {2 years ago|sys_time} to {5 years ago|sys_time}
+{AL|state} employees {date of starting employment|employment_action} {4 years ago|sys_time}
+{TN|state} employees {long has worked here|employment_action} {4 years ago|sys_time}
+{MT|state} employees {began his employment|employment_action} {4 years ago|sys_time}
+{TN|state} employees {hiring date|employment_action} {this year|date_compare} {three years ago|sys_time}
+{MA|state} employees {end employment|employment_action} {this year|date_compare} {three years ago|sys_time}
+{NC|state} employees {been here|employment_action} {post|date_compare} {three years ago|sys_time}
+workers from {ID|state} {date of hire|employment_action} {more than|comparator} {2010's|time_interval}
+workers from {TN|state} {joined|employment_action} {more than|comparator} {1950s|time_interval}
+workers from {CO|state} {working here for|employment_action} {more than|comparator} {1970s|time_interval}
+{male|sex} workers {born|dob} in the {seventies|time_interval}
+{female|sex} workers {born|dob} in the {1940s|time_interval}
+employees that are {non-citizen|citizendesc} and {born|dob} between {1960|sys_time} and {1990|sys_time}
+employees that are {us citizen|citizendesc} and {born|dob} between {1960|sys_time} and {1990|sys_time}
+employees that are {eligible noncitizen|citizendesc} and {born|dob} between {1960|sys_time} and {1990|sys_time}
+I want all of the employees in the {executive office|department} that were {long has worked here|employment_action} {more than|comparator} {four years ago|sys_time}
+I want all of the employees in the {software engineering|department} that were {date of leaving job|employment_action} {more than|comparator} {four years ago|sys_time}
+I want all of the employees in the {executive office|department} that were {end her employment|employment_action} {more than|comparator} {four years ago|sys_time}
+from {after|date_compare} {july|sys_interval} to {this week|date_compare} {jan|sys_interval}, which employees {let go|employment_action} the organization in the {executive office|department}
+from {this year|date_compare} {july|sys_interval} to {post|date_compare} {jan|sys_interval}, which employees {working here for|employment_action} the organization in the {software engineering|department}
+from {post|date_compare} {july|sys_interval} to {prev|date_compare} {jan|sys_interval}, which employees {started|employment_action} the organization in the {software engineering|department}
+get me the {female|sex} employees that have been {been with us|employment_action} {last|date_compare} {2015|sys_interval}
+get me the {male|sex} employees that have been {employees that have been here|employment_action} {prev|date_compare} {2015|sys_interval}
+get me the {male|sex} employees that have been {date of starting employment|employment_action} {before|date_compare} {2015|sys_interval}
+{this year|date_compare} {2014|sys_time} which employees have been {let go|employment_action} that are {female|sex}
+{this week|date_compare} {2014|sys_time} which employees have been {of experience|employment_action} that are {male|sex}
+{last|date_compare} {2014|sys_time} which employees have been {let go|employment_action} that are {male|sex}
+{female|sex} employees {fired|employment_action} in {2017|sys_time}
+{female|sex} employees {of experience|employment_action} in {2017|sys_time}
+{male|sex} employees {fired|employment_action} in {2017|sys_time}
+{male|sex} {fired|employment_action} in {2016|sys_time}
+{female|sex} {employees that have been here|employment_action} in {2016|sys_time}
+{female|sex} {long has worked here|employment_action} in {2016|sys_time}

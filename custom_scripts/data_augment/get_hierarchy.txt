@@ -1,0 +1,591 @@
+Who is {Maruk Fraval|name}'s {leads|manager}? 
+Who is {Sandra Martin|name}'s {reporting|manager}? 
+Who is {Lin Chan|name}'s {leads|manager}? 
+Which employees have {Randall Pearson|name} as their {boss|manager}?
+Which employees have {Anna Von Massenbach|name} as their {is under|manager}?
+Which employees have {Geoff Dickinson|name} as their {reporting to|manager}?
+What is the name of {Susan Ferguson|name}'s {incharge|manager}?
+What is the name of {Elizabeth Meads|name}'s {supervisor|manager}?
+What is the name of {Roxana Goyal|name}'s {supervisor|manager}?
+Who is {Seffi Shields|name}'s {mentor|manager}?
+Who is {Melinda Saar-Beckles|name}'s {manages|manager}?
+Who is {Anthony Cisco|name}'s {works for|manager}?
+Who is {Constance Sloan|name}'s {boss|manager}?
+Who is {Geoff Dickinson|name}'s {lead|manager}?
+Who is {Bianca Roehrich|name}'s {supervisor|manager}?
+Who is {Renee Becker|name}'s {mentor|manager}?
+Who is {Kelley Spirea|name}'s {chairman|manager}?
+Who is {Dianna Blount|name}'s {works for|manager}?
+Who is the {reporting to|manager} for {Alex Gilles|name}
+Who is the {managing|manager} for {Estelle Howard|name}
+Who is the {supervisor|manager} for {Kimberly Beak|name}
+What is {Linda Dolan|name}'s {manager|manager}'s name?
+What is {Neville Tredinnick|name}'s {leads|manager}'s name?
+What is {Kramer Simard|name}'s {works for|manager}'s name?
+Who {boss|manager} into {Louis Punjabhi|name}
+Who {management|manager} into {Noah Villanueva|name}
+Who {leadership|manager} into {Shakira Perry|name}
+can i have the names of employees who report to {Brooke Oliver|name}
+can i have the names of employees who report to {John Kretschmer|name}
+can i have the names of employees who report to {Daniff Hernandez|name}
+Which employees are {under|comparator} the {manager|manager} {Jean Crimmings|name}?
+Which employees are {under|comparator} the {mentor|manager} {Sandy Mckenna|name}?
+Which employees are {under|comparator} the {managing|manager} {Jason Salter|name}?
+who {manager|manager} {Beatrice Chace|name}
+who {works for|manager} {Catherine Ybarra|name}
+who {lead|manager} {Jackie Valentin|name}
+Tell who is {manage|manager} {Lori Roby|name}
+Tell who is {managed by|manager} {Eric Dougall|name}
+Tell who is {work for|manager} {Brad Pitt|name}
+employee list with {works for|manager} being {Leonara Lindsay|name}
+employee list with {reporting to|manager} being {Jayne Horton|name}
+employee list with {reporting to|manager} being {Daniel Davis|name}
+{Trina Alagbe|name} is the {manager|manager} of which employees
+{Latia Costa|name} is the {mentor|manager} of which employees
+{Julissa Hunts|name} is the {managing|manager} of which employees
+which employees is {Shari Ngodup|name} the {work for|manager} for
+which employees is {Sam Athwal|name} the {boss|manager} for
+which employees is {Melinda Saar-Beckles|name} the {boss|manager} for
+for which employees is {Rachael Baczenski|name} the {reports to|manager}
+for which employees is {Hannah Jacobi|name} the {lead|manager}
+for which employees is {Roxana Goyal|name} the {managed by|manager}
+{Peter Monroe|name} is the {managing|manager} for which of our employees
+{Donna Brill|name} is the {working for|manager} for which of our employees
+{Mia Brown|name} is the {report to|manager} for which of our employees
+which of our employees have {Kenneth Thibaud|name} as their {works for|manager}
+which of our employees have {Catherine Ybarra|name} as their {head|manager}
+which of our employees have {Anthony Cisco|name} as their {report to|manager}
+get me a list of all of the employees that are currently {works for|manager} directly to {William LaRotonda|name}
+get me a list of all of the employees that are currently {chairman|manager} directly to {Kathleen Kinsella|name}
+get me a list of all of the employees that are currently {mentor|manager} directly to {Taylor Sparks|name}
+employees that directly {lead|manager} to {Nader Barton|name}
+employees that directly {manage|manager} to {Violeta Ferreira|name}
+employees that directly {is under|manager} to {Janet King|name}
+who is Ms. {Karen Mancuso|name} {chairman|manager} to
+who is Ms. {John Kretschmer|name} {manages|manager} to
+who is Ms. {Sandra Martin|name} {head|manager} to
+Does {William LaRotonda|name} have a {manage|manager}, if so who is it?
+Does {Jackie Valentin|name} have a {manager name|manager}, if so who is it?
+Does {Geoff Dickinson|name} have a {reporting|manager}, if so who is it?
+I want to know the name of the {is under|manager} for {Roxana Goyal|name}
+I want to know the name of the {working under|manager} for {Dawn Motlagh|name}
+I want to know the name of the {reporting to|manager} for {Mathew Linden|name}
+{Elijian Clukey|name} {work for|manager}
+{Karthikeyan Ait Sidi|name} {manager name|manager}
+{Anna Von Massenbach|name} {management|manager}
+{Constance Sloan|name} {manager name|manager} name
+{Kelley Spirea|name} {reporting|manager} name
+{Phylicia Gosciminski|name} {leads|manager} name
+{work for|manager} name for ms {Brandon LeBlanc|name}
+{mentor|manager} name for ms {Keyla Del Bosque|name}
+{boss|manager} name for ms {Hong Pham|name}
+get me ms. {Earnest Hankard|name}'s {supervisor|manager} full name
+get me ms. {Brandon LeBlanc|name}'s {manages|manager} full name
+get me ms. {Hamish Garneau|name}'s {boss|manager} full name
+is there anyone {manage|manager} to Ms. {Travis Ozark|name}, if so who are those people?
+is there anyone {reporting|manager} to Ms. {Brad Pitt|name}, if so who are those people?
+is there anyone {management|manager} to Ms. {Kimberly Beak|name}, if so who are those people?
+{manages|manager} of {Adeel Osturnka|name}
+{mentor|manager} of {Myriam Givens|name}
+{manages|manager} of {Melisa Gerke|name}
+{working under|manager} for {Adrienne Homberger|name}
+{managed by|manager} for {Theresa Tinto|name}
+{managed by|manager} for {Megan Faller|name}
+{Bianca Roehrich|name}'s {supervisor|manager} name
+{Rosalie Hutter|name}'s {leadership|manager} name
+{Christie Harrington|name}'s {is under|manager} name
+i want the name of everyone that is {reporting to|manager} {Allison Lydon|name}
+i want the name of everyone that is {lead|manager} {Noelle Johnson|name}
+i want the name of everyone that is {managing|manager} {Seffi Shields|name}
+can i get the employee names for those {managing|manager} to {Adil Sahoo|name}
+can i get the employee names for those {incharge|manager} to {Brooke Oliver|name}
+can i get the employee names for those {incharge|manager} to {Marianne Eaton|name}
+who all is {chairman|manager} {Travis Ozark|name}
+who all is {leadership|manager} {Cybil Trzeciak|name}
+who all is {report to|manager} {Simon Roup|name}
+which employees have a {mentor|manager}
+which employees have a {managed by|manager}
+which employees have a {manage|manager}
+which employees have a {head|manager} that goes by the name {Jackie Valentin|name}
+which employees have a {report to|manager} that goes by the name {Walter Immediato|name}
+which employees have a {manager name|manager} that goes by the name {Tanya Morway|name}
+is {Bartholemew Khemmich|name} the {manage|manager} for {Denisa Dobrin|name}
+is {Helen Billis|name} the {incharge|manager} for {Geoff Dickinson|name}
+is {Mike Guilianno|name} the {supervisor|manager} for {Emil Pelech|name}
+does {Quinn Rarrick|name} {leadership|manager} {Joseph Buccheri|name}
+does {Alain Robinson|name} {working for|manager} {Whitney Gill|name}
+does {Randall Pearson|name} {lead|manager} {Lindsay Lynch|name}
+is {Elizabeth Meads|name} {reporting|manager} {Roger Walker|name}
+is {Bradley Knapp|name} {supervisor|manager} {Lindsay Lynch|name}
+is {Edward Buck|name} {reporting to|manager} {Kissy Sullivan|name}
+is {Raul Garcia|name} {boss|manager} {Mia Brown|name} or is it the other way around?
+is {Anita Shepard|name} {supervisor|manager} {Quinn Rarrick|name} or is it the other way around?
+is {Kimberly Beak|name} {is under|manager} {Robyn Manchester|name} or is it the other way around?
+can you tell me who the {manager name|manager} is that is {management|manager} Ms. {Beatrice Chace|name}
+can you tell me who the {mentor|manager} is that is {managing|manager} Ms. {Samuel MacLennan|name}
+can you tell me who the {supervisor|manager} is that is {reports to|manager} Ms. {Ermine Pelletier|name}
+{manage|manager} employee for the employee {Helen Billis|name}
+{incharge|manager} employee for the employee {Emil Pelech|name}
+{mentor|manager} employee for the employee {Lowan Biden|name}
+{Louis Punjabhi|name} {manager|manager} which individuals?
+{Ermine Pelletier|name} {report to|manager} which individuals?
+{Paula Gross|name} {supervisor|manager} which individuals?
+get me a list of all of the employees who {leadership|manager} {Taylor Sparks|name} if there are any
+get me a list of all of the employees who {report to|manager} {Quinn Rarrick|name} if there are any
+get me a list of all of the employees who {boss|manager} {Claudia Carr|name} if there are any
+I want to know if {Bartholemew Khemmich|name} is a {reporting|manager}
+I want to know if {Gerry Friedman|name} is a {boss|manager}
+I want to know if {Caroline Cierpiszewski|name} is a {leads|manager}
+Is {Adrienne Homberger|name} a {reports to|manager}
+Is {Cybil Trzeciak|name} a {mentor|manager}
+Is {Rachael Baczenski|name} a {reporting|manager}
+does {Mia Brown|name} have the role of being a {mentor|manager}
+does {Melinda Saar-Beckles|name} have the role of being a {lead|manager}
+does {Rex England|name} have the role of being a {works for|manager}
+is {Rachael Baczenski|name} a {supervisor|manager} in our company
+is {Jordan Winthrop|name} a {is under|manager} in our company
+is {Bradley Knapp|name} a {mentor|manager} in our company
+{Colombui Ndzi|name} is a {manages|manager}, right?
+{Ivan Rogers|name} is a {supervisor|manager}, right?
+{Giovanni Leruth|name} is a {management|manager}, right?
+is it correct to say that {Desiree Tavares|name} is a {working under|manager}?
+is it correct to say that {Mia Brown|name} is a {incharge|manager}?
+is it correct to say that {Jene'ya Darson|name} is a {incharge|manager}?
+can you tell me whether {Angela Erilus|name} is a {report to|manager} or not?
+can you tell me whether {Brigit McCarthy|name} is a {managing|manager} or not?
+can you tell me whether {Beatrice Chace|name} is a {report to|manager} or not?
+as of today Ms. {Daniel Davis|name} is {report to|manager} which employees
+as of today Ms. {Andrew Szabo|name} is {managing|manager} which employees
+as of today Ms. {David Stanley|name} is {reporting to|manager} which employees
+Do {Kenneth Thibaud|name} and {Robyn Manchester|name} {reports to|manager} the same {works for|manager}?
+Do {Maruk Fraval|name} and {Richard Newman|name} {manager name|manager} the same {managing|manager}?
+Do {Mildred Gentry|name} and {Bonalyn Boutwell|name} {reports to|manager} the same {leadership|manager}?
+are {James Cockel|name} and {Peter Monroe|name} {working under|manager} the same {managing|manager}?
+are {Erasumus Monkfish|name} and {Lauren Mahoney|name} {managed by|manager} the same {reports to|manager}?
+are {Adeel Osturnka|name} and {Thomas Murray|name} {working under|manager} the same {manages|manager}?
+who do {Sandra Martin|name} and {Jean Crimmings|name} {head|manager}?
+who do {Josephine Bugali|name} and {Marianne Eaton|name} {work for|manager}?
+who do {Kimberly Beak|name} and {Andrew Szabo|name} {report to|manager}?
+who are {Catherine Ybarra|name} and {Kimberly Beak|name} {lead|manager} currently
+who are {Keyla Del Bosque|name} and {Melinda Saar-Beckles|name} {boss|manager} currently
+who are {Eric Dougall|name} and {Morissa Power|name} {boss|manager} currently
+who is the {boss|manager} for {Taylor Sparks|name} and also for {Beatrice Chace|name}
+who is the {work for|manager} for {Jyoti Lajiri|name} and also for {Betsy Bondwell|name}
+who is the {leadership|manager} for {April Evensen|name} and also for {Libby Fidelia|name}
+is the {reporting|manager} for {Debra Houlihan|name} the same as the {reporting to|manager} for {Elizabeth Meads|name}?
+is the {manage|manager} for {April Evensen|name} the same as the {leads|manager} for {Xana Potts|name}?
+is the {report to|manager} for {Andrew Szabo|name} the same as the {managed by|manager} for {Trina Alagbe|name}?
+i want the {incharge|manager} {boss|manager} for both {Lowan Biden|name} and {David Stanley|name}
+i want the {lead|manager} {mentor|manager} for both {Anita Shepard|name} and {Luisa Monterro|name}
+i want the {leads|manager} {manager|manager} for both {Jeremy Prater|name} and {Roger Walker|name}
+tell me the {leadership|manager} that is {working under|manager} {Alex Gilles|name} as well as the {management|manager} reponsible for {Colleen Volk|name}
+tell me the {manage|manager} that is {leadership|manager} {Benjamin Burkett|name} as well as the {reports to|manager} reponsible for {Lily DiNocco|name}
+tell me the {leadership|manager} that is {supervisor|manager} {Denisa Dobrin|name} as well as the {managed by|manager} reponsible for {Trina Alagbe|name}
+who is {Anna Von Massenbach|name}'s {manager|manager} authority?
+who is {Jean Crimmings|name}'s {management|manager} authority?
+who is {Dawn Motlagh|name}'s {reporting to|manager} authority?
+Tell me who is Mr.{Alain Robinson|name}'s {manager|manager}?
+Tell me who is Mr.{Sandy Mckenna|name}'s {working under|manager}?
+Tell me who is Mr.{Bonalyn Boutwell|name}'s {supervisor|manager}?
+I wanna know the person who {Catherine Ybarra|name} {mentor|manager} at the company
+I wanna know the person who {Thelma Petrowsky|name} {manager name|manager} at the company
+I wanna know the person who {Lily DiNocco|name} {mentor|manager} at the company
+Give me all of the employees hv {Whitney Gill|name} as their {management|manager} that they {chairman|manager}?
+Give me all of the employees hv {Rachael Baczenski|name} as their {is under|manager} that they {manager|manager}?
+Give me all of the employees hv {Lauren Mahoney|name} as their {report to|manager} that they {supervisor|manager}?
+Which are all of the employees who are having {Karen Mancuso|name} as the name of their {manage|manager}?
+Which are all of the employees who are having {Clinton Owad|name} as the name of their {report to|manager}?
+Which are all of the employees who are having {Jonathan Hogland|name} as the name of their {managed by|manager}?
+Who are those employees that right now have {Lynn O'hare|name} as their {report to|manager} they are {manager|manager}
+Who are those employees that right now have {Bradley Knapp|name} as their {management|manager} they are {lead|manager}
+Who are those employees that right now have {Michael Albert|name} as their {working under|manager} they are {head|manager}
+Retrieve the full name of {Debbie Mangal|name}'s {managing|manager} that he does {report to|manager}?
+Retrieve the full name of {Eric Dougall|name}'s {working under|manager} that he does {supervisor|manager}?
+Retrieve the full name of {Mohammed Latif|name}'s {leads|manager} that he does {reporting to|manager}?
+I would like you to tell what the name is of {Anna Von Massenbach|name}'s {report to|manager} employee?
+I would like you to tell what the name is of {Carl Desimone|name}'s {leadership|manager} employee?
+I would like you to tell what the name is of {Lei-Ming Nguyen|name}'s {managing|manager} employee?
+whats the first and last name of {Jasmine Onque|name}'s {reports to|manager} {boss|manager}?
+whats the first and last name of {Brigit McCarthy|name}'s {managed by|manager} {leadership|manager}?
+whats the first and last name of {Leonara Lindsay|name}'s {managing|manager} {working for|manager}?
+Who's the guy that our employee,{Ivan Rogers|name}, currently {report to|manager}?
+Who's the guy that our employee,{Erasumus Monkfish|name}, currently {manager name|manager}?
+Who's the guy that our employee,{Simon Roup|name}, currently {manages|manager}?
+Whose {Anthony Cisco|name}s {works for|manager} personnel?
+Whose {Elijian Clukey|name}s {reporting|manager} personnel?
+Whose {Donald Favis|name}s {works for|manager} personnel?
+who is {Robyn Manchester|name}'s {works for|manager} that {Violeta Ferreira|name} currently {managed by|manager}?
+who is {Ashley Rose|name}'s {manager|manager} that {Carol Anderson|name} currently {manage|manager}?
+who is {Nicole Fancett|name}'s {work for|manager} that {Josephine Bugali|name} currently {leads|manager}?
+I wanna know {Mei Trang|name}'s person in {lead|manager} of her?
+I wanna know {Melisa Gerke|name}'s person in {head|manager} of her?
+I wanna know {Mia Brown|name}'s person in {reporting|manager} of her?
+{Luke Patronick|name}, who is the person that she {manages|manager}?
+{Roxana Goyal|name}, who is the person that she {report to|manager}?
+{Francesco Barone|name}, who is the person that she {managed by|manager}?
+who is the {lead|manager} of {Leonara Lindsay|name} that {incharge|manager} him?
+who is the {managing|manager} of {Lenora Tejeda|name} that {supervisor|manager} him?
+who is the {managed by|manager} of {Ming Huynh|name} that {is under|manager} him?
+tell me who is {Kramer Simard|name}'s {reporting to|manager}?
+tell me who is {Roxana Goyal|name}'s {leadership|manager}?
+tell me who is {Luke Patronick|name}'s {boss|manager}?
+so who is {Sandy Mckenna|name}'s reporting {manage|manager}?
+so who is {Alejandro Bacong|name}'s reporting {working under|manager}?
+so who is {Luisa Monterro|name}'s reporting {incharge|manager}?
+who is {Estelle Howard|name}s {manage|manager} {boss|manager}?
+who is {Bartholemew Khemmich|name}s {incharge|manager} {supervisor|manager}?
+who is {Nicole Fancett|name}s {reports to|manager} {chairman|manager}?
+who is the person that is being {manager|manager} for by {Latia Costa|name}
+who is the person that is being {head|manager} for by {Robyn Manchester|name}
+who is the person that is being {lead|manager} for by {Brandon LeBlanc|name}
+What is the full, first and last, {manager name|manager} for the employee: {Mathew Linden|name}
+What is the full, first and last, {working for|manager} for the employee: {Melinda Saar-Beckles|name}
+What is the full, first and last, {head|manager} for the employee: {Sophia Theamstern|name}
+Find me who is the person {Tyrone Steans|name} is {chairman|manager}, her full name is {Libby Fidelia|name}
+Find me who is the person {Ivan Rogers|name} is {head|manager}, her full name is {Estelle Howard|name}
+Find me who is the person {Brannon Miller|name} is {managing|manager}, her full name is {Yen Johnston|name}
+what's {Phylicia Gosciminski|name}'s {manager name|manager} currently listed as in the system?
+what's {Jac McKinzie|name}'s {chairman|manager} currently listed as in the system?
+what's {Geoff Dickinson|name}'s {manager|manager} currently listed as in the system?
+whats the person that {David Stanley|name} has listed as her {boss|manager} name?
+whats the person that {Ketsia Liebig|name} has listed as her {head|manager} name?
+whats the person that {Helen Billis|name} has listed as her {managing|manager} name?
+Who is the lady or guy that {Jyoti Lajiri|name} is {head|manager} of?
+Who is the lady or guy that {Denisa Dobrin|name} is {reporting to|manager} of?
+Who is the lady or guy that {Jeremy Prater|name} is {head|manager} of?
+Is anyone {managing|manager} to {Marilyn Linares|name} or is she not a boss
+Is anyone {supervisor|manager} to {Donysha Kampew|name} or is she not a boss
+Is anyone {reports to|manager} to {Trina Alagbe|name} or is she not a boss
+All of the employees that are {reporting|manager} to Mr. {Alex Gilles|name} if any
+All of the employees that are {lead|manager} to Mr. {Leigh Smith|name} if any
+All of the employees that are {manager name|manager} to Mr. {Elijian Clukey|name} if any
+Are there any workers who {reports to|manager} to Mr.{Kara Harrison|name}
+Are there any workers who {supervisor|manager} to Mr.{Brooke Oliver|name}
+Are there any workers who {report to|manager} to Mr.{Mei Trang|name}
+can i have all of the names who report to {Sam Athwal|name} as a list
+can i have all of the names who report to {Kristen Squatrito|name} as a list
+can i have all of the names who report to {Jackie Valentin|name} as a list
+Please can u give the names of employees who report to {Leonara Lindsay|name}
+Please can u give the names of employees who report to {Earnest Hankard|name}
+Please can u give the names of employees who report to {Ebonee Peterson|name}
+I'd like the employees who report to Madame {Lisa Galia|name}
+I'd like the employees who report to Madame {Howard Mullaney|name}
+I'd like the employees who report to Madame {Jyoti Lajiri|name}
+which are the employees that are {under|comparator} the {manage|manager} {Eric Dougall|name}?
+which are the employees that are {under|comparator} the {lead|manager} {Bartholemew Khemmich|name}?
+which are the employees that are {under|comparator} the {mentor|manager} {David Stanley|name}?
+Who are those employees that are {under|comparator} and {chairman|manager} {Ermine Pelletier|name}?
+Who are those employees that are {under|comparator} and {leadership|manager} {Adrienne Homberger|name}?
+Who are those employees that are {under|comparator} and {working for|manager} {Desiree Tavares|name}?
+employees that are {under|comparator} and currently {head|manager} the boss: {Luke Patronick|name}?
+employees that are {under|comparator} and currently {reports to|manager} the boss: {Mei Trang|name}?
+employees that are {under|comparator} and currently {is under|manager} the boss: {Jeremy Prater|name}?
+who {management|manager} Mr.{Andrew Szabo|name}
+who {mentor|manager} Mr.{Louis Punjabhi|name}
+who {manager name|manager} Mr.{Lindsey Langford|name}
+who is the {manager|manager} assigned to {Charles Bozzi|name}
+who is the {is under|manager} assigned to {Cybil Trzeciak|name}
+who is the {reporting|manager} assigned to {Enola Chivukula|name}
+who is the {boss|manager} individual for {Elizabeth Meads|name}
+who is the {mentor|manager} individual for {Richard Newman|name}
+who is the {reporting|manager} individual for {Courtney Wallace|name}
+Get me the person who is {boss|manager} {Colleen Volk|name}
+Get me the person who is {manager|manager} {Walter Immediato|name}
+Get me the person who is {report to|manager} {Trina Alagbe|name}
+Please do tell who is the {working for|manager} person for {Bonalyn Boutwell|name}
+Please do tell who is the {reporting to|manager} person for {Lenora Tejeda|name}
+Please do tell who is the {manages|manager} person for {Jumil Turpin|name}
+Tell me who is the worker {works for|manager} to {Sean Quinn|name}
+Tell me who is the worker {manages|manager} to {Thelma Petrowsky|name}
+Tell me who is the worker {leadership|manager} to {Abdellah Veera|name}
+I want an employee list with all of the folks {report to|manager} {Tanya Morway|name}
+I want an employee list with all of the folks {managing|manager} {Anthony Cisco|name}
+I want an employee list with all of the folks {managing|manager} {Hannah Jacobi|name}
+Get me an employee list with people who {leadership|manager} {Sam Athwal|name}
+Get me an employee list with people who {manage|manager} {Edward Buck|name}
+Get me an employee list with people who {manages|manager} {Alexandra Kirill|name}
+Find me employees list with {manager name|manager} being {Abdellah Veera|name}
+Find me employees list with {manager|manager} being {Caitrin Strong|name}
+Find me employees list with {reports to|manager} being {Shenice Gold|name}
+{Shakira Perry|name} is the {leads|manager} of which employees
+{Maryellen Jackson|name} is the {mentor|manager} of which employees
+{Joanne Handschiegl|name} is the {reports to|manager} of which employees
+{Leonara Lindsay|name} is the {incharge|manager} authority of which employees
+{Ketsia Liebig|name} is the {reporting|manager} authority of which employees
+{Simon Roup|name} is the {manager name|manager} authority of which employees
+{Rosalie Hutter|name} is the {manager|manager} of which employees
+{Richard Newman|name} is the {manages|manager} of which employees
+{Ivan Rogers|name} is the {manager name|manager} of which employees
+which employees is {Jasmine Onque|name} the {reporting to|manager} authority for
+which employees is {Neville Tredinnick|name} the {manage|manager} authority for
+which employees is {Trina Alagbe|name} the {manager|manager} authority for
+Please give me which employees is {Jene'ya Darson|name} is working {is under|manager}
+Please give me which employees is {Rick Clayton|name} is working {head|manager}
+Please give me which employees is {James Cockel|name} is working {working under|manager}
+which employees is {Phil Close|name} the {lead|manager} employee for
+which employees is {Judy Jung|name} the {supervisor|manager} employee for
+which employees is {Colleen Volk|name} the {working under|manager} employee for
+for which employees is {Jennifer Zamora|name} the {managing|manager}
+for which employees is {Kramer Simard|name} the {reporting to|manager}
+for which employees is {Evelyn Girifalco|name} the {manager|manager}
+for which of our employees is {Trina Alagbe|name} the {reporting to|manager}
+for which of our employees is {Miguel Estremera|name} the {reports to|manager}
+for which of our employees is {Rick Clayton|name} the {manager name|manager}
+for which employees is {Angela Erilus|name} the {incharge|manager}
+for which employees is {Adell Saada|name} the {works for|manager}
+for which employees is {Dallas Leach|name} the {reports to|manager}
+{Bonalyn Boutwell|name} is the {reporting to|manager} for which of our employees
+{Geoff Dickinson|name} is the {incharge|manager} for which of our employees
+{Rachael Baczenski|name} is the {works for|manager} for which of our employees
+{Enrico Langton|name} is the {is under|manager} for which of our employees
+{Tayana Jeannite|name} is the {manager|manager} for which of our employees
+{Daniff Hernandez|name} is the {manages|manager} for which of our employees
+{Sarah Warfield|name} is the {report to|manager} for which employees
+{Jyoti Lajiri|name} is the {supervisor|manager} for which employees
+{Bartholemew Khemmich|name} is the {working for|manager} for which employees
+which employees have {Sam Athwal|name} as their {manager|manager} point
+which employees have {Hong Pham|name} as their {mentor|manager} point
+which employees have {Lori Roby|name} as their {supervisor|manager} point
+which of our employees have {Spencer Cole|name} as their {leadership|manager}
+which of our employees have {Donysha Kampew|name} as their {reporting|manager}
+which of our employees have {Karthikeyan Ait Sidi|name} as their {leadership|manager}
+Tell me which employees have {Elijian Clukey|name} as their {reporting|manager}
+Tell me which employees have {Webster Butler|name} as their {manager|manager}
+Tell me which employees have {Miguel Estremera|name} as their {manage|manager}
+Gimmmie a list of employees that are currently {manager|manager} {Hang Wolk|name}
+Gimmmie a list of employees that are currently {reports to|manager} {May Roberson|name}
+Gimmmie a list of employees that are currently {supervisor|manager} {Jennifer Zamora|name}
+I wanna get a list of all of the employees that are currently {works for|manager} {Linda Dolan|name}
+I wanna get a list of all of the employees that are currently {managing|manager} {Ricardo Ruiz|name}
+I wanna get a list of all of the employees that are currently {manages|manager} {Beatrice Chace|name}
+Create me a list of all of the employees that are currently {manages|manager} {Melinda Saar-Beckles|name}
+Create me a list of all of the employees that are currently {manager|manager} {Emil Pelech|name}
+Create me a list of all of the employees that are currently {reporting to|manager} {Desiree Tavares|name}
+Who are those employees that directly {boss|manager} to {Linda Dolan|name}
+Who are those employees that directly {manage|manager} to {Brigit McCarthy|name}
+Who are those employees that directly {manage|manager} to {Lindsay Lynch|name}
+employees that directly {management|manager} {Nina Panjwani|name}
+employees that directly {managing|manager} {Carol Anderson|name}
+employees that directly {reporting to|manager} {Kathleen Kinsella|name}
+employees that directly that {manager name|manager} to {Kissy Sullivan|name}
+employees that directly that {manager|manager} to {Geoff Dickinson|name}
+employees that directly that {mentor|manager} to {Judith Carabbio|name}
+who is Ms. {Sean Quinn|name} {lead|manager}
+who is Ms. {Karen Mancuso|name} {is under|manager}
+who is Ms. {Nina Panjwani|name} {management|manager}
+who is Ms. {Tyrone Steans|name} {manager|manager}
+who is Ms. {Carlos Merlos|name} {manager|manager}
+who is Ms. {Sandy Mckenna|name} {is under|manager}
+who is Mr. {Caroline Cierpiszewski|name} {reporting|manager} to
+who is Mr. {Bruno Rossetti|name} {management|manager} to
+who is Mr. {Edward Buck|name} {management|manager} to
+does {Mathew Linden|name} have a {supervisor|manager} that he {manager|manager}, if so who is it?
+does {Quinn Rarrick|name} have a {manage|manager} that he {management|manager}, if so who is it?
+does {Anita Shepard|name} have a {management|manager} that he {reporting|manager}, if so who is it?
+does {Noah Villanueva|name} have a {manager|manager}, if so who is the guy or girl?
+does {Joanne Handschiegl|name} have a {incharge|manager}, if so who is the guy or girl?
+does {Jennifer Zamora|name} have a {management|manager}, if so who is the guy or girl?
+does {Jeanette Tippett|name} have a {boss|maanger} that she {reporting to|manager}, if so who is it?
+does {Neville Tredinnick|name} have a {boss|maanger} that she {report to|manager}, if so who is it?
+does {Sandy Mckenna|name} have a {boss|maanger} that she {head|manager}, if so who is it?
+I want to know the name of the {manager name|manager} for {Leigh Smith|name}
+I want to know the name of the {managing|manager} for {Richard Newman|name}
+I want to know the name of the {leadership|manager} for {Alain Robinson|name}
+I want to know the name of the {chairman|manager} for {Kissy Sullivan|name}
+I want to know the name of the {managing|manager} for {Mia Brown|name}
+I want to know the name of the {leads|manager} for {Betsy Bondwell|name}
+I wanna know the name of the {manager|manager} for {Mathew Linden|name}
+I wanna know the name of the {manage|manager} for {Andrew Szabo|name}
+I wanna know the name of the {manages|manager} for {Jennifer Zamora|name}
+{Roger Walker|name} {management|manager}
+{Maryellen Jackson|name} {reporting to|manager}
+{Daniel Davis|name} {mentor|manager}
+{Christie Harrington|name} {working for|manager} personnel
+{Constance Sloan|name} {incharge|manager} personnel
+{Helen Billis|name} {head|manager} personnel
+{Melisa Gerke|name} {lead|manager} employee
+{Donysha Kampew|name} {managing|manager} employee
+{Ebonee Peterson|name} {reports to|manager} employee
+{Latia Costa|name} {lead|manager} name
+{Cybil Trzeciak|name} {chairman|manager} name
+{Janet King|name} {chairman|manager} name
+{Jessica Bunbury|name} {managed by|manager} name
+{Elisa Bramante|name} {leads|manager} name
+{Rick Clayton|name} {mentor|manager} name
+{Andrew Szabo|name} {managing|manager} name
+{Seffi Shields|name} {manages|manager} name
+{Mia Brown|name} {work for|manager} name
+name of person who {boss|manager} ms {Shari Ngodup|name}
+name of person who {report to|manager} ms {Tayana Jeannite|name}
+name of person who {incharge|manager} ms {Linda Dolan|name}
+{report to|manager} name for mr {Nan Singh|name}
+{managing|manager} name for mr {Enola Chivukula|name}
+{supervisor|manager} name for mr {Ivan Rogers|name}
+{boss|manager} name for ms {Sam Athwal|name}
+{manages|manager} name for ms {Melinda Saar-Beckles|name}
+{manage|manager} name for ms {Sneha Jhaveri|name}
+get me ms. {Alex Gilles|name}'s {incharge|manager} full name
+get me ms. {Lindsay Lynch|name}'s {managing|manager} full name
+get me ms. {Alfred Digitale|name}'s {works for|manager} full name
+get me ms. {Eric Dougall|name}'s {management|manager} full name
+get me ms. {Carl Desimone|name}'s {reporting to|manager} full name
+get me ms. {April Evensen|name}'s {manager name|manager} full name
+get me ms. {Melinda Saar-Beckles|name}'s {chairman|manager} full name
+get me ms. {Richard Newman|name}'s {management|manager} full name
+get me ms. {Jonathan Hogland|name}'s {reporting to|manager} full name
+is there anyone {supervisor|manager} of Ms. {Beatrice Chace|name}, if so who are those people?
+is there anyone {managing|manager} of Ms. {Anna Von Massenbach|name}, if so who are those people?
+is there anyone {reports to|manager} of Ms. {Alejandro Bacong|name}, if so who are those people?
+if There is anyone {works for|manager} Mr. {Theresa Tinto|name} who are those people?
+if There is anyone {supervisor|manager} Mr. {Patrick Moran|name} who are those people?
+if There is anyone {lead|manager} Mr. {Jessica Bunbury|name} who are those people?
+anyone {manager name|manager} of Ms. {Brigit McCarthy|name}, if so who is that?
+anyone {manager name|manager} of Ms. {Theresa Tinto|name}, if so who is that?
+anyone {reports to|manager} of Ms. {Anthony Cisco|name}, if so who is that?
+{work for|manager} {Jacquelyn Williams|name}
+{is under|manager} {Ketsia Liebig|name}
+{management|manager} {Andrew Szabo|name}
+{head|manager} of {Shana Maurice|name}
+{reporting to|manager} of {Susan Ferguson|name}
+{reporting to|manager} of {Daniff Hernandez|name}
+{manage|manager} {Jacquelyn Williams|name}
+{work for|manager} {Lei-Ming Nguyen|name}
+{work for|manager} {Kathleen Kinsella|name}
+{reporting to|manager} for {Bianca Roehrich|name}
+{manage|manager} for {David Stanley|name}
+{report to|manager} for {Barbara Gaul|name}
+{reporting|manager} for {Theresa Tinto|name}
+{managed by|manager} for {Jac McKinzie|name}
+{boss|manager} for {Constance Sloan|name}
+{manages|manager} for {Shari Ngodup|name}
+{manage|manager} for {Kramer Simard|name}
+{mentor|manager} for {Kristen Squatrito|name}
+{Elijian Clukey|name}'s {mentor|manager} name
+{Thomas Murray|name}'s {supervisor|manager} name
+{Melisa Gerke|name}'s {managing|manager} name
+{Anna Von Massenbach|name} {mentor|manager} name?
+{Jennifer Zamora|name} {supervisor|manager} name?
+{Shakira Perry|name} {boss|manager} name?
+{Hamish Garneau|name} does {leads|manager} who, I want the name
+{Tayana Jeannite|name} does {report to|manager} who, I want the name
+{Brandon LeBlanc|name} does {is under|manager} who, I want the name
+i want the name of everyone that is {reporting|manager} Mr.{Edward Buck|name}
+i want the name of everyone that is {reports to|manager} Mr.{Christie Harrington|name}
+i want the name of everyone that is {working for|manager} Mr.{Brandon LeBlanc|name}
+name of everyone that is {manager|manager} {Jac McKinzie|name}
+name of everyone that is {manage|manager} {Jeanette Tippett|name}
+name of everyone that is {mentor|manager} {Dawn Motlagh|name}
+Find me the names of everyone that is {managed by|manager} mr.{April Evensen|name}
+Find me the names of everyone that is {manager name|manager} mr.{Trina Alagbe|name}
+Find me the names of everyone that is {reporting to|manager} mr.{Leigh Smith|name}
+can i get the employee names for those {leadership|manager} to Mrs.{Webster Butler|name}
+can i get the employee names for those {lead|manager} to Mrs.{Debbie Mangal|name}
+can i get the employee names for those {mentor|manager} to Mrs.{Spencer Cole|name}
+can i get the employee names for those {manager|manager} to Mrs.{Melinda Saar-Beckles|name}
+can i get the employee names for those {reporting to|manager} to Mrs.{Kenneth Thibaud|name}
+can i get the employee names for those {report to|manager} to Mrs.{Bianca Roehrich|name}
+can i get the employee names for those {report to|manager} {Rachael Baczenski|name}
+can i get the employee names for those {supervisor|manager} {Taisha Goble|name}
+can i get the employee names for those {manages|manager} {Claudia Carr|name}
+who all is {working for|manager} of {Bartholemew Khemmich|name}
+who all is {reports to|manager} of {Edward Buck|name}
+who all is {managing|manager} of {Colombui Ndzi|name}
+who all is {reports to|manager} for {Sandy Mckenna|name}
+who all is {report to|manager} for {Donald Favis|name}
+who all is {boss|manager} for {Brandon LeBlanc|name}
+who all is {manager|manager} {Wilson Adinolfi|name}
+who all is {work for|manager} {Rosalie Hutter|name}
+who all is {leads|manager} {Jacquelyn Williams|name}
+which employees have a employee that {reporting to|manager} them
+which employees have a employee that {working for|manager} them
+which employees have a employee that {manage|manager} them
+which employees currently have a {reports to|manager} they are {report to|manager}
+which employees currently have a {boss|manager} they are {reporting|manager}
+which employees currently have a {manages|manager} they are {manager|manager}
+which employees that have a {reporting to|manager}
+which employees that have a {lead|manager}
+which employees that have a {managing|manager}
+which employees have a {boss|manager} that goes by the name {Sandy Mckenna|name}
+which employees have a {reporting to|manager} that goes by the name {Angela Erilus|name}
+which employees have a {report to|manager} that goes by the name {Peter Monroe|name}
+which employees have a {managing|manager} person that goes by the name {Spencer Cole|name}
+which employees have a {work for|manager} person that goes by the name {Colleen Volk|name}
+which employees have a {leadership|manager} person that goes by the name {Janet King|name}
+employees who have a {chairman|manager} that goes by the name {Phil Close|name}
+employees who have a {manage|manager} that goes by the name {Jordan Winthrop|name}
+employees who have a {head|manager} that goes by the name {Sean Quinn|name}
+is {Jeanette Tippett|name} the {manages|manager} for {Alfred Digitale|name}
+is {Taisha Goble|name} the {manages|manager} for {Ermine Pelletier|name}
+is {William LaRotonda|name} the {manager|manager} for {Sandy Mckenna|name}
+is {Anna Von Massenbach|name} the {leads|manager} for {Sarah Warfield|name}
+is {Ketsia Liebig|name} the {leads|manager} for {Kathleen Kinsella|name}
+is {Linda Dolan|name} the {works for|manager} for {Ricardo Ruiz|name}
+is {Adil Sahoo|name} the {manage|manager} for {Violeta Ferreira|name}
+is {Michael Albert|name} the {boss|manager} for {Michelle Carter|name}
+is {Joe South|name} the {lead|manager} for {Debbie Mangal|name}
+does {Catherine Ybarra|name} {mentor|manager} to {Alejandro Bacong|name}
+does {Catherine Ybarra|name} {working for|manager} to {Noelle Johnson|name}
+does {Andrew Szabo|name} {is under|manager} to {Tanya Morway|name}
+does {William LaRotonda|name} get {manages|manager} {Jeremy Prater|name}
+does {Nicole Fancett|name} get {works for|manager} {William LaRotonda|name}
+does {Michelle Carter|name} get {management|manager} {Joe South|name}
+does {Linda Dolan|name} {manages|manager} {Michael Albert|name}
+does {Judy Jung|name} {report to|manager} {Tayana Jeannite|name}
+does {Jacquelyn Williams|name} {works for|manager} {Julissa Hunts|name}
+is {Brooke Oliver|name} {leadership|manager} {Ricardo Ruiz|name}
+is {William LaRotonda|name} {management|manager} {Sean Quinn|name}
+is {Earnest Hankard|name} {working for|manager} {Walter Immediato|name}
+is {Kramer Simard|name} {reports to|manager} {Tyrone Steans|name}
+is {Carl Desimone|name} {manager|manager} {Mei Trang|name}
+is {Earnest Hankard|name} {management|manager} {Evelyn Girifalco|name}
+is {Jeremiah Semizoglou|name} {managed by|manager} {Ming Huynh|name}
+is {Erasumus Monkfish|name} {leadership|manager} {Colleen Volk|name}
+is {Lenora Tejeda|name} {reporting|manager} {Shakira Perry|name}
+is {Helen Billis|name} {manager|manager} of {Benjamin Burkett|name} or is it the other way around?
+is {Nan Singh|name} {supervisor|manager} of {Kristen Squatrito|name} or is it the other way around?
+is {Amy Foster-Baker|name} {work for|manager} of {Joseph Buccheri|name} or is it the other way around?
+is {Tanya Morway|name} {reporting to|manager} {Xana Potts|name} or is it the other way around?
+is {Sandra Martin|name} {managed by|manager} {Donna Brill|name} or is it the other way around?
+is {Hang Wolk|name} {incharge|manager} {Joe South|name} or is it the other way around?
+is {Sam Athwal|name} the {mentor|manager} for {Shenice Gold|name} or is it the other way around?
+is {Julia Soto|name} the {management|manager} for {Sam Athwal|name} or is it the other way around?
+is {Hang Wolk|name} the {is under|manager} for {Lindsey Langford|name} or is it the other way around?
+tell me who the {management|manager} is that is {reporting|manager} Ms. {Kissy Sullivan|name}
+tell me who the {manager name|manager} is that is {incharge|manager} Ms. {Mildred Gentry|name}
+tell me who the {manager|manager} is that is {leads|manager} Ms. {Thelma Petrowsky|name}
+can you tell me who {report to|manager} Ms. {Sophia Theamstern|name}
+can you tell me who {mentor|manager} Ms. {Thelma Petrowsky|name}
+can you tell me who {manage|manager} Ms. {Ketsia Liebig|name}
+me who is the {report to|manager} that {manager name|manager} Ms. {Lenora Tejeda|name}
+me who is the {work for|manager} that {chairman|manager} Ms. {May Roberson|name}
+me who is the {working under|manager} that {reports to|manager} Ms. {Rex England|name}
+{manager|manager} {Bradley Knapp|name}
+{reports to|manager} {Leonara Lindsay|name}
+{mentor|manager} {Jumil Turpin|name}
+{mentor|manager} employee for the employee {Michelle Carter|name}
+{report to|manager} employee for the employee {Kamrin Sander|name}
+{manager name|manager} employee for the employee {Jason Salter|name}
+{lead|manager} employee for the employee {Nina Panjwani|name}
+{manager|manager} employee for the employee {Janet King|name}
+{managing|manager} employee for the employee {Earnest Hankard|name}
+{Richard Newman|name} {leadership|manager}, which individuals?
+{Alain Robinson|name} {chairman|manager}, which individuals?
+{Marianne Eaton|name} {work for|manager}, which individuals?
+{Claudia Carr|name} {work for|manager} which individuals?
+{Paula Gross|name} {report to|manager} which individuals?
+{Elizabeth Meads|name} {incharge|manager} which individuals?
+{David Stanley|name} {work for|manager} which?
+{Cybil Trzeciak|name} {work for|manager} which?
+{Joseph Buccheri|name} {boss|manager} which?
+list employees who {management|manager} {Patrick Moran|name}
+list employees who {works for|manager} {Shana Maurice|name}
+list employees who {incharge|manager} {Colombui Ndzi|name}
+get me a list of all of the employees who are the {is under|manager} of {Lori Roby|name} if there are any
+get me a list of all of the employees who are the {chairman|manager} of {Lenora Tejeda|name} if there are any
+get me a list of all of the employees who are the {manage|manager} of {Adeel Osturnka|name} if there are any
+get me a list of all of the employees who {boss|manager} {Sarah Warfield|name} if there are any
+get me a list of all of the employees who {boss|manager} {Julia Soto|name} if there are any
+get me a list of all of the employees who {head|manager} {Thomas Murray|name} if there are any
+I want to know if {Andrew Szabo|name} {manager name|manager} someone
+I want to know if {Haley Rivera|name} {managing|manager} someone
+I want to know if {Bartholemew Khemmich|name} {manages|manager} someone
