@@ -1,14 +1,14 @@
-Tell me the {pct|function} of staff that have their {birth day|dob} in the year of {1922|sys_time}
-What {percentage|function} of employees were {born|dob} {after|date_compare} {2010|sys_time}?
-{1975|sys_time} {born|dob} employees {ratio|function}
-employees {born|dob} {before|date_compare} {1994|sys_time}, give me the {total|function} {count|function}
-{how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
-{How many|function} employees were {born|dob} in the {2009|sys_time}?
-What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
+{total|function} of workers {DOB|dob} {prior to|date_compare} {1994|sys_time}
+{last|date_compare} {three months|sys_duration}, {total|function} {CA|state} {hired|employment_action}
+What {pct|function} of our staff have a {bday|dob} in {1902|sys_time}
+{hired|employment_action} for {less than|comparator} {5 yrs|sys_duration} ago, {total|function}
 what's the {count|function} of employees who were {born|dob} {prior to|date_compare} {1992|sys_time}?
-{ratio|function} {joined|employment_action} {less than|comparator} {5 years|sys_duration}?
-{count|function} of employees {terminated|employment_action} {prior to|date_compare} {2008|sys_time}?
-Can you {count|function} the number of people that {began working|employment_action} for this company {pre|date_compare} {2005|sys_time}
-employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
-{percent|function} with {birthday|dob} in {1941|sys_time}
-Get me the {total|function} {num of|function} employees who {joined|employment_action} {before|date_compare} {2008|sys_time}
+{1980|sys_time} {born|dob} employees {total|function} {%|function}
+{how many|function} people were based out of {IN|state} in the {last|date_compare} {4 years|sys_duration}?
+{1945|sys_time} {born|dob} employees {%|function}
+{total|function} employees that have {been with the company|employment_action} for {less than|comparator} {9 years|sys_duration}
+{ratio|function} out of all of the employees that {started employment|employment_action} {less than|comparator} {2.5 years|sys_duration} before today
+What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+{total|function} {number of|function} of employees that {have worked here|employment_action} for {more than|comparator} {7 years|sys_duration}?
+What {percentage|function} of employees were {born|dob} {after|date_compare} {2010|sys_time}?

@@ -1,42 +1,42 @@
-Which month does {julia|name} have his {bday|dob}
-{Adell Saada|name} {birth date|dob}
-How long has Mr.{Knapp|name} worked here?
-{Leigh Smith|name} {date of birth|dob}
-{date of birth|dob} of {Joelle Burke|name}
-When {Maryellen Jackson|name} was {born|dob}, what was the month
-How long has Mr.{lin chan|name} been with the company?
-Please Get me {Kelley Spirea|name}'s {Bday|dob}
-Can you tell me how long has {Carlos|name} worked in the firm
-When was {Julia Soto|name}'s {date of hire|employment_action}?
-When did {Eric|name} {start|employment_action} working at the company?
+{Amy|name} {date of fire|employment_action}
+Was {Colombui Ndzi|name} {date of hiring|employment_action} the same month that she {ended employment|employment_action}?
+When {Sophia Theamstern|name} was {hired|employment_action} to work at the company, what was the date?
+Has {nan|name} been working here for {3 years|sys_duration}?
+What was {Sneha Jhaveri|name}'s number of {years of experience|employment_action}?
+When was {Francesco Barone|name}'s {hiring date|employment_action}?
+whut is {Debbie|name}s {date of birth|dob}?
+in what month was {nan singh|name} {born|dob}
+{Rick Clayton|name} {worked here|employment_action} for how long
+{Mia Brown|name} {birth date|dob}
 What was the date {Brandon LeBlanc|name} {start date|employment_action}
-{Sam Athwal|name}'s num yrs {of experience|employment_action}?
-When was it that {Barry Wilber|name} {started working|employment_action} here?
-Did we {let go|employment_action} of {Amy|name} in {May|sys_time}
-{fire date|employment_action}, {Ivan|name}
-What was {Estelle|name}s {start date|employment_action} at the company?
-employment {termination date|employment_action} {Amy|name}
-When {Constance Sloan|name} {started|employment_action}, what was the date
-When did Cisco kick {ivan|name} out of the company
-{Lori Roby|name}'s {bday|dob} is in which month
-{started working|employment_action}, {Phil Close|name} when
-When did {Seffi Shields|name} get {fired|employment_action} from the company?
-Which month does {Simon Roup|name} have his {bday|dob}
-The date was what when {Catherine Ybarra|name} started {working here|employment_action} with the company
-whats {Julia|name} num yrs {of experience|employment_action}?
-The date was what when {Allison Lydon|name} began her {experience|employment_action} at the company
-I want the date when {julia soto|name} {starting working|employment_action} here
+{ivan rogers|name} {birthday|dob}
+What was {Amy|name}'s official {join date|employment_action} at this company?
+Can you tell me how long has {mia|name} worked in the firm
+{Seffi Shields|name} {end her employment|employment_action} around what month
+How long has {Giovanni|name} been with the company?
+Was {Mia Brown|name} {fired on|employment_action} the same month that she was {hired|employment_action}?
+{Michael Albert|name} {birthday|dob}
+The date was what when {Phil Close|name} {been here|employment_action} at the company
+in what month was {Maryellen Jackson|name} {born|dob}
+{working here for|employment_action} how long {Richard Newman|name}
+{Jordan Winthrop|name} {recruited|employment_action} when
+find me the official {start date|employment_action} of {Mia Brown|name} at this company
+I want the date when {Nan Singh|name} {starting working|employment_action} here
+{Shana Maurice|name}'s {bday|dob} is in which month
+How long has {Simon Roup|name} {worked here|employment_action} and was it the same month that she was {hired|employment_action}?
+What was {Nicole Fancett|name}'s {date of hire|employment_action}?
+whats {Roger Walker|name}'s {date of birth|dob}?
+Which month does {Abdellah Veera|name} have his {bday|dob}
+When exactly did we let {Mia Brown|name} go?
 When was {Michael|name}'s {date of hire|employment_action}?
-What was the exact date when {desiree|name} was {hired|employment_action} at our company?
-What day was it when {Amy|name} was {hired|employment_action}
-How long has {Jyoti Lajiri|name} been working here?
-tell me the date when {Nan Singh|name} had to {leave|employment_action} the company
+{date of birth|dob} of {Elijiah Gray|name}
+How long has it been since {Lenora Tejeda|name} {started working here|employment_action}?
+When was {Caitrin Strong|name} {date of hire|employment_action}?
+{fire date|employment_action}, {mia|name}
+What is {Nore|name}'s number of {years of experience|employment_action}?
+The date was what when {Allison Lydon|name} began her {experience|employment_action} at the company
 {Amy|name} {date of birth|dob}
-When was {Mike Guilianno|name} {born|dob}?
-Was {nan singh|name} {fired on|employment_action} the same month that she was {hired|employment_action}?
-How long has {Mia|name} been with the company?
-{Joelle Burke|name} {bday month|dob}
+Whats {Mohammed Latif|name}'s {date of birth|dob}?
+When was {Charles Bozzi|name} {hired|employment_action}?
 When {April Evensen|name} decided to {end her employment|employment_action}, what was the date
-How long was {Brandon LeBlanc|name} working for?
-What is the {date of hiring|employment_action} for {Nan Singh|name}
-When exactly did we let {ivan|name} go?
+{Shana Maurice|name} {bday month|dob}
