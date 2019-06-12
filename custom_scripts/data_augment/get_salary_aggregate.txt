@@ -1,0 +1,186 @@
+{mean|function} {$|money} of {it manager - db|position} in the {VT|state}?
+What is the {avg|function} {earning|money} of {software engineering manager|position} in the {TN|state}?
+{salary|money} of {president & ceo|position} in the {WA|state}?
+what {%|function} of employees {earn|money} {25|sys_number} {hourly|time_recur}?
+{ratio|function} of employees that {make|money} {45|sys_number} {hourly|time_recur}?
+what {total|function} {number of|function} employees {earning|money} {less than|comparator} {25000|sys_number} {annually|time_recur}?
+What is the {sum|function} {income|money} of all the employees?
+{summed up|function} amount of {earnings|money} for all the employees?
+What is the {avg|function} {salary|money} in this organization?
+Get me the {portion|function} of {earning|money} made by new grad hires?
+What is the {mean|function} {earning|money} of new grad hires?
+{percent|function} {earnings|money} that goes to new grad hires
+Calculate the {percentage|function} {incomes|money} at the company
+Calculate for me the {ratios|function} of {earnings|money} at our company?
+Calc the {number of|function} {earners|money} in the company
+{total|function} {salary|money} for {male|sex}s in the org
+{percentage|function} {earning|money} for {male|sex} out of the {total|function}?
+{sum|function} {pay|money} for {female|sex}?
+What's the {ratios|function} {earnings|money} for the sexes?
+What's the {added up|function} {$|money} for all of the employees?
+What is the {sum|function} {earnings|money} for {director of sales|position}?
+What is the {ratio|function} {payment|money} for {director of sales|position} across the company
+What is the {%|function} is {earned|money} by {sales manager|position}s in the company?
+{percent|function} employees paid {above|comparator} {salary|money} of {140,000|sys_amount-of-money} {a year|sys_duration}?
+{total|function} employees are paid {above|comparator} {salary|money} of {60,000|sys_amount-of-money} {a month|sys_duration}?
+{total|function} {number of|function} employees are {paid|money} {above|comparator} {paycheck|money}{230,000|sys_amount-of-money} {a year|sys_duration}?
+what {pct|function} people {make|money} {fewer than|comparator} {300,000|sys_number}?
+{number of|function} people {earning|money} {fewer than|comparator} {40|sys_number} dollars {hourly|time_recur}?
+{total|function} people {making|money} {fewer than|comparator} {30000|sys_number} {monthly|time_recur}?
+{percent|function} folks {earning|money} {less than|comparator} {40|sys_number} dollars {every hour|time_recur}?
+what {ratio|function} of people have a {salary|money} {fewer than|comparator} {30|sys_number} dollars {an hour|time_recur}?
+{sum|function} of people with {incomes|money} {less than|comparator} {50 grand|sys_number}?
+{total|function} {count|function} of people are {earning|money} {less than|comparator} {30,000|sys_number} {yearly|time_recur}?
+{average|function} employees {earning|money} {more than|comparator} {6 figure|sys_number} {$|money}?
+{total|function} {count|function} of employees {making|money} {less than|comparator} {6 figure|sys_number} in {salary|money}?
+{typical|function} {$|money} of employees that have {joined|employment_action} us
+How much does the {avg|function} employee {hired|employment_action} after {2017|sys_time} {earn|money}?
+How did the {average|function} employee who was {fired|employment_action} after {2017|sys_time} {make|money}?
+What is the {sum|function} of {earnings|money} of employees {terminated|employment_action} employees?
+{average|function} {income|money} of employees {recruited|employment_action} {last|date_compare} {month|sys_duration}
+How much {pay|money} did all the employees {employees that have been here|employment_action} for {more than|comparator} {three months|sys_duration}?
+How much in {earnings|money} did all employees {hired|employment_action} in the {this month|date_compare} {make|money}?
+Get me the {total|function} {$|money} for all employees {hired|employment_action} {this year|date_compare}
+what are {female|sex} {earning|money} on {average|function}?
+{male|sex} {earnings|money} {typically|function}?
+{female|sex} {earnings|money} {typically|function}?
+Of all the workers that {recruited|employment_action} in the {last|date_compare} {3 and a half|sys_number} {years|sys_duration} ago, what {percent|function} {earn|money} {more than|comparator} {sixty grand|sys_amount-of-money}
+give me the {percentage|function} {made|money} by {female|sex}s
+Calc the {total|function} {paycheck|money} of {males|sex} at the org
+i want the {total|function} {earnings|money} of {female|sex} in this organization
+{average|function} {earnings|money} of {male|sex} in this org
+{sr. accountant|position} {total|function} {salary|money}
+{sr. accountant|position} {summed up|function} {salary|money} for with this position
+what do {men|sex} {make|money} here on {average|function}?
+what do {women|sex} {earn|money} over here on {typically|function}?
+what do {female|sex} workers {make|money} here on {avg|function}?
+give me the {total|function} {earnings|money} of the {women|sex} in this org
+Employees {fired|employment_action} {between|comparator} {2008|sys_time} and {2012|sys_time}, {average|function} {earnings|money}
+among all of the employees that found their job from an {website banner ads|employee_source}, what is their {typically|function} {earning|money}?
+among all of the employees that found their job from an {newspaper/magazine|employee_source}, what is the {average|function} {income|money}?
+among all of the employees that found their job from an {pay per click - google|employee_source}, what is the {typical|function} {earning|money}?
+what is the {total|function} of {pay|money} for those who came by {on-line web application|employee_source}?
+{avg|function} {income|money} for {on-line web application|employee_source}
+{sum|function} of {paycheck|money} for employees who {joined|employee_action} through {employee referral|employee_source}?
+what is the {average|function} {income|money} of the employees who {are under|manager} is {Beatrice Chace|name}?
+what is the {summed|function} {earnings|money} of the employees whose {manager|manager} is {William|name}?
+what is the {typical|function} {earning|money} of the employees who {report to|manager} {Donovan Chang|name}?
+{total|function} {salary|money} for employees {reporting|manager} to {Samuel MacLennan|name}
+{average|function} {earning|money} for employees {working|manager} {Michael Albert|name}
+what is the {hourly|time_recur} {pay|money} for {non-citizen|citizendesc}s
+{weekly basis|time_recur} {salary|money} for {eligible noncitizen|citizendesc}s
+{day by day|time_recur} {pay|money} for {non-citizen|citizendesc}
+what is the {typically|function} {$|money} for employees that are {non-citizen|citizendesc}
+what is the {average|function} {income|money} that employees that are {non-citizen|citizendesc} {make|money}?
+what is the {average|function} {income|money} that employees that are {eligible noncitizen|citizendesc} {earn|money}?
+Amount that company {pay|money} its employees {last month|sys_time} on {average|function}?
+what is the {min|extreme} {earning|money} in the {it|department} department
+what is the {least|extreme} {$|money} in the {software engineering|department} dept
+what is the {bottom|extreme} {earner|money} in the {it|department} department
+what is the {total|function} {pay|money} in the {production|department} department
+what is the {average|function} {earning|money} in the {software engineering|department} dept
+how much are all the employees in the {software engineering|department} getting in {income|money} in {total|function}
+how much is the {executive office|department} department {paying|money} its employees in {sum|function}
+{production|department} {pays|money} its employees what on {average|function}
+how much is the {it|department} {paying|money} its employees on the {avg|function}
+get me the {total|function} amount that the {it|department} {pays|money} current workers
+get me the {average|function} amount that the {sales|department} department {pays|money} current workers
+get me the {mean|function} amp that the {production|department} department {pays|money} out to current workers
+what are {database administrator|position} {earning|money} on {average|function}?
+what are {production manager|position}s {making|money} {typically|function}?
+{network engineer|position} {income|money} on {avg|function}?
+give me the {typical|function} take home {earning|money} for {director of operations|position}
+give me the {average|function} take home {salary|money} for {it director|position}
+give me the {typical|function} take home {salary|money} for {software engineering manager|position}
+{production technician|position} {typically|function} {earns|money}
+{$|money} {average|function} {sr. dba|position}
+{lowest|extreme} {income|money} for a {accountant i|position}
+{lowest|extreme} {paycheck|money} for a {director of sales|position}
+{maximum|extreme} {paycheck|money} for a {director of operations|position}
+what is the {lowest|extreme} {income|money} that a {director of sales|position} 
+what is the {lowest|extreme} {salary|money} that a {network engineer|position}
+what is the {greatest|extreme} {incomes|money} that a {area sales manager|position} is {$|money}
+of all the {cio|position}s, what is the {min|extreme} {earnings|money} 
+of all the {sales manager|position}s, what is the {max|extreme} {paycheck|money} in {dollars|money}
+of all the {it support|position}s, what is the {greatest|extreme} {salary|money} {$|money}
+of the {shared services manager|position}s, give me the {max|extreme} {$|money}
+of the {shared services manager|position}s, give me the {bottom|extreme} {$|money}
+of the {president & ceo|position}s, give me the {min|extreme} {earner|money}
+fetch me the {min|extreme} {paycheck|money} for a {administrative assistant|position} at this organization
+fetch me the {bottom|extreme} {$|money} for a {area sales manager|position} at this organization
+fetch me the {highest|extreme} {earning|money} for a {it manager - infra|position} at this org
+
+
+
+
+how much are all the employees in the {sales|department} department getting {paid|money} in {avg|function}
+how much are all the employees in the {executive office|department} getting in {salary|money} {typically|function}
+
+
+
+
+{cumulative|function} {earners|money} of workers {fired|employment_action} between {2013|sys_time} and {2014|sys_time}
+Of the employees {born|dob} {post|date_compare} {1990|sys_time}, what is the {fraction|function} {paycheck|money}?
+Of the employees {born|dob} {pre|date_compare} {1990|sys_time}, what is the {ratio|function} {paycheck|money}?
+Of the employees {born|dob} {this month|date_compare} {1990|sys_time}, what is the {turn over rate|function} {earner|money}?
+What are workers {born|dob} {post|date_compare} {1985|sys_time} {combined|function} {income|money}?
+What are workers {born|dob} {this year|date_compare} {1985|sys_time} {sum|function} {salary|money}?
+What are workers {born|dob} {post|date_compare} {1985|sys_time} {added up|function} {incomes|money}?
+What is the {fraction|function} {earn|money} for company employees {born|dob} {after|date_compare} {1980|sys_time} but {last|date_compare} {1990|sys_time}?
+What is the {aggregate|function} {pay|money} for company employees {born|dob} {post|date_compare} {1980|sys_time} but {post|date_compare} {1990|sys_time}?
+What is the {total number|function} {earner|money} for company employees {born|dob} {last|date_compare} {1980|sys_time} but {this week|date_compare} {1990|sys_time}?
+on {turn over rate|function}, how much are {word of mouth|employee_source} {pay|money}?
+on {ratio|function}, how much are {careerbuilder|employee_source} {earning|money}?
+on {ratio|function}, how much are {information session|employee_source} {make|money}?
+how much are {on-campus recruiting|employee_source} {earn|money} on {typical|function}?
+how much are {newspager/magazine|employee_source} {paycheck|money} on {number of|function}?
+how much are {pay per click - google|employee_source} {earners|money} on {ratios|function}?
+what is the {how many|function} {income|money} for {female|sex} in this company?
+what is the {summed up. totalled|function} {pay|money} for {male|sex} in this company?
+what is the {typical|function} {dollars|money} for {male|sex} in this company?
+{salary|money} {average|function} for the {it director|position} position
+{earnings|money} on {average|function} for {it managers|position}
+{salary|money} {total|function} amt for {senior database administer|position} on {average|function}
+{compensation|money} {average|function} amt for {network engineer|position}
+{salary|money} {total|function} amt for {president & ceo|position}
+how much did the company {earns|money} its employees {last year|sys_time} on {summed up. totalled|function}?
+how much did the company {incomes|money} its employees {last year|sys_time} on {how many|function}?
+what is the {total number|function} {dollars|money} that the company offered its employees for the {prev|date_compare} {four and a half|sys_number} {years|sys_duration}?
+what is the {added up|function} {paycheck|money} that the company offered its employees for the {last|date_compare} {four and a half|sys_number} {years|sys_duration}?
+what is the {mean|function} {earning|money} that the company offered its employees for the {post|date_compare} {four and a half|sys_number} {years|sys_duration}?
+what {typical|function} of {non-citizen|citizendesc} were {earns|money} with {more than|comparator} {60k|sys_amount-of-money} from {2013|sys_time} to {2016|sys_time}?
+what {aggregate|function} of {eligible noncitizen|citizendesc} were {earnings|money} with {more than|comparator} {60k|sys_amount-of-money} from {2013|sys_time} to {2016|sys_time}?
+what {count|function} of {us citizen|citizendesc} were {make|money} with {more than|comparator} {60k|sys_amount-of-money} from {2013|sys_time} to {2016|sys_time}?
+give me the {proportion|function} employees have earned {more than|comparator} {70 grand|sys_amount-of-money} in {ratio|function} {$|money} {every hour|time_recur}
+give me the {total number|function} employees have earned {more than|comparator} {70 grand|sys_amount-of-money} in {mean|function} {salary|money} {hourly|time_recur}
+give me the {number of|function} employees have earned {more than|comparator} {70 grand|sys_amount-of-money} in {how many|function} {$|money} {on a weekly basis|time_recur}
+what {ratio|function} of employees that {work for|manager} {Jessica Bunbury|name} {pay|money} {more than|comparator} {50k|sys_amount-of-money}?
+what {portion|function} of employees that {manager|manager} {Debbie Mangal|name} {earn|money} {more than|comparator} {50k|sys_amount-of-money}?
+what {fraction|function} of employees that {manager|manager} {Jyoti Lajiri|name} {pay|money} {more than|comparator} {50k|sys_amount-of-money}?
+what {percent|function} of employees {salary|money} {less than|comparator} {69 grand|sys_amount-of-money}?
+what {ratio|function} of employees {dollars|money} {less than|comparator} {69 grand|sys_amount-of-money}?
+what {distribution|function} of employees {dollars|money} {less than|comparator} {69 grand|sys_amount-of-money}?
+{count|function} of employees {earns|money} {below|comparator} {80k|sys_amount-of-money}
+{how many|function} of employees {earning|money} {below|comparator} {80k|sys_amount-of-money}
+{turn over rate|function} of employees {$|money} {below|comparator} {80k|sys_amount-of-money}
+{aggregate|function} of {make|money} {paycheck|money} {below|comparator} {$34,000|sys_amount-of-money}
+{count|function} of {earners|money} {earner|money} {below|comparator} {$34,000|sys_amount-of-money}
+{summed|function} of {dollars|money} {paycheck|money} {below|comparator} {$34,000|sys_amount-of-money}
+what is the {aggregate|function} amount of {paycheck|money} {earners|money} by {female|sex}
+what is the {number of|function} amount of {pay|money} {earners|money} by {female|sex}
+what is the {proportion|function} amount of {salary|money} {earnings|money} by {female|sex}
+amount of {make|money} {earn|money} by {male|sex} in {aggregate|function}
+amount of {incomes|money} {earn|money} by {female|sex} in {portion|function}
+amount of {earning|money} {dollars|money} by {female|sex} in {added up|function}
+what is the {added up|function} of {female|sex} employees that {pay|money} {above|comparator} {$75,000|sys_amount-of-money}
+what is the {proportion|function} of {male|sex} employees that {earnings|money} {above|comparator} {$75,000|sys_amount-of-money}
+what is the {%|function} of {male|sex} employees that {$|money} {above|comparator} {$75,000|sys_amount-of-money}
+i want the {ratio|function} of employees in the {it/is|department} that are {paycheck|money} exactly {$70,000|sys_amount-of-money}
+i want the {portion|function} of employees in the {software engineering|department} that are {earner|money} exactly {$70,000|sys_amount-of-money}
+i want the {%|function} of employees in the {software engineering|department} that are {earn|money} exactly {$70,000|sys_amount-of-money}
+what is the {typically|function} of workers {pay|money} {less than|comparator} {$30|sys_amount-of-money} {an hour|sys_duration}
+what is the {average|function} of workers {income|money} {less than|comparator} {$30|sys_amount-of-money} {an hour|sys_duration}
+what is the {percent|function} of workers {earner|money} {less than|comparator} {$30|sys_amount-of-money} {an hour|sys_duration}
+what is the {summed up. totalled|function} {incomes|money} in the {production|department}
+how much are all the employees in the {sales|department} getting {income|money} in {count|function}
+how much are all the employees in the {executive office|department} getting {incomes|money} in {cumulative|function}
