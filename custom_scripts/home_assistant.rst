@@ -18,7 +18,7 @@ Working through this blueprint will teach you how to
 1. The Use Case
 ^^^^^^^^^^^^^^^
 
-This HR assistant would be used by an HR manager to ask questions about the employees at an organization. They should be able to ask for information about a particular employee, for company-wide statistics, or for a group of employees that meet certain criteria.
+This HR assistant would be used by an HR manager to ask questions about employees at an organization. They should be able to ask for information about a particular employee, for company-wide statistics, or for a group of employees that meet certain criteria.
 
 
 2. Example Dialogue Interactions
@@ -32,10 +32,6 @@ Here are some examples of scripted dialogue interactions for conversational flow
     :width: 700px
     :align: center
 
-.. admonition:: Exercise
-
-   Pick a convenient textual or graphical representation. Try to design as many user flows as you can. Always capture the entire dialogue from start to finish. Think of scenarios that differ from the examples above.
-
 .. _hr_assistant_model_hierarchy:
 
 3. Domain-Intent-Entity Hierarchy
@@ -44,13 +40,13 @@ Here is the NLP model hierarchy for our HR assistant application.
 
 .. image:: /images/hierarchy_hr_assistant.png
 
-The home assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unsupported``. Since there are many possible questions that can be asked, the HR assistant first determines the category or domain of the question.
+The HR assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unsupported``. The domains of the HR assistant blueprint correspond to the categories of questions that could be asked.
 
 The full list of intents for all domains is illustrated below.
 
 The ``General`` domain supports the following intents:
 
-   - ``get_info`` — User wants specific information about an employee (eg. state, gender, department, position, etc)
+   - ``get_info`` — User wants specific information about an employee (eg. state, department, position, etc)
    - ``get_aggregate`` — User wants an average, total, or percentage of employees that meet certain criteria
    - ``get_employees`` — User wants a list of employees who meet certain criteria
 
