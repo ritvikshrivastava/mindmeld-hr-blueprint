@@ -1,0 +1,35 @@
+{women|sex} {salaries|money}
+how much {money|money} does {julia soto|name} {make|money}?
+Which {director of sales|position} {makes|money} the {highest|extreme} {income|money}?
+get the {income|money} of workers that are {paid|money} in the {highest|extreme} {salary|money} bracket
+what are our {least|extreme} {earners|money}
+how much are {diversity job fair|employee_source} {paycheck|money}?
+{earners|money} {female|sex}
+{female|sex} {earnings|money}
+who {makes|money} the {least|extreme} {amount of money|money} in {admin office|department}
+Of all the {software engineering manager|position}s, which ones are the {greatest|extreme} {5|sys_number} {income|money} generators
+which employees are {paid|money} {less than|comparator} the {average|function}
+Show me the {earning|money} of {female|sex} in this company
+give me the {salaries|money} for all of the employees that have a {US citizenship|citizendesc}
+{us citizen|citizendesc}s how much do they {make|money}
+give me the {salaries|money} of {hispanic|racedesc} employees in this company
+Which employee(s) have {greatest|extreme} {earnings|money}?
+which {senior accountant|position}s are {earning|money} {less than|comparator} {$|money} {172k|sys_number}
+Of employees {hired|employment_action} {between|comparator} {5|sys_number} to {3 years|sys_duration} ago, which employee {earns|money} at the {top|extreme}?
+Show me the {earnings|money} of {male|sex} in this company
+Which {White|racedesc} employee {earns|money} the {most|extreme}
+{female|sex} {income|money}
+Who are our {max|extreme} {incomes|money} earners
+Get me the {top|extreme} {ten|sys_number} {earners|money} in the {Production department|department}
+{IT support|position} {top|extreme} {earner|money}
+Who {earns|money} the {least|extreme} in the {executive office|department} dept
+{earning|money} {male|sex}
+{lowest|extreme} {income|money} {salaries|money}
+{dollars|money} of {female|sex} in the org
+what are the {earnings|money} for {active|employment_status} employees
+who are the company's {bottom|extreme} {14|sys_number} {asian|racedesc} {earners|money}
+what are our {lowest|extreme} {paycheck|money} employees
+show me the {max|extreme} {earning|money} {production technician|position}s
+For employees {fired|employment_action} {between|comparator} {4|sys_number} to {7 years|sys_duration} ago, which employee {earns|money} the {least|extreme}?
+who is the {highest|extreme} {earning|money} {production manager|position} and what is {his|sex} or {her|sex} {pay|money}
+show me the {top|extreme} {earning|money} {production technician ii|position}s
