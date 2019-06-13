@@ -51,7 +51,7 @@ def get_info_performance_score(request, responder):
 @app.handle(intent='get_info', has_entity='reason_for_termination')
 def get_info_rft(request, responder):
 	responder.slots['name'] = request.frame.get('name')
-	responder = _get_person_info(request, responder, 'reason_for_termination')
+	responder = _get_person_info(request, responder, 'rft')
 	responder.reply("{name}'s reason for termination was: {rft}")
 
 
@@ -111,10 +111,9 @@ def get_info_default(request, responder):
 		name = name_ent[0]['value'][0]['cname']
 		responder.frame['name'] = name
 	except:
-		replies = "Hello! What information are you looking for? You can ask for an employee's individual information (eg. Is Ivan married?), \
-some statistic about the employees (eg. average salary) \
-or get a list of employees according to your criteria (eg. list of male employees)"
-		responder.reply(replies)
+		responder.reply("Sorry! I don't quite understand what you mean? You can ask for an employee's individual information (eg. Is Ivan married?), \
+some statistic about the employees (eg. average salary of females) \
+or get a list of employees according to your criteria (eg. give me a list of all married employees)")
 		responder.listen()	
 
 
