@@ -1,983 +1,2453 @@
 {
     "entities": [
         {
-            "whitelist": [],
+            "whitelist": [
+                "william larotonda",
+                "William",
+                "william",
+                "LaRotonda",
+                "larotonda"
+            ],
             "cname": "William LaRotonda"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "tyrone steans",
+                "Tyrone",
+                "tyrone",
+                "Steans",
+                "steans"
+            ],
             "cname": "Tyrone Steans"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "estelle howard",
+                "Estelle",
+                "estelle",
+                "Howard",
+                "howard"
+            ],
             "cname": "Estelle Howard"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "leigh smith",
+                "Leigh",
+                "leigh",
+                "Smith",
+                "smith"
+            ],
             "cname": "Leigh Smith"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "brandon leblanc",
+                "Brandon",
+                "brandon",
+                "LeBlanc",
+                "leblanc"
+            ],
             "cname": "Brandon LeBlanc"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sean quinn",
+                "Sean",
+                "sean",
+                "Quinn",
+                "quinn"
+            ],
             "cname": "Sean Quinn"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "bonalyn boutwell",
+                "Bonalyn",
+                "bonalyn",
+                "Boutwell",
+                "boutwell"
+            ],
             "cname": "Bonalyn Boutwell"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "amy foster-baker",
+                "Amy",
+                "amy",
+                "Foster-Baker",
+                "foster-baker"
+            ],
             "cname": "Amy Foster-Baker"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "janet king",
+                "Janet",
+                "janet",
+                "King",
+                "king"
+            ],
             "cname": "Janet King"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jennifer zamora",
+                "Jennifer",
+                "jennifer",
+                "Zamora",
+                "zamora"
+            ],
             "cname": "Jennifer Zamora"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "renee becker",
+                "Renee",
+                "renee",
+                "Becker",
+                "becker"
+            ],
             "cname": "Renee Becker"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "taisha goble",
+                "Taisha",
+                "taisha",
+                "Goble",
+                "goble"
+            ],
             "cname": "Taisha Goble"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "daniff hernandez",
+                "Daniff",
+                "daniff",
+                "Hernandez",
+                "hernandez"
+            ],
             "cname": "Daniff Hernandez"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jayne horton",
+                "Jayne",
+                "jayne",
+                "Horton",
+                "horton"
+            ],
             "cname": "Jayne Horton"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "noelle johnson",
+                "Noelle",
+                "noelle",
+                "Johnson",
+                "johnson"
+            ],
             "cname": "Noelle Johnson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "thomas murray",
+                "Thomas",
+                "thomas",
+                "Murray",
+                "murray"
+            ],
             "cname": "Thomas Murray"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "randall pearson",
+                "Randall",
+                "randall",
+                "Pearson",
+                "pearson"
+            ],
             "cname": "Randall Pearson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "thelma petrowsky",
+                "Thelma",
+                "thelma",
+                "Petrowsky",
+                "petrowsky"
+            ],
             "cname": "Thelma Petrowsky"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lori roby",
+                "Lori",
+                "lori",
+                "Roby",
+                "roby"
+            ],
             "cname": "Lori Roby"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jason salter",
+                "Jason",
+                "jason",
+                "Salter",
+                "salter"
+            ],
             "cname": "Jason Salter"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kramer simard",
+                "Kramer",
+                "kramer",
+                "Simard",
+                "simard"
+            ],
             "cname": "Kramer Simard"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "simon roup",
+                "Simon",
+                "simon",
+                "Roup",
+                "roup"
+            ],
             "cname": "Simon Roup"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ricardo ruiz",
+                "Ricardo",
+                "ricardo",
+                "Ruiz",
+                "ruiz"
+            ],
             "cname": "Ricardo Ruiz"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "peter monroe",
+                "Peter",
+                "peter",
+                "Monroe",
+                "monroe"
+            ],
             "cname": "Peter Monroe"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "eric dougall",
+                "Eric",
+                "eric",
+                "Dougall",
+                "dougall"
+            ],
             "cname": "Eric Dougall"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "rick clayton",
+                "Rick",
+                "rick",
+                "Clayton",
+                "clayton"
+            ],
             "cname": "Rick Clayton"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lisa galia",
+                "Lisa",
+                "lisa",
+                "Galia",
+                "galia"
+            ],
             "cname": "Lisa Galia"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "leonara lindsay",
+                "Leonara",
+                "leonara",
+                "Lindsay",
+                "lindsay"
+            ],
             "cname": "Leonara Lindsay"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "alejandro bacong",
+                "Alejandro",
+                "alejandro",
+                "Bacong",
+                "bacong"
+            ],
             "cname": "Alejandro Bacong"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "anthony cisco",
+                "Anthony",
+                "anthony",
+                "Cisco",
+                "cisco"
+            ],
             "cname": "Anthony Cisco"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "linda dolan",
+                "Linda",
+                "linda",
+                "Dolan",
+                "dolan"
+            ],
             "cname": "Linda Dolan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "maria gonzalez",
+                "Maria",
+                "maria",
+                "Gonzalez",
+                "gonzalez"
+            ],
             "cname": "Maria Gonzalez"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "carlos merlos",
+                "Carlos",
+                "carlos",
+                "Merlos",
+                "merlos"
+            ],
             "cname": "Carlos Merlos"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "tanya morway",
+                "Tanya",
+                "tanya",
+                "Morway",
+                "morway"
+            ],
             "cname": "Tanya Morway"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "anita shepard",
+                "Anita",
+                "anita",
+                "Shepard",
+                "shepard"
+            ],
             "cname": "Anita Shepard"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "neville tredinnick",
+                "Neville",
+                "neville",
+                "Tredinnick",
+                "tredinnick"
+            ],
             "cname": "Neville Tredinnick"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jumil turpin",
+                "Jumil",
+                "jumil",
+                "Turpin",
+                "turpin"
+            ],
             "cname": "Jumil Turpin"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "karthikeyan ait sidi",
+                "Karthikeyan",
+                "karthikeyan",
+                "Ait",
+                "ait"
+            ],
             "cname": "Karthikeyan Ait Sidi"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "claudia carr",
+                "Claudia",
+                "claudia",
+                "Carr",
+                "carr"
+            ],
             "cname": "Claudia Carr"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "donald favis",
+                "Donald",
+                "donald",
+                "Favis",
+                "favis"
+            ],
             "cname": "Donald Favis"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "bianca roehrich",
+                "Bianca",
+                "bianca",
+                "Roehrich",
+                "roehrich"
+            ],
             "cname": "Bianca Roehrich"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ann daniele",
+                "Ann",
+                "ann",
+                "Daniele",
+                "daniele"
+            ],
             "cname": "Ann Daniele"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jyoti lajiri",
+                "Jyoti",
+                "jyoti",
+                "Lajiri",
+                "lajiri"
+            ],
             "cname": "Jyoti Lajiri"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jeremiah semizoglou",
+                "Jeremiah",
+                "jeremiah",
+                "Semizoglou",
+                "semizoglou"
+            ],
             "cname": "Jeremiah Semizoglou"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "joe south",
+                "Joe",
+                "joe",
+                "South",
+                "south"
+            ],
             "cname": "Joe South"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sarah warfield",
+                "Sarah",
+                "sarah",
+                "Warfield",
+                "warfield"
+            ],
             "cname": "Sarah Warfield"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "elisa bramante",
+                "Elisa",
+                "elisa",
+                "Bramante",
+                "bramante"
+            ],
             "cname": "Elisa Bramante"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "michael albert",
+                "Michael",
+                "michael",
+                "Albert",
+                "albert"
+            ],
             "cname": "Michael Albert"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "charles bozzi",
+                "Charles",
+                "charles",
+                "Bozzi",
+                "bozzi"
+            ],
             "cname": "Charles Bozzi"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "webster butler",
+                "Webster",
+                "webster",
+                "Butler",
+                "butler"
+            ],
             "cname": "Webster Butler"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "elijiah gray",
+                "Elijiah",
+                "elijiah",
+                "Gray",
+                "gray"
+            ],
             "cname": "Elijiah Gray"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jonathan hogland",
+                "Jonathan",
+                "jonathan",
+                "Hogland",
+                "hogland"
+            ],
             "cname": "Jonathan Hogland"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "walter immediato",
+                "Walter",
+                "walter",
+                "Immediato",
+                "immediato"
+            ],
             "cname": "Walter Immediato"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ketsia liebig",
+                "Ketsia",
+                "ketsia",
+                "Liebig",
+                "liebig"
+            ],
             "cname": "Ketsia Liebig"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "brannon miller",
+                "Brannon",
+                "brannon",
+                "Miller",
+                "miller"
+            ],
             "cname": "Brannon Miller"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ebonee peterson",
+                "Ebonee",
+                "ebonee",
+                "Peterson",
+                "peterson"
+            ],
             "cname": "Ebonee Peterson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kelley spirea",
+                "Kelley",
+                "kelley",
+                "Spirea",
+                "spirea"
+            ],
             "cname": "Kelley Spirea"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "david stanley",
+                "David",
+                "david",
+                "Stanley",
+                "stanley"
+            ],
             "cname": "David Stanley"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kissy sullivan",
+                "Kissy",
+                "kissy",
+                "Sullivan",
+                "sullivan"
+            ],
             "cname": "Kissy Sullivan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "courtney wallace",
+                "Courtney",
+                "courtney",
+                "Wallace",
+                "wallace"
+            ],
             "cname": "Courtney Wallace"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "wilson adinolfi",
+                "Wilson",
+                "wilson",
+                "Adinolfi",
+                "adinolfi"
+            ],
             "cname": "Wilson Adinolfi"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "trina alagbe",
+                "Trina",
+                "trina",
+                "Alagbe",
+                "alagbe"
+            ],
             "cname": "Trina Alagbe"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "carol anderson",
+                "Carol",
+                "carol",
+                "Anderson",
+                "anderson"
+            ],
             "cname": "Carol Anderson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sam athwal",
+                "Sam",
+                "sam",
+                "Athwal",
+                "athwal"
+            ],
             "cname": "Sam Athwal"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "rachael baczenski",
+                "Rachael",
+                "rachael",
+                "Baczenski",
+                "baczenski"
+            ],
             "cname": "Rachael Baczenski"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "francesco barone",
+                "Francesco",
+                "francesco",
+                "Barone",
+                "barone"
+            ],
             "cname": "Francesco Barone"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nader barton",
+                "Nader",
+                "nader",
+                "Barton",
+                "barton"
+            ],
             "cname": "Nader Barton"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lowan biden",
+                "Lowan",
+                "lowan",
+                "Biden",
+                "biden"
+            ],
             "cname": "Lowan Biden"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "helen billis",
+                "Helen",
+                "helen",
+                "Billis",
+                "billis"
+            ],
             "cname": "Helen Billis"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "donna brill",
+                "Donna",
+                "donna",
+                "Brill",
+                "brill"
+            ],
             "cname": "Donna Brill"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "josephine bugali",
+                "Josephine",
+                "josephine",
+                "Bugali",
+                "bugali"
+            ],
             "cname": "Josephine Bugali"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "beatrice chace",
+                "Beatrice",
+                "beatrice",
+                "Chace",
+                "chace"
+            ],
             "cname": "Beatrice Chace"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lin chan",
+                "Lin",
+                "lin",
+                "Chan",
+                "chan"
+            ],
             "cname": "Lin Chan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "donovan chang",
+                "Donovan",
+                "donovan",
+                "Chang",
+                "chang"
+            ],
             "cname": "Donovan Chang"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "enola chivukula",
+                "Enola",
+                "enola",
+                "Chivukula",
+                "chivukula"
+            ],
             "cname": "Enola Chivukula"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "caroline cierpiszewski",
+                "Caroline",
+                "caroline",
+                "Cierpiszewski",
+                "cierpiszewski"
+            ],
             "cname": "Caroline Cierpiszewski"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "elijian clukey",
+                "Elijian",
+                "elijian",
+                "Clukey",
+                "clukey"
+            ],
             "cname": "Elijian Clukey"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "james cockel",
+                "James",
+                "james",
+                "Cockel",
+                "cockel"
+            ],
             "cname": "James Cockel"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "spencer cole",
+                "Spencer",
+                "spencer",
+                "Cole",
+                "cole"
+            ],
             "cname": "Spencer Cole"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jean crimmings",
+                "Jean",
+                "jean",
+                "Crimmings",
+                "crimmings"
+            ],
             "cname": "Jean Crimmings"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jene'ya darson",
+                "Jene'ya",
+                "jene'ya",
+                "Darson",
+                "darson"
+            ],
             "cname": "Jene'ya Darson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "carl desimone",
+                "Carl",
+                "carl",
+                "Desimone",
+                "desimone"
+            ],
             "cname": "Carl Desimone"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "geoff dickinson",
+                "Geoff",
+                "geoff",
+                "Dickinson",
+                "dickinson"
+            ],
             "cname": "Geoff Dickinson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lily dinocco",
+                "Lily",
+                "lily",
+                "DiNocco",
+                "dinocco"
+            ],
             "cname": "Lily DiNocco"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "denisa dobrin",
+                "Denisa",
+                "denisa",
+                "Dobrin",
+                "dobrin"
+            ],
             "cname": "Denisa Dobrin"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "marianne eaton",
+                "Marianne",
+                "marianne",
+                "Eaton",
+                "eaton"
+            ],
             "cname": "Marianne Eaton"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "rex england",
+                "Rex",
+                "rex",
+                "England",
+                "england"
+            ],
             "cname": "Rex England"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "miguel estremera",
+                "Miguel",
+                "miguel",
+                "Estremera",
+                "estremera"
+            ],
             "cname": "Miguel Estremera"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "april evensen",
+                "April",
+                "april",
+                "Evensen",
+                "evensen"
+            ],
             "cname": "April Evensen"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "susan ferguson",
+                "Susan",
+                "susan",
+                "Ferguson",
+                "ferguson"
+            ],
             "cname": "Susan Ferguson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nilson fernandes",
+                "Nilson",
+                "nilson",
+                "Fernandes",
+                "fernandes"
+            ],
             "cname": "Nilson Fernandes"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "violeta ferreira",
+                "Violeta",
+                "violeta",
+                "Ferreira",
+                "ferreira"
+            ],
             "cname": "Violeta Ferreira"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "libby fidelia",
+                "Libby",
+                "libby",
+                "Fidelia",
+                "fidelia"
+            ],
             "cname": "Libby Fidelia"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "raul garcia",
+                "Raul",
+                "raul",
+                "Garcia",
+                "garcia"
+            ],
             "cname": "Raul Garcia"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "hamish garneau",
+                "Hamish",
+                "hamish",
+                "Garneau",
+                "garneau"
+            ],
             "cname": "Hamish Garneau"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "barbara gaul",
+                "Barbara",
+                "barbara",
+                "Gaul",
+                "gaul"
+            ],
             "cname": "Barbara Gaul"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "mildred gentry",
+                "Mildred",
+                "mildred",
+                "Gentry",
+                "gentry"
+            ],
             "cname": "Mildred Gentry"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "melisa gerke",
+                "Melisa",
+                "melisa",
+                "Gerke",
+                "gerke"
+            ],
             "cname": "Melisa Gerke"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "alex gilles",
+                "Alex",
+                "alex",
+                "Gilles",
+                "gilles"
+            ],
             "cname": "Alex Gilles"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "evelyn girifalco",
+                "Evelyn",
+                "evelyn",
+                "Girifalco",
+                "girifalco"
+            ],
             "cname": "Evelyn Girifalco"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "shenice gold",
+                "Shenice",
+                "shenice",
+                "Gold",
+                "gold"
+            ],
             "cname": "Shenice Gold"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "roxana goyal",
+                "Roxana",
+                "roxana",
+                "Goyal",
+                "goyal"
+            ],
             "cname": "Roxana Goyal"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "paula gross",
+                "Paula",
+                "paula",
+                "Gross",
+                "gross"
+            ],
             "cname": "Paula Gross"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "joanne handschiegl",
+                "Joanne",
+                "joanne",
+                "Handschiegl",
+                "handschiegl"
+            ],
             "cname": "Joanne Handschiegl"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ludwick harrell",
+                "Ludwick",
+                "ludwick",
+                "Harrell",
+                "harrell"
+            ],
             "cname": "Ludwick Harrell"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "christie harrington",
+                "Christie",
+                "christie",
+                "Harrington",
+                "harrington"
+            ],
             "cname": "Christie Harrington"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kara harrison",
+                "Kara",
+                "kara",
+                "Harrison",
+                "harrison"
+            ],
             "cname": "Kara Harrison"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "rose ivey",
+                "Rose",
+                "rose",
+                "Ivey",
+                "ivey"
+            ],
             "cname": "Rose Ivey"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "maryellen jackson",
+                "Maryellen",
+                "maryellen",
+                "Jackson",
+                "jackson"
+            ],
             "cname": "Maryellen Jackson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "hannah jacobi",
+                "Hannah",
+                "hannah",
+                "Jacobi",
+                "jacobi"
+            ],
             "cname": "Hannah Jacobi"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sneha jhaveri",
+                "Sneha",
+                "sneha",
+                "Jhaveri",
+                "jhaveri"
+            ],
             "cname": "Sneha Jhaveri"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "judy jung",
+                "Judy",
+                "judy",
+                "Jung",
+                "jung"
+            ],
             "cname": "Judy Jung"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kathleen kinsella",
+                "Kathleen",
+                "kathleen",
+                "Kinsella",
+                "kinsella"
+            ],
             "cname": "Kathleen Kinsella"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "alexandra kirill",
+                "Alexandra",
+                "alexandra",
+                "Kirill",
+                "kirill"
+            ],
             "cname": "Alexandra Kirill"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "bradley knapp",
+                "Bradley",
+                "bradley",
+                "Knapp",
+                "knapp"
+            ],
             "cname": "Bradley Knapp"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "john kretschmer",
+                "John",
+                "john",
+                "Kretschmer",
+                "kretschmer"
+            ],
             "cname": "John Kretschmer"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "enrico langton",
+                "Enrico",
+                "enrico",
+                "Langton",
+                "langton"
+            ],
             "cname": "Enrico Langton"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "dallas leach",
+                "Dallas",
+                "dallas",
+                "Leach",
+                "leach"
+            ],
             "cname": "Dallas Leach"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "marilyn linares",
+                "Marilyn",
+                "marilyn",
+                "Linares",
+                "linares"
+            ],
             "cname": "Marilyn Linares"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "allison lydon",
+                "Allison",
+                "allison",
+                "Lydon",
+                "lydon"
+            ],
             "cname": "Allison Lydon"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lindsay lynch",
+                "Lindsay",
+                "lindsay",
+                "Lynch",
+                "lynch"
+            ],
             "cname": "Lindsay Lynch"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "samuel maclennan",
+                "Samuel",
+                "samuel",
+                "MacLennan",
+                "maclennan"
+            ],
             "cname": "Samuel MacLennan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lauren mahoney",
+                "Lauren",
+                "lauren",
+                "Mahoney",
+                "mahoney"
+            ],
             "cname": "Lauren Mahoney"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "debbie mangal",
+                "Debbie",
+                "debbie",
+                "Mangal",
+                "mangal"
+            ],
             "cname": "Debbie Mangal"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "shana maurice",
+                "Shana",
+                "shana",
+                "Maurice",
+                "maurice"
+            ],
             "cname": "Shana Maurice"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sandy mckenna",
+                "Sandy",
+                "sandy",
+                "Mckenna",
+                "mckenna"
+            ],
             "cname": "Sandy Mckenna"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "elizabeth meads",
+                "Elizabeth",
+                "elizabeth",
+                "Meads",
+                "meads"
+            ],
             "cname": "Elizabeth Meads"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "dawn motlagh",
+                "Dawn",
+                "dawn",
+                "Motlagh",
+                "motlagh"
+            ],
             "cname": "Dawn Motlagh"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "colombui ndzi",
+                "Colombui",
+                "colombui",
+                "Ndzi",
+                "ndzi"
+            ],
             "cname": "Colombui Ndzi"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "richard newman",
+                "Richard",
+                "richard",
+                "Newman",
+                "newman"
+            ],
             "cname": "Richard Newman"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "shari ngodup",
+                "Shari",
+                "shari",
+                "Ngodup",
+                "ngodup"
+            ],
             "cname": "Shari Ngodup"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lei-ming nguyen",
+                "Lei-Ming",
+                "lei-ming",
+                "Nguyen",
+                "nguyen"
+            ],
             "cname": "Lei-Ming Nguyen"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lynn o'hare",
+                "Lynn",
+                "lynn",
+                "O'hare",
+                "o'hare"
+            ],
             "cname": "Lynn O'hare"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "adeel osturnka",
+                "Adeel",
+                "adeel",
+                "Osturnka",
+                "osturnka"
+            ],
             "cname": "Adeel Osturnka"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "clinton owad",
+                "Clinton",
+                "clinton",
+                "Owad",
+                "owad"
+            ],
             "cname": "Clinton Owad"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nina panjwani",
+                "Nina",
+                "nina",
+                "Panjwani",
+                "panjwani"
+            ],
             "cname": "Nina Panjwani"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "emil pelech",
+                "Emil",
+                "emil",
+                "Pelech",
+                "pelech"
+            ],
             "cname": "Emil Pelech"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "shakira perry",
+                "Shakira",
+                "shakira",
+                "Perry",
+                "perry"
+            ],
             "cname": "Shakira Perry"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "hong pham",
+                "Hong",
+                "hong",
+                "Pham",
+                "pham"
+            ],
             "cname": "Hong Pham"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "brad pitt",
+                "Brad",
+                "brad",
+                "Pitt",
+                "pitt"
+            ],
             "cname": "Brad Pitt"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "morissa power",
+                "Morissa",
+                "morissa",
+                "Power",
+                "power"
+            ],
             "cname": "Morissa Power"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "louis punjabhi",
+                "Louis",
+                "louis",
+                "Punjabhi",
+                "punjabhi"
+            ],
             "cname": "Louis Punjabhi"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "janine purinton",
+                "Janine",
+                "janine",
+                "Purinton",
+                "purinton"
+            ],
             "cname": "Janine Purinton"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "quinn rarrick",
+                "Quinn",
+                "quinn",
+                "Rarrick",
+                "rarrick"
+            ],
             "cname": "Quinn Rarrick"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "haley rivera",
+                "Haley",
+                "haley",
+                "Rivera",
+                "rivera"
+            ],
             "cname": "Haley Rivera"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "alain robinson",
+                "Alain",
+                "alain",
+                "Robinson",
+                "robinson"
+            ],
             "cname": "Alain Robinson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ashley rose",
+                "Ashley",
+                "ashley",
+                "Rose",
+                "rose"
+            ],
             "cname": "Ashley Rose"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "bruno rossetti",
+                "Bruno",
+                "bruno",
+                "Rossetti",
+                "rossetti"
+            ],
             "cname": "Bruno Rossetti"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "melinda saar-beckles",
+                "Melinda",
+                "melinda",
+                "Saar-Beckles",
+                "saar-beckles"
+            ],
             "cname": "Melinda Saar-Beckles"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nore sadki",
+                "Nore",
+                "nore",
+                "Sadki",
+                "sadki"
+            ],
             "cname": "Nore Sadki"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kamrin sander",
+                "Kamrin",
+                "kamrin",
+                "Sander",
+                "sander"
+            ],
             "cname": "Kamrin Sander"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nori sewkumar",
+                "Nori",
+                "nori",
+                "Sewkumar",
+                "sewkumar"
+            ],
             "cname": "Nori Sewkumar"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "seffi shields",
+                "Seffi",
+                "seffi",
+                "Shields",
+                "shields"
+            ],
             "cname": "Seffi Shields"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "taylor sparks",
+                "Taylor",
+                "taylor",
+                "Sparks",
+                "sparks"
+            ],
             "cname": "Taylor Sparks"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kristen squatrito",
+                "Kristen",
+                "kristen",
+                "Squatrito",
+                "squatrito"
+            ],
             "cname": "Kristen Squatrito"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "desiree tavares",
+                "Desiree",
+                "desiree",
+                "Tavares",
+                "tavares"
+            ],
             "cname": "Desiree Tavares"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sophia theamstern",
+                "Sophia",
+                "sophia",
+                "Theamstern",
+                "theamstern"
+            ],
             "cname": "Sophia Theamstern"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "theresa tinto",
+                "Theresa",
+                "theresa",
+                "Tinto",
+                "tinto"
+            ],
             "cname": "Theresa Tinto"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jeanette tippett",
+                "Jeanette",
+                "jeanette",
+                "Tippett",
+                "tippett"
+            ],
             "cname": "Jeanette Tippett"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "mei trang",
+                "Mei",
+                "mei",
+                "Trang",
+                "trang"
+            ],
             "cname": "Mei Trang"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "abdellah veera",
+                "Abdellah",
+                "abdellah",
+                "Veera",
+                "veera"
+            ],
             "cname": "Abdellah Veera"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "colleen volk",
+                "Colleen",
+                "colleen",
+                "Volk",
+                "volk"
+            ],
             "cname": "Colleen Volk"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "anna von massenbach",
+                "Anna",
+                "anna",
+                "Von",
+                "von"
+            ],
             "cname": "Anna Von Massenbach"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "scott whittier",
+                "Scott",
+                "scott",
+                "Whittier",
+                "whittier"
+            ],
             "cname": "Scott Whittier"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "barry wilber",
+                "Barry",
+                "barry",
+                "Wilber",
+                "wilber"
+            ],
             "cname": "Barry Wilber"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jacquelyn williams",
+                "Jacquelyn",
+                "jacquelyn",
+                "Williams",
+                "williams"
+            ],
             "cname": "Jacquelyn Williams"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "catherine ybarra",
+                "Catherine",
+                "catherine",
+                "Ybarra",
+                "ybarra"
+            ],
             "cname": "Catherine Ybarra"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kimberly beak",
+                "Kimberly",
+                "kimberly",
+                "Beak",
+                "beak"
+            ],
             "cname": "Kimberly Beak"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "dianna blount",
+                "Dianna",
+                "dianna",
+                "Blount",
+                "blount"
+            ],
             "cname": "Dianna Blount"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "betsy bondwell",
+                "Betsy",
+                "betsy",
+                "Bondwell",
+                "bondwell"
+            ],
             "cname": "Betsy Bondwell"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "joseph buccheri",
+                "Joseph",
+                "joseph",
+                "Buccheri",
+                "buccheri"
+            ],
             "cname": "Joseph Buccheri"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "joelle burke",
+                "Joelle",
+                "joelle",
+                "Burke",
+                "burke"
+            ],
             "cname": "Joelle Burke"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "benjamin burkett",
+                "Benjamin",
+                "benjamin",
+                "Burkett",
+                "burkett"
+            ],
             "cname": "Benjamin Burkett"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "phil close",
+                "Phil",
+                "phil",
+                "Close",
+                "close"
+            ],
             "cname": "Phil Close"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "daniel davis",
+                "Daniel",
+                "daniel",
+                "Davis",
+                "davis"
+            ],
             "cname": "Daniel Davis"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "carla demita",
+                "Carla",
+                "carla",
+                "Demita",
+                "demita"
+            ],
             "cname": "Carla Demita"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "angela erilus",
+                "Angela",
+                "angela",
+                "Erilus",
+                "erilus"
+            ],
             "cname": "Angela Erilus"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "megan faller",
+                "Megan",
+                "megan",
+                "Faller",
+                "faller"
+            ],
             "cname": "Megan Faller"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nicole fancett",
+                "Nicole",
+                "nicole",
+                "Fancett",
+                "fancett"
+            ],
             "cname": "Nicole Fancett"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "phylicia gosciminski",
+                "Phylicia",
+                "phylicia",
+                "Gosciminski",
+                "gosciminski"
+            ],
             "cname": "Phylicia Gosciminski"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "earnest hankard",
+                "Earnest",
+                "earnest",
+                "Hankard",
+                "hankard"
+            ],
             "cname": "Earnest Hankard"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "adrienne homberger",
+                "Adrienne",
+                "adrienne",
+                "Homberger",
+                "homberger"
+            ],
             "cname": "Adrienne Homberger"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "julissa hunts",
+                "Julissa",
+                "julissa",
+                "Hunts",
+                "hunts"
+            ],
             "cname": "Julissa Hunts"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "rosalie hutter",
+                "Rosalie",
+                "rosalie",
+                "Hutter",
+                "hutter"
+            ],
             "cname": "Rosalie Hutter"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ming huynh",
+                "Ming",
+                "ming",
+                "Huynh",
+                "huynh"
+            ],
             "cname": "Ming Huynh"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "tayana jeannite",
+                "Tayana",
+                "tayana",
+                "Jeannite",
+                "jeannite"
+            ],
             "cname": "Tayana Jeannite"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "yen johnston",
+                "Yen",
+                "yen",
+                "Johnston",
+                "johnston"
+            ],
             "cname": "Yen Johnston"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lindsey langford",
+                "Lindsey",
+                "lindsey",
+                "Langford",
+                "langford"
+            ],
             "cname": "Lindsey Langford"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "mohammed latif",
+                "Mohammed",
+                "mohammed",
+                "Latif",
+                "latif"
+            ],
             "cname": "Mohammed Latif"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "mathew linden",
+                "Mathew",
+                "mathew",
+                "Linden",
+                "linden"
+            ],
             "cname": "Mathew Linden"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "robyn manchester",
+                "Robyn",
+                "robyn",
+                "Manchester",
+                "manchester"
+            ],
             "cname": "Robyn Manchester"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "karen mancuso",
+                "Karen",
+                "karen",
+                "Mancuso",
+                "mancuso"
+            ],
             "cname": "Karen Mancuso"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "brigit mccarthy",
+                "Brigit",
+                "brigit",
+                "McCarthy",
+                "mccarthy"
+            ],
             "cname": "Brigit McCarthy"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "erasumus monkfish",
+                "Erasumus",
+                "erasumus",
+                "Monkfish",
+                "monkfish"
+            ],
             "cname": "Erasumus Monkfish"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "luisa monterro",
+                "Luisa",
+                "luisa",
+                "Monterro",
+                "monterro"
+            ],
             "cname": "Luisa Monterro"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "patrick moran",
+                "Patrick",
+                "patrick",
+                "Moran",
+                "moran"
+            ],
             "cname": "Patrick Moran"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "maliki moumanil",
+                "Maliki",
+                "maliki",
+                "Moumanil",
+                "moumanil"
+            ],
             "cname": "Maliki Moumanil"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kristie nowlan",
+                "Kristie",
+                "kristie",
+                "Nowlan",
+                "nowlan"
+            ],
             "cname": "Kristie Nowlan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "brooke oliver",
+                "Brooke",
+                "brooke",
+                "Oliver",
+                "oliver"
+            ],
             "cname": "Brooke Oliver"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ermine pelletier",
+                "Ermine",
+                "ermine",
+                "Pelletier",
+                "pelletier"
+            ],
             "cname": "Ermine Pelletier"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "may roberson",
+                "May",
+                "may",
+                "Roberson",
+                "roberson"
+            ],
             "cname": "May Roberson"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "adil sahoo",
+                "Adil",
+                "adil",
+                "Sahoo",
+                "sahoo"
+            ],
             "cname": "Adil Sahoo"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "constance sloan",
+                "Constance",
+                "constance",
+                "Sloan",
+                "sloan"
+            ],
             "cname": "Constance Sloan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "lenora tejeda",
+                "Lenora",
+                "lenora",
+                "Tejeda",
+                "tejeda"
+            ],
             "cname": "Lenora Tejeda"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "kenneth thibaud",
+                "Kenneth",
+                "kenneth",
+                "Thibaud",
+                "thibaud"
+            ],
             "cname": "Kenneth Thibaud"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "cybil trzeciak",
+                "Cybil",
+                "cybil",
+                "Trzeciak",
+                "trzeciak"
+            ],
             "cname": "Cybil Trzeciak"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "roger walker",
+                "Roger",
+                "roger",
+                "Walker",
+                "walker"
+            ],
             "cname": "Roger Walker"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jordan winthrop",
+                "Jordan",
+                "jordan",
+                "Winthrop",
+                "winthrop"
+            ],
             "cname": "Jordan Winthrop"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "hang wolk",
+                "Hang",
+                "hang",
+                "Wolk",
+                "wolk"
+            ],
             "cname": "Hang Wolk"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "edward buck",
+                "Edward",
+                "edward",
+                "Buck",
+                "buck"
+            ],
             "cname": "Edward Buck"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jessica bunbury",
+                "Jessica",
+                "jessica",
+                "Bunbury",
+                "bunbury"
+            ],
             "cname": "Jessica Bunbury"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "michelle carter",
+                "Michelle",
+                "michelle",
+                "Carter",
+                "carter"
+            ],
             "cname": "Michelle Carter"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "latia costa",
+                "Latia",
+                "latia",
+                "Costa",
+                "costa"
+            ],
             "cname": "Latia Costa"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jenna dietrich",
+                "Jenna",
+                "jenna",
+                "Dietrich",
+                "dietrich"
+            ],
             "cname": "Jenna Dietrich"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "alfred digitale",
+                "Alfred",
+                "alfred",
+                "Digitale",
+                "digitale"
+            ],
             "cname": "Alfred Digitale"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "maruk fraval",
+                "Maruk",
+                "maruk",
+                "Fraval",
+                "fraval"
+            ],
             "cname": "Maruk Fraval"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "gerry friedman",
+                "Gerry",
+                "gerry",
+                "Friedman",
+                "friedman"
+            ],
             "cname": "Gerry Friedman"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "whitney gill",
+                "Whitney",
+                "whitney",
+                "Gill",
+                "gill"
+            ],
             "cname": "Whitney Gill"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "myriam givens",
+                "Myriam",
+                "myriam",
+                "Givens",
+                "givens"
+            ],
             "cname": "Myriam Givens"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "mike guilianno",
+                "Mike",
+                "mike",
+                "Guilianno",
+                "guilianno"
+            ],
             "cname": "Mike Guilianno"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jeremy prater",
+                "Jeremy",
+                "jeremy",
+                "Prater",
+                "prater"
+            ],
             "cname": "Jeremy Prater"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "bartholemew khemmich",
+                "Bartholemew",
+                "bartholemew",
+                "Khemmich",
+                "khemmich"
+            ],
             "cname": "Bartholemew Khemmich"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "giovanni leruth",
+                "Giovanni",
+                "giovanni",
+                "Leruth",
+                "leruth"
+            ],
             "cname": "Giovanni Leruth"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jac mckinzie",
+                "Jac",
+                "jac",
+                "McKinzie",
+                "mckinzie"
+            ],
             "cname": "Jac McKinzie"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "howard mullaney",
+                "Howard",
+                "howard",
+                "Mullaney",
+                "mullaney"
+            ],
             "cname": "Howard Mullaney"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jasmine onque",
+                "Jasmine",
+                "jasmine",
+                "Onque",
+                "onque"
+            ],
             "cname": "Jasmine Onque"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "travis ozark",
+                "Travis",
+                "travis",
+                "Ozark",
+                "ozark"
+            ],
             "cname": "Travis Ozark"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "xana potts",
+                "Xana",
+                "xana",
+                "Potts",
+                "potts"
+            ],
             "cname": "Xana Potts"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "caitrin strong",
+                "Caitrin",
+                "caitrin",
+                "Strong",
+                "strong"
+            ],
             "cname": "Caitrin Strong"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sharlene terry",
+                "Sharlene",
+                "sharlene",
+                "Terry",
+                "terry"
+            ],
             "cname": "Sharlene Terry"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "jackie valentin",
+                "Jackie",
+                "jackie",
+                "Valentin",
+                "valentin"
+            ],
             "cname": "Jackie Valentin"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "noah villanueva",
+                "Noah",
+                "noah",
+                "Villanueva",
+                "villanueva"
+            ],
             "cname": "Noah Villanueva"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "debra houlihan",
+                "Debra",
+                "debra",
+                "Houlihan",
+                "houlihan"
+            ],
             "cname": "Debra Houlihan"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "donysha kampew",
+                "Donysha",
+                "donysha",
+                "Kampew",
+                "kampew"
+            ],
             "cname": "Donysha Kampew"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "colby andreola",
+                "Colby",
+                "colby",
+                "Andreola",
+                "andreola"
+            ],
             "cname": "Colby Andreola"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "judith carabbio",
+                "Judith",
+                "judith",
+                "Carabbio",
+                "carabbio"
+            ],
             "cname": "Judith Carabbio"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "keyla del bosque",
+                "Keyla",
+                "keyla",
+                "Del",
+                "del"
+            ],
             "cname": "Keyla Del Bosque"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "sandra martin",
+                "Sandra",
+                "sandra",
+                "Martin",
+                "martin"
+            ],
             "cname": "Sandra Martin"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "luke patronick",
+                "Luke",
+                "luke",
+                "Patronick",
+                "patronick"
+            ],
             "cname": "Luke Patronick"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "adell saada",
+                "Adell",
+                "adell",
+                "Saada",
+                "saada"
+            ],
             "cname": "Adell Saada"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "andrew szabo",
+                "Andrew",
+                "andrew",
+                "Szabo",
+                "szabo"
+            ],
             "cname": "Andrew Szabo"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "mia brown",
+                "Mia",
+                "mia",
+                "Brown",
+                "brown"
+            ],
             "cname": "Mia Brown"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "ivan rogers",
+                "Ivan",
+                "ivan",
+                "Rogers",
+                "rogers"
+            ],
             "cname": "Ivan Rogers"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "julia soto",
+                "Julia",
+                "julia",
+                "Soto",
+                "soto"
+            ],
             "cname": "Julia Soto"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "nan singh",
+                "Nan",
+                "nan",
+                "Singh",
+                "singh"
+            ],
             "cname": "Nan Singh"
         }
     ]

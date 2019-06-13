@@ -1,0 +1,70 @@
+MA
+TX
+CT
+VA
+VT
+CA
+WA
+NH
+NY
+OH
+IN
+ID
+TN
+NV
+CO
+UT
+AL
+GA
+FL
+NC
+KY
+ND
+MT
+OR
+AZ
+ME
+RI
+PA
+Massachussets
+Texas
+Connecticut
+Virginia
+Vermony
+California
+Washington
+New Hampshire
+New York
+Ohio
+Indiana
+Idaho
+Tennessee
+Nevada
+Colarado
+Utah
+Alabama
+Georgia
+Florida
+North Carolina
+Kentucky
+North Dakota
+Montana
+Oregon
+Arizona
+Maine
+Rhode Island
+Pennsylvania
+state
+state of birth
+state of residence
+office location
+location
+out of state
+live
+lives
+live in
+based in
+lives in
+where
+works in
+works at
