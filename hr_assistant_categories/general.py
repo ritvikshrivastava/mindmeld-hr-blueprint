@@ -97,7 +97,7 @@ def get_info_name(request, responder):
 	responder.reply("What information would you like to know about {name}?")
 
 	# redirect to intents that follow this dialogue flow after hearing user's next turn
-	responder.params.allowed_intents = ['general.get_info', 'hierarchy.get_hierarchy']
+	responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy')
 
 	# get user's next turn
 	responder.listen()

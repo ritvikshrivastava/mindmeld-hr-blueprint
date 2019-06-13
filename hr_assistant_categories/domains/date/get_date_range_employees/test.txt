@@ -1,0 +1,14 @@
+{15|sys_number} {most|extreme} recently {fired|employment_action} employees
+Get me the employees that were {born|date_time} before {August|sys_time} but after {May|sys_time}
+{asians|racedesc} {born in|date_time} the {80's|time_interval}
+Which workers at the company have a {birthday|date_time} {this year|sys_time}
+{August|sys_time}-{born|date_time} employees
+Which employees have been {hired this year|date_time}?
+Tell me about employees who {started in Spring 2019|date_time}
+Which employees are {born in|date_time} the {second week of feb|sys_time}
+{seventies|time_interval} {born|date_time} employees list
+Which employees were {hired after Jan 1, 2019|date_time}?
+{male|sex} workers {born in|date_time} the {90's|time_interval}
+I want all of the employees in the {sales department|department} that were {hired|employment_action} {more than|comparator} {four years ago|sys_time}
+{married|maritaldesc} employees {hired|employment_action} {last year|sys_time}
+{80's|time_interval} {born|date_time} {women|sex}

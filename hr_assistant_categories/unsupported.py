@@ -7,7 +7,7 @@ from .root import app
 
 @app.handle(intent='unsupported')
 def unsupported(request, responder):
-	responder.reply("Hello! What information are you looking for? You can ask for an employee's individual information (eg. Is Ivan married?), \
+	responder.reply("Sorry! I don't quite understand what you mean? You can ask for an employee's individual information (eg. Is Ivan married?), \
 some statistic about the employees (eg. average salary of females) \
-or get a list of employees according to your criteria (eg. )")
+or get a list of employees according to your criteria (eg. give me a list of all married employees)")
 	responder.listen()

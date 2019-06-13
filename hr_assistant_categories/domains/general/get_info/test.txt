@@ -1,50 +1,14 @@
-is Mr.{ivan rogers|name} based in {Oregon|state}
-What's {jereJuliah semizoglou|name}'s level in the organization?
-where is {mia|name} from
-Is {Julia Soto|name} a citizen?
-What position is {Ivan|name} in?
+is {Julia Soto|name} based in {MA|state}
+What is {Ivan Rogers|name}'s race?
+Why was {Nan Singh|name} fired?
+Is {mia brown|name} {actively employed|employment_status}?
+What race is {julia soto|name}'s?
+whats {Ivan Rogers|name}'s employment status
+What does {nan|name} do?
+which branch is {Nan|name} working in
+How well is the employee doing?
+Why did {Mia Brown|name} get fired?
+Does {Michael|name} {still work at|employment_status} Cisco? 
+What is {Nan Singh|name}'s official position?
 sex and age of {Michael|name}
-What race is {ivan|name}'s?
-Get me {Simon Roup|name}'s employment status?
-is {Maria Gonzalez|name} {widowed|maritaldesc} or nah
-is {Nan Singh|name} a {network engineer|position}
-Why was {Melinda Saar-Beckles|name} {terminated|employment_action}?
-why did we {hire|employment_action} {Quinn Rarrick|name}
-{Adell Saada|name}'s occupation?
-what is {Adell|name}'s official position?
-What is {brooke oliver|name}'s score, is it {meeting 90-day expectations|performance_score}?
-where is {david stanley|name} from
-sex and age of {Melisa|name}
-where is {wilson adinolfi|name} from
-which state is {Melisa|name} from
-tell me, is {Michael|name} a {bachelor|maritaldesc}?
-Find me that state that {Karthikeyan Ait Sidi|name} is from
-is {Abdellah Veera|name} {terminated|employment_status} or not
-what is {Denisa dobrin|name}'s employment status
-Why did {Megan|name} get {fired|employment_action}?
-What way did {Judy Jung|name} hear about us?
-What does {Colombui|name} do?
-Whats {brandon|name}'s level in the organization?
-which branch is the one that {Brannon Miller|name} works in
-does {jessica bunbury|name} live in {california|state}
-is {francesco barone|name} a {non-citizen|citizendesc}
-is {Joanne Handschiegl|name} {active|employment_status} or not so
-Show the state that {Rosalie Hutter|name} is from
-Is {karen mancuso|name} a citizen of America?
-Is {Michael|name} {married|maritaldesc} or {single|maritaldesc}?
-Please tell me, is {morissa power|name} {separated|maritaldesc} or not?
-What was {elijiah gray|name} {terminated|employment_status} for?
-is {janet king|name} a {production technician|position}
-which state is {Geoff|name} from
-Is {Anna Von Massenbach|name}'s race {asian|racedesc}?
-How {old|age} is the {Nan|name}?
-Where does {Kara|name} live?
-is {nan singh|name} {currently active|employment_status} or not
-Tell me {Betsy Bondwell|name}'s employment status?
-Why and when did {Rex England|name} get {join|employment_action}?
-tell me what is {ivan|name}'s citizenship status
-What ethnicity is {Catherine|name}'s?
-does {Daniel|name} live in {UT|state}
-Whats the race of {Janet King|name}?
-Tell me {Leigh Smith|name}'s occupation currently
-What is {phil close|name}'s race?
+What does {Michael|name} look like?
