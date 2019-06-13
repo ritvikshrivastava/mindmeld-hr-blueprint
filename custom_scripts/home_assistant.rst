@@ -3,13 +3,13 @@
 HR Assistant
 ==============
 
-In this step-by-step walkthrough, you'll build a conversational application for a human resources assistant that can answer questions about employees at a company.
+In this step-by-step walkthrough, you'll build a conversational application for a Human Resources assistant that can answer questions about employees at a company.
 
 Working through this blueprint will teach you how to
 
    - handle a large number of domains and intents
    - use system entities such as amount-of-money, dates, and times
-   - query and filter knowledge base on multiple parameters
+   - query and filter the knowledge base on multiple parameters
 
 .. note::
 
@@ -18,7 +18,8 @@ Working through this blueprint will teach you how to
 1. The Use Case
 ^^^^^^^^^^^^^^^
 
-Users should be able to interact with appliances and automated functions in their homes using natural language. They should be able to check the weather, set alarms, set timers, and control the lights, the doors, the thermostat, and various appliances in the house.
+This HR assistant would be used by an HR manager to ask questions about the employees at an organization. They should be able to ask for information about a particular employee, for company-wide statistics, a group of employees that meet certain criteria.
+
 
 2. Example Dialogue Interactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
