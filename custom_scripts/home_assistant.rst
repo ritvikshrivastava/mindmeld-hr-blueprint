@@ -72,11 +72,11 @@ The ``Unsupported`` domain supports the following intents:
 
 There are two types of entities in Workbench: :ref:`System Entities <system-entities>` and :doc:`Custom Entities <../userguide/entity_recognizer>`. System entities are pre-defined in Workbench. Examples include ``sys_temperature``, ``sys_time``, and ``sys_interval``. Custom entities are defined by the developers of each application. Within each entity folder, the file ``gazetteer.txt`` contains the full list of values for each custom entity.
 
-HR assistant defines and uses the following custom entities, which are grouped by domains below:
+HR assistant defines and uses the following custom entities for each of its domains, which are grouped by their purpose below:
 
-   - Smart Home
-       - ``location``: detects household location, for example: "lock {back|location} door"
-       - ``appliance``: detects household appliances, for example: "can you turn on the {tv|appliance}?"
+   - User Information
+       - ``state``: detects the state referred to, for example: "is {mia|name} form {CA|state}?"
+       - ``age``: detects whether the user is asking about the age of an employee. For example: "tell me the {age of|age} {mia|name}"
        - ``all``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
        - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
 
