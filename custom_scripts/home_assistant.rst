@@ -1,6 +1,6 @@
 .. _home_assistant:
 
-Home Assistant
+HR Assistant
 ==============
 
 In this step-by-step walkthrough, you'll build a conversational application for a smart home that allows users to control different devices and appliances.
