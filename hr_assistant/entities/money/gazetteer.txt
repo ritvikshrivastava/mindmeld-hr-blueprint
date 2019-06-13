@@ -14,6 +14,7 @@ earners
 earner
 incomes
 paycheck
+compensation
 earns
 makes
 amount

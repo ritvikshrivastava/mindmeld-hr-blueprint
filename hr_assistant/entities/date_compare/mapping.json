@@ -3,7 +3,8 @@
         {
             "whitelist": [
                 "before",
-                "pre"
+                "pre",
+                "prior to"
             ],
             "cname": "prev"
         },

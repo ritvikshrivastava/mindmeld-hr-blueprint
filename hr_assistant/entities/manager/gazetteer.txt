@@ -1,23 +1,4 @@
-brandon leblanc
-janet king
-board directors
-simon roup
-jennifer zamora
-eric dougall
-peter monroe
-michael albert
-elijiah gray
-webster butler
-amy dunn
-ketsia liebig
-brannon miller
-david stanley
-kissy sullivan
-kelley spirea
-lynn daneault
-john smith
-debra houlihan
-alex sweetwater
+manager
 manager name
 manager
 incharge

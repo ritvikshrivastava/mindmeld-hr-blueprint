@@ -8,7 +8,8 @@
                 "percentage",
                 "%",
                 "ratio",
-                "ratios"
+                "ratios",
+                ""
             ],
             "cname": "percent"
         },
@@ -17,7 +18,8 @@
                 "total",
                 "cumulative",
                 "added up",
-                "summed up. totalled",
+                "summed up",
+                "totalled",
                 "summed",
                 "combined",
                 "aggregate"
@@ -36,7 +38,8 @@
             "whitelist": [
                 "how many",
                 "total number",
-                "number of"
+                "number of",
+                "num of. headcount"
             ],
             "cname": "count"
         }

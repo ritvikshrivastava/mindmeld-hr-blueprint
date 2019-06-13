@@ -920,7 +920,7 @@
         "last_name": "Morway"
     },
     {
-        "emp_name": "Shepard, Anita ",
+        "emp_name": "Pardo, Anita ",
         "id": 906014183,
         "state": "MA",
         "dob": "1981-04-14",
@@ -928,7 +928,7 @@
         "sex": "Female",
         "maritaldesc": "Married",
         "citizendesc": "US Citizen",
-        "racedesc": "White",
+        "racedesc": "Hispanic",
         "doh": "2014-09-30",
         "dot": "1800-01-01",
         "rft": "N/A - still employed",
@@ -940,7 +940,7 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Anita",
-        "last_name": "Shepard"
+        "last_name": "Pardo"
     },
     {
         "emp_name": "Tredinnick, Neville ",

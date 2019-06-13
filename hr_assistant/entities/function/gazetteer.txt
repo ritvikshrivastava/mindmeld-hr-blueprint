@@ -9,10 +9,12 @@ percentage
 %
 ratio
 ratios
+
 total
 cumulative
 added up
-summed up. totalled
+summed up
+totalled
 summed
 combined
 aggregate
@@ -22,6 +24,7 @@ typically
 how many
 total number
 number of
+num of. headcount
 distribution
 turn over rate
 pct

@@ -1,5 +1,0 @@
-{percent|function} of employees {born|date_time} in the year of {2014|sys_time}
-{total|function} number of employee that have been {working here since|date_time} the year {2016|sys_time}
-{How many|function} employees were {born|date_time} within {five years of 1980|time_interval}
-Employees with more than {5 yrs|sys_duration} of experience in their field
-What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years ago|sys_time}?

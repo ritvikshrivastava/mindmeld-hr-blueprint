@@ -2,6 +2,7 @@ prev
 post
 before
 pre
+prior to
 after
 last
 post

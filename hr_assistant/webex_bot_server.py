@@ -27,6 +27,7 @@ spark_api = CiscoSparkAPI(ACCESS_TOKEN)
 ACCESS_TOKEN_WITH_BEARER = 'Bearer ' + ACCESS_TOKEN
 CISCO_API_URL = 'https://api.ciscospark.com/v1'
 
+
 # Build the food ordering application
 configure_logs()
 nlp = NaturalLanguageProcessor('.')
