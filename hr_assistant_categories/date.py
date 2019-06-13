@@ -191,6 +191,7 @@ def _resolve_time(request, responder, qa, size, func_type, function='avg'):
 
 	# One way to process date aggregate questions can be to filter it on defined time periods
 	if time_ent:
+		print(time_ent)
 
 		# Check if time entities are in an acceptable format
 		time_ent = _check_time_ent(time_ent, date_compare_ent)
