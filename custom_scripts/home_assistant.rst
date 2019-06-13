@@ -28,7 +28,7 @@ The conversational flows for an HR assistant will primarily involve follow-up qu
 
 Here are some examples of scripted dialogue interactions for conversational flows.
 
-.. image:: /images/home_assistant_interactions.png
+.. image:: /images/hr_assistant_interactions.png
     :width: 700px
     :align: center
 
@@ -40,12 +40,54 @@ Here are some examples of scripted dialogue interactions for conversational flow
 
 3. Domain-Intent-Entity Hierarchy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Here is the NLP model hierarchy for our HR assistant application.
 
-The home assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unknown``. Because the home assistant blueprint supports more activities, it requires more domains and intents than the Kwik-E-Mart blueprint does. For example, controlling the lights require two intents, one for turning on and one for turning off. Similar logic applies for turning on/off appliances, closing/opening doors, locking/unlocking doors, and so on.
+.. image:: /images/hierarchy_hr_assistant.png
+
+The home assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unsupported``. Since there are many possible questions that can be asked, the HR assistant first determines the category or domain of the question.
+
+The ``General`` domain supports the following intents:
+
+   - ``get_info`` — User wants specific information about an employee (eg. State, Gender, Department, Position, etc)
+   - ``get_aggregate`` — User wants an average, total, or percentage of employees that meet certain criteria
+   - ``get_employees`` — User wants a list of employees who meet certain criteria
+
+The ``Salary`` domain supports the following intents:
+
+   - ``get_salary`` — User wants the salary of a specific employee
+   - ``get_salary_aggregate`` — User wants an average, total, or percentage specfically related to salary
+   - ``get_salary_employees`` — User wants a list of employees who meet certain criteria that includes salary
+
+The ``Date`` domain supports the following intents:
+
+   - ``get_date`` — User wants the birth date, hiring date, or firing date of an employee
+   - ``get_date_range_aggregate`` — User wants an average, total, or percentage filtered on a date range
+   - ``get_date_range_employees`` — User wants a list of employees who meet certain criteria filtered on a date range
+
+The ``Hierarchy`` domain supports the following intents:
+
+   - ``get_hierarchy`` — User wants information about who an employee works for or who works for an employee
+
+The ``Unsupported`` domain supports the following intents:
+
+   - ``unsupported`` — User has provided a query outside the scope of the HR assistant
+   
+
+
+
+   - ``start_over`` — User wants to abandon current selections and restart the ordering process
+   - ``exit`` — User wants to end the current conversation
+   - ``help`` — User is confused or needs instructions on how to proceed
+   - ``unsupported`` — User is talking about something other than food ordering
+
+
+
+
+Because the home assistant blueprint supports more activities, it requires more domains and intents than the Kwik-E-Mart blueprint does. For example, controlling the lights require two intents, one for turning on and one for turning off. Similar logic applies for turning on/off appliances, closing/opening doors, locking/unlocking doors, and so on.
 
 The full list of intents for all domains is illustrated below.
 
-.. image:: /images/hierarchy_home_assistant.png
+
 
 There are two types of entities in Workbench: :ref:`System Entities <system-entities>` and :doc:`Custom Entities <../userguide/entity_recognizer>`. System entities are pre-defined in Workbench. Examples include ``sys_temperature``, ``sys_time``, and ``sys_interval``. Custom entities are defined by the developers of each application. Within each entity folder, the file ``gazetteer.txt`` contains the full list of values for each custom entity.
 
