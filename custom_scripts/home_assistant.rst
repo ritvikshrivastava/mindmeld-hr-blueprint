@@ -3,13 +3,13 @@
 HR Assistant
 ==============
 
-In this step-by-step walkthrough, you'll build a conversational application for a smart home that allows users to control different devices and appliances.
+In this step-by-step walkthrough, you'll build a conversational application for a human resources assistant that can answer questions about employees at a company.
 
 Working through this blueprint will teach you how to
 
    - handle a large number of domains and intents
-   - use system entities such as dates and times
-   - use roles in the entity hierarchy
+   - use system entities such as amount-of-money, dates, and times
+   - query and filter knowledge base on multiple parameters
 
 .. note::
 
