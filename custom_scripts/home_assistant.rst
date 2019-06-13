@@ -80,10 +80,25 @@ HR assistant defines and uses the following custom entities for each of its doma
        - ``sex``: detects the gender of an employee. For example: "is {Ivan|name} {male|sex}?"
        - ``maritaldesc``: detects the marital status of an employee. For example: "is {Ivan|name} a {married|maritaldesc} man?"
        - ``citizendesc``: detects the citizenship status of an employee. For example: "is {Nan|name} a {us citizen|citizendesc}?"
-       - ``racedesc``: detects whether the user is asking about the race of an employee. For example: "is {Mia|name} {multiracial|racedesc}?"
-       - ``reason_for_termination``: detects whether the user is asking about the race of an employee. For example: "is {Mia|name} {multiracial|racedesc}?"
-       
-       
+       - ``racedesc``: detects the race of an employee. For example: "is {Mia|name} {multiracial|racedesc}?"
+       - ``reason_for_termination``: detects a reason for termination for an employee. For example: "Did {Mia|name} leave because of {medical issues|reason_for_termination}?"
+       - ``department``: detects the department of an employee. For example: "is {Nan|name} working in {sales|department}?"
+       - ``position``: detects the position of an employee. For example: "Is {Ivan|name} a {software engineer|position}?"
+       - ``manager``: detects whether the user is asking for hierarchy information. For example: "Who is the {supervisor|manager} for {Mia|name}?"
+       - ``employee_source``: detects how an employee heard about the company. For example: "Did {mia|name} find out about us from an {information session|racedesc}?"
+       - ``performance_score``: detects the performance score of an employee. For example: "Is {ivan|name} currently {performing poorly|reason_for_termination} at the company?"
+       - ``money``: detects whether the user is referring to salary information. For example: "What is {ivan|name} {earning|money}"
+       - ``dob``: detects whether the user is referring to date of birth. For example: "When was {Nan|name} {born|dob}?"
+       - ``employment_action``: detects whether the user is referring to hiring or firing an employee. For example: "What was {ivan|name}'s {date of termination|employment_action}"
+
+
+   - Compare/Functions
+       - ``comparator``: detects a comparison keyword (more than, less than, equal to, between). For example: "is {mia|name} {earning|money} {more than} {ivan|name}?"
+       - ``age``: detects whether the user is asking about the age of an employee. For example: "tell me the {age of|age} {mia|name}"
+       - ``sex``: detects the gender of an employee. For example: "is {Ivan|name} {male|sex}?"
+       - ``maritaldesc``: detects the marital status of an employee. For example: "is {Ivan|name} a {married|maritaldesc} man?"
+       - ``citizendesc``: detects the citizenship status of an employee. For example: "is {Nan|name} a {us citizen|citizendesc}?"
+
        - ``sex``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
        - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
        - ``all``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
