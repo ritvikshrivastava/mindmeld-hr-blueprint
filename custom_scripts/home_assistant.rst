@@ -101,24 +101,22 @@ HR assistant defines and uses the following custom entities for each of its doma
    - Custom Time Entities
        - ``time_interval``: detects a decade (1980's, 80s, eighties) For example: "{how many|function} employees were {bron|dob} in the {eighties|time_interval}?"
        - ``time_recur``: detects a recurring time interval (yearly, monthly, weekly). For example: "what does {ivan|name} {make|money} {monthly|time_recur}?"
+       
+       time, amount of money, number, 
 
-Home assistant uses three system entities: ``sys_time`` (time), ``sys_interval`` (interval) and ``sys_temperature`` (temperature). Some examples for annotation with system entities: "set my thermostat to turn on at {6 am|sys_time}" and "turn the heat off at {76 degrees|sys_temperature}".
-
-Queries can include more than one entity of the same type. In "change my alarm from 7 am to 6 am", for example, both "7 am" and "6 am" are ``sys_time`` entities. Just labeling both entities with the same type does not give Workbench enough information to understand the meaning of the query. We need to show the different *roles* that these two ``sys_time`` entities play in creating meaning. One is an "old time" that the alarm was set to, and the other is a "new time" that the user wants as a new setting for the alarm. We annotate the example as "change alarm from {7 am|sys_time|old_time} to {6 am|sys_time|new_time}." This way, Workbench can interpret each entity correctly. See :doc:`Role Classifier <../userguide/role_classifier>`.
+HR assistant uses three system entities: ``sys_time`` (time), ``sys_amount-of-money`` (money), ``sys_number`` (number). Some examples for annotation with system entities: "{How many|function} employees were {born|dob} in the {2009|sys_time}?" and "what {fraction|function} of employees {make|money} {less than|comparator} {69 grand|sys_amount-of-money}?".
 
 .. admonition:: Exercise
-
-   While the blueprint provides a good starting point, you may need additional intents and entities to support the desired scope of your app. Enumerate some other intents (e.g., ``dim_lights``, ``check_windows``, and so on) and entities (e.g., ``awning``, ``driveway``, and so on) that make sense for a home automation use case.
 
 To train the different machine learning models in the NLP pipeline for this app, we need labeled training data that covers all our intents and entities. To download the data and code required to run this blueprint, run the command below in a directory of your choice. (If you have already completed the Quick Start for this blueprint, you should skip this step.)
 
 .. code-block:: shell
 
-    python -c "import mmworkbench as wb; wb.blueprint('home_assistant');"
+    python -c "import mmworkbench as wb; wb.blueprint('hr_assistant');"
 
-This should create a Workbench project folder called ``home_assistant`` in your current directory with the following structure:
+This should create a Workbench project folder called ``hr_assistant`` in your current directory with the following structure:
 
-.. image:: /images/home_assistant_directory.png
+.. image:: /images/hr_assistant_directory.png
     :width: 250px
     :align: center
 
