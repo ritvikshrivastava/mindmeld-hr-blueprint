@@ -18,7 +18,7 @@ Working through this blueprint will teach you how to
 1. The Use Case
 ^^^^^^^^^^^^^^^
 
-This HR assistant would be used by an HR manager to ask questions about the employees at an organization. They should be able to ask for information about a particular employee, for company-wide statistics, a group of employees that meet certain criteria.
+This HR assistant would be used by an HR manager to ask questions about the employees at an organization. They should be able to ask for information about a particular employee, for company-wide statistics, or for a group of employees that meet certain criteria.
 
 
 2. Example Dialogue Interactions
@@ -34,7 +34,7 @@ Here are some examples of scripted dialogue interactions for conversational flow
 
 .. admonition:: Exercise
 
-   Pick a convenient textual or graphical representation. Try to design as many user flows as you can. Always capture the entire dialogue from start to finish. Think of scenarios that differ from the examples above, such as: trying to control an appliance that does not exist in this house, asking for a five-day weather forecast, changing the instructions just given, and so on.
+   Pick a convenient textual or graphical representation. Try to design as many user flows as you can. Always capture the entire dialogue from start to finish. Think of scenarios that differ from the examples above.
 
 .. _hr_assistant_model_hierarchy:
 
@@ -46,9 +46,11 @@ Here is the NLP model hierarchy for our HR assistant application.
 
 The home assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unsupported``. Since there are many possible questions that can be asked, the HR assistant first determines the category or domain of the question.
 
+The full list of intents for all domains is illustrated below.
+
 The ``General`` domain supports the following intents:
 
-   - ``get_info`` — User wants specific information about an employee (eg. State, Gender, Department, Position, etc)
+   - ``get_info`` — User wants specific information about an employee (eg. state, gender, department, position, etc)
    - ``get_aggregate`` — User wants an average, total, or percentage of employees that meet certain criteria
    - ``get_employees`` — User wants a list of employees who meet certain criteria
 
@@ -71,27 +73,10 @@ The ``Hierarchy`` domain supports the following intents:
 The ``Unsupported`` domain supports the following intents:
 
    - ``unsupported`` — User has provided a query outside the scope of the HR assistant
-   
-
-
-
-   - ``start_over`` — User wants to abandon current selections and restart the ordering process
-   - ``exit`` — User wants to end the current conversation
-   - ``help`` — User is confused or needs instructions on how to proceed
-   - ``unsupported`` — User is talking about something other than food ordering
-
-
-
-
-Because the home assistant blueprint supports more activities, it requires more domains and intents than the Kwik-E-Mart blueprint does. For example, controlling the lights require two intents, one for turning on and one for turning off. Similar logic applies for turning on/off appliances, closing/opening doors, locking/unlocking doors, and so on.
-
-The full list of intents for all domains is illustrated below.
-
-
 
 There are two types of entities in Workbench: :ref:`System Entities <system-entities>` and :doc:`Custom Entities <../userguide/entity_recognizer>`. System entities are pre-defined in Workbench. Examples include ``sys_temperature``, ``sys_time``, and ``sys_interval``. Custom entities are defined by the developers of each application. Within each entity folder, the file ``gazetteer.txt`` contains the full list of values for each custom entity.
 
-Home assistant defines and uses the following custom entities, which are grouped by domains below:
+HR assistant defines and uses the following custom entities, which are grouped by domains below:
 
    - Smart Home
        - ``location``: detects household location, for example: "lock {back|location} door"
