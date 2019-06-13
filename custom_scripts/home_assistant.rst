@@ -1,4 +1,4 @@
-.. _home_assistant:
+.. _hr_assistant:
 
 HR Assistant
 ==============
@@ -24,7 +24,7 @@ This HR assistant would be used by an HR manager to ask questions about the empl
 2. Example Dialogue Interactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The conversational flows for home automation can be highly complex, depending on the desired app functionality and the amount of user guidance required at each step. Enumerating and finalizing all anticipated user interactions requires multiple iterations.
+The conversational flows for an HR assistant will primarily involve follow-up questions to natural language queries. Once the intent of the user is identified, multiple interactions may be necessary to get all of the information needed to complete the request.
 
 Here are some examples of scripted dialogue interactions for conversational flows.
 
@@ -36,12 +36,12 @@ Here are some examples of scripted dialogue interactions for conversational flow
 
    Pick a convenient textual or graphical representation. Try to design as many user flows as you can. Always capture the entire dialogue from start to finish. Think of scenarios that differ from the examples above, such as: trying to control an appliance that does not exist in this house, asking for a five-day weather forecast, changing the instructions just given, and so on.
 
-.. _home_model_hierarchy:
+.. _hr_assistant_model_hierarchy:
 
 3. Domain-Intent-Entity Hierarchy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The home assistant blueprint is organized into five domains: ``Greeting``, ``Smart Home``, ``Time & Dates``, ``Weather``, and ``Unknown``. Because the home assistant blueprint supports more activities, it requires more domains and intents than the Kwik-E-Mart blueprint does. For example, controlling the lights require two intents, one for turning on and one for turning off. Similar logic applies for turning on/off appliances, closing/opening doors, locking/unlocking doors, and so on.
+The home assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unknown``. Because the home assistant blueprint supports more activities, it requires more domains and intents than the Kwik-E-Mart blueprint does. For example, controlling the lights require two intents, one for turning on and one for turning off. Similar logic applies for turning on/off appliances, closing/opening doors, locking/unlocking doors, and so on.
 
 The full list of intents for all domains is illustrated below.
 
