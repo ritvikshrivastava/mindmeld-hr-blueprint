@@ -76,14 +76,26 @@ def get_salary_aggregate(request, responder):
 			qa_out = qa.execute(size=size)
 			if recur_ent and function in ('avg','sum'):
 				responder = _calculate_agg_salary(responder, qa_out, function, recur_ent[0])
+				if np.isnan(responder.slots['value']):
+					responder.reply("Sorry, I'm not sure about that. Can you please repeat the salary statistic that you would like to know?")
+					responder.listen()
+					return
 				responder.reply("The {function} {interval} is {value}")
 			else:
 				responder = _calculate_agg_salary(responder, qa_out, function)
+				if np.isnan(responder.slots['value']):
+					responder.reply("Sorry, I'm not sure about that. Can you please repeat the salary statistic that you would like to know?")
+					responder.listen()
+					return
 				responder.reply('The {function} is {value}')
 
 		elif function not in ('avg','sum'):
 			qa_out = qa.execute()
 			responder = _calculate_agg_salary(responder, qa_out, function)
+			if np.isnan(responder.slots['value']):
+					responder.reply("Sorry, I'm not sure about that. Can you please repeat the salary statistic that you would like to know?")
+					responder.listen()
+					return
 			responder.reply("The {function} of employees is {value}")
 
 		else:
@@ -111,7 +123,7 @@ def get_salary_employees(request, responder):
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
-	responder.reply('Here\'s some employees: {emp_list}')
+	responder.reply("Here's some employees: {emp_list}")
 
 
 

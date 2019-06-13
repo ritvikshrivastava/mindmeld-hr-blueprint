@@ -187,7 +187,7 @@ def get_employees(request, responder):
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
-	responder.reply('Here\'s some employees: {emp_list}')
+	responder.reply("Here's some employees: {emp_list}")
 
 
 # Helper Functions

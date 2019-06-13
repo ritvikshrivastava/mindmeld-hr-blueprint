@@ -54,6 +54,7 @@ Whose {Richard Newman|name}s {management|manager} personnel?
 Get me an employee list with people who {work for|manager} {Ludwick Harrell|name}
 What is the full, first and last, {manager name|manager} for the employee: {james Cockel|name}
 {libby fidelia|name} {reports to|manager} name?
+is {ivan|name}'s manager {name|julia}?
 for which employees is {christie|name} the {boss|manager}
 if There is anyone {working for|manager} Mr. {Julia Soto|name} who are those people?
 what's {Robyn manchester|name}'s {manager|manager} currently listed as in the system?
@@ -105,6 +106,7 @@ which are the employees that are {under|comparator} the {supervisor|manager} {Ra
 me who is the {head|manager} that {works for|manager} Ms. {shakira perry|name}
 Who's the guy that our employee,{Brad Pitt|name}, currently {works for|manager}?
 {Kissy SullMia|name} is the {mentor|manager} for which of our employees
+is {mia|name} the manager of {name|julia}?
 Find me the names of everyone that is {managing|manager} mr.{salter|name}
 who {manages|manager} Mr.{patrick Moran|name}
 {amy|name} is a {boss|manager}, right?
@@ -155,3 +157,5 @@ is {Travis Ozark|name} {management|manager} {Jeanette Tippett|name}
 Who {reports|manager} into {julia|name}
 Do {mia brown|name} and {Nan|name} {report to|manager} the same {manager|manager}?
 get me a list of all of the employees that are currently {reporting|manager} directly to {Nan Singh|name}
+
+is mia the manager of julia?
