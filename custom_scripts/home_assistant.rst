@@ -64,7 +64,7 @@ The ``Date`` domain supports the following intents:
 
 The ``Hierarchy`` domain supports the following intents:
 
-   - ``get_hierarchy`` — User wants information about who an employee works for or who works for an employee
+   - ``get_hierarchy`` — User wants to know who an employee works for or who works for an employee
 
 The ``Unsupported`` domain supports the following intents:
 
@@ -77,6 +77,15 @@ HR assistant defines and uses the following custom entities for each of its doma
    - User Information
        - ``state``: detects the state referred to, for example: "is {mia|name} form {CA|state}?"
        - ``age``: detects whether the user is asking about the age of an employee. For example: "tell me the {age of|age} {mia|name}"
+       - ``sex``: detects the gender of an employee. For example: "is {Ivan|name} {male|sex}?"
+       - ``maritaldesc``: detects the marital status of an employee. For example: "is {Ivan|name} a {married|maritaldesc} man?"
+       - ``citizendesc``: detects the citizenship status of an employee. For example: "is {Nan|name} a {us citizen|citizendesc}?"
+       - ``racedesc``: detects whether the user is asking about the race of an employee. For example: "is {Mia|name} {multiracial|racedesc}?"
+       - ``reason_for_termination``: detects whether the user is asking about the race of an employee. For example: "is {Mia|name} {multiracial|racedesc}?"
+       
+       
+       - ``sex``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
+       - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
        - ``all``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
        - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
 
