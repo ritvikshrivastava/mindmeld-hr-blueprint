@@ -93,24 +93,14 @@ HR assistant defines and uses the following custom entities for each of its doma
 
 
    - Compare/Functions
-       - ``comparator``: detects a comparison keyword (more than, less than, equal to, between). For example: "is {mia|name} {earning|money} {more than} {ivan|name}?"
-       - ``age``: detects whether the user is asking about the age of an employee. For example: "tell me the {age of|age} {mia|name}"
-       - ``sex``: detects the gender of an employee. For example: "is {Ivan|name} {male|sex}?"
-       - ``maritaldesc``: detects the marital status of an employee. For example: "is {Ivan|name} a {married|maritaldesc} man?"
-       - ``citizendesc``: detects the citizenship status of an employee. For example: "is {Nan|name} a {us citizen|citizendesc}?"
-
-       - ``sex``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
-       - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
-       - ``all``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
-       - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
-
-   - Time and dates
-       - ``duration``: detects time duration, for example: "{15 minute|duration} alarm"
-       - ``interval``: detects time interval, for example: "cancel {tomorrow night|interval} s alarms"
-
-   - Weather
-       - ``city``: detects cities, for example: "what is the weather in {shanghai|city}"
-       - ``unit``: detects weather unit, for example: "what is the forecast for {london|city} in {celsius|unit}"
+       - ``comparator``: detects comparison keywords (more than, less than, equal to, between). For example: "is {mia|name} {earning|money} {more than} {ivan|name}?"
+       - ``extreme``: detects extreme keywords (highest, oldest, lowest, youngest). For example: "who is the {oldest|extreme} employee?"
+       - ``date_compare``: detects date comparision key words (prior to, after) For example: "Was {Ivan|name} {born|dob} {prior to|date_compare} {1990|sys_time}?"
+       - ``function``: detects a function type (percent, sum, average, count) For example: "What {percent|function} of employees are {women|sex}?"
+       
+   - Custom Time Entities
+       - ``time_interval``: detects a decade (1980's, 80s, eighties) For example: "{how many|function} employees were {bron|dob} in the {eighties|time_interval}?"
+       - ``time_recur``: detects a recurring time interval (yearly, monthly, weekly). For example: "what does {ivan|name} {make|money} {monthly|time_recur}?"
 
 Home assistant uses three system entities: ``sys_time`` (time), ``sys_interval`` (interval) and ``sys_temperature`` (temperature). Some examples for annotation with system entities: "set my thermostat to turn on at {6 am|sys_time}" and "turn the heat off at {76 degrees|sys_temperature}".
 
