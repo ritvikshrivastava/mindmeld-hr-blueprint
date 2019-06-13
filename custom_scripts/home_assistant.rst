@@ -312,14 +312,15 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Purpose                                        | | Question (for crowdsourced data generators)                            |
 | |                                                | | or instruction (for annotators)                                        |
 +==================================================+==========================================================================+
-| | Exploratory data generation                    | | "How would you talk to a conversational app                            |
-| | for guiding the app design                     | | to control your smart home appliances?"                                |
+| | Exploratory data generation                    | | "What kinds of questions would you ask a smart   
+|
+| | for guiding the app design                     | | HR assistant that has access to an HR database?"                                |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generate queries for training                  | | ``change_alarm`` intent (``times_and_dates`` domain):                  |
-| | Domain and Intent Classifiers                  | | "What would you say to the app to change your alarm time               |
-| |                                                | | from a previous set time to a new set time?"                           |
+| | Generate queries for training                  | | ``get_info`` intent (``General`` domain):                  |
+| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,          |
+| |                                                | |  position, department, etc?"                                  |
 | |                                                | |                                                                        |
-| |                                                | | ``set_alarm`` intent (``times_and_dates`` domain):                     |
+| |                                                | | ``get_salary`` intent (``Salary`` domain):                     |
 | |                                                | | "What would you say to the app                                         |
 | |                                                | | to set a new alarm time?"                                              |
 +--------------------------------------------------+--------------------------------------------------------------------------+
