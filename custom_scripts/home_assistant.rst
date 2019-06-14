@@ -324,8 +324,8 @@ The labeled data for training our NLP pipeline was created using a combination o
 | |                                                | | "How would you ask for the salary                                      |
 | |                                                | | of an employee?"                                                       |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all occurrences of                            |
-| | for training the Entity Recognizer             | | ``sys_time`` and ``sys_interval`` system entities in the given query"  |
+| | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
+| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"              |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
 | | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
