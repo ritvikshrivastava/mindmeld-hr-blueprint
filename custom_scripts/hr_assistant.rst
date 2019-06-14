@@ -9,7 +9,7 @@ Working through this blueprint will teach you how to
 
    - handle a large number of domains and intents
    - use system entities such as amount-of-money, dates, and times
-   - query and filter the knowledge base on multiple parameters
+   - query the knowledge base on multiple parameters
 
 .. note::
 
@@ -509,7 +509,7 @@ We can also change the model for the intent classifier to Support Vector Machine
         'k': 10
    }
 
-   ic = nlp.domains['smart_home'].intent_classifier
+   ic = nlp.domains['salary'].intent_classifier
    ic.fit(model_settings={'classifier_type': 'svm'}, param_selection=param_selection_settings)
 
 .. code-block:: console
