@@ -130,7 +130,7 @@ Workbench supports three ways to organize dialogue states in the Dialogue Manage
 
 #. Define **one dialogue state for each intent**, as seen in the Kwik-E-Mart blueprint. This is the simplest approach, but can lead to duplicated code.
 #. Define **one dialogue state for multiple intents**. This requires more work up front, but helps you consolidate duplicated dialogue state logic. Example shown in the home assistant blueprint.
-#. Define **multiple dialogue states for multiple intents**. Based on the presence of entities, multiple dialogue states can handle a user's request. This is a good choice for when each intent can have a many possible dialogue states.
+#. Define **multiple dialogue states for multiple intents**. Based on the presence of entities, multiple dialogue states can handle a user's request. This is a good choice for when an intent can have a many possible dialogue states based on the presence of entities.
 
 Which approach is best varies from one application to another. Figuring that out always requires some trial and error. You can see an example of the first two cases in the home assistant blueprint. The HR assistant will use and discuss the third method.
 
@@ -179,16 +179,17 @@ We can see this paradigm followed in the domain ``salary`` as well:
 
 .. admonition:: Exercise
 
-   Analyze the way the HR assistant blueprint uses this pattern **multiple dialogue states for multiple intents** Why this pattern used instead of another?
+   Analyze the way the HR assistant blueprint uses this pattern **multiple dialogue states for multiple intents**. Why this pattern used instead of another?
 
 
 Sometimes a dialogue state handler needs to be aware of the context from a previous state. This happens in the **follow-up request pattern**. Consider this conversational interaction:
 
 .. code:: bash
 
-  User: Turn on the lights.
-  App: Sure. Which lights?
-  User: In the kitchen
+    User: Can you tell me about daniel?
+    App: What would you like to know about Daniel Davis?    # get_info_default
+    User: is he married
+    App: Daniel Davis is Single                             # get_info_maritaldesc
 
 Observe that the first request leaves out some required information — the location of the light to turn on. Therefore, in the response, the application must prompt the user for the missing information. Most importantly, the app needs to "remember" context from the first request to understand the user's second request, in which the user specifies the information that was missing.
 
