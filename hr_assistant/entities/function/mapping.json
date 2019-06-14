@@ -9,7 +9,7 @@
                 "%",
                 "ratio",
                 "ratios",
-                ""
+                "pct"
             ],
             "cname": "percent"
         },

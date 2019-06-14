@@ -237,7 +237,7 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
 	"""
 
 	if not num_entity:
-		num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number']
+		num_entity = [int(e['value'][0]['value']) for e in request.entities if e['type'] == 'sys_number']
 
 		for i in request.text.split():
 			try:
@@ -347,7 +347,7 @@ def _resolve_extremes(request, responder, qa, extreme_entity, field, num_entity=
 	"""
 
 	if not num_entity:
-		num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number']
+		num_entity = [int(e['value'][0]['value']) for e in request.entities if e['type'] == 'sys_number']
 
 		for i in request.text.split():
 			try:
@@ -426,8 +426,6 @@ def _fetch_from_kb(responder, name, entity_type):
 	This function is used the fetch a particular information about the given employee
 	from the knowledge base.
 	"""
-
-	app.question_answerer.load_kb('hr_assistant', 'user_data', './hr_assistant/data/user_data.json')
 
 	employee = app.question_answerer.get(index='user_data', emp_name=name)
 	entity_option = employee[0][entity_type]
