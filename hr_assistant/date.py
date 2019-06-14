@@ -49,6 +49,7 @@ def get_date(request, responder):
 
 	elif dob_entity:
 		date = employee['dob']
+		responder.slots['date'] = date
 		responder.reply("{name}'s date of birth is {date}")
 
 	else:

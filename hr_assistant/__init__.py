@@ -8,6 +8,7 @@ import hr_assistant.general
 import hr_assistant.date
 import hr_assistant.hierarchy
 import hr_assistant.unsupported
+import hr_assistant.greeting
 
 
 __all__ = ['app']
