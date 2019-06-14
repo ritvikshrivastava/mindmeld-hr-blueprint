@@ -202,6 +202,15 @@ def get_employees(request, responder):
 	except:
 		extreme_entity = []
 
+	action_entities = [e for e in request.entities if e['type'] == 'employment_action']
+	if action_entities:
+		responder.slots['action'] = action_entities[0]['value'][0]['cname']
+		responder.reply('{action} employees for which year?')
+		responder.params.allowed_intents = ('date.get_date_range_employees', 'date.get_date_range_employees')
+		responder.frame['action'] = responder.slots['action']
+		responder.listen()
+		return
+
 	qa, size = _resolve_categorical_entities(request, responder)
 
 	if age_entities:

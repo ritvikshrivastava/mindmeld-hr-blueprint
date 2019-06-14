@@ -106,7 +106,11 @@ def get_date_range_employees(request, responder):
 
 	qa_out = _resolve_time(request, responder, qa, size)
 
-	responder.slots['emp_list'] = _get_names(qa_out)
+	try:
+		responder.slots['emp_list'] = _get_names(qa_out)
+	except:
+		responder.reply("What date would you like to know about? Hire, termination or birth?")
+		return
 	responder.reply("Here's some employees: {emp_list}")
 
 
@@ -165,12 +169,23 @@ def _resolve_time(request, responder, qa, size):
 	the duration. The returned value is this shortlisted set of employees.
 	"""
 
+	# Fetch existing action entity from a previous turn and clear 'action' context
+	action_entity = []
+	if request.frame.get('action'):
+		action_entity.append(request.frame.get('action'))
+		responder.frame['action']=None
+
 	time_ent = [e['text'] for e in request.entities if e['type'] == 'sys_time']
 	dur_ent = [e['text'] for e in request.entities if e['type'] == 'sys_duration']
 	date_compare_ent = [e for e in request.entities if e['type'] == 'date_compare']
 	time_interval = [e for e in request.entities if e['type'] == 'time_interval']
-	action_entity = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
+
+	# Catch new action entity and update the existing one in context (if any)
+	new_action_entity = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
 	dob_entity = [e for e in request.entities if e['type'] == 'dob']
+
+	if new_action_entity:
+		action_entity=[e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
 
 	if action_entity:
 		action_entity = action_entity[0]
@@ -181,7 +196,7 @@ def _resolve_time(request, responder, qa, size):
 	elif dob_entity:
 		field = 'dob'
 	else:
-		responder.reply("What date would you like to know the statistic about? Hire, termination or birth?")
+		responder.reply("What date would you like to know about? Hire, termination or birth?")
 		responder.listen()
 		return
 
