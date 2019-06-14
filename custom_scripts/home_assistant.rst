@@ -352,7 +352,7 @@ The labeled data for training our NLP pipeline was created using a combination o
 | |                                                | | of an employee?"                                                       |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
-| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query               |
+| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"               |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Annotate queries                               | | HR Assistant does not use roles. For examples please visit              |
 | | for training the Role Classifier               | | the home assistant blueprint.                                          |
