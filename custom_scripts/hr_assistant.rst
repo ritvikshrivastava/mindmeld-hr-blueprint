@@ -287,7 +287,7 @@ Assuming that you have Elasticsearch installed, running the :func:`blueprint()` 
 
 .. warning::
 
-   Make sure that Elasticsearch is running in a separate shell before invoking the QuestionAnswerer.
+   Make sure that Elasticsearch is running in a separate shell before invoking the QuestionAnswerer. **For full functionality of the HR Assistant use Elasticsearch Version 5.5.3.** 
 
 .. code:: python
 
