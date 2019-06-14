@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains the dialogue states for the 'date' domain in 
+"""This module contains the dialogue states for the 'date' domain in
 the MindMeld HR assistant blueprint application
 """
 import os
@@ -52,8 +52,8 @@ def get_date(request, responder):
 	else:
 		responder.reply('What would you like to know about {name}? You can ask about date of hire, date of termination or date of birth.')
 		responder.listen()
-	
-	
+
+
 
 @app.handle(intent='get_date_range_aggregate')
 def get_date_range_aggregate(request, responder):
@@ -61,7 +61,7 @@ def get_date_range_aggregate(request, responder):
 	# Fetch the different types of entities
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
-	
+
 	if func_entities:
 
 		function, responder = _resolve_function_entity(responder, func_entities[0])
@@ -142,9 +142,9 @@ def _resolve_time(request, responder, qa, size):
 
 	if action_entity:
 		action_entity = action_entity[0]
-		if action_entity=='hired': 
+		if action_entity=='hired':
 			field = 'doh'
-		elif action_entity=='fired': 
+		elif action_entity=='fired':
 			field = 'dot'
 	elif dob_entity:
 		field = 'dob'
@@ -170,7 +170,7 @@ def _resolve_time(request, responder, qa, size):
 			qa = qa.filter(field=field, gte=time_ent[0], lte=time_ent[1])
 
 
-		# If there is only one time entity specified, then it could be either 
+		# If there is only one time entity specified, then it could be either
 		# the beginning or end of an infinite time period from that date
 		elif len(time_ent)==1:
 			if date_compare_ent:
@@ -193,4 +193,3 @@ def _resolve_time(request, responder, qa, size):
 		return
 
 	return qa_out
-

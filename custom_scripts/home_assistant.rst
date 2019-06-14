@@ -191,121 +191,63 @@ Sometimes a dialogue state handler needs to be aware of the context from a previ
     User: is he married
     App: Daniel Davis is Single                             # get_info_maritaldesc
 
-Observe that the first request leaves out some required information — the location of the light to turn on. Therefore, in the response, the application must prompt the user for the missing information. Most importantly, the app needs to "remember" context from the first request to understand the user's second request, in which the user specifies the information that was missing.
+Observe that the first request leaves out some required information — the type of user information to query. Therefore, in the response, the application must ask the user for the missing information. Most importantly, the app needs to "remember" context from the first request (in this case the person that the user is referring to) to understand the user's second request, in which the user specifies the information that was missing.
 
-Here is how the home assistant blueprint implements this pattern:
+Here is how the HR assistant blueprint implements this pattern:
 
-#. Define the ``specify_location`` intent
-#. Define the ``specify_location`` state
-#. Since multiple states (``close/open door``, ``lock/unlock door``, ``turn on/off lights``, ``turn on/off appliance``, ``check door/light``) can lead to the ``specify location`` state, pass the previous state/action information in the request object, as ``request.frame['desired_action']``
+#. Define the ``get_info`` intent
+#. Define the ``get_info`` state (default that does not include a ``has_entity``)
 
-The code for ``specify_location`` looks like this:
-
-.. code:: python
-
-   @app.handle(intent='specify_location')
-   def specify_location(request, responder):
-       selected_all = False
-       selected_location = _get_location(request)
-
-       if selected_location:
-           try:
-               if request.frame['desired_action'] == 'Close Door':
-                   reply = _handle_door_open_close_reply(selected_all, selected_location, request,
-                                                         desired_state="closed")
-               elif request.frame['desired_action'] == 'Open Door':
-                   reply = _handle_door_open_close_reply(selected_all, selected_location, request,
-                                                         desired_state="opened")
-               elif request.frame['desired_action'] == 'Lock Door':
-                   reply = _handle_door_lock_unlock_reply(selected_all, selected_location, request,
-                                                          desired_state="locked")
-               elif request.frame['desired_action'] == 'Unlock Door':
-                   reply = _handle_door_lock_unlock_reply(selected_all, selected_location, request,
-                                                          desired_state="unlocked")
-               elif request.frame['desired_action'] == 'Check Door':
-                   reply = _handle_check_door_reply(selected_location, responder)
-               elif request.frame['desired_action'] == 'Turn On Lights':
-                   color = _get_color(request) or request.frame.get('desired_color')
-                   reply = _handle_lights_reply(selected_all, selected_location, responder,
-                                                desired_state="on", color=color)
-               elif request.frame['desired_action'] == 'Turn Off Lights':
-                   reply = _handle_lights_reply(selected_all, selected_location, responder,
-                                                desired_state="off")
-               elif request.frame['desired_action'] == 'Check Lights':
-                   reply = _handle_check_lights_reply(selected_location, responder)
-               elif request.frame['desired_action'] == 'Turn On Appliance':
-                   selected_appliance = request.frame['appliance']
-                   reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                   desired_state="on")
-               elif request.frame['desired_action'] == 'Turn Off Appliance':
-                   selected_appliance = request.frame['appliance']
-                   reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                   desired_state="off")
-           except KeyError:
-               reply = "Please specify an action to go along with that location."
-
-           responder.reply(reply)
-       else:
-           reply = "I'm sorry, I wasn't able to recognize that location, could you try again?"
-           responder.reply(reply)
-
-
-Here are the intents and states in the home assistant blueprint, as defined in the application dialogue handler modules in the blueprint folder.
+Here are the intents and states in the HR assistant blueprint, as defined in the application dialogue handler modules in the blueprint folder.
 
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
 |  Intent                                           |  Dialogue State Name           | Dialogue State Function                           |
 +===================================================+================================+===================================================+
-| ``greet``                                         | ``greet``                      | Begin an interaction and welcome the user         |
+| ``get_info``                                      | ``get_info_age``               | Get the age of an employee                        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_weather``                                 | ``check_weather``              | Check the weather                                 |
+| ``get_info``                                      | ``get_info_state``             | Get the state of an employee                      |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_door``                                    | ``check_door``                 | Check the door                                    |
+| ``get_info``                                      | ``get_info_maritaldesc``       | Get the marital status of an employee             |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``close_door``                                    | ``close_door``                 | Close the door                                    |
+| ``get_info``                                      | ``get_info_citizendesc``       | Get the citizenship status of an employee         |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``open_door``                                     | ``open_door``                  | To open the door                                  |
+| ``get_info``                                      | ``get_info_racedesc``          | Get the race of an employee                       |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``lock_door``                                     | ``lock_door``                  | To lock the door                                  |
+| ``get_info``                                      | ``get_info_performance_score`  | Get the performance score of an employee          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``unlock_door``                                   | ``unlock_door``                | Unlock the door                                   |
+| ``get_info``                                      | ``get_info_rft``               | Get the reason for termination of an employee     |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_appliance_on``                             | ``turn_appliance_on``          | Turn the appliance on                             |
+| ``get_info``                                      | ``get_info_employee_source``   | Get how an employee heard of the company          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_appliance_off``                            | ``turn_appliance_off``         | Turn the appliance off                            |
+| ``get_info``                                      | ``get_info_position``          | Get the position of an employee                   |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_lights``                                  | ``check_lights``               | Check the lights                                  |
+| ``get_info``                                      | ``get_info_employment_status`` | Get the employment status of an employee          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_lights_on``                                | ``turn_lights_on``             | Turn the lights on                                |
+| ``get_info``                                      | ``get_info_dept``              | Get the department that an employee is in         |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_lights_off``                               | ``turn_lights_off``            | Turn the lights off                               |
+| ``get_info``                                      | ``get_info_default``           | Clarify the type of info requested of an employee |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_thermostat``                              | ``check_thermostat``           | Check the thermostat                              |
+| ``get_aggregate``                                 | ``get_aggregate``              | Get aggregate information requested               |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``set_thermostat``                                | ``set_thermostat``             | Set the thermostat                                |
+| ``get_employees``                                 | ``get_employees``              | Get employees that meet a certain criteria        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_up_thermostat``,  ``turn_down_thermostat`` | ``change_thermostat``          | Change the thermostat                             |
+| ``get_salary``                                    | ``get_salary``                 | Get the salary of an employee                     |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``change_alarm``                                  | ``change_alarm``               | Change the alarm                                  |
+| ``get_salary_aggregate``                          | ``get_salary_aggregate``       | Get aggregate salary related information          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_alarm``                                   | ``check_alarm``                | Check the alarm                                   |
+| ``get_salary_employees``                          | ``get_salary_employees``       | Get employees that meet a salary criteria         |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``remove_alarm``                                  | ``remove_alarm``               | Remove the alarm                                  |
+| ``get_date``                                      | ``get_date``                   | Get employees within a date range                 |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``set_alarm``                                     | ``set_alarm``                  | Set the alarm                                     |
+| ``get_date_range_aggregate``                      | ``get_date_range_aggregate``   | Aggregate info of employees within a date range   |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``start_timer``                                   | ``start_timer``                | Start the timer                                   |
+| ``get_date_range_employees``                      | ``get_date_range_employees``   | Get employees within a date range                 |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``stop_timer``                                    | ``stop_timer``                 | Stop the timer                                    |
+| ``get_hierarchy``                                 | ``get_hierarchy``              | Get manager information of an employee            |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``specify_location``                              | ``specify_location``           | Specify locations in the house                    |
+| ``unsupported``                                   | ``unsupported``                | Handle unsupported query by prompting user        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``specify_time``                                  | ``specify_time``               | Specify the time in the follow up questions       |
-+---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``exit``                                          | ``exit``                       | End the current interaction                       |
-+---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``unknown``                                       | ``unknown``                    | Prompt a user who has gone off-topic              |
-|                                                   |                                | to get back to food ordering                      |
-+---------------------------------------------------+--------------------------------+---------------------------------------------------+
+
 
 5. Knowledge Base
 ^^^^^^^^^^^^^^^^^
