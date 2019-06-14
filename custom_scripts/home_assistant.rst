@@ -327,8 +327,8 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
 | | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"              |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
-| | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
+| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit             |
+| | for training the Role Classifier               | | the home assistant blueprint.                                          |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
 | | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
