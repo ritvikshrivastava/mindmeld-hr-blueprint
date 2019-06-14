@@ -1,2 +1,0 @@
-class UnitNotFound(Exception):
-    pass
