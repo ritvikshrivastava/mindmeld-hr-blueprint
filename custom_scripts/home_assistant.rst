@@ -320,19 +320,19 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,        |
 | |                                                | | position, department, etc?"                                            |
 | |                                                | |                                                                        |
-| |                                                | | ``set_alarm`` intent (``times_and_dates`` domain):                     |
-| |                                                | | "What would you say to the app                                         |
-| |                                                | | to set a new alarm time?"                                              |
+| |                                                | | ``get_salary`` intent (``salary`` domain):                             |
+| |                                                | | "How would you ask for the salary                                        |
+| |                                                | | of an employee?"                                                       |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all occurrences of                            |
-| | for training the Entity Recognizer             | | ``sys_time`` and ``sys_interval`` system entities in the given query"  |
+| | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
+| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query               |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
-| | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
+| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit             |
+| | for training the Role Classifier               | | the home assistant blueprint.                                          |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
-| | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
-| |                                                | | locations in your home?"                                               |
+| | Generation synonyms for gazetteer generation   | | ``state`` entity: "Enumerate a list of state names"                    |
+| | to improve entity recognition accuracies       | | ``department`` entity: "What are some names of                         |
+| |                                                | | departments at the company?"                                           |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 
 
