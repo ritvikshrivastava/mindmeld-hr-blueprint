@@ -213,7 +213,7 @@ Here are the intents and states in the HR assistant blueprint, as defined in the
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
 | ``get_info``                                      | ``get_info_racedesc``          | Get the race of an employee                       |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``get_info``                                      | ``get_info_performance_score`  | Get the performance score of an employee          |
+| ``get_info``                                      | ``get_info_performance_score`` | Get the performance score of an employee          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
 | ``get_info``                                      | ``get_info_rft``               | Get the reason for termination of an employee     |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
