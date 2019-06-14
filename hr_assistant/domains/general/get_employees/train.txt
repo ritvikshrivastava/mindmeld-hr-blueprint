@@ -12,6 +12,7 @@ who is {working for|manager} {IT support|position}?
 {eligible noncitizen|citizendesc} employees
 Tell me Which employees who are not {us citizen|citizendesc}?
 All employees from {Alabama|state} state
+show me {multi-racial|race} employees
 {widowed|maritaldesc} employees
 employee {managers|position}
 Who is our {maximum|extreme} employee?

@@ -27,17 +27,17 @@ def unsupported(request, responder):
 			responder.frame['visited']=False
 
 		elif any(x in text for x in yes_list):
-			responder.reply(["Great! You can ask me about an employee's individual information (eg. Is Ivan married?), \
-				some employee statistic (eg. average salary of females) \
-				or names of employees according to your criteria (eg. give me a list of all married employees)"])
+			replies = ["Great! You can ask me about an employee's individual information (eg. Is Ivan married?), \
+some employee statistic (eg. average salary of females) \
+or names of employees according to your criteria (eg. give me a list of all married employees)"]
+			responder.reply(replies)
 
 			responder.reply("Now, what would you like to know?")
 			responder.frame['visited']=False
 			responder.listen()
 
 		else:
-			responder.reply("Hmmm, did you mean yes or no?")
-			responder.frame['visited'] = False
+			responder.reply("Did you mean yes or no?")
 			responder.listen()
 
 	else:
