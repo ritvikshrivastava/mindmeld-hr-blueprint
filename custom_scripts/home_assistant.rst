@@ -375,17 +375,17 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | for guiding the app design                     | | that has access to an HR database?"                                    |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Generate queries for training                  | | ``get_info`` intent (``general`` domain):                              |
-| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,          |
-| |                                                | | position, department, etc?"                                              |
+| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,        |
+| |                                                | | position, department, etc?"                                            |
 | |                                                | |                                                                        |
-| |                                                | | ``get_salary`` intent (``salary`` domain):                              |
-| |                                                | | "How would you ask for the salary                                        |
-| |                                                | | of an employee?"                                                        |
+| |                                                | | ``get_salary`` intent (``salary`` domain):                             |
+| |                                                | | "How would you ask for the salary                                      |
+| |                                                | | of an employee?"                                                       |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
 | | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query               |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit             |
+| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit              |
 | | for training the Role Classifier               | | the home assistant blueprint.                                          |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Generation synonyms for gazetteer generation   | | ``state`` entity: "Enumerate a list of state names"                    |
