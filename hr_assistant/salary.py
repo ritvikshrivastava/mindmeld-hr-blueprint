@@ -212,9 +212,8 @@ def _get_interval_amount(recur_ent, money):
 	param money (float): Hourly Salary of an employee
 	"""
 
-
-    intv_mult = { "yearly": 12*4*5*8, "monthly": 4*5*8, "weekly":5*8, "daily": 8,"hourly": 1}
-    return round(intv_mult[recur_ent] * money, 2)         
+	intv_mult = { "yearly": 12*4*5*8, "monthly": 4*5*8, "weekly":5*8, "daily": 8,"hourly": 1}
+	return round(intv_mult[recur_ent] * money, 2)         
 
 
 def _calculate_agg_salary(responder, qa_out, function, recur_ent='hourly'):
@@ -232,6 +231,3 @@ def _calculate_agg_salary(responder, qa_out, function, recur_ent='hourly'):
 	responder.slots['value'] = value
 
 	return responder
-
-
-
