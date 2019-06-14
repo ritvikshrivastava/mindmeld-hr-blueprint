@@ -308,6 +308,32 @@ Since the home assistant is a straightforward command-and-control application, i
 
 The labeled data for training our NLP pipeline was created using a combination of in-house data generation and crowdsourcing techniques. This is a highly important multi-step process that is described in more detail in :doc:`Step 6 <../quickstart/06_generate_representative_training_data>` of the Step-By-Step Guide. Be aware that at minimum, the following data generation tasks are required:
 
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Purpose                                        | | Question (for crowdsourced data generators)                            |
+| |                                                | | or instruction (for annotators)                                        |
++==================================================+==========================================================================+
+| | Exploratory data generation                    | | "What kinds of questions would you ask a smart HR assistant            |
+| | for guiding the app design                     | | that has access to an HR database?"                                    |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Generate queries for training                  | | ``get_info`` intent (``general`` domain):                              |
+| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,          |
+| |                                                | | position, department, etc?"                                              |
+| |                                                | |                                                                        |
+| |                                                | | ``get_salary`` intent (``salary`` domain):                              |
+| |                                                | | "How would you ask for the salary                                        |
+| |                                                | | of an employee?"                                                        |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Annotate queries                               | | ``set_alarm``: "Annotate all occurrences of                            |
+| | for training the Entity Recognizer             | | ``sys_time`` and ``sys_interval`` system entities in the given query"  |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
+| | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
+| | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
+| |                                                | | locations in your home?"                                               |
++--------------------------------------------------+--------------------------------------------------------------------------+
+
 
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Purpose                                        | | Question (for crowdsourced data generators)                            |
@@ -333,35 +359,6 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Generation synonyms for gazetteer generation   | | ``state`` entity: "Enumerate a list of state names"                    |
 | | to improve entity recognition accuracies       | | ``department`` entity: "What are some names of                         |
 | |                                                | | departments at the company?"                                           |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-
-
-
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Purpose                                        | | Question (for crowdsourced data generators)                            |
-| |                                                | | or instruction (for annotators)                                        |
-+==================================================+==========================================================================+
-| | Exploratory data generation                    | | "What kinds of questions would you ask a smart   
-|
-| | for guiding the app design                     | | HR assistant that has access to an HR database?"                        |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generate queries for training                  | | ``get_info`` intent (``General`` domain):                              |
-| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,          |
-| |                                                | |  position, department, etc?"                                           |
-| |                                                | |                                                                        |
-| |                                                | | ``get_salary`` intent (``Salary`` domain):                             |
-| |                                                | | "What would you say to the app                                         |
-| |                                                | | to set a new alarm time?"                                              |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all occurrences of                            |
-| | for training the Entity Recognizer             | | ``sys_time`` and ``sys_interval`` system entities in the given query"  |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
-| | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
-| | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
-| |                                                | | locations in your home?"                                               |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 
 In summary, the process is this:
