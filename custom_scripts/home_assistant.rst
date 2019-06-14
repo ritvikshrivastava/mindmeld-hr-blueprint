@@ -313,7 +313,7 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Purpose                                        | | Question (for crowdsourced data generators)                            |
 | |                                                | | or instruction (for annotators)                                        |
 +==================================================+==========================================================================+
-| | Exploratory data generation                    | | "How would you talk to a conversational app                            |
+| | Exploratory data generation                    | | "What kinds of questions would you ask a smart HR assistant            |
 | | for guiding the app design                     | | to control your smart home appliances?"                                |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Generate queries for training                  | | ``change_alarm`` intent (``times_and_dates`` domain):                  |
