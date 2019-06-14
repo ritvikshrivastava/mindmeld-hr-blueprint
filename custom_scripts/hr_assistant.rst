@@ -116,13 +116,16 @@ To train the different machine learning models in the NLP pipeline for this app,
 
 This should create a Workbench project folder called ``hr_assistant`` in your current directory with the following structure:
 
-.. image:: /images/hr_assistant_directory.png
+.. image:: /images/hr_assistant_directory.PNG
     :width: 250px
     :align: center
 
 
 4. Dialogue States
 ^^^^^^^^^^^^^^^^^^
+.. image:: /hr_assistant_directory.png
+    :width: 250px
+    :align: center
 
 Dialogue state logic can be arbitrarily complex. Simple dialogue state handlers just return a canned text response, while sophisticated ones can call third party APIs, calculate state transitions, and return complex responses.
 
