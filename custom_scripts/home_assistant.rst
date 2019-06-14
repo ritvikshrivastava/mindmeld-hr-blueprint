@@ -138,23 +138,23 @@ Let's begin by looking at some of the dialogue states for the intents in the ``g
 
 .. code:: python
 
-@app.handle(intent='get_info', has_entity='age')
-def get_info_age(request, responder):
+      @app.handle(intent='get_info', has_entity='age')
+      def get_info_age(request, responder):
 
       ...
 
-@app.handle(intent='get_info', has_entity='state')
-def get_info_state(request, responder):
+      @app.handle(intent='get_info', has_entity='state')
+      def get_info_state(request, responder):
 
       ...
 
-@app.handle(intent='get_info', has_entity='position')
-def get_info_position(request, responder):
+      @app.handle(intent='get_info', has_entity='position')
+      def get_info_position(request, responder):
 
       ...
 
-@app.handle(intent='get_info')
-def get_info_default(request, responder):
+      @app.handle(intent='get_info')
+      def get_info_default(request, responder):
 
       ...
 
@@ -166,13 +166,13 @@ We can see this paradigm followed in the domain ``salary`` as well:
 
 .. code:: python
 
-@app.handle(intent='get_salary', has_entity='time_recur')
-def get_salary_for_interval(request, responder):
+      @app.handle(intent='get_salary', has_entity='time_recur')
+      def get_salary_for_interval(request, responder):
 
       ...
 
-@app.handle(intent='get_salary')
-def get_salary(request, responder):
+      @app.handle(intent='get_salary')
+      def get_salary(request, responder):
 
       ...
 
