@@ -126,12 +126,13 @@ This should create a Workbench project folder called ``hr_assistant`` in your cu
 
 Dialogue state logic can be arbitrarily complex. Simple dialogue state handlers just return a canned text response, while sophisticated ones can call third party APIs, calculate state transitions, and return complex responses.
 
-Workbench supports two ways to organize dialogue states in the Dialogue Manager:
+Workbench supports three ways to organize dialogue states in the Dialogue Manager:
 
 #. Define **one dialogue state for each intent**, as seen in the Kwik-E-Mart blueprint. This is the simplest approach, but can lead to duplicated code.
-#. Define **one dialogue state for multiple intents**. This requires more work up front, but helps you consolidate duplicated dialogue state logic.
+#. Define **one dialogue state for multiple intents**. This requires more work up front, but helps you consolidate duplicated dialogue state logic. Example shown in the home assistant blueprint.
+#. Define **multiple dialogue states for multiple intents**. Based on the presence of entities different dialogue states can handle the users request. Good choice when each intent can have a variety of possible dialogue states.
 
-Which approach is best varies from one application to another. Figuring that out always requires some trial and error. We will explore both options in detail.
+Which approach is best varies from one application to another. Figuring that out always requires some trial and error. You can see an example of the first two cases in the home assistant blueprint. The HR assistant will use and discuss the third method.
 
 Let's begin by defining a dialogue state for each of the intents for controlling doors (``close_door``, ``open_door``, ``lock_door``, and ``unlock_door``):
 
@@ -346,7 +347,7 @@ The ``domains`` directory contains the training data for intent classification a
 
    - Read :doc:`Step 6 <../quickstart/06_generate_representative_training_data>` of the Step-By-Step Guide for best practices around training data generation and annotation for conversational apps. Following those principles, create additional labeled data for all the intents in this blueprint and use them as held-out validation data for evaluating your app. You can read more about :doc:`NLP model evaluation and error analysis <../userguide/nlp>` in the user guide.
 
-   - To train NLP models for your own HR assistant application, you can start by reusing the blueprint data for generic intents like ``get_info`` and ``get_salary``. If you have more information in your HR database then you can create new intents by following the steps above.
+   - To train NLP models for your own HR assistant application, you can start by reusing the blueprint data for generic intents like ``get_info`` and ``get_salary``. If you have more information in your HR database then you can create new intents and domains to include the new functionality.
 
 
 7. Training the NLP Classifiers
