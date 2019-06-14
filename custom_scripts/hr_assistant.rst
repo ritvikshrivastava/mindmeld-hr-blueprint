@@ -416,7 +416,7 @@ To see how the trained NLP pipeline performs on a test query, use the :meth:`pro
 
 .. code:: python
 
-   nlp.process("please set my alarm to 8am for tomorrow")
+   nlp.process("is Mia brown in the sales department?")
 
 .. code-block:: console
 
@@ -449,13 +449,13 @@ Inspect classifiers in baseline configuration
 
 For the data distributed with this blueprint, the baseline performance is already high. However, when extending the blueprint with your own custom home assistant data, you may find that the default settings may not be optimal and you can get better accuracy by individually optimizing each of the NLP components.
 
-Because the home assistant app has five domains and over twenty intents, the classifiers need a fair amount of fine-tuning.
+Because the HR assistant app has five domains and over twenty intents, the classifiers need a fair amount of fine-tuning.
 
 Start by inspecting the baseline configurations that the different classifiers use. The User Guide lists and describes the available configuration options. As an example, the code below shows how to access the model and feature extraction settings for the Intent Classifier.
 
 .. code:: python
 
-   ic = nlp.domains['smart_home'].intent_classifier
+   ic = nlp.domains['salary'].intent_classifier
    ic.config.model_settings['classifier_type']
 
 .. code-block:: console
@@ -490,9 +490,9 @@ We can change the feature extraction settings to use bag of trigrams in addition
 
 .. code-block:: console
 
-   Fitting intent classifier: domain='smart_home'
-   Selecting hyperparameters using k-fold cross-validation with 5 splits
-   Best accuracy: 97.95%, params: {'C': 100, 'class_weight': {0: 2.1058169934640523, 1: 2.1058169934640523, 2: 0.9449346405228759, 3: 2.2581148121899366, 4: 1.7132480818414322, 5: 2.1058169934640523, 6: 0.7752149982800138, 7: 0.4041150092323926, 8: 2.234803921568627, 9: 1.4608823529411765, 10: 1.1334539969834088, 11: 1.100608519269777, 12: 1.1785055643879174, 13: 1.521981424148607, 14: 1.6213295074127212, 15: 1.129201680672269, 16: 2.8003619909502264}, 'fit_intercept': True}
+    Fitting intent classifier: domain='salary'
+    Selecting hyperparameters using k-fold cross-validation with 5 splits
+    Best accuracy: 97.43%, params: {'C': 100, 'class_weight': {0: 0.8294469357249626, 1: 1.1142528735632182, 2: 1.1555555555555554}, 'fit_intercept': True}
 
 We can also change the model for the intent classifier to Support Vector Machine (SVM) classifier, which works well for some datasets:
 
@@ -514,45 +514,16 @@ We can also change the model for the intent classifier to Support Vector Machine
 
 .. code-block:: console
 
-   Fitting intent classifier: domain='smart_home'
-   Loading queries from file smart_home/check_lights/train.txt
-   Loading queries from file smart_home/specify_location/train.txt
-   Loading queries from file smart_home/turn_appliance_off/train.txt
-   Loading queries from file smart_home/check_thermostat/train.txt
-   Loading queries from file smart_home/set_thermostat/train.txt
-   Loading queries from file smart_home/turn_up_thermostat/train.txt
-   Loading queries from file smart_home/turn_lights_on/train.txt
-   Loading queries from file smart_home/unlock_door/train.txt
-   Loading queries from file smart_home/turn_on_thermostat/train.txt
-   Loading queries from file smart_home/lock_door/train.txt
-   Loading queries from file smart_home/turn_down_thermostat/train.txt
-   Unable to load query: Unable to resolve system entity of type 'sys_time' for '12pm'.
-   Loading queries from file smart_home/close_door/train.txt
-   Loading queries from file smart_home/turn_lights_off/train.txt
-   Loading queries from file smart_home/open_door/train.txt
-   Loading queries from file smart_home/turn_off_thermostat/train.txt
-   Loading queries from file smart_home/turn_appliance_on/train.txt
-   Selecting hyperparameters using k-fold cross-validation with 10 splits
-   Best accuracy: 98.27%, params: {'C': 5000, 'kernel': 'rbf'}
+    Fitting intent classifier: domain='salary'
+    Selecting hyperparameters using k-fold cross-validation with 10 splits
+    Best accuracy: 96.64%, params: {'C': 1000, 'kernel': 'rbf'}
 
 Similar options are available for inspecting and experimenting with the Entity Recognizer and other NLP classifiers as well. Finding the optimal machine learning settings is an iterative process involving several rounds of parameter tuning, testing, and error analysis. Refer to the :doc:`NaturalLanguageProcessor <../userguide/nlp>` in the user guide for more about training, tuning, and evaluating the various Workbench classifiers.
 
 Inspect the role classifiers
 """"""""""""""""""""""""""""
 
-The home assistant application has role classifiers to distinguish between different role labels. For example, the annotated data in the ``times_and_dates`` domain and ``check_alarm`` intent has two types of roles: ``old_time`` and ``new_time``. The role classifier detects these roles for the ``sys_time`` entity:
-
-.. code:: python
-
-   nlp.domains["times_and_dates"].intents["change_alarm"].load()
-   nlp.domains["times_and_dates"].intents["change_alarm"].entities["sys_time"].role_classifier.fit()
-   nlp.domains["times_and_dates"].intents["change_alarm"].entities["sys_time"].role_classifier.evaluate()
-
-.. code-block:: console
-
-   <StandardModelEvaluation score: 100.00%, 21 of 21 examples correct>
-
-In the above case, the role classifier was able to correctly distinguish between ``new_time`` and ``old_time`` for all test cases.
+The HR assistant does not make use of the role classifiers. For an examaple of inspecting the role classifiers please visit the home assistant application blueprint.
 
 Inspect the configuration
 """""""""""""""""""""""""
@@ -604,12 +575,12 @@ Since we do not have entity groups in the HR assistant app, we do not need a par
 9. Using the Question Answerer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :doc:`Question Answerer <../userguide/kb>` component in Workbench is mainly used within dialogue state handlers for retrieving information from the knowledge base. In the case of HR assistant that intelligently retrieves information from a knowledge base of employee information a question answerer is essential. Other than the unsupported intent, all of the intents in the HR Assistant make use of the Question Answerer.
+The :doc:`Question Answerer <../userguide/kb>` component in Workbench is mainly used within dialogue state handlers for retrieving information from the knowledge base. In the case of an HR assistant that intelligently retrieves information from a knowledge base of employee information a question answerer is essential. Other than the unsupported intent, all of the intents in the HR Assistant make use of the Question Answerer.
 
 .. code:: python
 
    from mmworkbench.components.question_answerer import QuestionAnswerer
-   qa = QuestionAnswerer(app_path='food_ordering')
+   qa = QuestionAnswerer(app_path='hr_assistant')
    restaurants = qa.get(index='user_data')[0:3]
    [user['emp_name'] for user in users]
 
@@ -659,7 +630,7 @@ In the case that we are trying to filter on multiple non-numeric entities, we ca
 
 .. admonition:: Exercise
 
-   - Think of other important data that would be useful to have in the knowledge base for a food ordering use case. Identify the ways that data could be leveraged to provide a more intelligent user experience.
+   - Think of other important data that would be useful to have in the knowledge base for an HR Assistant use case. Identify the ways that data could be leveraged to provide a more intelligent user experience.
 
    - When customizing the blueprint for your own app, consider adding additional employee information in the knowledge base.
 
