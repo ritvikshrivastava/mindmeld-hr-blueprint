@@ -36,8 +36,16 @@ or names of employees according to your criteria (eg. give me a list of all marr
 			responder.frame['visited']=False
 			responder.listen()
 
+		elif request.frame.get('double_visit'):
+			responder.reply("Hmmm, I didn't quite understand. Would you like to know what you can ask me?")
+			responder.frame['visited'] = True
+			responder.target_dialogue_state = 'unsupported'
+			responder.frame['double_visit'] = False
+			responder.listen()
+
 		else:
 			responder.reply("Did you mean yes or no?")
+			responder.frame['double_visit'] = True
 			responder.listen()
 
 	else:

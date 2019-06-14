@@ -66,12 +66,17 @@ def get_date_range_aggregate(request, responder):
 	calculates the desired statistic function and returns it.
 	"""
 
+	# Checks for existing function entity from previous turn
+	func_entity = request.frame.get('function')
 
-	# Fetch the different types of entities
-
+	# If the user provides a new function entity, it replaces the one in context from previous turns
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 
 	if func_entities:
+		func_entity = func_entities[0]
+
+	if func_entity:
+		function, responder = _resolve_function_entity(responder, func_entity)
 
 		function, responder = _resolve_function_entity(responder, func_entities[0])
 

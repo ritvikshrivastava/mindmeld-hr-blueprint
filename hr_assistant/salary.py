@@ -51,6 +51,10 @@ def get_salary_aggregate(request, responder):
 	statistic function and returns it.
 	"""
 
+	# Checks for existing function entity from previous turn
+	func_entity = request.frame.get('function')
+
+	# If the user provides a new function entity, it replaces the one in context from previous turns
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
@@ -58,13 +62,23 @@ def get_salary_aggregate(request, responder):
 	salary_response = "Hmm, looks like you want a salary statistic. You can ask me about averages, sums, counts and percentages. For eg. what is the average salary for women?" 
 
 	if func_entities:
+		func_entity = func_entities[0]
 
-		function, responder = _resolve_function_entity(responder, func_entities[0])
+	if func_entity:
+		function, responder = _resolve_function_entity(responder, func_entity)
 
 		qa, size = _resolve_categorical_entities(request, responder)
 
 		if money_entities:
-			qa, size = _apply_money_filter(qa, money_entities, request, responder)
+			try:
+				qa, size = _apply_money_filter(qa, money_entities, request, responder)
+			except:
+				responder.reply("I see you are looking for the {function}, can you be more specific?")
+				responder.frame['function']=func_entity
+				responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
+				responder.listen()
+				return
+
 			qa_out = qa.execute(size=size)
 			if recur_ent and function in ('avg','sum'):
 				responder = _calculate_agg_salary(responder, qa_out, function, recur_ent[0])
@@ -92,6 +106,8 @@ def get_salary_aggregate(request, responder):
 
 		else:
 			responder.reply("I see you are looking for the {function}, can you be more specific?")
+			responder.frame['function']=func_entity
+			responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
 			responder.listen()
 
 	else:
@@ -193,7 +209,7 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 
 	elif extreme_entity:
-		qa, size = _resolve_extremes(qa, extreme_entity, 'money', num_entity)
+		qa, size = _resolve_extremes(request, responder, qa, extreme_entity, 'money', num_entity)
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))

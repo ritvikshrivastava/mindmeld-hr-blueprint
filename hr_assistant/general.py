@@ -144,8 +144,10 @@ def get_aggregate(request, responder):
 	relevant entities, calculates the desired statistic function and returns it.
 	"""
 
+	# Checks for existing function entity from previous turn
 	func_entity = request.frame.get('function')
 
+	# If the user provides a new function entity, it replaces the one in context from previous turns
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	age_entities = [e for e in request.entities if e['type'] == 'age']
 
@@ -153,14 +155,15 @@ def get_aggregate(request, responder):
 		func_entity = func_entities[0]
 
 	if func_entity:
-		function, responder = _resolve_function_entity(responder, func_entities[0])
+		function, responder = _resolve_function_entity(responder, func_entity)
 
 		qa, size = _resolve_categorical_entities(request, responder)
 
 		# Handles Numerical Variables
 		if age_entities:
-			qa, size = _apply_age_filter(qa, age_entities, request, responder)
+			qa, size = _apply_age_filter(request, responder, qa, age_entities)
 			qa_out = qa.execute(size=size)
+
 			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
 			responder.reply('The {function} age is {value}')
 
@@ -171,12 +174,13 @@ def get_aggregate(request, responder):
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
-			responder.params.allowed_intents = ('general.get_aggregate', 'general.get_employees')
+			responder.frame['function']=func_entity
+			responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
 			responder.listen()
 
 	else:
 		responder.reply('What statistic would you like to know?')
-		responder.params.allowed_intents = ('general.get_aggregate', 'general.get_employees')
+		responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
 		responder.listen()
 
 
@@ -192,10 +196,6 @@ def get_employees(request, responder):
 	# Finding age entities (indicators), if any
 	age_entities = [e for e in request.entities if e['type'] == 'age']
 
-	# Considering that the only numerical value(s) for this intent will be age
-	num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number'] 
-	num_entity = [float(i) for i in num_entity]
-
 	# Finding extreme entities (if any)
 	try:
 		extreme_entity = [e for e in request.entities if e['type'] == 'extreme'][0]
@@ -205,10 +205,10 @@ def get_employees(request, responder):
 	qa, size = _resolve_categorical_entities(request, responder)
 
 	if age_entities:
-		qa, size = _apply_age_filter(request, responder, qa, age_entities, num_entity)
+		qa, size = _apply_age_filter(request, responder, qa, age_entities)
 
 	if extreme_entity:
-		qa, size = _resolve_extremes(qa, extreme_entity, 'age', num_entity)
+		qa, size = _resolve_extremes(request, responder, qa, extreme_entity, 'age')
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
@@ -220,12 +220,22 @@ def get_employees(request, responder):
 ### Helper Functions ###
 
 
-def _apply_age_filter(request, responder, qa, age_entities, num_entity):
+def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
 	"""
 	This function is used to filter any age related queries, that may include a 
 	comparator, such as 'how many employees are more than 40 years old', 
 	or an exact age 'employees who are 30 years of age'.
 	"""
+
+	if not num_entity:
+		num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number']
+
+		for i in request.text.split():
+			try:
+				num_entity.append(float(i))
+			except:
+				continue
+		num_entity = [float(i) for i in num_entity]
 
 	try:
 		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
@@ -240,16 +250,16 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity):
 		comparator_canonical = comparator_entity['value'][0]['cname']
 
 		if comparator_canonical == 'more than':
-			gte_val = num_entity[0]['text']
+			gte_val = num_entity[0]
 			lte_val = 100
 
 		elif comparator_canonical == 'less than':
-			lte_val = num_entity[0]['text']
+			lte_val = num_entity[0]
 			gte_val = 0
 
 		elif comparator_canonical == 'equals to':
-			gte_val = num_entity[0]['text']
-			lte_val = num_entity[0]['text']
+			gte_val = num_entity[0]
+			lte_val = num_entity[0]
 
 		elif len(num_entity)>1:
 			gte_val = np.min(num_entity)
@@ -317,7 +327,7 @@ def _resolve_function_entity(responder, func_entity):
 	return function, responder
 
 
-def _resolve_extremes(qa, extreme_entity, field, num_entity):
+def _resolve_extremes(request, responder, qa, extreme_entity, field, num_entity=None):
 	"""
 	Resolves 'extreme' entities and sorts the search QA output according
 	to the order required. Also returns a size back to the calling function. 
@@ -326,6 +336,16 @@ def _resolve_extremes(qa, extreme_entity, field, num_entity):
 	in a descending manner and return that along with the value 5. If no value
 	is provided in the original query, this function returns 1 as size.
 	"""
+
+	if not num_entity:
+		num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number']
+
+		for i in request.text.split():
+			try:
+				num_entity.append(float(i))
+			except:
+				continue
+		num_entity = [float(i) for i in num_entity]
 
 	extreme_canonical = extreme_entity['value'][0]['cname']
 
@@ -352,10 +372,10 @@ def _agg_function(qa_out, func='avg', num_col='money'):
 	returns result (float) - Resulting Value from function operation
 	"""
 
-	if(func=='avg'): return np.mean([emp[num_col] for emp in qa_out])
+	if(func=='avg'): return round(np.mean([emp[num_col] for emp in qa_out]),2)
 	elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
 	elif(func=='ct'): return len(qa_out)
-	elif(func=='pct'): return len(qa_out)/3
+	elif(func=='pct'): return round(len(qa_out)/3,2)
 
 
 def _get_names(qa_out):
