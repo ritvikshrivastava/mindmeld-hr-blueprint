@@ -308,6 +308,35 @@ Since the home assistant is a straightforward command-and-control application, i
 
 The labeled data for training our NLP pipeline was created using a combination of in-house data generation and crowdsourcing techniques. This is a highly important multi-step process that is described in more detail in :doc:`Step 6 <../quickstart/06_generate_representative_training_data>` of the Step-By-Step Guide. Be aware that at minimum, the following data generation tasks are required:
 
+
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Purpose                                        | | Question (for crowdsourced data generators)                            |
+| |                                                | | or instruction (for annotators)                                        |
++==================================================+==========================================================================+
+| | Exploratory data generation                    | | "How would you talk to a conversational app                            |
+| | for guiding the app design                     | | to control your smart home appliances?"                                |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Generate queries for training                  | | ``change_alarm`` intent (``times_and_dates`` domain):                  |
+| | Domain and Intent Classifiers                  | | "What would you say to the app to change your alarm time               |
+| |                                                | | from a previous set time to a new set time?"                           |
+| |                                                | |                                                                        |
+| |                                                | | ``set_alarm`` intent (``times_and_dates`` domain):                     |
+| |                                                | | "What would you say to the app                                         |
+| |                                                | | to set a new alarm time?"                                              |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Annotate queries                               | | ``set_alarm``: "Annotate all occurrences of                            |
+| | for training the Entity Recognizer             | | ``sys_time`` and ``sys_interval`` system entities in the given query"  |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
+| | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
++--------------------------------------------------+--------------------------------------------------------------------------+
+| | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
+| | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
+| |                                                | | locations in your home?"                                               |
++--------------------------------------------------+--------------------------------------------------------------------------+
+
+
+
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Purpose                                        | | Question (for crowdsourced data generators)                            |
 | |                                                | | or instruction (for annotators)                                        |
