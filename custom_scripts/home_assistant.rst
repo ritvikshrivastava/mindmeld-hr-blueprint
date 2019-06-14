@@ -93,42 +93,30 @@ HR assistant defines and uses the following custom entities for each of its doma
 
 
    - Compare/Functions
-       - ``comparator``: detects a comparison keyword (more than, less than, equal to, between). For example: "is {mia|name} {earning|money} {more than} {ivan|name}?"
-       - ``age``: detects whether the user is asking about the age of an employee. For example: "tell me the {age of|age} {mia|name}"
-       - ``sex``: detects the gender of an employee. For example: "is {Ivan|name} {male|sex}?"
-       - ``maritaldesc``: detects the marital status of an employee. For example: "is {Ivan|name} a {married|maritaldesc} man?"
-       - ``citizendesc``: detects the citizenship status of an employee. For example: "is {Nan|name} a {us citizen|citizendesc}?"
+       - ``comparator``: detects comparison keywords (more than, less than, equal to, between). For example: "is {mia|name} {earning|money} {more than} {ivan|name}?"
+       - ``extreme``: detects extreme keywords (highest, oldest, lowest, youngest). For example: "who is the {oldest|extreme} employee?"
+       - ``date_compare``: detects date comparision key words (prior to, after) For example: "Was {Ivan|name} {born|dob} {prior to|date_compare} {1990|sys_time}?"
+       - ``function``: detects a function type (percent, sum, average, count) For example: "What {percent|function} of employees are {women|sex}?"
 
-       - ``sex``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
-       - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
-       - ``all``: detects whether the user is referring to all household locations, as opposed to a particular location, for example: "turn on the lights in {all|all} room" and "lock the doors {everywhere|all}".
-       - ``color``: detects color of the lights, for example: "turn the lights to {soft white|color}"
+   - Custom Time Entities
+       - ``time_interval``: detects a decade (1980's, 80s, eighties) For example: "{how many|function} employees were {bron|dob} in the {eighties|time_interval}?"
+       - ``time_recur``: detects a recurring time interval (yearly, monthly, weekly). For example: "what does {ivan|name} {make|money} {monthly|time_recur}?"
 
-   - Time and dates
-       - ``duration``: detects time duration, for example: "{15 minute|duration} alarm"
-       - ``interval``: detects time interval, for example: "cancel {tomorrow night|interval} s alarms"
+       time, amount of money, number,
 
-   - Weather
-       - ``city``: detects cities, for example: "what is the weather in {shanghai|city}"
-       - ``unit``: detects weather unit, for example: "what is the forecast for {london|city} in {celsius|unit}"
-
-Home assistant uses three system entities: ``sys_time`` (time), ``sys_interval`` (interval) and ``sys_temperature`` (temperature). Some examples for annotation with system entities: "set my thermostat to turn on at {6 am|sys_time}" and "turn the heat off at {76 degrees|sys_temperature}".
-
-Queries can include more than one entity of the same type. In "change my alarm from 7 am to 6 am", for example, both "7 am" and "6 am" are ``sys_time`` entities. Just labeling both entities with the same type does not give Workbench enough information to understand the meaning of the query. We need to show the different *roles* that these two ``sys_time`` entities play in creating meaning. One is an "old time" that the alarm was set to, and the other is a "new time" that the user wants as a new setting for the alarm. We annotate the example as "change alarm from {7 am|sys_time|old_time} to {6 am|sys_time|new_time}." This way, Workbench can interpret each entity correctly. See :doc:`Role Classifier <../userguide/role_classifier>`.
+HR assistant uses three system entities: ``sys_time`` (time), ``sys_amount-of-money`` (money), ``sys_number`` (number). Some examples for annotation with system entities: "{How many|function} employees were {born|dob} in the {2009|sys_time}?" and "what {fraction|function} of employees {make|money} {less than|comparator} {69 grand|sys_amount-of-money}?".
 
 .. admonition:: Exercise
-
-   While the blueprint provides a good starting point, you may need additional intents and entities to support the desired scope of your app. Enumerate some other intents (e.g., ``dim_lights``, ``check_windows``, and so on) and entities (e.g., ``awning``, ``driveway``, and so on) that make sense for a home automation use case.
 
 To train the different machine learning models in the NLP pipeline for this app, we need labeled training data that covers all our intents and entities. To download the data and code required to run this blueprint, run the command below in a directory of your choice. (If you have already completed the Quick Start for this blueprint, you should skip this step.)
 
 .. code-block:: shell
 
-    python -c "import mmworkbench as wb; wb.blueprint('home_assistant');"
+    python -c "import mmworkbench as wb; wb.blueprint('hr_assistant');"
 
-This should create a Workbench project folder called ``home_assistant`` in your current directory with the following structure:
+This should create a Workbench project folder called ``hr_assistant`` in your current directory with the following structure:
 
-.. image:: /images/home_assistant_directory.png
+.. image:: /images/hr_assistant_directory.png
     :width: 250px
     :align: center
 
@@ -138,177 +126,128 @@ This should create a Workbench project folder called ``home_assistant`` in your 
 
 Dialogue state logic can be arbitrarily complex. Simple dialogue state handlers just return a canned text response, while sophisticated ones can call third party APIs, calculate state transitions, and return complex responses.
 
-Workbench supports two ways to organize dialogue states in the Dialogue Manager:
+Workbench supports three ways to organize dialogue states in the Dialogue Manager:
 
 #. Define **one dialogue state for each intent**, as seen in the Kwik-E-Mart blueprint. This is the simplest approach, but can lead to duplicated code.
-#. Define **one dialogue state for multiple intents**. This requires more work up front, but helps you consolidate duplicated dialogue state logic.
+#. Define **one dialogue state for multiple intents**. This requires more work up front, but helps you consolidate duplicated dialogue state logic. Example shown in the home assistant blueprint.
+#. Define **multiple dialogue states for multiple intents**. Based on the presence of entities, multiple dialogue states can handle a user's request. This is a good choice for when an intent can have a many possible dialogue states based on the presence of entities.
 
-Which approach is best varies from one application to another. Figuring that out always requires some trial and error. We will explore both options in detail.
+Which approach is best varies from one application to another. Figuring that out always requires some trial and error. You can see an example of the first two cases in the home assistant blueprint. The HR assistant will use and discuss the third method.
 
-Let's begin by defining a dialogue state for each of the intents for controlling doors (``close_door``, ``open_door``, ``lock_door``, and ``unlock_door``):
-
-.. code:: python
-
-  @app.handle(intent='close_door')
-  def close_door(request, responder):
-
-      ...
-
-  @app.handle(intent='open_door')
-  def open_door(request, responder):
-
-      ...
-
-  @app.handle(intent='lock_door')
-  def lock_door(request, responder):
-
-      ...
-
-  @app.handle(intent='unlock_door')
-  def unlock_door(request, responder):
-
-      ...
-
-Observe that the controller logic (for example, setting the state variable for the door) is very similar for all four intents. That means we have an opportunity to define a single state, ``handle_door``, for all of these intents:
+Let's begin by looking at some of the dialogue states for the intents in the ``general`` domain:
 
 .. code:: python
 
-  @app.handle(intent='close_door')
-  @app.handle(intent='open_door')
-  @app.handle(intent='lock_door')
-  @app.handle(intent='unlock_door')
-  def handle_door(request, responder):
+      @app.handle(intent='get_info', has_entity='age')
+      def get_info_age(request, responder):
 
-      ...
+          ...
+
+      @app.handle(intent='get_info', has_entity='state')
+      def get_info_state(request, responder):
+
+          ...
+
+      @app.handle(intent='get_info', has_entity='position')
+      def get_info_position(request, responder):
+
+          ...
+
+      @app.handle(intent='get_info')
+      def get_info_default(request, responder):
+
+          ...
+
+Observe that the same intent has multiple dialogue states that specify a ``has_entity`` field, except for the last case which serves as the default case. In other words, Mindmeld will feed the request to the dialogue state handler if there is a match between an entity found in the user query and the entity that the dialogue state handler accepts. If none of the entities are found, Mindmeld will default to the last case that does not specify an entity. This is where the system can follow up with the user and ask for any information needed to complete the query.
+
+
+
+We can see this paradigm followed in the domain ``salary`` as well:
+
+.. code:: python
+
+      @app.handle(intent='get_salary', has_entity='time_recur')
+      def get_salary_for_interval(request, responder):
+
+          ...
+
+      @app.handle(intent='get_salary')
+      def get_salary(request, responder):
+
+          ...
+
 
 .. admonition:: Exercise
 
-   Analyze the way the home assistant blueprint uses the patterns **one dialogue state for each intent** and **one dialogue state for multiple intents**. Why is one pattern used in some situations and the other used in others?
+   Analyze the way the HR assistant blueprint uses this pattern **multiple dialogue states for multiple intents**. Why this pattern used instead of another?
 
 
 Sometimes a dialogue state handler needs to be aware of the context from a previous state. This happens in the **follow-up request pattern**. Consider this conversational interaction:
 
 .. code:: bash
 
-  User: Turn on the lights.
-  App: Sure. Which lights?
-  User: In the kitchen
+    User: Can you tell me about daniel?
+    App: What would you like to know about Daniel Davis?    # get_info_default
+    User: is he married
+    App: Daniel Davis is Single                             # get_info_maritaldesc
 
-Observe that the first request leaves out some required information — the location of the light to turn on. Therefore, in the response, the application must prompt the user for the missing information. Most importantly, the app needs to "remember" context from the first request to understand the user's second request, in which the user specifies the information that was missing.
+Observe that the first request leaves out some required information — the type of user information to query. Therefore, in the response, the application must ask the user for the missing information. Most importantly, the app needs to "remember" context from the first request (in this case the person that the user is referring to) to understand the user's second request, in which the user specifies the information that was missing.
 
-Here is how the home assistant blueprint implements this pattern:
+Here is how the HR assistant blueprint implements this pattern:
 
-#. Define the ``specify_location`` intent
-#. Define the ``specify_location`` state
-#. Since multiple states (``close/open door``, ``lock/unlock door``, ``turn on/off lights``, ``turn on/off appliance``, ``check door/light``) can lead to the ``specify location`` state, pass the previous state/action information in the request object, as ``request.frame['desired_action']``
+#. Define the ``get_info`` intent
+#. Define the ``get_info`` state (default that does not include a ``has_entity``)
 
-The code for ``specify_location`` looks like this:
-
-.. code:: python
-
-   @app.handle(intent='specify_location')
-   def specify_location(request, responder):
-       selected_all = False
-       selected_location = _get_location(request)
-
-       if selected_location:
-           try:
-               if request.frame['desired_action'] == 'Close Door':
-                   reply = _handle_door_open_close_reply(selected_all, selected_location, request,
-                                                         desired_state="closed")
-               elif request.frame['desired_action'] == 'Open Door':
-                   reply = _handle_door_open_close_reply(selected_all, selected_location, request,
-                                                         desired_state="opened")
-               elif request.frame['desired_action'] == 'Lock Door':
-                   reply = _handle_door_lock_unlock_reply(selected_all, selected_location, request,
-                                                          desired_state="locked")
-               elif request.frame['desired_action'] == 'Unlock Door':
-                   reply = _handle_door_lock_unlock_reply(selected_all, selected_location, request,
-                                                          desired_state="unlocked")
-               elif request.frame['desired_action'] == 'Check Door':
-                   reply = _handle_check_door_reply(selected_location, responder)
-               elif request.frame['desired_action'] == 'Turn On Lights':
-                   color = _get_color(request) or request.frame.get('desired_color')
-                   reply = _handle_lights_reply(selected_all, selected_location, responder,
-                                                desired_state="on", color=color)
-               elif request.frame['desired_action'] == 'Turn Off Lights':
-                   reply = _handle_lights_reply(selected_all, selected_location, responder,
-                                                desired_state="off")
-               elif request.frame['desired_action'] == 'Check Lights':
-                   reply = _handle_check_lights_reply(selected_location, responder)
-               elif request.frame['desired_action'] == 'Turn On Appliance':
-                   selected_appliance = request.frame['appliance']
-                   reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                   desired_state="on")
-               elif request.frame['desired_action'] == 'Turn Off Appliance':
-                   selected_appliance = request.frame['appliance']
-                   reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                   desired_state="off")
-           except KeyError:
-               reply = "Please specify an action to go along with that location."
-
-           responder.reply(reply)
-       else:
-           reply = "I'm sorry, I wasn't able to recognize that location, could you try again?"
-           responder.reply(reply)
-
-
-Here are the intents and states in the home assistant blueprint, as defined in the application dialogue handler modules in the blueprint folder.
+Here are the intents and states in the HR assistant blueprint, as defined in the application dialogue handler modules in the blueprint folder.
 
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
 |  Intent                                           |  Dialogue State Name           | Dialogue State Function                           |
 +===================================================+================================+===================================================+
-| ``greet``                                         | ``greet``                      | Begin an interaction and welcome the user         |
+| ``get_info``                                      | ``get_info_age``               | Get the age of an employee                        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_weather``                                 | ``check_weather``              | Check the weather                                 |
+| ``get_info``                                      | ``get_info_state``             | Get the state of an employee                      |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_door``                                    | ``check_door``                 | Check the door                                    |
+| ``get_info``                                      | ``get_info_maritaldesc``       | Get the marital status of an employee             |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``close_door``                                    | ``close_door``                 | Close the door                                    |
+| ``get_info``                                      | ``get_info_citizendesc``       | Get the citizenship status of an employee         |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``open_door``                                     | ``open_door``                  | To open the door                                  |
+| ``get_info``                                      | ``get_info_racedesc``          | Get the race of an employee                       |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``lock_door``                                     | ``lock_door``                  | To lock the door                                  |
+| ``get_info``                                      | ``get_info_performance_score`` | Get the performance score of an employee          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``unlock_door``                                   | ``unlock_door``                | Unlock the door                                   |
+| ``get_info``                                      | ``get_info_rft``               | Get the reason for termination of an employee     |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_appliance_on``                             | ``turn_appliance_on``          | Turn the appliance on                             |
+| ``get_info``                                      | ``get_info_employee_source``   | Get how an employee heard of the company          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_appliance_off``                            | ``turn_appliance_off``         | Turn the appliance off                            |
+| ``get_info``                                      | ``get_info_position``          | Get the position of an employee                   |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_lights``                                  | ``check_lights``               | Check the lights                                  |
+| ``get_info``                                      | ``get_info_employment_status`` | Get the employment status of an employee          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_lights_on``                                | ``turn_lights_on``             | Turn the lights on                                |
+| ``get_info``                                      | ``get_info_dept``              | Get the department that an employee is in         |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_lights_off``                               | ``turn_lights_off``            | Turn the lights off                               |
+| ``get_info``                                      | ``get_info_default``           | Clarify the type of info requested of an employee |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_thermostat``                              | ``check_thermostat``           | Check the thermostat                              |
+| ``get_aggregate``                                 | ``get_aggregate``              | Get aggregate information requested               |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``set_thermostat``                                | ``set_thermostat``             | Set the thermostat                                |
+| ``get_employees``                                 | ``get_employees``              | Get employees that meet a certain criteria        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``turn_up_thermostat``,  ``turn_down_thermostat`` | ``change_thermostat``          | Change the thermostat                             |
+| ``get_salary``                                    | ``get_salary``                 | Get the salary of an employee                     |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``change_alarm``                                  | ``change_alarm``               | Change the alarm                                  |
+| ``get_salary_aggregate``                          | ``get_salary_aggregate``       | Get aggregate salary related information          |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``check_alarm``                                   | ``check_alarm``                | Check the alarm                                   |
+| ``get_salary_employees``                          | ``get_salary_employees``       | Get employees that meet a salary criteria         |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``remove_alarm``                                  | ``remove_alarm``               | Remove the alarm                                  |
+| ``get_date``                                      | ``get_date``                   | Get employees within a date range                 |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``set_alarm``                                     | ``set_alarm``                  | Set the alarm                                     |
+| ``get_date_range_aggregate``                      | ``get_date_range_aggregate``   | Aggregate info of employees within a date range   |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``start_timer``                                   | ``start_timer``                | Start the timer                                   |
+| ``get_date_range_employees``                      | ``get_date_range_employees``   | Get employees within a date range                 |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``stop_timer``                                    | ``stop_timer``                 | Stop the timer                                    |
+| ``get_hierarchy``                                 | ``get_hierarchy``              | Get manager information of an employee            |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``specify_location``                              | ``specify_location``           | Specify locations in the house                    |
+| ``unsupported``                                   | ``unsupported``                | Handle unsupported query by prompting user        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``specify_time``                                  | ``specify_time``               | Specify the time in the follow up questions       |
-+---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``exit``                                          | ``exit``                       | End the current interaction                       |
-+---------------------------------------------------+--------------------------------+---------------------------------------------------+
-| ``unknown``                                       | ``unknown``                    | Prompt a user who has gone off-topic              |
-|                                                   |                                | to get back to food ordering                      |
-+---------------------------------------------------+--------------------------------+---------------------------------------------------+
+
 
 5. Knowledge Base
 ^^^^^^^^^^^^^^^^^
@@ -324,41 +263,41 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Purpose                                        | | Question (for crowdsourced data generators)                            |
 | |                                                | | or instruction (for annotators)                                        |
 +==================================================+==========================================================================+
-| | Exploratory data generation                    | | "How would you talk to a conversational app                            |
-| | for guiding the app design                     | | to control your smart home appliances?"                                |
+| | Exploratory data generation                    | | "What kinds of questions would you ask a smart HR assistant            |
+| | for guiding the app design                     | | that has access to an HR database?"                                    |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generate queries for training                  | | ``change_alarm`` intent (``times_and_dates`` domain):                  |
-| | Domain and Intent Classifiers                  | | "What would you say to the app to change your alarm time               |
-| |                                                | | from a previous set time to a new set time?"                           |
+| | Generate queries for training                  | | ``get_info`` intent (``general`` domain):                              |
+| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,        |
+| |                                                | | position, department, etc?"                                            |
 | |                                                | |                                                                        |
-| |                                                | | ``set_alarm`` intent (``times_and_dates`` domain):                     |
-| |                                                | | "What would you say to the app                                         |
-| |                                                | | to set a new alarm time?"                                              |
+| |                                                | | ``get_salary`` intent (``salary`` domain):                             |
+| |                                                | | "How would you ask for the salary                                      |
+| |                                                | | of an employee?"                                                       |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all occurrences of                            |
-| | for training the Entity Recognizer             | | ``sys_time`` and ``sys_interval`` system entities in the given query"  |
+| | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
+| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"              |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``set_alarm``: "Annotate all entities with their                       |
-| | for training the Role Classifier               | | corresponding roles, when needed, e.g., ``old_time``, ``new_time``"    |
+| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit             |
+| | for training the Role Classifier               | | the home assistant blueprint.                                          |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
-| | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
-| |                                                | | locations in your home?"                                               |
+| | Generation synonyms for gazetteer generation   | | ``state`` entity: "Enumerate a list of state names"                    |
+| | to improve entity recognition accuracies       | | ``department`` entity: "What are some names of                         |
+| |                                                | | departments at the company?"                                           |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 
 In summary, the process is this:
 
 #. Start with an exploratory data generation process, collecting varied examples of how the end user would interact with the app.
-#. Cluster the data into different domains based on functionality. For example, the home assistant application has to control appliances in a smart home, check the weather and control a smart alarm, so we divide these functions into the following domains: ``greeting``, ``smart_home``, ``times_and_dates``, and ``weather``.
+#. Cluster the data into different domains based on category. For example, the HR Assistant application has to answer questions regarding general information, salary, date filters, and hierarchy so we divide these areas into the following domains: ``general``, ``salary``, ``date``, ``hierarchy`` (and ``unsupported``).
 #. Once we establish a clear domain-intent-entity-role hierarchy, generate labeled data for each component in the hierarchy.
 
-The ``domains`` directory contains the training data for intent classification and entity recognition. The ``entities`` directory contains the data for entity resolution. Both directories are at root level in the blueprint folder.
+The ``domains`` directory contains the training data for intent classification and entity recognition. The ``entities`` directory contains the data for entity resolution. Directories are at root level in the blueprint folder.
 
 .. admonition:: Exercise
 
    - Read :doc:`Step 6 <../quickstart/06_generate_representative_training_data>` of the Step-By-Step Guide for best practices around training data generation and annotation for conversational apps. Following those principles, create additional labeled data for all the intents in this blueprint and use them as held-out validation data for evaluating your app. You can read more about :doc:`NLP model evaluation and error analysis <../userguide/nlp>` in the user guide.
 
-   - To train NLP models for your own home assistant application, you can start by reusing the blueprint data for generic intents like ``greet`` and ``exit``. However, for core intents like ``check_weather`` in the ``weather`` domain, it's recommended that you collect new training data that is tailored towards the entities (``city``, ``duration``) that your application needs to support. Follow the same approach to gather new training data for the ``check_weather`` intent or any additional intents and entities needed for your application.
+   - To train NLP models for your own HR assistant application, you can start by reusing the blueprint data for generic intents like ``get_info`` and ``get_salary``. If you have more information in your HR database then you can create new intents and domains to include the new functionality.
 
 
 7. Training the NLP Classifiers
