@@ -7,13 +7,11 @@ import os
 import requests
 
 from .root import app
-from hr_assistant.general import _agg_function
-from hr_assistant.general import _resolve_categorical_entities
-from hr_assistant.general import _resolve_function_entity
-from hr_assistant.general import _get_names
+from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
 from dateutil.relativedelta import relativedelta
 import datetime
 import re
+
 
 
 @app.handle(intent='get_date')

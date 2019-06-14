@@ -7,12 +7,9 @@ import os
 import requests
 
 from .root import app
-from hr_assistant.general import _agg_function
-from hr_assistant.general import _get_names
-from hr_assistant.general import _resolve_categorical_entities
-from hr_assistant.general import _resolve_function_entity
-
+from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
 import numpy as np
+
 
 
 @app.handle(intent='get_salary')
@@ -50,18 +47,14 @@ def get_salary_for_interval(request, responder):
 	responder.reply("{name}'s {interval} salary is {money}")
 
 
-# @app.handle(intent='get_salary_aggregate', entity='comparator')
-# def get_salary_aggregate_with_age(request, responder):
-# 	comparator_entities = [e for e in request.entities if e['type'] == 'comparator']
-# 	responder.frame['comparator'] = comparator_entities
-
-
 @app.handle(intent='get_salary_aggregate')
 def get_salary_aggregate(request, responder):
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
+
+	salary_response = "Hmm, looks like you want a salary statistic. You can ask me about averages, sums, counts and percentages. For eg. what is the average salary for women?" 
 
 	if func_entities:
 
@@ -75,14 +68,14 @@ def get_salary_aggregate(request, responder):
 			if recur_ent and function in ('avg','sum'):
 				responder = _calculate_agg_salary(responder, qa_out, function, recur_ent[0])
 				if np.isnan(responder.slots['value']):
-					responder.reply("Hmm, looks like you want a salary statistic! You can ask me questions such as - the average salary of female employees.")
+					responder.reply(salary_response)
 					responder.listen()
 					return
 				responder.reply("Based on your query, the {function} {interval} is {value}")
 			else:
 				responder = _calculate_agg_salary(responder, qa_out, function)
 				if np.isnan(responder.slots['value']):
-					responder.reply("Hmm, looks like you want a salary statistic! You can ask me questions such as - the average salary of female employees.")
+					responder.reply(salary_response)
 					responder.listen()
 					return
 				responder.reply('The {function} based on your query is {value}')
@@ -91,7 +84,7 @@ def get_salary_aggregate(request, responder):
 			qa_out = qa.execute()
 			responder = _calculate_agg_salary(responder, qa_out, function)
 			if np.isnan(responder.slots['value']):
-					responder.reply("Hmm, looks like you want a salary statistic! You can ask me questions such as - the average salary of female employees.")
+					responder.reply(salary_response)
 					responder.listen()
 					return
 			responder.reply("The {function} of employees is {value}")
@@ -101,7 +94,7 @@ def get_salary_aggregate(request, responder):
 			responder.listen()
 
 	else:
-		responder.reply("Hmm, looks like you want a salary statistic! You can ask me questions such as - the average salary of female employees.")
+		responder.reply(salary_response)
 		responder.listen()
 
 
@@ -192,19 +185,7 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 
 	elif extreme_entity:
-		extreme_canonical = extreme_entity['value'][0]['cname']
-
-		if extreme_canonical == 'highest':
-			qa = qa.sort(field='money', sort_type='desc')
-		
-		elif extreme_canonical == 'lowest':
-			qa = qa.sort(field='money', sort_type='asc')
-		
-		if num_entity:
-			size = int(num_entity[0])
-		else:
-			size = 1
-
+		qa, size = _resolve_extremes(qa, extreme_entity, 'age', num_entity)
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))

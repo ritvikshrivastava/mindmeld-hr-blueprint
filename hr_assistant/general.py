@@ -4,7 +4,9 @@ the MindMeld HR assistant blueprint application
 """
 
 from .root import app
+# from hr_assistant.helperfunctions import *
 import numpy as np
+
 
 
 @app.handle(intent='get_info', has_entity='age')
@@ -103,7 +105,11 @@ def get_info_default(request, responder):
 			employee = app.question_answerer.get(index='user_data', emp_name=name)
 			if employee:
 				details = employee[0]
-				details = [str(key)+" : "+str(details[key]) for key in details.keys()]
+				expand_dict = {'rft':'Reason for Termination', 'doh':'Date of Hire', 'dot':'Date of Termination', 'dob':'Date of Birth',
+				'performance_score':'Performance Score', 'citizendesc': 'Citizenship Status', 'maritaldesc':'Marital Status', 'racedesc':'Race',
+				'manage':'Manager', 'sex':'Gender', 'state':'State', 'employment_status':'Employment Status', 'position':'Position', 
+				'department':'Department', 'age':'Age'}
+				details = [str(expand_dict[key])+" : "+str(details[key]) for key in details.keys() if key in expand_dict]
 				responder.slots['details'] = '; '.join(details)
 				responder.reply("I found the following details about {name}: {details}")
 				responder.frame = {}
@@ -188,43 +194,18 @@ def get_employees(request, responder):
 	responder.reply("Here's some employees: {emp_list}")
 
 
-# Helper Functions
-
-def _get_person_info(request, responder, entity_type):
-
-	name = responder.frame.get('name')
-
-	# if the user has provided a new name, replace the existing name with it
-	try:
-		name_ent = [e for e in request.entities if e['type'] == 'name']
-		name = name_ent[0]['value'][0]['cname']
-		responder.frame['name'] = name
-	except:
-		pass
-
-	responder = _fetch_from_kb(responder, name, entity_type)
-	return responder
-
-def _fetch_from_kb(responder, name, entity_type):
-	app.question_answerer.load_kb('hr_assistant', 'user_data', './hr_assistant/data/user_data.json')
-	employee = app.question_answerer.get(index='user_data', emp_name=name)
-	entity_option = employee[0][entity_type]
-
-	responder.slots['name'] = name
-	responder.slots[entity_type] = entity_option
-	return responder
 
 
-def _get_names(qa_out):
-# Get a List of Names from a QA Result
-# param qa_out (list) Output of QA from a query
-
-	names = [str(out['first_name']) + ' ' + str(out['last_name']) for out in qa_out]
-	names = ', '.join(names)
-	return names
+### Helper Functions ###
 
 
 def _apply_age_filter(request, responder, qa, age_entities, num_entity):
+	"""
+	This function is used to filter any age related queries, that may include a 
+	comparator, such as 'average income of employees more than 40 years old', 
+	or an exact age 'employees who are 30 years of age'.
+	"""
+
 	try:
 		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
 	except:
@@ -272,26 +253,40 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity):
 
 
 def _resolve_categorical_entities(request, responder):
-	# Resolving categorical entities
+	"""
+	This function retrieves all categorical entities as listed below and filters the knowledge base
+	using these entities as filters. The final search object containing the shortlisted employee data
+	is returned back to the calling function.
+	"""
+
+	# Finding all categorical entities
 	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
 		'racedesc','performance_score','employment_status','employee_source','position','department')]
 
-		# Building custom search
+	# Building custom search
 	qa = app.question_answerer.build_search(index='user_data')
 
+	# Querying the knowledge base for all categorical filters
 	if categorical_entities:
-		for categorical_entity in categorical_entities:
-			key = categorical_entity['type']
-			val = categorical_entity['value'][0]['cname']
-			kw = {key : val}
-			qa = qa.filter(**kw)
-	
+		try:
+			for categorical_entity in categorical_entities:
+				key = categorical_entity['type']
+				val = categorical_entity['value'][0]['cname']
+				kw = {key : val}
+				qa = qa.filter(**kw)
+		except:
+			pass
+
 	size = 300
 
 	return qa, size
 
 
 def _resolve_function_entity(responder, func_entity):
+	"""
+	Resolves the function entity to a form that is acceptable in the aggregate
+	calculation function.
+	"""
 
 	# A dictionary to convert the canonical form of the function entity to one
 	# that is accepted by the '_agg_function' for calculation of the aggregate value
@@ -301,12 +296,21 @@ def _resolve_function_entity(responder, func_entity):
 	key = func_entity['value'][0]['cname']
 	function = func_dic[key]
 	responder.slots['function'] = func_entity['value'][0]['cname']
-	responder.frame['function'] = func_entity
+	# responder.frame['function'] = func_entity
 
 	return function, responder
 
 
 def _resolve_extremes(qa, extreme_entity, field, num_entity):
+	"""
+	Resolves 'extreme' entities and sorts the search QA output according
+	to the order required. Also returns a size back to the calling function. 
+	This size is indicative of how many entries are need. For eg, if the user 
+	query was '5 highest earners', this function will sort the search output 
+	in a descending manner and return that along with the value 5. If no value
+	is provided in the original query, this function returns 1 as size.
+	"""
+
 	extreme_canonical = extreme_entity['value'][0]['cname']
 
 	if extreme_canonical == 'highest':
@@ -323,15 +327,66 @@ def _resolve_extremes(qa, extreme_entity, field, num_entity):
 	return qa, size
 
 
-
 def _agg_function(qa_out, func='avg', num_col='money'):
-# Function Helper that does Sum, Average and Percent Calculations
-# param qa_out (list) List of Json Objects Representing Users
-# param func (str) - Function Type: 'avg','sum', 'ct', 'pct'
-# param num_col (str) - Numerical Column Type : 'money', or 'age'
-# returns result (float) - Resulting Value from function operation
+	"""
+	Function that does Sum, Average and Percent Calculations
+	param qa_out (list) List of Json Objects Representing Users
+	param func (str) - Function Type: 'avg','sum', 'ct', 'pct'
+	param num_col (str) - Numerical Column Type : 'money', or 'age'
+	returns result (float) - Resulting Value from function operation
+	"""
 
-    if(func=='avg'): return np.mean([emp[num_col] for emp in qa_out])
-    elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
-    elif(func=='ct'): return len(qa_out)
-    elif(func=='pct'): return len(qa_out)/3
+	if(func=='avg'): return np.mean([emp[num_col] for emp in qa_out])
+	elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
+	elif(func=='ct'): return len(qa_out)
+	elif(func=='pct'): return len(qa_out)/3
+
+
+def _get_names(qa_out):
+	"""
+	Get a List of Names from a QA Result
+	param qa_out (list) Output of QA from a query
+	"""
+
+	names = [str(out['first_name']) + ' ' + str(out['last_name']) for out in qa_out]
+	names = ', '.join(names)
+	return names
+
+
+def _get_person_info(request, responder, entity_type):
+	"""
+	This function is used to fetch employee names from either the previous turns' context
+	or the current query. The latest occurence of a name entity is given preference.
+	The name is then passed to the _fetch_from_kb function to obtain the desired information
+	about the employee under consideration from the Knowledge Base.
+	"""
+
+
+	name = responder.frame.get('name')
+
+	# if the user has provided a new name, replace the existing name with it
+	try:
+		name_ent = [e for e in request.entities if e['type'] == 'name']
+		name = name_ent[0]['value'][0]['cname']
+		responder.frame['name'] = name
+	except:
+		pass
+
+	responder = _fetch_from_kb(responder, name, entity_type)
+	return responder
+	
+
+def _fetch_from_kb(responder, name, entity_type):
+	"""
+	This function is used the fetch a particular information about the given employee
+	from the knowledge base.
+	"""
+
+	app.question_answerer.load_kb('hr_assistant', 'user_data', './hr_assistant/data/user_data.json')
+
+	employee = app.question_answerer.get(index='user_data', emp_name=name)
+	entity_option = employee[0][entity_type]
+
+	responder.slots['name'] = name
+	responder.slots[entity_type] = entity_option
+	return responder
