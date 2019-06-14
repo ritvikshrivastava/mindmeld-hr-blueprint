@@ -9,6 +9,12 @@ from hr_assistant.general import _resolve_categorical_entities, _resolve_functio
 
 @app.handle(intent='get_hierarchy', has_entity='name')
 def heirarchy(request, responder):
+	"""
+	If a user asks about any employees manager or whether they are some other employee's 
+	manager, this function captures all the names in the query and returns the employee-manager
+	mapping for each one of them.
+	"""
+
 	name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
 	manager_dict = {}
 

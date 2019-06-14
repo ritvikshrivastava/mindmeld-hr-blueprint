@@ -3,9 +3,7 @@
 the MindMeld HR assistant blueprint application
 """
 import os
-
 import requests
-
 from .root import app
 from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
 import numpy as np
@@ -14,33 +12,30 @@ import numpy as np
 
 @app.handle(intent='get_salary')
 def get_salary(request, responder):
+	"""
+	If a user asks for the salary of a specific person, this function returns their
+	hourly salary by querying into the knowledge base according to the employee name.
+	"""
 
-	name_ent = [e for e in request.entities if e['type'] == 'name']
-	name = name_ent[0]['value'][0]['cname']
-
-	employee = app.question_answerer.get(index='user_data', emp_name=name)[0]
-	money = employee['money']
-
-	responder.slots['name'] = name
-	responder.slots['money'] = money
-	
+	responder = _get_person_info(request, responder, 'money')
 	responder.reply("{name}'s hourly salary is {money}")
 
 
 @app.handle(intent='get_salary', has_entity='time_recur')
 def get_salary_for_interval(request, responder):
-
-	name_ent = [e for e in request.entities if e['type'] == 'name'][0]
-	name = name_ent['value'][0]['cname']
-
+	"""
+	If a user asks for the salary of a specific person for a given time interval (say hourly,
+	daily, weekly, monthly, yearly; default = hourly), this dialogue state fetches the hourly
+	salary from the knowledge base and returns it after converting it to the requested
+	time interval.
+	"""
+	
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur'][0]
 
-	employee = app.question_answerer.get(index='user_data', emp_name=name)[0]
-	money = employee['money']
-
+	responder = _get_person_info(request, responder, 'money')
+	money = responder.slots['money']
 	total_money = _get_interval_amount(recur_ent, money)
-
-	responder.slots['name'] = name
+	
 	responder.slots['money'] = total_money
 	responder.slots['interval'] = recur_ent
 	
@@ -49,6 +44,12 @@ def get_salary_for_interval(request, responder):
 
 @app.handle(intent='get_salary_aggregate')
 def get_salary_aggregate(request, responder):
+	"""
+	When a user asks for a statistic, such as average, sum, count or percentage,
+	in addition to an income related filter (required) and categorical filters (if any), 
+	this function captures all the relevant entities, calculates the desired 
+	statistic function and returns it.
+	"""
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
@@ -101,6 +102,12 @@ def get_salary_aggregate(request, responder):
 
 @app.handle(intent='get_salary_employees')
 def get_salary_employees(request, responder):
+	"""
+	When a user asks for a list of employees that satisfy certain criteria in addition
+	to satisfying a specified monetary criterion, this dialogue state filters the 
+	knowledge base on those criteria and returns the shortlisted list of names.
+	"""
+
 	money_entities = [e for e in request.entities if e['type'] == 'money']
 
 	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
@@ -110,7 +117,6 @@ def get_salary_employees(request, responder):
 
 	if money_entities:
 		qa, size = _apply_money_filter(qa, money_entities, request, responder)
-		# size = 1
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
@@ -118,9 +124,16 @@ def get_salary_employees(request, responder):
 
 
 
-# Helper functions
+
+### Helper functions ###
+
 
 def _apply_money_filter(qa, age_entities, request, responder):
+	"""
+	This function is used to filter any salary related queries, that may include a 
+	comparator, such as, 'what percentage earns less than 20 dollars an hour? ' or an extreme,
+	such as, 'highest earning employee'. 
+	"""
 
 	num_entity = [e['text'] for e in request.entities if e['type'] == 'sys_number']
 
@@ -152,9 +165,6 @@ def _apply_money_filter(qa, age_entities, request, responder):
 	except:
 		extreme_entity = []
 
-
-	filter_set = False
-
 	# The money entity can have either be accompanied by a comparator, extreme or no entity. 
 	# These are mutually exclusive of others and hence can only be queried separately from
 	# the knowledge base.
@@ -164,13 +174,11 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 		if comparator_canonical == 'more than' and len(num_entity)==1:
 			gte_val = num_entity[0]
-			lte_val = 100
-			# filter_set = True
+			lte_val = 1000 # Default value since it is much above the hourly salary limit
 
 		elif comparator_canonical == 'less than' and len(num_entity)==1:
 			lte_val = num_entity[0]
 			gte_val = 0
-			# filter_set = True
 
 		elif comparator_canonical == 'equals to':
 			gte_val = num_entity[0]
@@ -185,7 +193,7 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 
 	elif extreme_entity:
-		qa, size = _resolve_extremes(qa, extreme_entity, 'age', num_entity)
+		qa, size = _resolve_extremes(qa, extreme_entity, 'money', num_entity)
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
@@ -197,17 +205,24 @@ def _apply_money_filter(qa, age_entities, request, responder):
 	return qa, size
 
 
-# Get the Salary Amount Based on a Recurring Period of Time
-# param recur_ent (str): 'yearly', 'monthly', 'weely', 'daily', 'hourly'
-# param money (float): Hourly Salary of an employee
 def _get_interval_amount(recur_ent, money):
+	"""
+	Get the Salary Amount Based on a Recurring Period of Time
+	param recur_ent (str): 'yearly', 'monthly', 'weely', 'daily', 'hourly'
+	param money (float): Hourly Salary of an employee
+	"""
+
+
     intv_mult = { "yearly": 12*4*5*8, "monthly": 4*5*8, "weekly":5*8, "daily": 8,"hourly": 1}
     return round(intv_mult[recur_ent] * money, 2)         
 
 
-# Calculate Salary by first fetching it from the knowledge base and then
-# multiplying by the appropriate time factor that the user is seeking
 def _calculate_agg_salary(responder, qa_out, function, recur_ent='hourly'):
+	"""
+	Calculate Salary by first fetching it from the knowledge base and then
+	multiplying by the appropriate time factor that the user is seeking
+	"""
+
 	value = _agg_function(qa_out, func=function, num_col='money')
 
 	if recur_ent:

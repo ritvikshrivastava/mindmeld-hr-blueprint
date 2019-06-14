@@ -4,11 +4,13 @@ the MindMeld HR assistant blueprint application
 """
 
 from .root import app
-# from hr_assistant.helperfunctions import *
 import numpy as np
 
 
-
+"""
+The dialogue states below are entity specific cases of the 'get_info_default'
+dialogue state below.
+"""
 @app.handle(intent='get_info', has_entity='age')
 def get_info_age(request, responder):
 	responder.slots['name'] = request.frame.get('name')
@@ -88,6 +90,17 @@ def get_info_dept(request, responder):
 # Default case
 @app.handle(intent='get_info')
 def get_info_default(request, responder):
+	"""
+	When a user asks for any information regarding a single user without speciying a
+	categorical, monetary or date related entitiy for the user, or in case of the system
+	not being able to recognize that entity, this dialogue state captures the name of the
+	person and prompts user to provide one of the abovementioned types of entities in the
+	subsequent turn. Once the user does, this dialogue state redirects (along with the 
+	contextual information, i.e. name, from the previous turns) to more specific dialogue states
+	corresponding to certain domain, intent and entities.
+	"""
+
+
 	try:
 		name_ent = [e for e in request.entities if e['type'] == 'name']
 		name = name_ent[0]['value'][0]['cname']
@@ -95,7 +108,7 @@ def get_info_default(request, responder):
 		responder.frame['info_visited'] = True
 		responder.slots['name'] = name
 		responder.reply("What would you like to know about {name}?")
-		responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy')
+		responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy', 'general.get_salary')
 		responder.listen()
 
 	except:
@@ -108,7 +121,7 @@ def get_info_default(request, responder):
 				expand_dict = {'rft':'Reason for Termination', 'doh':'Date of Hire', 'dot':'Date of Termination', 'dob':'Date of Birth',
 				'performance_score':'Performance Score', 'citizendesc': 'Citizenship Status', 'maritaldesc':'Marital Status', 'racedesc':'Race',
 				'manage':'Manager', 'sex':'Gender', 'state':'State', 'employment_status':'Employment Status', 'position':'Position', 
-				'department':'Department', 'age':'Age'}
+				'department':'Department', 'age':'Age', 'money':'Hourly Pay'}
 				details = [str(expand_dict[key])+" : "+str(details[key]) for key in details.keys() if key in expand_dict]
 				responder.slots['details'] = '; '.join(details)
 				responder.reply("I found the following details about {name}: {details}")
@@ -125,10 +138,13 @@ def get_info_default(request, responder):
 
 @app.handle(intent='get_aggregate')
 def get_aggregate(request, responder):
+	"""
+	When a user asks for a statistic, such as average, sum, count or percentage,
+	in addition to categorical filters (if any), this function captures all the 
+	relevant entities, calculates the desired statistic function and returns it.
+	"""
 
-	# print(request.frame.get('function'))
 	func_entity = request.frame.get('function')
-
 
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	age_entities = [e for e in request.entities if e['type'] == 'age']
@@ -167,6 +183,11 @@ def get_aggregate(request, responder):
 
 @app.handle(intent='get_employees')
 def get_employees(request, responder):
+	"""
+	When a user asks for a list of employees that satisfy certain criteria,
+	this dialogue state filters the knowledge base on those criteria and returns
+	the shortlisted list of names.
+	"""
 	
 	# Finding age entities (indicators), if any
 	age_entities = [e for e in request.entities if e['type'] == 'age']
@@ -175,7 +196,7 @@ def get_employees(request, responder):
 	num_entity = [int(e['text']) for e in request.entities if e['type'] == 'sys_number'] 
 	num_entity = [float(i) for i in num_entity]
 
-	# Finding extreme entities (indicators), if any
+	# Finding extreme entities (if any)
 	try:
 		extreme_entity = [e for e in request.entities if e['type'] == 'extreme'][0]
 	except:
@@ -202,7 +223,7 @@ def get_employees(request, responder):
 def _apply_age_filter(request, responder, qa, age_entities, num_entity):
 	"""
 	This function is used to filter any age related queries, that may include a 
-	comparator, such as 'average income of employees more than 40 years old', 
+	comparator, such as 'how many employees are more than 40 years old', 
 	or an exact age 'employees who are 30 years of age'.
 	"""
 
@@ -210,8 +231,6 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity):
 		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
 	except:
 		comparator_entity = []
-
-	filter_set = False
 
 	# The age entity can have either be accompanied by a comparator, extreme or no entity. 
 	# These are mutually exclusive of others and hence can only be queried separately from
@@ -223,12 +242,10 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity):
 		if comparator_canonical == 'more than':
 			gte_val = num_entity[0]['text']
 			lte_val = 100
-			# filter_set = True
 
 		elif comparator_canonical == 'less than':
 			lte_val = num_entity[0]['text']
 			gte_val = 0
-			# filter_set = True
 
 		elif comparator_canonical == 'equals to':
 			gte_val = num_entity[0]['text']
@@ -296,7 +313,6 @@ def _resolve_function_entity(responder, func_entity):
 	key = func_entity['value'][0]['cname']
 	function = func_dic[key]
 	responder.slots['function'] = func_entity['value'][0]['cname']
-	# responder.frame['function'] = func_entity
 
 	return function, responder
 

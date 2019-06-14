@@ -3,9 +3,7 @@
 the MindMeld HR assistant blueprint application
 """
 import os
-
 import requests
-
 from .root import app
 from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
 from dateutil.relativedelta import relativedelta
@@ -16,6 +14,12 @@ import re
 
 @app.handle(intent='get_date')
 def get_date(request, responder):
+	"""
+	If a user asks for a date related information of any person, this function returns 
+	the required date. In case of a termination date related query, it also informs the user 
+	of the reason for termination. For non-terminated employees, it informs the user about 
+	the active current state of the employee in question.
+	"""
 
 	name_ent = [e for e in request.entities if e['type'] == 'name']
 	name = name_ent[0]['value'][0]['cname']
@@ -55,6 +59,13 @@ def get_date(request, responder):
 
 @app.handle(intent='get_date_range_aggregate')
 def get_date_range_aggregate(request, responder):
+	"""
+	When a user asks for a statistic, such as average, sum, count or percentage,
+	in addition to a date range filter such as date of hire, termination or birth (required), 
+	and categorical filters (if any), this function captures all the relevant entities, 
+	calculates the desired statistic function and returns it.
+	"""
+
 
 	# Fetch the different types of entities
 
@@ -79,7 +90,12 @@ def get_date_range_aggregate(request, responder):
 
 @app.handle(intent='get_date_range_employees')
 def get_date_range_employees(request, responder):
-	# money_entities = [e for e in request.entities if e['type'] == 'money']
+	"""
+	When a user asks for a list of employees that satisfy certain criteria in addition
+	to satisfying a specified date range criterion (date of hire/termination/birth), 
+	this dialogue state filters the knowledge base on those criteria and returns the 
+	shortlisted list of names.
+	"""
 
 	qa, size = _resolve_categorical_entities(request, responder)
 
@@ -89,9 +105,15 @@ def get_date_range_employees(request, responder):
 	responder.reply("Here's some employees: {emp_list}")
 
 
-# Helper functions
+
+### Helper functions ###
 
 def _check_time_ent(time_ent, date_compare_ent):
+	"""
+	Helper function for resolving non numeric time entities, time entities with
+	incompatible date formats, and intervals into the format of time that is 
+	accepted by the dialogue states defined in this file.
+	"""
 
 	time_dict = {}
 	time_dict.update(dict.fromkeys(['last year', 'this year', 'past year'], 'years'))
@@ -130,7 +152,14 @@ def _check_time_ent(time_ent, date_compare_ent):
 
 
 def _resolve_time(request, responder, qa, size):
-	# money_entities = [e for e in request.entities if e['type'] == 'money']
+	"""
+	This helper function is useful to resolve any time related entities in the database, including
+	both system entities and custom entities. It captures the type of date entity being talked about by
+	the user (say employment related -- hired/fired, or birth). It in-turn determines the time period
+	being talked about and filters the knowledge to narrow it down to only the datapoints satisfying
+	the duration. The returned value is this shortlisted set of employees.
+	"""
+
 	time_ent = [e['text'] for e in request.entities if e['type'] == 'sys_time']
 	dur_ent = [e['text'] for e in request.entities if e['type'] == 'sys_duration']
 	date_compare_ent = [e for e in request.entities if e['type'] == 'date_compare']
@@ -148,7 +177,6 @@ def _resolve_time(request, responder, qa, size):
 		field = 'dob'
 	else:
 		responder.reply("What date would you like to know the statistic about? Hire, termination or birth?")
-		# responder.params.allowed_intents = ['date.get_date_aggregate']
 		responder.listen()
 		return
 
