@@ -28,7 +28,7 @@ The conversational flows for an HR assistant will primarily involve follow-up qu
 
 Here are some examples of scripted dialogue interactions for conversational flows.
 
-.. image:: /images/hr_assistant_interactions.png
+.. image:: images/hr_assistant_interactions.png
     :width: 700px
     :align: center
 
@@ -38,7 +38,7 @@ Here are some examples of scripted dialogue interactions for conversational flow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Here is the NLP model hierarchy for our HR assistant application.
 
-.. image:: /images/hierarchy_hr_assistant.png
+.. image:: images/hierarchy_hr_assistant.png
 
 The HR assistant blueprint is organized into five domains: ``General``, ``Salary``, ``Dates``, ``Hierarchy``, and ``Unsupported``. The domains of the HR assistant blueprint correspond to the categories of questions that could be asked.
 
