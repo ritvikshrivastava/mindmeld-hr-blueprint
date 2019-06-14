@@ -604,8 +604,64 @@ Since we do not have entity groups in the HR assistant app, we do not need a par
 9. Using the Question Answerer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The :doc:`Question Answerer <../userguide/kb>` component in Workbench is mainly used within dialogue state handlers for retrieving information from the knowledge base. Since the home assistant app has no knowledge base, no question answerer is not needed.
+The :doc:`Question Answerer <../userguide/kb>` component in Workbench is mainly used within dialogue state handlers for retrieving information from the knowledge base. In the case of HR assistant that intelligently retrieves information from a knowledge base of employee information a question answerer is essential. Other than the unsupported intent, all of the intents in the HR Assistant make use of the Question Answerer.
 
+.. code:: python
+
+   from mmworkbench.components.question_answerer import QuestionAnswerer
+   qa = QuestionAnswerer(app_path='food_ordering')
+   restaurants = qa.get(index='user_data')[0:3]
+   [user['emp_name'] for user in users]
+
+.. code-block:: console
+
+   [
+    "Singh, Nan",
+    "Simard, Kramer",
+    "Clayton, Rick"
+   ]
+
+Workbench would supports filtering the results (For example, we can search for employees that are male, in the sales department, etc.) See the :doc:`User Guide <../userguide/kb>` for an explanation of the retrieval and ranking mechanisms that the Question Answerer offers.
+
+In the case that we are trying to filter on multiple non-numeric entities, we can do so by passing in a dictionary that contains a key and value pair. An examaple of this is shown in the helper function for the HR Assistant below.
+
+.. code:: python
+
+      def _resolve_categorical_entities(request, responder):
+      	"""
+      	This function retrieves all categorical entities as listed below and filters the knowledge base
+      	using these entities as filters. The final search object containing the shortlisted employee data
+      	is returned back to the calling function.
+      	"""
+
+      	# Finding all categorical entities
+      	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
+      		'racedesc','performance_score','employment_status','employee_source','position','department')]
+
+      	# Building custom search
+      	qa = app.question_answerer.build_search(index='user_data')
+
+      	# Querying the knowledge base for all categorical filters
+      	if categorical_entities:
+      		try:
+      			for categorical_entity in categorical_entities:
+      				key = categorical_entity['type']
+      				val = categorical_entity['value'][0]['cname']
+      				kw = {key : val}
+      				qa = qa.filter(**kw) # Search is being filtered multiple times
+      		except:
+      			pass
+
+      	size = 300
+
+      	return qa, size
+
+
+.. admonition:: Exercise
+
+   - Think of other important data that would be useful to have in the knowledge base for a food ordering use case. Identify the ways that data could be leveraged to provide a more intelligent user experience.
+
+   - When customizing the blueprint for your own app, consider adding additional employee information in the knowledge base.
 
 10. Testing and Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
