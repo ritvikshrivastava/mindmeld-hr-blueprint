@@ -116,18 +116,9 @@ To train the different machine learning models in the NLP pipeline for this app,
 
 This should create a Workbench project folder called ``hr_assistant`` in your current directory with the following structure:
 
-.. image:: images/hr_assistant_directory_1.png
-    :width: 250px
-    :align: center
-
-.. image:: images/hr_assistant_directory_2.png
-    :width: 250px
-    :align: center
-
 .. image:: images/hr_assistant_directory.png
-      :width: 250px
-      :align: center
-
+    :width: 250px
+    :align: center
 
 4. Dialogue States
 ^^^^^^^^^^^^^^^^^^
