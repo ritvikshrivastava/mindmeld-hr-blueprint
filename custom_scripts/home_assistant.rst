@@ -316,9 +316,9 @@ The labeled data for training our NLP pipeline was created using a combination o
 | | Exploratory data generation                    | | "What kinds of questions would you ask a smart HR assistant            |
 | | for guiding the app design                     | | that has access to an HR database?"                                    |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generate queries for training                  | | ``change_alarm`` intent (``times_and_dates`` domain):                  |
-| | Domain and Intent Classifiers                  | | "What would you say to the app to change your alarm time               |
-| |                                                | | from a previous set time to a new set time?"                           |
+| | Generate queries for training                  | | ``get_info`` intent (``general`` domain):                              |
+| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,        |
+| |                                                | | position, department, etc?"                                            |
 | |                                                | |                                                                        |
 | |                                                | | ``set_alarm`` intent (``times_and_dates`` domain):                     |
 | |                                                | | "What would you say to the app                                         |
