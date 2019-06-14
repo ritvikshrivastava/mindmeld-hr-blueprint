@@ -308,34 +308,6 @@ Since the home assistant is a straightforward command-and-control application, i
 
 The labeled data for training our NLP pipeline was created using a combination of in-house data generation and crowdsourcing techniques. This is a highly important multi-step process that is described in more detail in :doc:`Step 6 <../quickstart/06_generate_representative_training_data>` of the Step-By-Step Guide. Be aware that at minimum, the following data generation tasks are required:
 
-
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Purpose                                        | | Question (for crowdsourced data generators)                            |
-| |                                                | | or instruction (for annotators)                                        |
-+==================================================+==========================================================================+
-| | Exploratory data generation                    | | "What kinds of questions would you ask a smart HR assistant            |
-| | for guiding the app design                     | | that has access to an HR database?"                                    |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generate queries for training                  | | ``get_info`` intent (``general`` domain):                              |
-| | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,        |
-| |                                                | | position, department, etc?"                                            |
-| |                                                | |                                                                        |
-| |                                                | | ``get_salary`` intent (``salary`` domain):                             |
-| |                                                | | "How would you ask for the salary                                      |
-| |                                                | | of an employee?"                                                       |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
-| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"              |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit             |
-| | for training the Role Classifier               | | the home assistant blueprint.                                          |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generation synonyms for gazetteer generation   | | ``city`` entity: "Enumerate a list of names of cities"                 |
-| | to improve entity recognition accuracies       | | ``location`` entity: "What are some names of                           |
-| |                                                | | locations in your home?"                                               |
-+--------------------------------------------------+--------------------------------------------------------------------------+
-
-
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Purpose                                        | | Question (for crowdsourced data generators)                            |
 | |                                                | | or instruction (for annotators)                                        |
@@ -365,16 +337,16 @@ The labeled data for training our NLP pipeline was created using a combination o
 In summary, the process is this:
 
 #. Start with an exploratory data generation process, collecting varied examples of how the end user would interact with the app.
-#. Cluster the data into different domains based on functionality. For example, the home assistant application has to control appliances in a smart home, check the weather and control a smart alarm, so we divide these functions into the following domains: ``greeting``, ``smart_home``, ``times_and_dates``, and ``weather``.
+#. Cluster the data into different domains based on category. For example, the HR Assistant application has to answer questions regarding general information, salary, date filters, and hierarchy so we divide these areas into the following domains: ``general``, ``salary``, ``date``, ``hierarchy`` (and ``unsupported``).
 #. Once we establish a clear domain-intent-entity-role hierarchy, generate labeled data for each component in the hierarchy.
 
-The ``domains`` directory contains the training data for intent classification and entity recognition. The ``entities`` directory contains the data for entity resolution. Both directories are at root level in the blueprint folder.
+The ``domains`` directory contains the training data for intent classification and entity recognition. The ``entities`` directory contains the data for entity resolution. Directories are at root level in the blueprint folder.
 
 .. admonition:: Exercise
 
    - Read :doc:`Step 6 <../quickstart/06_generate_representative_training_data>` of the Step-By-Step Guide for best practices around training data generation and annotation for conversational apps. Following those principles, create additional labeled data for all the intents in this blueprint and use them as held-out validation data for evaluating your app. You can read more about :doc:`NLP model evaluation and error analysis <../userguide/nlp>` in the user guide.
 
-   - To train NLP models for your own home assistant application, you can start by reusing the blueprint data for generic intents like ``greet`` and ``exit``. However, for core intents like ``check_weather`` in the ``weather`` domain, it's recommended that you collect new training data that is tailored towards the entities (``city``, ``duration``) that your application needs to support. Follow the same approach to gather new training data for the ``check_weather`` intent or any additional intents and entities needed for your application.
+   - To train NLP models for your own HR assistant application, you can start by reusing the blueprint data for generic intents like ``get_info`` and ``get_salary``. If you have more information in your HR database then you can create new intents by following the steps above.
 
 
 7. Training the NLP Classifiers
