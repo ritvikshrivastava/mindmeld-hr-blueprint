@@ -97,12 +97,12 @@ HR assistant defines and uses the following custom entities for each of its doma
        - ``extreme``: detects extreme keywords (highest, oldest, lowest, youngest). For example: "who is the {oldest|extreme} employee?"
        - ``date_compare``: detects date comparision key words (prior to, after) For example: "Was {Ivan|name} {born|dob} {prior to|date_compare} {1990|sys_time}?"
        - ``function``: detects a function type (percent, sum, average, count) For example: "What {percent|function} of employees are {women|sex}?"
-       
+
    - Custom Time Entities
        - ``time_interval``: detects a decade (1980's, 80s, eighties) For example: "{how many|function} employees were {bron|dob} in the {eighties|time_interval}?"
        - ``time_recur``: detects a recurring time interval (yearly, monthly, weekly). For example: "what does {ivan|name} {make|money} {monthly|time_recur}?"
-       
-       time, amount of money, number, 
+
+       time, amount of money, number,
 
 HR assistant uses three system entities: ``sys_time`` (time), ``sys_amount-of-money`` (money), ``sys_number`` (number). Some examples for annotation with system entities: "{How many|function} employees were {born|dob} in the {2009|sys_time}?" and "what {fraction|function} of employees {make|money} {less than|comparator} {69 grand|sys_amount-of-money}?".
 
@@ -352,9 +352,9 @@ The labeled data for training our NLP pipeline was created using a combination o
 | |                                                | | of an employee?"                                                       |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Annotate queries                               | | ``get_info``: "Annotate all occurrences of                             |
-| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"               |
+| | for training the Entity Recognizer             | | ``name`` and other user info entities in the given query"              |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit              |
+| | Annotate queries                               | | HR Assistant does not use roles. For examples please visit             |
 | | for training the Role Classifier               | | the home assistant blueprint.                                          |
 +--------------------------------------------------+--------------------------------------------------------------------------+
 | | Generation synonyms for gazetteer generation   | | ``state`` entity: "Enumerate a list of state names"                    |
