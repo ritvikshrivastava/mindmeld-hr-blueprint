@@ -314,13 +314,13 @@ The labeled data for training our NLP pipeline was created using a combination o
 +==================================================+==========================================================================+
 | | Exploratory data generation                    | | "What kinds of questions would you ask a smart   
 |
-| | for guiding the app design                     | | HR assistant that has access to an HR database?"                                |
+| | for guiding the app design                     | | HR assistant that has access to an HR database?"                        |
 +--------------------------------------------------+--------------------------------------------------------------------------+
-| | Generate queries for training                  | | ``get_info`` intent (``General`` domain):                  |
+| | Generate queries for training                  | | ``get_info`` intent (``General`` domain):                              |
 | | Domain and Intent Classifiers                  | | "How would you ask for an employee's information such as state,          |
-| |                                                | |  position, department, etc?"                                  |
+| |                                                | |  position, department, etc?"                                           |
 | |                                                | |                                                                        |
-| |                                                | | ``get_salary`` intent (``Salary`` domain):                     |
+| |                                                | | ``get_salary`` intent (``Salary`` domain):                             |
 | |                                                | | "What would you say to the app                                         |
 | |                                                | | to set a new alarm time?"                                              |
 +--------------------------------------------------+--------------------------------------------------------------------------+
