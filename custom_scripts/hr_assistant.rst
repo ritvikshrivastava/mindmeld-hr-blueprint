@@ -112,9 +112,17 @@ To train the different machine learning models in the NLP pipeline for this app,
 
 .. code-block:: shell
 
-    python -c "import mmworkbench as wb; wb.blueprint('hr_assistant');"
+    python -c "import mindmeld as mm; mm.blueprint('hr_assistant');"
 
 This should create a Workbench project folder called ``hr_assistant`` in your current directory with the following structure:
+
+.. image:: images/hr_assistant_directory_1.png
+    :width: 250px
+    :align: center
+
+.. image:: images/hr_assistant_directory_2.png
+    :width: 250px
+    :align: center
 
 .. image:: images/hr_assistant_directory.png
       :width: 250px
@@ -380,10 +388,9 @@ Train a baseline NLP system for the blueprint app. The :meth:`build()` method of
 
 .. code:: python
 
-   from mmworkbench.components.nlp import NaturalLanguageProcessor
-   import mmworkbench as wb
-   wb.configure_logs()
-   nlp = NaturalLanguageProcessor(app_path='hr_assistant')
+   from mindmeld import configure_logs; configure_logs()
+   from mindmeld.components.nlp import NaturalLanguageProcessor
+   nlp = NaturalLanguageProcessor(app_path='./hr_assistant')
    nlp.build()
 
 .. code-block:: console
@@ -579,9 +586,9 @@ The :doc:`Question Answerer <../userguide/kb>` component in Workbench is mainly 
 
 .. code:: python
 
-   from mmworkbench.components.question_answerer import QuestionAnswerer
+   from mindmeld.components import QuestionAnswerer
    qa = QuestionAnswerer(app_path='hr_assistant')
-   restaurants = qa.get(index='user_data')[0:3]
+   users = qa.get(index='user_data')[0:3]
    [user['emp_name'] for user in users]
 
 .. code-block:: console
@@ -641,8 +648,8 @@ Once all the individual pieces (NLP, Dialogue State Handlers) have been trained,
 
 .. code:: python
 
-   from mmworkbench.components.dialogue import Conversation
-   conv = Conversation(nlp=nlp, app_path='hr_assistant')
+   from mindmeld.components.dialogue import Conversation
+   conv = Conversation(nlp=nlp, app_path='./hr_assistant')
    conv.say('What is Elisa's marital status')
 
 .. code-block:: console
