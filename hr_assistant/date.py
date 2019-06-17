@@ -21,8 +21,19 @@ def get_date(request, responder):
 	the active current state of the employee in question.
 	"""
 
-	name_ent = [e for e in request.entities if e['type'] == 'name']
-	name = name_ent[0]['value'][0]['cname']
+	name = request.frame.get('name')
+
+	try:
+		name_ent = [e for e in request.entities if e['type'] == 'name']
+		name = name_ent[0]['value'][0]['cname']
+	except:
+		pass
+
+	if not name:
+		responder.reply("Hmmm, I didn't quite understand. Which employee can I tell you about?")
+		responder.listen()
+		return
+
 	responder.slots['name'] = name
 
 	employee = app.question_answerer.get(index='user_data', emp_name=name)[0]
