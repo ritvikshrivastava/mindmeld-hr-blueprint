@@ -1,0 +1,901 @@
+GET_AGGREGATE=============================================================
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {total|function} {number of|function} {us citizens|citizendesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees {exceeded expectations|performance_score}?
+A: The percent is 9.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percentage|function} of new grads in {engineering|department}
+A: The percent is 3.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {average|function} {age|age}?
+A: The average age is 38.58
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees are managers?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What's the {average|function} {age of|age} employees?
+A: The average age is 38.58
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of the employees are minorities?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are {exceeding expectations|performance_score}?
+A: The percent is 3.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are {female|sex}?
+A: The percent is 58.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {Percentage|function} of Employees in department with prior experience
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees {meet|performance_score} or {exceed expectations|performance_score}?
+A: The percent is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are parents?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Give an estimate {total|function} of the {female|sex} strength in this company?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of people working here are {female|sex}? 
+A: The percent is 58.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percentage|function} of employees that {exceeds expectations|performance_score} on his or her {performance score|performance_score}?
+A: The percent is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me the {percent|function} of employees are {married|maritaldesc}?
+A: The percent is 39.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
+A: The percent age is 18.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percentage|function} of {senior engineers|position} in the company
+A: The percent is 1.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of workers are {older than|comparator} {30|sys_number} {years old|age}?
+A: The percent age is 87.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {median|function} {age of|age} employees in the {sales|department} and {marketing departments|department}?
+A: The sum age is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {fraction|function} of {terminations|employment_action} were due to {sexual harassment|reason_for_termination}? 
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are {male|sex}?
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percentage|function} of {engineers|position} who are promoted to {manager|manager}
+A: The percent is 3.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what {proportion|function} of employees were {hired|employment_action} through a {job fair|employee_source}?
+A: The percent is 9.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percentage|function} breakdown of employees that joined via {referrals|employee_source}, {social media|employee_source} and {university career fairs|employee_source}?
+A: The percent is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {average|function} tenure of employees in {California|state}?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees are {female|sex}?
+A: The percent is 58.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What's the {average|function} {performance|performance_score} of all employees within the company?
+A: The average age is 38.58
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {distribution|function} of employees from different states?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are {married|maritaldesc}?
+A: The percent is 39.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {Percentage|function} of {termination|employment_status} due to {lack of innovation|reason_for_termination}
+A: The percent is 4.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are {US Citizens|citizendesc}?
+A: The percent is 94.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees are {non-citizens|citizendesc}?
+A: The percent is 1.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Which office location has the {most|extreme} employees?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {average|function} {performance score|performance_score} of all employees?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees are {american citizens|citizendesc}?
+A: The percent is 94.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {male|sex}?
+A: The count is 126
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees live in {Iowa|state}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {married|maritaldesc}
+A: The count is 119
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees work in {California|state}
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} of employees are {married|maritaldesc}?
+A: The count is 119
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {head count|function} trend within the {Sales department|department}?
+A: The count of employees is 10
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} {female|sex} managers are there?
+A: The count is 174
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are minorities?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are there?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} jobs have you had previous?
+A: Hmmm, I didn't quite understand. Would you like to know what you can ask me?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {ratio|function} of races in our company?
+A: Did you mean yes or no?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {married|maritaldesc}?
+A: The count is 119
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees in the {IT department|department}?
+A: The count is 10
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees {meet|performance_score} or {exceed expectations|performance_score}?
+A: The count is 0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} {women|sex} are in the {Engineering Department|department}?
+A: The count is 6
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people are {performing badly|performance_score}? 
+A: The count is 15
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees work in the {MA|state} office?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees were {born|dob} in the year {2009|sys_time}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {not citizens|citizendesc}?
+A: The count is 284
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are from {North Carolina|state}?
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {asian|racedesc}?
+A: The count is 31
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {number of|function} {married|maritaldesc} employees?
+A: The count is 119
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are there in {sales|department}
+A: The count is 31
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people have {worked here|employment_action} since {2015|sys_time}?
+A: The count is 47
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {C-levels|position}?
+A: The count is 9
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {total|function} {number of|function} {Black or African American|racedesc} folks that currently work in the US?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} of {Mia Brown|name}'s reports left the company?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people are there {under|comparator} {30|sys_number}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees work for the {collab department|department}?
+A: The count is 10
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} managers are there?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What are the {M/F|sex} {ratios|function} in different departments?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees {meet|performance_score} the expectations of the job role?
+A: The count is 171
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Employees with more than {5 yrs|sys_duration} of experience in their field
+A: What date would you like to know about? Hire, termination or birth?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees fall {below expectations|performance_score}?
+A: The count is 15
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are out of state?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are between {20|sys_number} and {30|sys_number} {years old|age}?
+A: The count age is 55
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {older than|comparator} {35|sys_number}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the employee's race?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees live in {California|state}?
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {above|comparator} {35|sys_number}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are from {New York|state}?
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees were {born|dob} in {January|sys_time}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} {software engineers|position} do we have?
+A: The count is 9
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} workers performed {below expectations|performance_score}?
+A: The count is 15
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} {software engineers|position} work for us?
+A: The count is 9
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are named {Ivan|name}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: When do we {most|extreme} often {hire/fire|employment_status} people?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {over|comparator} the {age of|age} {30|sys_number}?
+A: The count age is 261
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {Number of|function} {Married|maritaldesc} employees
+A: The count is 119
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are in our department?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} {business analysts|position} are employed?
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people are {over|comparator} {21|sys_number}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees work for {Michael Albert|manager}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {below|comparator} the {age of|age} {30|sys_number}
+A: The count age is 55
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {under|comparator} {30|sys_number}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees are {over|comparator} {50|sys_number} {years old|age}?
+A: The count age is 36
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people are there {under|comparator} {30|sys_number}?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees work from {California|state}
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {distribution|function} {ratio|function} of {non-citizen|citizendesc}?
+A: The percent is 1.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what's the {aggregate|function} {total|function} {number of|function} {us citizens|citizendesc} at the org?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: whats the {cumulative|function} {non citizen|citizendesc} {count|function}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {average|function} of employees that {meet 90-day expectations|performance_score}?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees {exceed expecations|performance_score}?
+A: The percent is 9.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {count|function} of employees {meet 90-day expectations|performance_score}?
+A: The count is 171
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {typical|function} age of new grads in {it/is|department}
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what's the {distribution|function} of new grads in {software engineering|department}
+A: The percent is 3.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me about the {proportion|function} of new grads in the {sales|department} dept
+A: The percent is 10.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {combined|function} number of employees the are of the age of {40|age}?
+A: The sum age is 440
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: whats the {added up|function} number of employees that are {37|age}?
+A: The sum age is 296
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Gimme the {percent|function} of {50|age} year olds at this company?
+A: The percent age is 1.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees are managers?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {total|function} {number of|function} of employees are managers?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {cumulative|function} {num of|function} employees are managers?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What's the {summed|function} {num of|function} {43|age} yr old employees?
+A: The sum age is 430
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {distribution|function} of {47|age} year old employees?
+A: The percent age is 3.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what's the {pct|function} of {29|age} year old employees that work with us?
+A: The percent age is 5.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} {count|function} of the employees that are minorities?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {typical|function} age of the employees who are minorities?
+A: The average age is 38.58
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {average|function} age of the employees that are considered minorities?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {combined|function} final {number of|function} employees are that {are exceptional|performance_score} in their performance?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {total number|function} of employees are {meeting 90 day expectations|performance_score}?
+A: The count is 31
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {summed|function} {number of|function} employees that are {meeting 90 day expectations|performance_score}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {aggregate|function} of employees who are {male|sex}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} of employees that are {male|sex}?
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} employees {male|sex}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {cumulative|function} of Employees in department with prior experience
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percentage|function} of Employees in department
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {distribution|function} in department with prior experience
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {typically|function} is the age of employees who {are too early to review|performance_score} or currently {fully meet performance expectations|performance_score}?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {cumulative|function} {count|function} of employees that {are too early to review|performance_score} or {need improvement|performance_score}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Get me the {summed up|function} {count|function} of employees that {fully meet performance expections|performance_score} or {need improvement|performance_score}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees are parents?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Give an estimate {total|function} of the {male|sex} strength in this company?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: I want an estimate {how many|function} of the {female|sex} strength in this company?
+A: The count is 174
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Give an estimate {mean|function} of the {male|sex} strength in this company?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {number of|function} of people working here who are {male|sex}?
+A: The count is 126
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {fraction|function} of folks working here who are {female|sex}?
+A: The percent is 58.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percentage|function} working here that r {male|sex}?
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} of employees that {need improvement|performance_score} on his or her {performance score|performance_score}?
+A: The count is 15
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {cumulative|function} {count|function} of employees that {are exceptional|performance_score}
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percentage|function} of employees that {fully meet performance expectations|performance_score}
+A: The percent is 57.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me the {aggregate|function} {count|function} of employees are {widowed|maritaldesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me the {fraction|function} of employees who are {single|maritaldesc}?
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Inform me of the {cumulative|function} of employees who are {separated|maritaldesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {aggregate|function} {num of|function} employees that are {below|comparator} the age of {58|age}?
+A: The sum age is 10814
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} employees {below|comparator} the {42|age} age
+A: The percent age is 70.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} of workers are {less than|comparator} {35|age} years old?
+A: The count age is 135
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {total|function} {count|function} of {production technician|position}s in the company
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {percent|function} of {production manager|position}s in the organization
+A: The percent is 4.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} of {it support|position} in the company
+A: The percent is 1.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {average|function} age of workers who are {older than|comparator} {30|sys_number} {years old|age}?
+A: The average age is 40.18
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {summed|function} {count of|function} workers that are {older than|comparator} {23|sys_number} {years old|age}?
+A: The sum age is 11575
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} workers {older than|comparator} {38|sys_number} {years of age|age}?
+A: The sum age is 6621
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {typical|function} {age|age} of employees in the {it/is|department} dept and the {software engineering|department} dept?
+A: The average age is nan
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Get me the {cumulative|function} {age|age} of employees in the {sales|department} department and {it/is|department} department?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Fetch me the {count|function} of managers in the {it/is|department} department?
+A: The count is 41
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: whats the {combined|function} {count|function} of managers in the {admin offices|department}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Calculate the {number of|function} managers in the {software engineering|department} department?
+A: The count is 10
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {average|function} age of employees {fired|employment_action} due to {sexual harassment|reason_for_termination}?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {summed|function} up {number of|function} {fired|employment_action} employees due to {sexual harassment|reason_for_termination}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {added up|function} {count|function} of {terminated|employment_action} employees that was due to {sexual harassment|reason_for_termination}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Calculate the {total|function} {count|function} of employees who are registered as {male|sex}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {how many|function} employees are {female|sex} in our company?
+A: The count is 174
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {ratio|function} of employees are not {male|sex}?
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me about the {total|function} {count|function} of {production technician|position}s who are promoted to {manager|manager}
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Get me the {typical|function} age of {database administrator|position} who are promoted to {management|manager}
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What's the {number of|function} of {it director|position}s who are promoted to {managers|manager}
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what {percent|function} of employees {joined us|employment_action} as a result of a {newspager/magazine|employee_source}?
+A: The percent is 6.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what is the {total|function} {number of|function} employees were {hired|employment_action} through a {newspager/magazine|employee_source}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} employees {joined|employment_action} us through a {search engine - google bing yahoo|employee_source}?
+A: The percent is 2.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {proportion|function} breakdown of employees that joined via {billboard|employee_source} and {on-campus recruiting|employee_source}?
+A: The percent is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} break down of employees that joined via {on-campus recruiting|employee_source}, {careerbuilder|employee_source} and {word of mouth|employee_source}?
+A: The percent is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: calculate the {ratio|function} breakdown of employees that joined via {information session|employee_source}, {professional society|employee_source} and {on-line web application|employee_source}?
+A: The percent is 0.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {distribution|function} tenure of employees in {FL|state}?
+A: The percent is 0.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Show me the {count|function} of tenure of employees in {Florida|state}?
+A: The count is 1
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what is the {summed|function} tenure of employees in {Ohio|state}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {Total|function} of employees that are {male|sex}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {sum|function} of employees are self identified as {male|sex}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percentage|function} of employees who say they are {female|sex}?
+A: The percent is 58.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What's the {total number|function} of employees that {need improvement|performance_score} of all employees within the company?
+A: The count is 15
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {added up|function} {number of|function} employees that {meet 90-day expectations|performance_score} of all employees within the company?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Get me the {fraction|function} of employees that {need improvement|performance_score} of all employees within the org
+A: The percent is 5.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} {number of|function} employees from different states?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {combined|function} {number of|function} employees from different states?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Inform me of the {count|function} of employees from different states?
+A: The count is 300
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: I want the {proportion|function} of employees that are {married|maritaldesc}?
+A: The percent is 39.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {portion|function} of our employees that are still {single|maritaldesc}?
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratio|function} of employees {married|maritaldesc}?
+A: The percent is 39.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {portion|function} of {voluntarily terminated|employment_status}
+A: The percent is 29.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} of {terminated|employment_status} as a result of {lack of innovation|reason_for_termination}
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} of {active|employment_status}
+A: The percent is 58.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {distribution|function} of employees that are {us citizen|citizendesc}?
+A: The percent is 94.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratio|function} {us citizen|citizendesc} compared to not?
+A: The percent is 94.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {pct|function} of our employees who are {eligible noncitizen|citizendesc}?
+A: The percent is 4.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Calculate the {total|function} of employees that are {non-citizen|citizendesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {how many|function} of employees are {non-citizen|citizendesc}?
+A: The count is 4
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {ratio|function} of employees are {us citizen|citizendesc}?
+A: The percent is 94.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Which office location has the {least|extreme} employees?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Which office location has the {min|extreme} employees?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Which office location has the {lowest|extreme} employees?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {average|function} {fully meet performance expectations|performance_score} of all employees?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {proportion|function} {fully meet performance expecations|performance_score} when looking at all employees.
+A: The percent is 57.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Calc the {ratio|function} that {fully meet performance expecations|performance_score}
+A: The percent is 57.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratio|function} of employees are {non-citizen|citizendesc}?
+A: The percent is 1.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {combined|function} {count|function} of employees are {eligible noncitizen|citizendesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me {aggregate|function} of employees are {eligible noncitizen|citizendesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} employees are that {female|sex}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {mean|function} employees who are {male|sex}?
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} employees are {male|sex}?
+A: The count is 126
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {portion|function} employees live in {NV|state}?
+A: The percent is 0.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {cumulative|function} employees live in {GA|state}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {sum|function} employees live in {UT|state}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratios|function} employees who are {widowed|maritaldesc}
+A: The percent is 3.67
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {mean|function} employees that are {divorced|maritaldesc}
+A: What would you like to know the average of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} employees are {widowed|maritaldesc}
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {added up|function} employees work in {ME|state}
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratio|function} employees work in {OH|state}
+A: The percent is 0.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} employees work in {IN|state}
+A: The percent is 0.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} {number of|function} employees are {single|maritaldesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} of employees are {single|maritaldesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {added up|function} {count|function} of employees are {single|maritaldesc}?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {distribution|function} within the {software engineering|department}?
+A: The percent is 3.33
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {how many|function} {female|sex} managers are there?
+A: The count is 174
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {fraction|function} {male|sex} managers there are
+A: The percent is 42.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} {female|sex} managers in the org
+A: The count is 174
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} employees are minorities?
+A: The percent is 100.0
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {cumulative|function} employees who are minorities?
+A: What would you like to know the sum of?
+
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {proportion|function} employees that are minorities?
+A: The percent is 100.0
+
