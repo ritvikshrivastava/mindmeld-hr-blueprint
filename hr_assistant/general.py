@@ -165,12 +165,12 @@ def get_aggregate(request, responder):
 			qa_out = qa.execute(size=size)
 
 			responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
-			responder.reply('The {function} age is {value}')
+			responder.reply('Based on your query, the {function} is {value}')
 
 		elif function not in ('avg','sum'):
 			qa_out = qa.execute(size=300)
 			responder.slots['value'] = _agg_function(qa_out, func=function)
-			responder.reply('The {function} is {value}')
+			responder.reply('Based on your query, the {function} is {value}')
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
@@ -331,7 +331,9 @@ def _resolve_function_entity(responder, func_entity):
 	## mapping text entry's canonical entity form using the function dictionary
 	key = func_entity['value'][0]['cname']
 	function = func_dic[key]
-	responder.slots['function'] = func_entity['value'][0]['cname']
+
+	if key=='percent': key='percentage'
+	responder.slots['function'] = key
 
 	return function, responder
 

@@ -107,13 +107,13 @@ def get_date_range_employees(request, responder):
 
 	qa_out = _resolve_time(request, responder, qa, size)
 
-	try:
+	if qa_out:
 		responder.slots['emp_list'] = _get_names(qa_out)
-	except:
-		responder.reply("What date would you like to know about? Hire, termination or birth?")
-		return
-	responder.reply("Here's some employees: {emp_list}")
+		responder.reply("Here's some employees: {emp_list}")
 
+	else:
+		# responder.reply("Hmm, I couldn't understand that. Which employees can I find for you?")
+		responder.listen()
 
 
 ### Helper functions ###
@@ -145,6 +145,11 @@ def _check_time_ent(time_ent, date_compare_ent):
 
 		elif len(re.split('-|\\|/', time_ent[i]))==1:
 			try:
+				int(time_ent[i])
+			except:
+				return None
+				break
+			try:
 				if date_compare_ent:
 					time_ent[i] = str(time_ent[i])+'-01-01'
 				else:
@@ -154,6 +159,7 @@ def _check_time_ent(time_ent, date_compare_ent):
 			except:
 				return None
 				break
+
 		else:
 			return None
 			break
@@ -198,7 +204,6 @@ def _resolve_time(request, responder, qa, size):
 		field = 'dob'
 	else:
 		responder.reply("What date would you like to know about? Hire, termination or birth?")
-		responder.listen()
 		return
 
 	# One way to process date aggregate questions can be to filter it on defined time periods
@@ -209,7 +214,6 @@ def _resolve_time(request, responder, qa, size):
 
 		if time_ent == None:
 			responder.reply('Please repeat your query with a valid date format (YYYY-MM-DD)')
-			responder.listen()
 			return
 
 		# Two time entities specify an exact time period to filter
@@ -236,7 +240,7 @@ def _resolve_time(request, responder, qa, size):
 
 	else:
 		responder.reply('Please repeat your query with a valid date format (YYYY-MM-DD)')
-		responder.listen()
+		# responder.listen()
 		return
 
 	return qa_out

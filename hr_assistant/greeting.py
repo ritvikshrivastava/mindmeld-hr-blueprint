@@ -15,5 +15,3 @@ def greet(request, responder):
 @app.handle(intent='exit')
 def exit(request, responder):
     responder.reply('Bye!')
-
-

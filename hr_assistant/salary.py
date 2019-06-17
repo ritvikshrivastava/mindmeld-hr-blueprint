@@ -151,24 +151,7 @@ def _apply_money_filter(qa, age_entities, request, responder):
 	such as, 'highest earning employee'. 
 	"""
 
-	num_entity = [e['text'] for e in request.entities if e['type'] == 'sys_number']
-
-	for i in range(len(num_entity)):
-		if 'k' in num_entity[i]:
-			num_entity[i] = num_entity[i].strip('k')
-			num_entity[i] = str(float(num_entity[i])*1000)
-
-
-	sys_amount_ent =  [e['text'] for e in request.entities if e['type'] == 'sys_amount-of-money']
-	for i in range(len(sys_amount_ent)):
-		sys_amount_ent[i].strip('$')
-		if 'k' in sys_amount_ent[i]:
-			sys_amount_ent[i] = sys_amount_ent[i].strip('k')
-			sys_amount_ent[i] = str(float(sys_amount_ent[i])*1000)
-
-		num_entity.append(sys_amount_ent[i])
-
-	num_entity = [float(i) for i in num_entity]
+	num_entity = [float(e['value'][0]['value']) for e in request.entities if e['type'] in ('sys_number', 'sys_amount-of-money')]
 
 	try:
 		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
@@ -203,8 +186,13 @@ def _apply_money_filter(qa, age_entities, request, responder):
 		elif len(num_entity)>1:
 			gte_val = np.min(num_entity)
 			lte_val = np.max(num_entity)
-		
-		qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
+
+
+		# Apply filter iff numerical entity exists
+		try:		
+			qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
+		except:
+			pass
 		size = 300
 
 
