@@ -13,11 +13,21 @@
             "cname": "us citizen"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "non citizen",
+                "not a citizen",
+                "non us citizen",
+                "not citizens"
+            ],
             "cname": "eligible noncitizen"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "non citizen",
+                "not a citizen",
+                "non us citizen",
+                "not citizens"
+            ],
             "cname": "non-citizen"
         }
     ]

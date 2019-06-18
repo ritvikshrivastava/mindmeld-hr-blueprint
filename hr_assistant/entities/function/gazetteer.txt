@@ -9,7 +9,7 @@ percentage
 %
 ratio
 ratios
-
+pct
 total
 cumulative
 added up
@@ -21,6 +21,9 @@ aggregate
 mean
 typical
 typically
+median
+avg
+range
 how many
 total number
 number of

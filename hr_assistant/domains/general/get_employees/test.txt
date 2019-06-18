@@ -1,60 +1,30 @@
-employees are {hired|employment_action}?
-What are our {top|extreme} {10|sys_number} {oldest|extreme} workers?
-who is not {divorced|maritaldesc}
-employees between the {ages|age} {34|sys_number} and {43|sys_number}
-Which employees have been {let go|employment_action}?
-employees who are {below|comparator} {56|sys_number} {years old|age}?
-Show me all of the {administrative assistant|position}
-Which employees that are not {eligible noncitizen|citizendesc}?
-Which employees are {terminated|employment_action}?
-{widowed|maritaldesc} employees
-our {software engineer|position}
-All employees from the state of {north carolina|state}
-employee with the {maximum|extreme} {age|age}
-employees in {production|department} department?
-All the {April|sys_time} {birthdays|dob}
-{managers|position}
-employees {older than|comparator} {34 years|sys_duration}
-employee with the {max|extreme} {age|age}
-Which employees have recently began {working here|employment_action}?
-employee(s) are {white|racedesc}?
-Which employees have a {spouse|maritaldesc}?
-employees in their {30|sys_number}'s
-employee(s) are {asian|racedesc}?
-Which employee(s) {exeed expecations|performance_score} company's expectations?
-who is doing {software engineering manager|position} at this company?
-who is {lead|manager} {accountant i|position}?
-employees {executive office|department} dept?
-who is {widowed|maritaldesc}
-{CA|state} employees
-{IT Support|position} employees
-employees have been {let go|employment_action}?
-{divorced|maritaldesc} employees
-workers doing {it manager - support|position}
-who is not {married|maritaldesc}
+{oldest|extreme} employees list
+{male|sex} employees
+{PA|state} based employees
+who is {separated|maritaldesc}
+All employees from {Alabama|state} state
+get me the {lowest|extreme} {five|sys_number} {total number|function} of employees
 employees that are {separated|maritaldesc}
-{ID|state} employees listed
-employees that live in {VT|state}
-Which employees are not {US citizens|citizendesc}?
-list of {managers|position}
-{it support|position} list
-Which employees are {active|employment_status}?
-Which employees are {managers|position}?
-{network engineer|position} employees
-Show {married|maritaldesc} employees
-{network engineers|position}
-{non citizen|citizendesc} employees
-employees that work as an {sales manager|position}
-Show me the employees who are {widowed|maritaldesc}
-who is {working for|manager} {director of sales|position}?
-i want the {maximum|extreme} {third|sys_ordinal} of employees
-Which employees are {sr. dba|position}?
-employees that are {divorced|maritaldesc}
-{manager|position} employees
-Which employees have been {terminated|employment_action}?
-{us citizen|citizendesc}s employee list
-provide me a list of {sr. accountant|position}
+{voluntarily terminated|employment_status} employees
 Which employees are {married|maritaldesc}?
-Who is our {oldest|extreme} employee?
-Which employees are {US citizens|citizendesc}?
-employees {younger than|comparator} {54 years|sys_duration}
+Which employee(s) are from {Asia|racedesc}?
+which staff work in {IT|department}
+{it director|position} employees
+provide me a list of {sr. accountant|position}
+who is {working for|manager} {IT support|position}?
+Which employees were {voluntarily terminated|employment_status} here
+{us citizen|citizendesc}s
+Which employees are {over|comparator} {30|sys_number} {years old|age}?
+Which employee(s) are {hispanic|racedesc}?
+employees have been {let go|employment_action}?
+Which employees are {single|maritaldesc}?
+employees are {female|sex}?
+Which employees were {let go|employment_action} for {failure to complete compliance training|reason_for_termination}?
+Which employees were {date of leaving job|employment_action} at {internet search|employee_source}?
+{it manager - db|position}
+What are our {top|extreme} {10|sys_number} {oldest|extreme} workers?
+workers doing {software engineering manager|position}
+{network engineer|position} employees
+{min|extreme} {10|sys_number} {age|age} employees, who are they?
+{top|extreme} {10|sys_number} {oldest|age} employees, who are they?
+Which employees are {terminated|employment_action}?

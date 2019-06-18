@@ -1,14 +1,7 @@
-{How many|function} people were based out of {Colarado|state} in the {last|date_compare} {3 years|sys_duration}?
+What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
+{hired|employment_action} for {less than|comparator} {5 yrs|sys_duration} ago, {total|function}
 Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
-employees {born|dob} {before|date_compare} {1994|sys_time}, give me the {total|function} {count|function}
-employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
-{How many|function} people have {worked here|employment_action} {since|date_compare} {2015|employment_action}?
-Find the {total|function} of workers who were {born|dob} {post|date_compare} {1992|sys_time}
-{percent|function} {born|dob} in {1947|sys_time}
-What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
-{ratios|function} of employees that were {born|dob} about {five years|sys_duration} from {1975|sys_time}
-{total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
-{how many|function} people were based out of {IN|state} in the {last|date_compare} {4 years|sys_duration}?
-{1975|sys_time} {born|dob} employees {ratio|function}
-what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
-{How many|function} employees were {hired|employment_action} {last year|sys_time}?
+what is the {total|function} {number of|function} employees that {started working|employment_action} here {before|date_compare} {2012|sys_interval}
+{how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
+What is the {total|function} of employees with {bdays|dob} {prior to|date_compare} {1990|sys_time}
+{total|function} employees that have {been with the company|employment_action} for {less than|comparator} {9 years|sys_duration}

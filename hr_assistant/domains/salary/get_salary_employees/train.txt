@@ -1,138 +1,155 @@
-Which {Sr. DBA|position} {earns|money} the {most|extreme}?
-Which employee(s) have {lowest|extreme} {income|money}?
-give me the {earners|money} for all of the employees that are {eligible noncitizen|citizendesc}
-give me the {earnings|money} for all of the employees that have a {us citizenship|citizendesc}
-what are {network engineers|position} {making|money} at this company
-all the {earnings|money} of {female|sex} in the company
-who {makes|money} the {minimum|extreme} {income|money} in {sales|department} department
-Get me the {lowest|extreme} {six|sys_number} {earners|money} in the {software engineering|department} department
-which employees are {making|money} {less than|comparator} {average|function}
-{non-citizen|citizendesc} {paycheck|money}s
-what are {accountant i|position} {paid|money} at this company
-who {make|money} a {salary|money} {more than|comparator} {200k|sys_number}?
-{earnings|money} {female|sex}
-Of the employees {hired|employment_action} {after|date_compare} {2014|sys_time} which employees {earn|money} between {$20,000|sys_amount-of-money} and {$56,000|sys_amount-of-money}?
-{paycheck|money} {male|sex}
-Who {earns|money} the {most|extreme} in the {production department|department}
+{women|sex} {salaries|money}
 get the {salaries|money} of employees in the {lowest|extreme} {income|money} bracket
-who are the company's {lowest|extreme} {7|sys_number} {interracial|racedesc} {earners|money}
-{income|money} of {female|sex} in the org
-show me the {min|extreme} {earners|money} that are {senior database admins|position}
-{software engineering|department} {pay|money}
-I want a list with {pay|money} of employees that are {us citizen|citizendesc}
-what are {it director|position} {making|money} at this company
-Tell me the employee that {works under|manager} {Melinda Saar-Beckles|name} that {makes|money} the {least|extreme} amount?
-Which employee(s) have {highest|extreme} {paycheck|money}?
-list employees {making|money} {more than|comparator} {average|function}
-give me the {salaries|money} of {interracial|racedesc} employees in this company
-For employees {hired|employment_action} {between|comparator} {3|sys_number} to {6 years|sys_duration} ago, which employee {earns|money} the {least|extreme}?
-{earnings|money} for people working in the {it/is|department}
-Of all the {area sales manager|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
-Of all the {senior database administrator|position}, which ones are the {lowest|extreme} {6|sys_number} {earners|money}
-Of all the {Production Managers|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
-what are the {dudes|sex} {making|money}
-get the {pay|money} of employees in the {lowest|extreme} {earnings|money} bracket
-Which {white|racedesc} employee {income|money} the {greatest|extreme}
-who {$|money} the {lowest|extreme} {$|money} in {sales|department} department
-Show me the {earnings|money} of {males|sex} in this company
-{income|money} {male|sex}
-get me {non citizen|citizendesc} employee {salary|money} list
-show me the employee {salaries|money} for {females|sex} {hired|employment_action} in the {last|date_compare} {2 years|sys_duration}
-{sales department|department} {salaries|money}
-I want a list with {salaries|money} of employees that are {eligible noncitizen|citizendesc}
-what are the {earnings|money} for people {on a leave of absence|employment_status}
-show me the {yearly|time_recur} {earnings|money} of the {men|sex}
-show me the {yearly|time_recur} {earnings|money} of {women|sex}
-{Admin Offices|department} {bottom|extreme} {16|sys_number}{percent|function} {earners|money} list
-{software engineering|department} {earnings|money}
-what are the {salaries|money} for {active|employment_status} employees
-{African american|racedesc}  employees {salaries|money} listed
-what are our {bottom|extreme} {earn|money} {earnings|money}
-I want the {7|sys_number}{highest|extreme} {earner|money}s in the {executive office|department} department
-get me the {salaries|money} of the people {working for|manager} the {manager|manager}, {ammy Dunn|name}
-who {makes|money} a {salary|money} {more than|comparator} {210k|sys_number}?
-what are our {top|extreme} {earners|money} {making|money}
-Tell me who all are getting an {income|money} {more than|comparator} {88k|sys_number}
-how much are {pay per click - google|employee_source} {earner|money}?
-above {average|function} {earning|money} employees
-Get me the {least|extreme} {four|sys_number} {earners|money} in the {admin offices|department} department.
-give me the {paychecks|money} of {asian|racedesc} employees in this company
-get the {salaries|money} of workers that are {paid|money} in the {highest|extreme} {income|money} bracket
-{citizen|citizendesc} {salaries|money}
-Of all employees who are the {employees that have been here|employment_action} from {3|sys_number} to {6 years|sys_duration}
-Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
-who has the {greatest|extreme} {earnings|money} among the {director of sales|position}
-how much are {vendor referral|employee_source} {paycheck|money}?
-list of {top|extreme} {twenty|sys_number} {earners|money} in the {Production department|department}
-who is the {highest|extreme} {earning|money} {IT Director|position} and what is {he|sex} or {she|sex} {earning|money}
-What are the {yearly|time_recur} {salaries|money} for all of the employees that {work for|manager} {Janet King|money}
-{female|sex} {paycheck|money}
-I want a list with {salaries|money} of employees that are {not citizens|citizendesc}
-who {makes|money} {$|money} {less than|comparator} {73k|sys_number}?
-Which workers are {compensated|money} {more than|comparator} {35k|sys_number} but {less than|comparator} {60k|sys_number}?
-I want the {5|sys_number}{percent|function} {bottom|extreme} {earners|money} in the {Admin Offices|department}
-Tell me who all are {making|money} {more than|comparator} {50k|sys_number}
-{men|sex} {salaries|money}
-Which {senior database admin|position}s {earn|money} the {least|extreme}?
-folks {making|money} {less than|comparator} the {avg|function}
-Get me the {bottom|extreme} {twelve|sys_number} {earners|money} in the {sales|department} department
-what are the {salaries|money} for employees that have been {terminated|employment_action}
-{female|sex} {earn|money}
-who {earns|money} {more than|comparator} {40k|sys_number}?
-show me the {highest|extreme} {earning|money} {IT Director|position} {salary|money}
-Which {senior database administrator|position} {earns|money} the {least|extreme}?
-Of all employees that {started at the company|employment_action} {4|sys_number} to {7 years|sys_duration} ago which employee has the {smallest|extreme} {paycheck|money}?
-{highest|extreme} {income|money} {salaries|money}
-show me the {annual|time_recur} {pay|money} of the {female|sex}
-Tell me the employee that {works for|manager} {Jennifer Zamora|name} that {earns|money} the {least|extreme} amount?
-Who {makes|money} the {least|extreme} in the {production|department} department
-I want a list with {earnings|money} of employees that are {American citizens|citizendesc}
-the {lowest|extreme} {10|sys_number} {earners|money} in {Sales|department}
-Who {makes|money} the {most|extreme} in the {it|department} department
-Which {hispanic|racedesc} employee {earning|money} the {max|extreme}
-get the {salaries|money} of workers that are {earning|money} in the {lowest|extreme} {salary|money} bracket
-I want the {earnings|money} for people working in the {software engineering|department}
-{male|sex} {incomes|money}
-{below|comparator} {average|function} {earning|money} workers
-who are the company's {highest|extreme} {21|sys_number} {american indian or alaska native|racedesc} {earners|money}
 Tell me who earned the {least|extreme} that was {hired|employment_action} {this year|sys_time}?
-which {director of sales|position} are {paid|money} {less than|comparator} {$|money} {90k|sys_number}?
-what are the {salaries|money} for employees that have been {fired|employment_action}
-Who makes the {min|extreme} {earners|money}?
-Show me the {4|sys_number}{lowest|extreme} {earning|money} employees in the {admin offices|department} department
-what are our {lowest|extreme} {earners|money} {making|money}
-who is {earning|money} the {least|extreme} in the {software engineering|department}
-Which {black or african american|racedesc} employee {earn|money} the {minimum|extreme}
-{$|money} of {male|sex} in the org
-{men|sex} {yearly|time_recur} {earnings|money}
-Who makes the {lowest|extreme} {salary|money}?
-{earn|money} {male|sex}
-For employees {hired|employment_action} {between|comparator} {3|sys_number} to {8 years|sys_duration} ago, which employee is {paid|money} the {least|extreme}?
-{sales|department} {$|money}
-all the {salaries|money} of {women|sex} in the company
-how much are {referred employees|employee_source} {earning|money}?
-Who makes the {most|extreme} {money|money}?
-{eligible noncitizen|citizendesc}s {income|money}s
-Tell me who all have an {income|money} {more than|comparator} {60k|sys_number}
-Which {software engineers|position} are {paid|money} {less than|comparator} {$90k|sys_amount-of-money}?
-Of all employees that {started|employment_action} {2|sys_number} to {6 years|sys_duration} ago who {makes|money} {highest|extreme} {$|money}?
-Which employee that {works under|manager} {Simon Roup|name} {makes|money} the {most|extreme}?
-what are {software engineer|position} {earning|money} at this company
-Which employee(s) have {top|extreme} {earnings|money}?
-all the {earnings|money} of {males|sex} in the company
-I want the {income|money} for people working in the {production|department}
-Get me the {3|sys_number}{lowest|extreme} {earners|money} in the {production|department} dept
-{above|comparator} {avg|function} {paid|money} workers
-Who makes the {least|extreme} {salary|money}?
-who are the company's {top|extreme} {20|sys_number} {asian|racedesc} {earners|money}
-show me the {weekly|time_recur} {paycheck|money} of the {women|sex} at this org
-which {it support|position} are {$|money} {less than|comparator} {$|money} {32k|sys_number}?
-who is the {maximum|extreme} {earners|money} among {director of operations|position} and what is {his|sex} or {her|sex} {pay|money}
-give me the {earnings|money} of {american indian or alaska native|racedesc} employees in this company
-get the {earns|money} of employees in the {min|extreme} {income|money} bracket
-For employees {hired|employment_action} {between|comparator} {5|sys_number} to {2 years|sys_duration} ago, which employee {earns|money} the {most|extreme}?
-Who are our {lowest|extreme} {earning|money} employees
 {IT support|position} {lowest|extreme} {earner|money}
-Show me the {earn|money} of {male|sex} in this company
+folks {making|money} {less than|comparator} the {avg|function}
+all the {earnings|money} of {males|sex} in the company
+which employees are {making|money} {less than|comparator} {average|function}
+what are our {lowest|extreme} {earners|money} {making|money}
+I want the {5|sys_number}{percent|function} {bottom|extreme} {earners|money} in the {Admin Offices|department}
+{eligible noncitizen|citizendesc}s {income|money}s
+For employees {hired|employment_action} {between|comparator} {3|sys_number} to {8 years|sys_duration} ago, which employee is {paid|money} the {least|extreme}?
+Tell me who all have an {income|money} {more than|comparator} {60k|sys_number}
+Of all the {area sales manager|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
+{IT support|position} {top|extreme} {earner|money}
+give me the {salaries|money} of {hispanic|racedesc} employees in this company
+{earnings|money} {female|sex}
+list employees {making|money} {more than|comparator} {average|function}
+Who makes the {most|extreme} {money|money}?
+how much are {vendor referral|employee_source} {paycheck|money}?
+{us citizen|citizendesc}s how much do they {make|money}
+{dollars|money} of {female|sex} in the org
+who is the {highest|extreme} {earning|money} {IT Director|position} and what is {he|sex} or {she|sex} {earning|money}
+I want a list with {salaries|money} of employees that are {eligible noncitizen|citizendesc}
+{software engineering|department} {pay|money}
+{earn|money} {male|sex}
+{non-citizen|citizendesc} {paycheck|money}s
+what are our {bottom|extreme} {earn|money} {earnings|money}
+{$|money} of {male|sex} in the org
+{lowest|extreme} {income|money} {salaries|money}
+{citizen|citizendesc} {salaries|money}
+get the {salaries|money} of workers that are {paid|money} in the {highest|extreme} {income|money} bracket
+{below|comparator} {average|function} {earning|money} workers
+who is the {highest|extreme} {earning|money} {production manager|position} and what is {his|sex} or {her|sex} {pay|money}
+I want the {7|sys_number}{highest|extreme} {earner|money}s in the {executive office|department} department
+who is the {maximum|extreme} {earners|money} among {director of operations|position} and what is {his|sex} or {her|sex} {pay|money}
+who {makes|money} {$|money} {less than|comparator} {73k|sys_number}?
+Get me the {least|extreme} {four|sys_number} {earners|money} in the {admin offices|department} department.
+{earning|money} {male|sex}
+Which {black or african american|racedesc} employee {earn|money} the {minimum|extreme}
+who are the company's {lowest|extreme} {7|sys_number} {interracial|racedesc} {earners|money}
+which {senior accountant|position}s are {earning|money} {less than|comparator} {$|money} {172k|sys_number}
+show me the {highest|extreme} {earning|money} {IT Director|position} {salary|money}
+what are {accountant i|position} {paid|money} at this company
+what are our {lowest|extreme} {paycheck|money} employees
+I want the {earnings|money} for people working in the {software engineering|department}
+how much are {referred employees|employee_source} {earning|money}?
+Which workers are {compensated|money} {more than|comparator} {35k|sys_number} but {less than|comparator} {60k|sys_number}?
+Of all employees that {started|employment_action} {2|sys_number} to {6 years|sys_duration} ago who {makes|money} {highest|extreme} {$|money}?
 {non citizen|citizendesc} {salaries|money}
+Of all the {senior database administrator|position}, which ones are the {lowest|extreme} {6|sys_number} {earners|money}
+{female|sex} {earn|money}
+What are the {yearly|time_recur} {salaries|money} for all of the employees that {work for|manager} {Janet King|money}
+get the {earns|money} of employees in the {min|extreme} {income|money} bracket
+Get me the {lowest|extreme} {six|sys_number} {earners|money} in the {software engineering|department} department
+{men|sex} {salaries|money}
+Which employee(s) have {top|extreme} {earnings|money}?
+I want a list with {pay|money} of employees that are {us citizen|citizendesc}
+Which {white|racedesc} employee {income|money} the {greatest|extreme}
+Of all employees that {started at the company|employment_action} {4|sys_number} to {7 years|sys_duration} ago which employee has the {smallest|extreme} {paycheck|money}?
+the {lowest|extreme} {10|sys_number} {earners|money} in {Sales|department}
+all the {salaries|money} of {women|sex} in the company
+Get me the {bottom|extreme} {twelve|sys_number} {earners|money} in the {sales|department} department
+Which {Sr. DBA|position} {earns|money} the {most|extreme}?
+Of the employees {hired|employment_action} {after|date_compare} {2014|sys_time} which employees {earn|money} between {$20,000|sys_amount-of-money} and {$56,000|sys_amount-of-money}?
+give me the {earnings|money} of {american indian or alaska native|racedesc} employees in this company
+show me the {yearly|time_recur} {earnings|money} of the {men|sex}
+which {director of sales|position} are {paid|money} {less than|comparator} {$|money} {90k|sys_number}?
+Who are our {max|extreme} {incomes|money} earners
+Of employees {hired|employment_action} {between|comparator} {5|sys_number} to {3 years|sys_duration} ago, which employee {earns|money} at the {top|extreme}?
+what are the {earnings|money} for {active|employment_status} employees
+{earners|money} {female|sex}
+show me the employee {salaries|money} for {females|sex} {hired|employment_action} in the {last|date_compare} {2 years|sys_duration}
+show me the {weekly|time_recur} {paycheck|money} of the {women|sex} at this org
+Who makes the {least|extreme} {salary|money}?
+Which employee(s) have {lowest|extreme} {income|money}?
+{earnings|money} for people working in the {it/is|department}
+Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
+Which {White|racedesc} employee {earns|money} the {most|extreme}
+I want a list with {earnings|money} of employees that are {American citizens|citizendesc}
+{income|money} of {female|sex} in the org
+Who {makes|money} the {least|extreme} in the {production|department} department
+give me the {salaries|money} of {interracial|racedesc} employees in this company
+Which {hispanic|racedesc} employee {earning|money} the {max|extreme}
+which {it support|position} are {$|money} {less than|comparator} {$|money} {32k|sys_number}?
+{above|comparator} {avg|function} {paid|money} workers
+Show me the {earnings|money} of {male|sex} in this company
+Which {senior database administrator|position} {earns|money} the {least|extreme}?
+what are the {dudes|sex} {making|money}
+{software engineering|department} {earnings|money}
+{sales department|department} {salaries|money}
+who are the company's {highest|extreme} {21|sys_number} {american indian or alaska native|racedesc} {earners|money}
+what are the {salaries|money} for employees that have been {fired|employment_action}
+Of all the {software engineering manager|position}s, which ones are the {greatest|extreme} {5|sys_number} {income|money} generators
+Which {software engineers|position} are {paid|money} {less than|comparator} {$90k|sys_amount-of-money}?
+what are {it director|position} {making|money} at this company
+what are the {salaries|money} for {active|employment_status} employees
+{female|sex} {paycheck|money}
+get the {salaries|money} of workers that are {earning|money} in the {lowest|extreme} {salary|money} bracket
+show me the {top|extreme} {earning|money} {production technician ii|position}s
+Show me the {earn|money} of {male|sex} in this company
+who {makes|money} a {salary|money} {more than|comparator} {210k|sys_number}?
+give me the {earnings|money} for all of the employees that have a {us citizenship|citizendesc}
+{men|sex} {yearly|time_recur} {earnings|money}
+who {makes|money} the {minimum|extreme} {income|money} in {sales|department} department
+Of all the {Production Managers|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
+Who makes the {min|extreme} {earners|money}?
+who {$|money} the {lowest|extreme} {$|money} in {sales|department} department
+who {earns|money} {more than|comparator} {40k|sys_number}?
+get me {non citizen|citizendesc} employee {salary|money} list
+Which employee(s) have {highest|extreme} {paycheck|money}?
+Of all employees who are the {employees that have been here|employment_action} from {3|sys_number} to {6 years|sys_duration}
+list of {top|extreme} {twenty|sys_number} {earners|money} in the {Production department|department}
+who has the {greatest|extreme} {earnings|money} among the {director of sales|position}
+Tell me the employee that {works for|manager} {Jennifer Zamora|name} that {earns|money} the {least|extreme} amount?
+what are our {least|extreme} {earners|money}
+{female|sex} {income|money}
+I want the {income|money} for people working in the {production|department}
+For employees {fired|employment_action} {between|comparator} {4|sys_number} to {7 years|sys_duration} ago, which employee {earns|money} the {least|extreme}?
+I want a list with {salaries|money} of employees that are {not citizens|citizendesc}
+Who {earns|money} the {least|extreme} in the {executive office|department} dept
+{highest|extreme} {income|money} {salaries|money}
+Which employee that {works under|manager} {Simon Roup|name} {makes|money} the {most|extreme}?
+how much {money|money} does {Nan|name} {make|money}?
+Show me the {earnings|money} of {males|sex} in this company
+Which employee(s) have {greatest|extreme} {earnings|money}?
+{paycheck|money} {male|sex}
+what are {software engineer|position} {earning|money} at this company
+For employees {hired|employment_action} {between|comparator} {3|sys_number} to {6 years|sys_duration} ago, which employee {earns|money} the {least|extreme}?
+give me the {salaries|money} for all of the employees that have a {US citizenship|citizendesc}
+Get me the {3|sys_number}{lowest|extreme} {earners|money} in the {production|department} dept
+show me the {max|extreme} {earning|money} {production technician|position}s
+Tell me the employee that {works under|manager} {Melinda Saar-Beckles|name} that {makes|money} the {least|extreme} amount?
+how much are {pay per click - google|employee_source} {earner|money}?
+which employees are {paid|money} {less than|comparator} the {average|function}
+give me the {earners|money} for all of the employees that are {eligible noncitizen|citizendesc}
+For employees {hired|employment_action} {between|comparator} {5|sys_number} to {2 years|sys_duration} ago, which employee {earns|money} the {most|extreme}?
+who are the company's {top|extreme} {20|sys_number} {asian|racedesc} {earners|money}
+Who {earns|money} the {most|extreme} in the {production department|department}
+Which {director of sales|position} {makes|money} the {highest|extreme} {income|money}?
+get the {pay|money} of employees in the {lowest|extreme} {earnings|money} bracket
+who {makes|money} the {least|extreme} {amount of money|money} in {admin office|department}
+Who {makes|money} the {most|extreme} in the {it|department} department
+{female|sex} {earnings|money}
+what are the {earnings|money} for people {on a leave of absence|employment_status}
+all the {earnings|money} of {female|sex} in the company
+Get me the {top|extreme} {ten|sys_number} {earners|money} in the {Production department|department}
+what are our {top|extreme} {earners|money} {making|money}
+show me the {yearly|time_recur} {earnings|money} of {women|sex}
+show me the {annual|time_recur} {pay|money} of the {female|sex}
+Show me the {earning|money} of {female|sex} in this company
+who {make|money} a {salary|money} {more than|comparator} {200k|sys_number}?
+what are the {salaries|money} for employees that have been {terminated|employment_action}
 Tell me who all are {dollars|money} {less than|comparator} {78k|sys_number}
+how much are {diversity job fair|employee_source} {paycheck|money}?
+{Admin Offices|department} {bottom|extreme} {16|sys_number}{percent|function} {earners|money} list

@@ -1,161 +1,180 @@
+is {Lowan Biden|name} the {manager|manager} for {Enrico Langton|name} or is it the other way around?
+Find me who is the person {Jackie|name} is {reporting to|manager}, her full name is {Jackie Valentin|name}
+which of our employees have {Melinda Saar-Beckles|name} as their {supervisor|manager}
+can you tell me whether {Amy|name} is a {boss|manager} or not?
+get me a list of all of the employees that are currently {reporting|manager} directly to {mia brown|name}
+What is the full, first and last, {manager name|manager} for the employee: {james Cockel|name}
+can you tell me who {works for|manager} Ms. {colombui ndzi|name}
+who is the {manager|manager} assigned to {luisa monterro|name}
+is {nan|name}'s manager {julia|name}?
+{manager|manager} for {amy dunn|name}
+{leads|manager} of {Susan Ferguson|name}
+{Howard|name} {manager name|manager}, which individuals?
+which are the employees that are {under|comparator} the {supervisor|manager} {Raul Garcia|name}?
+who do {Nan|name} and {mia brown|name} {report to|manager}?
+i want the name of everyone that is {working for|manager} {nan Singh|name}
+is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
+Is {Amy Dunn|name} a {manager|manager}
+I want to know the name of the {supervisor|manager} for {barone|name}
+{Lindsay Lynch|name} is the {lead|manager} for which employees
+is there anyone {reporting|manager} to Ms. {Amy dunn|name}, if so who are those people?
+{Kissy SullIvan Rogers|name} is the {mentor|manager} for which of our employees
+name of everyone that is {reporting|manager} {jenna Dietrich|name}
+Please can u give the names of employees who report to {Kelley Spirea|name}
+for which employees is {christie|name} the {boss|manager}
+me who is the {head|manager} that {works for|manager} Ms. {shakira perry|name}
+who all is {working for|manager} {nan singh|name}
+Who are those employees that directly {report|manager} to {keyla del bosque|name}
+Tell me which employees have {Patrick Moran|name} as their {manager|manager}
+{maryellen|name}'s {reporting to|manager} name
+Which are all of the employees who are having {Murray|name} as the name of their {manager|manager}?
+employees that directly {report|manager} to {Mr.julia|name}
+get me a list of all of the employees who {report to|manager} {Amy Dunn|name} if there are any
+can i get the employee names for those {reporting|manager} to {Julia|name}
+is {Peter Monroe|name} the {manager|manager} for {Amy Dunn|name}
+{seffi|name} {lead|manager} name
+is {Andrew Szabo|name} {head|manager} of {Patrick Moran|name} or is it the other way around?
+i want the name of everyone that is {is under|manager} Mr.{albert|name}
+does {Marilyn Linares|name} have a {boss|manager} that she {is under|manager}, if so who is it?
+whats the first and last name of {Lei-Ming Nguyen|name}'s {reporting|manager} {manager|manager}?
 can i have the names of employees who report to {Michael|name}
+which employees have a {lead|manager} that goes by the name {May Roberson|name}
+Retrieve the full name of {Samuel MacLenJulia Soto|name}'s {boss|manager} that he does {work for|manager}?
+Tell who is {working under|manager} {Mr. Singh|name}
 is {Charles Bozzi|name} the {mentor|manager} for {Brannon Miller|name}
 is {Peter Monroe|name} {managing|manager} {Amy Dunn|name} or is it the other way around?
-who is {helen billis|name}s {managing|manager} {supervisor|manager}?
-which employees is {Ivan singh|name} the {manager|manager} for
-Who are those employees that are {under|comparator} and {work for|manager} {April Evensen|name}?
-I want to know if {Amy Dunn|name} is a {manger|manager}
-who is the {manager|manager} assigned to {luisa monterro|name}
-I want to know if {Sam Athwal|name} {works for|manager} someone
-{Jenna Dietrich|name} is the {supervisor|manager} for which of our employees
-who is {Thelma Petrowsky|name}'s {managing|manager} authority?
-does {Dianna Blount|name} {report|manager} to {Patrick Moran|name}
-employees that directly {manage|manager} {Jeremy Prater|name}
-get me a list of all of the employees who {supervise|manager} {Lori Roby|name} if there are any
-list employees who {leads|manager} {Adrienne Homberger|name}
-{amy dunn|name} {manager|manager} name
-Which are all of the employees who are having {Murray|name} as the name of their {manager|manager}?
-so who is {Rose Ivey|name}'s reporting {manager|manager}?
-who all is {management|manager} of {Estelle Howard|name}
-Tell me which employees have {Patrick Moran|name} as their {manager|manager}
-Tell me who is Mr.{Enrico Langton|name}'s {manager name|manager}?
-Who are those employees that right now have {Catherine Ybarra|name} as their {manager|manager} they are {working under|manager}
-is {Andrew Szabo|name} {head|manager} of {Patrick Moran|name} or is it the other way around?
-does {Peter Monroe|name} {manage|manager} {Amy Dunn|name}
-i want the name of everyone that is {working for|manager} {nan Singh|name}
-which employees that have a {manager name|manager}
-{Janine Purinton|name} is the {mentor|manager} of which employees
-I want an employee list with all of the folks {working under|manager} {Yen Johnston|name}
-Give me all of the employees hv {Karen Mancuso|name} as their {manager|manager} that they {are under|manager}?
-is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
-is {Peter Monroe|name} the {manager|manager} for {Amy Dunn|name}
-get me ms. {dunn|name}'s {manager|manager} full name
-{works for|manager} {scott|name}
-{Amy Dunn|name} {manager|manager}
-Which employees have {ivan|name} as their {manager|manager}?
-is {smith|name} {reporting to|manager} {christie harrington|name}
-Retrieve the full name of {Samuel MacLenJulia|name}'s {boss|manager} that he does {work for|manager}?
-tell me who is {Paula Gross|name}'s {lead|manager}?
-who is Ms. {Amy Dunn|name} {reporting|manager} to
-can you tell me whether {Amy|name} is a {boss|manager} or not?
-can i get the employee names for those {manages|manager} to Mrs.{Houlihan|name}
-is {Howard Mullaney|name} the {head|manager} for {Lynn O'hare|name}
-All of the employees that are {reporting to|manager} to Mr. {Donovan Chang|name} if any
-are {Nan|name} and {Julia Soto|name} {reporting to|manager} the same {manger|manager}?
-who do {Nan|name} and {Julia|name} {report to|manager}?
-which employees have a employee that {is under|manager} them
-can i get the employee names for those {reporting|manager} to {Mia Brown|name}
-I wanna know {Tayana Jeannite|name}'s person in {leadership|manager} of her?
-{manager|manager} name for ms {Brigit McCarthy|name}
-does {Marilyn Linares|name} have a {boss|manager} that she {is under|manager}, if so who is it?
-{Amy Dunn|name} {manages|manager} which individuals?
-anyone {mentor|manager} of Ms. {Jackie Valentin|name}, if so who is that?
-Whose {Richard Newman|name}s {management|manager} personnel?
-Get me an employee list with people who {work for|manager} {Ludwick Harrell|name}
-What is the full, first and last, {manager name|manager} for the employee: {james Cockel|name}
-{libby fidelia|name} {reports to|manager} name?
-is {ivan|name}'s manager {julia|name}?
-for which employees is {christie|name} the {boss|manager}
-if There is anyone {working for|manager} Mr. {Julia Soto|name} who are those people?
-what's {Robyn manchester|name}'s {manager|manager} currently listed as in the system?
-{leads|manager} of {Susan Ferguson|name}
-who {works for|manager} {Ivan Rogers|name}
-does {elijian clukey|name} have a {boss|manager} that he {reports to|manager}, if so who is it?
-Please do tell who is the {management|manager} person for {Smith|name}
-tell me who the {manager|manager} is that is {managing|manager} Ms. {lindsay lynch|name}
-Are there any workers who {report to|manager} to Mr.{barton|name}
-{managing|manager} employee for the employee {Amy Dunn|name}
-{manager|manager} for {amy dunn|name}
-can i have all of the names who report to {Nori Sewkumar|name} as a list
-Is {Amy Dunn|name} a {manager|manager}
-{manager|manager} name for ms {amy dunn|name}
-{manager|manager} of {amy dunn|name}
+employee list with {manager|manager} being {mia Singh|name}
 for which employees is {Jeanette Tippett|name} the {leadership|manager}
-Tell me who is the worker {reporting|manager} to {Nore Sadki|name}
-is {Colby Andreola|name} {under|manager} {Jessica Bunbury|name} or is it the other way around?
-who is the {manager|manager} for {Nan|name} and also for {mia brown|name}
-who all is {working for|manager} {Nan|name}
-is there anyone {reporting|manager} to Ms. {Amy dunn|name}, if so who are those people?
-{reports to|manager} {Kristie Nowlan|name}
-employees that directly that {report|manager} to {Phil Close|name}
-I want to know the name of the {supervisor|manager} for {barone|name}
-I want to know the name of the {lead|manager} for {adeel Osturnka|name}
-employees that directly {report|manager} to {Mr.mia|name}
-I want to know the name of the {manager|manager} for {Amy Dunn|name}
-can you tell me who the {supervisor|manager} is that is {supervising|manager} Ms. {Amy Dunn|name}
-who is Ms. {Myriam Givens|name} {manager name|manager}
-as of today Ms. {Dunn|name} is {managing|manager} which employees
-{Beatrice Chace|name}, who is the person that she {reports to|manager}?
-{Lindsay Lynch|name} is the {lead|manager} for which employees
-can you tell me who {works for|manager} Ms. {colombui ndzi|name}
-Who is {Michael|name}'s {manager|manager}?
-which employees have a {manager|manager} that goes by the name {Peter Monroe|name}
-I wanna know the name of the {supervisor|manager} for {martin|name}
-Create me a list of all of the employees that are currently {managing|manager} {Taisha Goble|name}
-Who is {mia brown|name}'s {manager|manager}?
-which of our employees have {Melinda Saar-Beckles|name} as their {supervisor|manager}
-tell me the {supervisor|manager} that is {reponsible for|manager} {Nan|name} as well as the {supervisor|manager} reponsible for {Julia Soto|name}
-name of person who {works for|manager} ms {janine purinton|name}
-I would like you to tell what the name is of {kelley|name}'s {managing|manager} employee?
-Who is the {manager|manager} for {Bob|name}
-who all is {working for|manager} {Rose Ivey|name}
-who is {Benjamin Burkett|name}'s {manager|manager} that {Benjamin|name} currently {is under|manager}?
-which employees have a {lead|manager} that goes by the name {May Roberson|name}
-which employees have {Robyn manchester|name} as their {reporting|manager} point
-which are the employees that are {under|comparator} the {supervisor|manager} {Raul Garcia|name}?
-me who is the {head|manager} that {works for|manager} Ms. {shakira perry|name}
-Who's the guy that our employee,{Brad Pitt|name}, currently {works for|manager}?
-{Kissy SullMia|name} is the {mentor|manager} for which of our employees
-is {mia|name} the manager of {julia|name}?
-Find me the names of everyone that is {managing|manager} mr.{salter|name}
+{Jenna Dietrich|name} is the {supervisor|manager} for which of our employees
+which of our employees have {Julia Soto|name} as their {manager|manager}
 who {manages|manager} Mr.{patrick Moran|name}
-{amy|name} is a {boss|manager}, right?
-employees that are {under|comparator} and currently {reporting to|manager} the boss: {Rose Ivey|name}?
-{jason salter|name} {lead|manager} personnel
-get me a list of all of the employees who {report to|manager} {Amy Dunn|name} if there are any
-is {Anthony Cisco|name} {management|manager} {Desiree Tavares|name}
-Who is {Mia Brown|name}'s {manager|manager}? 
-Is anyone {reporting|manager} to {Lauren Mahoney|name} or is she not a boss
-who all is {manager|manager} for {Brooke Oliver|name}
-name of everyone that is {reporting|manager} {jenna Dietrich|name}
-{jereJulia Sotoh semizoglou|name} {managed by|manager} name
-employees who have a {report to|manager} that goes by the name {Clinton Owad|name}
-for which of our employees is {jacquelyn|name} the {manager name|manager}
-get me ms. {Keyla Del Bosque|name}'s {supervisor|manager} full name
-does {Travis|name} {lead|manager} {linda dolan|name}
-{lead|manager} employee for the employee {Trina alagbe|name}
-is {Erasumus Monkfish|name} the {manage|manager} for {Bartholemew Khemmich|name}
-is {Lowan Biden|name} the {manager|manager} for {Enrico Langton|name} or is it the other way around?
-get me ms. {Renee Becker|name}'s {leader|manager} full name
-I wanna know the person who {Donysha Kampew|name} {reports to|manager} at the company
-which of our employees have {Mia Brown|name} as their {manager|manager}
-Please give me which employees is {Mia Brown|name} is working {under|manager}
-for which employees is {Ivan Rogers singh|name} the {supervisor|manager}
-employee list with {manager|manager} being {Ivan Singh|name}
-What is {Mia|name}'s {manager|manager}'s name?
-{julissa hunts|name} {manager|manager} name
-I wanna get a list of all of the employees that are currently {manage|manager} {Jeanette Tippett|name}
-{julissa|name} does {work for|manager} who, I want the name
-{eric dougall|name} {lead|manager} employee
-Does {Amy Dunn|name} have a {manager|manager}, if so who is it?
-whats the first and last name of {Lei-Ming Nguyen|name}'s {reporting|manager} {manager|manager}?
-who is Mr. {Neville Tredinnick|name} {reporting to|manager} to
-which employees have a {manager|manager}
-can i get the employee names for those {reporting|manager} to Mrs.{power|name}
-{Giovanni Leruth|name} is the {manager name|manager} of which employees
-{Desiree tavares|name} {is under|manager} which?
+{Beatrice Chace|name}, who is the person that she {reports to|manager}?
+{Janine Purinton|name} is the {mentor|manager} of which employees
 is there anyone {incharge|manager} of Ms. {Tayana Jeannite|name}, if so who are those people?
-can i get the employee names for those {managing|manager} {jordan winthrop|name}
-is it correct to say that {Amy|name} is a {boss|manager}?
-{manager|manager} employee for the employee {catherine ybarra|name}
-which employees is {May Roberson|name} the {reporting|manager} authority for
+Who is {ivan|name}'s {manager|manager}?
+get me a list of all of the employees who {supervise|manager} {Lori Roby|name} if there are any
+does {Dianna Blount|name} {report|manager} to {Patrick Moran|name}
+{Nori Sewkumar|name} is the {reporting|manager} authority of which employees
+who is Ms. {Debra Houlihan|name} {supervisor|manager}
+i want the {reporting|manager} {manager|manager} for both {Mia|name} and {Nan|name}
 {supervisor|manager} for {Miguel Estremera|name}
+whats the person that {Anita Shepard|name} has listed as her {supervisor|manager} name?
+are {Nan|name} and {Julia Soto Soto|name} {reporting to|manager} the same {manger|manager}?
+{reports to|manager} {Kristie Nowlan|name}
+Create me a list of all of the employees that are currently {managing|manager} {Taisha Goble|name}
+{manager|manager} employee for the employee {catherine ybarra|name}
+All of the employees that are {reporting to|manager} to Mr. {Donovan Chang|name} if any
+does {Amy|name} have the role of being a {manager|manager}
+if There is anyone {working for|manager} Mr. {mia|name} who are those people?
+I wanna get a list of all of the employees that are currently {manage|manager} {Jeanette Tippett|name}
+Who is {Ivan|name}'s {manager|manager}?
+{Maryellen Jackson|name} {boss|manager}
+{manager|manager} name for ms {Brigit McCarthy|name}
+who all is {manager|manager} for {Brooke Oliver|name}
+is the {manager|manager} for {Julia|name} the same as the {manager|manager} for {Julia|name}?
+does {Peter Monroe|name} {manage|manager} {Amy Dunn|name}
+Who is the lady or guy that {Colby Andreola|name} is {incharge|manager} of?
+who is {helen billis|name}s {managing|manager} {supervisor|manager}?
+which employees that have a {manager name|manager}
+who are {Nan|name} and {julia|name} {working under|manager} currently
+which employees is {Brad Pitt|name} the {management|manager} employee for
+{boss|manager} name for mr {Bradley Knapp|name}
+can you tell me who the {supervisor|manager} is that is {supervising|manager} Ms. {Amy Dunn|name}
+get me ms. {Renee Becker|name}'s {leader|manager} full name
+{libby fidelia|name} {reports to|manager} name?
+{jeremia brownh semizoglou|name} {managed by|manager} name
 {boss|manager} for {Kenneth Thibaud|name}
-{amy dunn|name}'s {supervisor|manager} name
+{julissa hunts|name} {manager|manager} name
+{jason salter|name} {lead|manager} personnel
+Give me all of the employees hv {Karen Mancuso|name} as their {manager|manager} that they {are under|manager}?
+get me ms. {Judy Jung|name}'s {boss|manager} full name
+I would like you to tell what the name is of {kelley|name}'s {managing|manager} employee?
+{Amy Dunn|name} {manager|manager}
+which employees have a employee that {is under|manager} them
+Who are those employees that right now have {Catherine Ybarra|name} as their {manager|manager} they are {working under|manager}
+is {Anthony Cisco|name} {management|manager} {Desiree Tavares|name}
+for which employees is {Ivan singh|name} the {supervisor|manager}
+{eric dougall|name} {lead|manager} employee
+who all is {management|manager} of {Estelle Howard|name}
+who is {Thelma Petrowsky|name}'s {managing|manager} authority?
+which employees have {Robyn manchester|name} as their {reporting|manager} point
+who is the {boss|manager} of {James Cockel|name} that {leads|manager} him?
+{Mia singh|name} is the {manager|manager} of which employees
+I want to know the name of the {lead|manager} for {adeel Osturnka|name}
+who is the {management|manager} individual for {Adeel Osturnka|name}
+Who's the guy that our employee,{Brad Pitt|name}, currently {works for|manager}?
+{julissa|name} does {work for|manager} who, I want the name
+tell me who the {manager|manager} is that is {managing|manager} Ms. {lindsay lynch|name}
+who is the {manager|manager} for {Nan|name} and also for {Mia Brown|name}
+get me ms. {Keyla Del Bosque|name}'s {supervisor|manager} full name
+Who is the {manager|manager} for {Bob|name}
+{lead|manager} employee for the employee {Trina alagbe|name}
+is it correct to say that {Amy|name} is a {boss|manager}?
+I want to know if {Sam Athwal|name} {works for|manager} someone
+Does {Amy Dunn|name} have a {manager|manager}, if so who is it?
+for which of our employees is {jacquelyn|name} the {manager name|manager}
+does {elijian clukey|name} have a {boss|manager} that he {reports to|manager}, if so who is it?
+tell me the {supervisor|manager} that is {reponsible for|manager} {Nan|name} as well as the {supervisor|manager} reponsible for {Mia Brown|name}
+Please give me which employees is {nan singh|name} is working {under|manager}
+Is anyone {reporting|manager} to {Lauren Mahoney|name} or is she not a boss
 {ed buck|name} {managing|manager} which individuals?
+who {works for|manager} {Mia|name}
+{managing|manager} employee for the employee {Amy Dunn|name}
+who is Ms. {Amy Dunn|name} {reporting|manager} to
+Gimmmie a list of employees that are currently {work for|manager} {Peter Monroe|name}
+What is {ivan rogers|name}'s {manager|manager}'s name?
+Find me employees list with {manager name|manager} being {Emil Pelech|name}
+Which employees have {Mia|name} as their {manager|manager}?
+Do {mia|name} and {Nan|name} {report to|manager} the same {manager|manager}?
+Find me the names of everyone that is {managing|manager} mr.{salter|name}
+can i get the employee names for those {reporting|manager} to Mrs.{power|name}
+which employees is {May Roberson|name} the {reporting|manager} authority for
+I wanna know the person who {Donysha Kampew|name} {reports to|manager} at the company
+who is Mr. {Neville Tredinnick|name} {reporting to|manager} to
+Get me the person who is {managing|manager} {ermine pelletier|name}
+Get me an employee list with people who {work for|manager} {Ludwick Harrell|name}
+does {elijiah gray|name} get {managed by|manager} {kamrin Sander|name}
+I want to know if {Amy Dunn|name} is a {manger|manager}
+what's {Robyn manchester|name}'s {manager|manager} currently listed as in the system?
+employees who have a {report to|manager} that goes by the name {Clinton Owad|name}
+who all is {working for|manager} {Rose Ivey|name}
+{amy dunn|name}'s {supervisor|manager} name
+which employees have a {manager|manager} that goes by the name {Peter Monroe|name}
+Whose {Richard Newman|name}s {management|manager} personnel?
+get me ms. {dunn|name}'s {manager|manager} full name
+does {Travis|name} {lead|manager} {linda dolan|name}
+Are there any workers who {report to|manager} to Mr.{barton|name}
+I want an employee list with all of the folks {working under|manager} {Yen Johnston|name}
+is {Amy|name} a {manager|manager} in our company
+is {Erasumus Monkfish|name} the {manage|manager} for {Bartholemew Khemmich|name}
+name of person who {works for|manager} ms {janine purinton|name}
+which employees have a {management|manager} person that goes by the name {hamish garneau|name}
+is {smith|name} {reporting to|manager} {christie harrington|name}
+Who {reports|manager} into {Nan|name}
+Tell me who is Mr.{Enrico Langton|name}'s {manager name|manager}?
+{works for|manager} {scott|name}
+who is {Benjamin Burkett|name}'s {manager|manager} that {Benjamin|name} currently {is under|manager}?
+who is the person that is being {worked for|manager} for by {Bartholemew Khemmich|name}
+can i get the employee names for those {managing|manager} {jordan winthrop|name}
+{manager|manager} name for ms {amy dunn|name}
+I wanna know {Tayana Jeannite|name}'s person in {leadership|manager} of her?
+{manager|manager} of {amy dunn|name}
+is {Colby Andreola|name} {under|manager} {Jessica Bunbury|name} or is it the other way around?
+does {mohammed latif|name} have a {boss|manager}, if so who is the guy or girl?
+can i get the employee names for those {manages|manager} to Mrs.{Houlihan|name}
 is {Travis Ozark|name} {management|manager} {Jeanette Tippett|name}
-Who {reports|manager} into {julia|name}
-Do {mia brown|name} and {Nan|name} {report to|manager} the same {manager|manager}?
-get me a list of all of the employees that are currently {reporting|manager} directly to {Nan Singh|name}
-
-is mia the manager of julia?
+which employees have a {manager|manager}
+which employees currently have a {boss|manager} they are {reporting to|manager}
+I wanna know the name of the {supervisor|manager} for {martin|name}
+employees that are {under|comparator} and currently {reporting to|manager} the boss: {Rose Ivey|name}?
+employees that directly {manage|manager} {Jeremy Prater|name}
+Please do tell who is the {management|manager} person for {Smith|name}
+Who are those employees that are {under|comparator} and {work for|manager} {April Evensen|name}?
+anyone {mentor|manager} of Ms. {Jackie Valentin|name}, if so who is that?
+Tell me who is the worker {reporting|manager} to {Nore Sadki|name}
+is {julia|name} the manager of {julia|name}?
+tell me who is {Paula Gross|name}'s {lead|manager}?
+so who is {Rose Ivey|name}'s reporting {manager|manager}?
+get me a list of all of the employees who are the {boss|manager} of {Mike Guilianno|name} if there are any
+list employees who {leads|manager} {Adrienne Homberger|name}
+What is the name of {mia|name}'s {manager|manager}?

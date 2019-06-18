@@ -16,7 +16,12 @@
         },
         {
             "whitelist": [
-                "chief executive officer"
+                "chief executive officer",
+                "ceo",
+                "prez",
+                "president",
+                "executive",
+                "e"
             ],
             "cname": "president & ceo"
         },

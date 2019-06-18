@@ -28,12 +28,12 @@
         },
         {
             "whitelist": [
-                "avg",
-                "median",
-                "range",
                 "mean",
                 "typical",
-                "typically"
+                "typically",
+                "median",
+                "avg",
+                "range"
             ],
             "cname": "average"
         },

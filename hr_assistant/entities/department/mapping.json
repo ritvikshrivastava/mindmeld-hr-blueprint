@@ -5,7 +5,13 @@
             "cname": "executive office"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "administration",
+                "office of admin",
+                "office of administration",
+                "admin office",
+                "administration office"
+            ],
             "cname": "admin offices"
         },
         {
@@ -13,7 +19,14 @@
             "cname": "production"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+                "IT",
+                "IS",
+                "Information Technology",
+                "Information Systems",
+                "Info Tech",
+                "Info Sys"
+            ],
             "cname": "it/is"
         },
         {

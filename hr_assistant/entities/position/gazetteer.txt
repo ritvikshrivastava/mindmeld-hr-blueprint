@@ -24,6 +24,11 @@ software engineer
 production manager
 chief information officer
 chief executive officer
+ceo
+prez
+president
+executive
+e
 db admin
 db administrator
 database admin
