@@ -74,7 +74,7 @@ The ``greeting`` domain supports the following intents:
 
    - ``greet`` — Greet the user and inform them of the assistant's functionality
    - ``exit`` — Say bye to the user
-   
+
 There are two types of entities in Workbench: :ref:`System Entities <system-entities>` and :doc:`Custom Entities <../userguide/entity_recognizer>`. System entities are pre-defined in Workbench. Examples include ``sys_temperature``, ``sys_time``, and ``sys_interval``. Custom entities are defined by the developers of each application. Within each entity folder, the file ``gazetteer.txt`` contains the full list of values for each custom entity.
 
 HR assistant defines and uses the following custom entities for each of its domains, which are grouped by their purpose below:
@@ -251,7 +251,10 @@ Here are the intents and states in the HR assistant blueprint, as defined in the
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
 | ``unsupported``                                   | ``unsupported``                | Handle unsupported query by prompting user        |
 +---------------------------------------------------+--------------------------------+---------------------------------------------------+
-
+| ``greet``                                         | ``greet``                      | Greet the user and describe functionality         |
++---------------------------------------------------+--------------------------------+---------------------------------------------------+
+| ``exit``                                          | ``exit``                       | Say bye to the user                               |
++---------------------------------------------------+--------------------------------+---------------------------------------------------+
 
 5. Knowledge Base
 ^^^^^^^^^^^^^^^^^
@@ -292,7 +295,7 @@ Assuming that you have Elasticsearch installed, running the :func:`blueprint()` 
 
 .. warning::
 
-   Make sure that Elasticsearch is running in a separate shell before invoking the QuestionAnswerer. **For full functionality of the HR Assistant use Elasticsearch Version 5.5.3.** 
+   Make sure that Elasticsearch is running in a separate shell before invoking the QuestionAnswerer. **For full functionality of the HR Assistant use Elasticsearch Version 5.5.3.**
 
 .. code:: python
 
