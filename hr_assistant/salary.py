@@ -136,9 +136,11 @@ def get_salary_employees(request, responder):
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
-	responder.reply("Here's some employees: {emp_list}")
 
-
+	if qa_out:
+		responder.reply("Here's some employees with their hourly pay: {emp_list}")
+	else:
+		responder.reply("No such employees found")
 
 
 ### Helper functions ###
@@ -198,6 +200,7 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 	elif extreme_entity:
 		qa, size = _resolve_extremes(request, responder, qa, extreme_entity, 'money', num_entity)
+		print('here', size)
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
@@ -235,3 +238,14 @@ def _calculate_agg_salary(responder, qa_out, function, recur_ent='hourly'):
 	responder.slots['value'] = value
 
 	return responder
+
+
+def _get_names(qa_out):
+	"""
+	Get a List of Names from a QA Result
+	param qa_out (list) Output of QA from a query
+	"""
+
+	names = [str(out['first_name']) + ' ' + str(out['last_name']) + ": " + str(out['money']) for out in qa_out]
+	names = ', '.join(names)
+	return names

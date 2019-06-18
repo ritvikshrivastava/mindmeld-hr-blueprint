@@ -100,7 +100,6 @@ def get_info_default(request, responder):
 	corresponding to certain domain, intent and entities.
 	"""
 
-
 	try:
 		name_ent = [e for e in request.entities if e['type'] == 'name']
 		name = name_ent[0]['value'][0]['cname']
@@ -136,6 +135,7 @@ def get_info_default(request, responder):
 			responder.listen()
 
 
+
 @app.handle(intent='get_aggregate')
 def get_aggregate(request, responder):
 	"""
@@ -160,7 +160,7 @@ def get_aggregate(request, responder):
 		qa, size = _resolve_categorical_entities(request, responder)
 
 		# Handles Numerical Variables
-		if age_entities:
+		if age_entities or _find_additional_age_entities(request, responder):
 			qa, size = _apply_age_filter(request, responder, qa, age_entities)
 			qa_out = qa.execute(size=size)
 
@@ -202,18 +202,22 @@ def get_employees(request, responder):
 	except:
 		extreme_entity = []
 
-	action_entities = [e for e in request.entities if e['type'] == 'employment_action']
-	if action_entities:
-		responder.slots['action'] = action_entities[0]['value'][0]['cname']
-		responder.reply('{action} employees for which year?')
-		responder.params.allowed_intents = ('date.get_date_range_employees', 'date.get_date_range_employees')
-		responder.frame['action'] = responder.slots['action']
-		responder.listen()
-		return
+	action_entities = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
+	# if action_entities:
+	# 	responder.slots['action'] = action_entities[0]['value'][0]['cname']
+	# 	responder.reply('{action} employees for which year?')
+	# 	responder.params.allowed_intents = ('date.get_date_range_employees', 'date.get_date_range_employees')
+	# 	responder.frame['action'] = responder.slots['action']
+	# 	responder.listen()
+	# 	return
 
 	qa, size = _resolve_categorical_entities(request, responder)
 
-	if age_entities:
+	if action_entities:
+		if action_entities[0] == 'fired':
+			qa = qa.filter(field='dot', gt='1800-01-01')
+
+	if age_entities or _find_additional_age_entities(request, responder):
 		qa, size = _apply_age_filter(request, responder, qa, age_entities)
 
 	if extreme_entity:
@@ -221,7 +225,18 @@ def get_employees(request, responder):
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
-	responder.reply("Here's some employees: {emp_list}")
+
+
+	if len(qa_out)==0:
+		responder.reply("No such employees found")
+		return
+
+	if action_entities:
+		responder.slots['action'] = action_entities[0]
+		responder.reply("The {action} employees are based on your criteria are: {emp_list}")
+
+	else:
+		responder.reply("Here's some employees: {emp_list}")
 
 
 
@@ -237,14 +252,13 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
 	"""
 
 	if not num_entity:
-		num_entity = [int(e['value'][0]['value']) for e in request.entities if e['type'] == 'sys_number']
+		num_entity = [float(e['value'][0]['value']) for e in request.entities if e['type'] == 'sys_number']
 
 		for i in request.text.split():
 			try:
 				num_entity.append(float(i))
 			except:
 				continue
-		num_entity = [float(i) for i in num_entity]
 
 	try:
 		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
@@ -288,6 +302,28 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
 	return qa, size
 
 
+def _find_additional_age_entities(request, responder):
+	"""
+	If the user has a query such as 'list all employees under 30', the notion of age is implicit
+	rather than explicit in the form of an age entity. Hence, this function is beneficial in
+	capturing such implicit entities.
+	"""
+	try:
+		comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
+		num_entity = [float(e['value'][0]['value']) for e in request.entities if e['type'] == 'sys_number']
+
+		for i in request.text.split():
+			try:
+				num_entity.append(float(i))
+			except:
+				continue
+	except:
+		comparator_entity = []
+		num_entity = []
+
+	return True if comparator_entity and num_entity else False
+
+
 def _resolve_categorical_entities(request, responder):
 	"""
 	This function retrieves all categorical entities as listed below and filters the knowledge base
@@ -297,7 +333,7 @@ def _resolve_categorical_entities(request, responder):
 
 	# Finding all categorical entities
 	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
-		'racedesc','performance_score','employment_status','employee_source','position','department')]
+		'racedesc','performance_score','employment_status','employee_source','position','department', 'reason_for_termination')]
 
 	# Building custom search
 	qa = app.question_answerer.build_search(index='user_data')
@@ -307,6 +343,10 @@ def _resolve_categorical_entities(request, responder):
 		try:
 			for categorical_entity in categorical_entities:
 				key = categorical_entity['type']
+
+				if key == 'reason_for_termination':
+					key = 'rft'
+
 				val = categorical_entity['value'][0]['cname']
 				kw = {key : val}
 				qa = qa.filter(**kw)
@@ -332,7 +372,7 @@ def _resolve_function_entity(responder, func_entity):
 	key = func_entity['value'][0]['cname']
 	function = func_dic[key]
 
-	if key=='percent': key='percentage'
+	if key=='percent': key='percentage of employees'
 	responder.slots['function'] = key
 
 	return function, responder

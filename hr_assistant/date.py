@@ -250,8 +250,8 @@ def _resolve_time(request, responder, qa, size):
 		qa_out = qa.execute(size=size)
 
 	else:
-		responder.reply('Please repeat your query with a valid date format (YYYY-MM-DD)')
-		# responder.listen()
-		return
+		if field == 'dot':
+			qa = qa.filter(field='dot', gt='1800-01-01')
+		qa_out = qa.execute(size=300)
 
 	return qa_out
