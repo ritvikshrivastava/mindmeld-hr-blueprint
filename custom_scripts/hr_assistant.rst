@@ -70,6 +70,11 @@ The ``Unsupported`` domain supports the following intents:
 
    - ``unsupported`` — User has provided a query outside the scope of the HR assistant
 
+The ``greeting`` domain supports the following intents:
+
+   - ``greet`` — Greet the user and inform them of the assistant's functionality
+   - ``exit`` — Say bye to the user
+   
 There are two types of entities in Workbench: :ref:`System Entities <system-entities>` and :doc:`Custom Entities <../userguide/entity_recognizer>`. System entities are pre-defined in Workbench. Examples include ``sys_temperature``, ``sys_time``, and ``sys_interval``. Custom entities are defined by the developers of each application. Within each entity folder, the file ``gazetteer.txt`` contains the full list of values for each custom entity.
 
 HR assistant defines and uses the following custom entities for each of its domains, which are grouped by their purpose below:
