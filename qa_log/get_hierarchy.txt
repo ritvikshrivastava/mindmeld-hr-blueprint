@@ -1,0 +1,1603 @@
+GET_HIERARCHY=============================================================
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Who is {Mia|name}'s {manager|manager}? 
+A: Brandon R. LeBlanc is Mia Brown's manager
+Process: 
+{
+  "text": "Who is Mia manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Mia",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Mia Brown",
+          "score": 62.84209,
+          "top_synonym": "mia"
+        },
+        {
+          "cname": "Jeremiah Semizoglou",
+          "score": 9.67027,
+          "top_synonym": "jeremiah"
+        }
+      ],
+      "span": {
+        "start": 7,
+        "end": 9
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 11,
+        "end": 17
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Which employees have {Julia|name} as their {manager|manager}?
+A: Eric Dougall is Julia Soto's manager
+Process: 
+{
+  "text": "Which employees have Julia as their manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Julia",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Julia Soto",
+          "score": 64.2731,
+          "top_synonym": "julia"
+        },
+        {
+          "cname": "Mike Guilianno",
+          "score": 11.757732,
+          "top_synonym": "guilianno"
+        },
+        {
+          "cname": "Debra Houlihan",
+          "score": 11.757732,
+          "top_synonym": "houlihan"
+        },
+        {
+          "cname": "Jacquelyn Williams",
+          "score": 11.059677,
+          "top_synonym": "williams"
+        },
+        {
+          "cname": "Libby Fidelia",
+          "score": 10.742377,
+          "top_synonym": "fidelia"
+        },
+        {
+          "cname": "Julissa Hunts",
+          "score": 10.353767,
+          "top_synonym": "julissa"
+        },
+        {
+          "cname": "William LaRotonda",
+          "score": 8.616255,
+          "top_synonym": "william"
+        },
+        {
+          "cname": "Lisa Galia",
+          "score": 8.616255,
+          "top_synonym": "galia"
+        }
+      ],
+      "span": {
+        "start": 21,
+        "end": 25
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 36,
+        "end": 42
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the name of {Julia|name}'s {manager|manager}?
+A: Eric Dougall is Julia Soto's manager
+Process: 
+{
+  "text": "What is the name of Julia manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Julia",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Julia Soto",
+          "score": 64.2731,
+          "top_synonym": "julia"
+        },
+        {
+          "cname": "Mike Guilianno",
+          "score": 11.757732,
+          "top_synonym": "guilianno"
+        },
+        {
+          "cname": "Debra Houlihan",
+          "score": 11.757732,
+          "top_synonym": "houlihan"
+        },
+        {
+          "cname": "Jacquelyn Williams",
+          "score": 11.059677,
+          "top_synonym": "williams"
+        },
+        {
+          "cname": "Libby Fidelia",
+          "score": 10.742377,
+          "top_synonym": "fidelia"
+        },
+        {
+          "cname": "Julissa Hunts",
+          "score": 10.353767,
+          "top_synonym": "julissa"
+        },
+        {
+          "cname": "William LaRotonda",
+          "score": 8.616255,
+          "top_synonym": "william"
+        },
+        {
+          "cname": "Lisa Galia",
+          "score": 8.616255,
+          "top_synonym": "galia"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 24
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 26,
+        "end": 32
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Who is {Michael|name}'s {manager|manager}?
+A: Janet King is Michael Albert's manager
+Process: 
+{
+  "text": "Who is Michael manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Michael",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Michael Albert",
+          "score": 68.577934,
+          "top_synonym": "michael"
+        },
+        {
+          "cname": "Rachael Baczenski",
+          "score": 14.260977,
+          "top_synonym": "rachael"
+        },
+        {
+          "cname": "Michelle Carter",
+          "score": 11.62064,
+          "top_synonym": "michelle"
+        },
+        {
+          "cname": "Bartholemew Khemmich",
+          "score": 11.62064,
+          "top_synonym": "khemmich"
+        },
+        {
+          "cname": "Bianca Roehrich",
+          "score": 11.059677,
+          "top_synonym": "roehrich"
+        },
+        {
+          "cname": "Beatrice Chace",
+          "score": 11.059677,
+          "top_synonym": "chace"
+        },
+        {
+          "cname": "Richard Newman",
+          "score": 10.9205475,
+          "top_synonym": "richard"
+        },
+        {
+          "cname": "Donovan Chang",
+          "score": 10.082616,
+          "top_synonym": "chang"
+        },
+        {
+          "cname": "Jenna Dietrich",
+          "score": 10.082616,
+          "top_synonym": "dietrich"
+        },
+        {
+          "cname": "Lin Chan",
+          "score": 9.67027,
+          "top_synonym": "chan"
+        }
+      ],
+      "span": {
+        "start": 7,
+        "end": 13
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 15,
+        "end": 21
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Who is {John Reeder|name}'s {manager|manager}?
+A: Brannon Miller is John Kretschmer's manager
+Process: 
+{
+  "text": "Who is John Reeder manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "John",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "John Kretschmer",
+          "score": 66.90112,
+          "top_synonym": "john"
+        },
+        {
+          "cname": "Yen Johnston",
+          "score": 13.28422,
+          "top_synonym": "johnston"
+        },
+        {
+          "cname": "Noelle Johnson",
+          "score": 12.120192,
+          "top_synonym": "johnson"
+        }
+      ],
+      "span": {
+        "start": 7,
+        "end": 10
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 19,
+        "end": 25
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Who is {Mia Brown|name}'s {manager|manager}?
+A: Brandon R. LeBlanc is Mia Brown's manager
+Process: 
+{
+  "text": "Who is Mia Brown manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Mia Brown",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Mia Brown",
+          "score": 150.54138,
+          "top_synonym": "mia brown"
+        },
+        {
+          "cname": "Thelma Petrowsky",
+          "score": 11.059677,
+          "top_synonym": "petrowsky"
+        },
+        {
+          "cname": "Brooke Oliver",
+          "score": 11.015316,
+          "top_synonym": "brooke"
+        },
+        {
+          "cname": "Jeremiah Semizoglou",
+          "score": 9.67027,
+          "top_synonym": "jeremiah"
+        }
+      ],
+      "span": {
+        "start": 7,
+        "end": 15
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 23
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Who is the {manager|manager} for {Bob|name}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+IndexError('list index out of range',)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is {Mia|name}'s {manager|manager}'s name?
+A: Brandon R. LeBlanc is Mia Brown's manager
+Process: 
+{
+  "text": "What is Mia manager name?",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Mia",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Mia Brown",
+          "score": 62.84209,
+          "top_synonym": "mia"
+        },
+        {
+          "cname": "Jeremiah Semizoglou",
+          "score": 9.67027,
+          "top_synonym": "jeremiah"
+        }
+      ],
+      "span": {
+        "start": 8,
+        "end": 10
+      }
+    },
+    {
+      "text": "manager name",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 41.04231,
+          "top_synonym": "manager name"
+        }
+      ],
+      "span": {
+        "start": 12,
+        "end": 23
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Who {reports|manager} into {Nan Singh|name}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "Who reports into Nan Singh",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Nan Singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 150.54138,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 25
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: can i have the names of employees who report to {Michael|name}
+A: Janet King is Michael Albert's manager
+Process: 
+{
+  "text": "can i have the names of employees who report to Michael",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Michael",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Michael Albert",
+          "score": 68.577934,
+          "top_synonym": "michael"
+        },
+        {
+          "cname": "Rachael Baczenski",
+          "score": 14.260977,
+          "top_synonym": "rachael"
+        },
+        {
+          "cname": "Michelle Carter",
+          "score": 11.62064,
+          "top_synonym": "michelle"
+        },
+        {
+          "cname": "Bartholemew Khemmich",
+          "score": 11.62064,
+          "top_synonym": "khemmich"
+        },
+        {
+          "cname": "Bianca Roehrich",
+          "score": 11.059677,
+          "top_synonym": "roehrich"
+        },
+        {
+          "cname": "Beatrice Chace",
+          "score": 11.059677,
+          "top_synonym": "chace"
+        },
+        {
+          "cname": "Richard Newman",
+          "score": 10.9205475,
+          "top_synonym": "richard"
+        },
+        {
+          "cname": "Donovan Chang",
+          "score": 10.082616,
+          "top_synonym": "chang"
+        },
+        {
+          "cname": "Jenna Dietrich",
+          "score": 10.082616,
+          "top_synonym": "dietrich"
+        },
+        {
+          "cname": "Lin Chan",
+          "score": 9.67027,
+          "top_synonym": "chan"
+        }
+      ],
+      "span": {
+        "start": 48,
+        "end": 54
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Which employees are {under|comparator} the {Manager|manager} {Amy|name}?
+A: Board of Directors is Amy Foster-Baker's manager
+Process: 
+{
+  "text": "Which employees are under the Manager Amy",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "under",
+      "type": "comparator",
+      "role": null,
+      "value": [
+        {
+          "cname": "less than",
+          "score": 30.451687,
+          "top_synonym": "under"
+        },
+        {
+          "cname": "more than",
+          "score": 1.889364,
+          "top_synonym": "older than"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 24
+      }
+    },
+    {
+      "text": "Manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 31.833101,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 30,
+        "end": 36
+      }
+    },
+    {
+      "text": "Amy",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Amy Foster-Baker",
+          "score": 62.701,
+          "top_synonym": "amy"
+        }
+      ],
+      "span": {
+        "start": 38,
+        "end": 40
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: who {works for|manager} {Nan Singh|name}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "who works for Nan Singh",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "works for",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 39.882423,
+          "top_synonym": "works for"
+        }
+      ],
+      "span": {
+        "start": 4,
+        "end": 12
+      }
+    },
+    {
+      "text": "Nan Singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 150.54138,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 14,
+        "end": 22
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell who is {working under|manager} {Mr. Singh|name}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "Tell who is working under Mr. Singh",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "working under",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 40.460968,
+          "top_synonym": "working under"
+        }
+      ],
+      "span": {
+        "start": 12,
+        "end": 24
+      }
+    },
+    {
+      "text": "Singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 67.790344,
+          "top_synonym": "singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 30,
+        "end": 34
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: employee list with {manager|manager} being {Nan Singh|name}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "employee list with manager being Nan Singh",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 19,
+        "end": 25
+      }
+    },
+    {
+      "text": "Nan Singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 150.54138,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 33,
+        "end": 41
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {Nan singh|name} is the {manager|manager} of which employees
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "Nan singh is the manager of which employees",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Nan singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 115.0836,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 8
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 23
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: which employees is {Nan singh|name} the {manager|manager} for
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "which employees is Nan singh the manager for",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Nan singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 115.0836,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 19,
+        "end": 27
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 33,
+        "end": 39
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: for which employees is {Nan singh|name} the {supervisor|manager}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "for which employees is Nan singh the supervisor",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Nan singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 115.0836,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 23,
+        "end": 31
+      }
+    },
+    {
+      "text": "supervisor",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 38.42117,
+          "top_synonym": "supervisor"
+        }
+      ],
+      "span": {
+        "start": 37,
+        "end": 46
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {nan singh|name} is the {manager|manager} for which of our employees
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "nan singh is the manager for which of our employees",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "nan singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 115.0836,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 8
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 23
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: which of our employees have {nan singh|name} as their {manager|manager}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "which of our employees have nan singh as their manager",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "nan singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 115.0836,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 28,
+        "end": 36
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 47,
+        "end": 53
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: get me a list of all of the employees that are currently {reporting|manager} directly to {nan singh|name}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "get me a list of all of the employees that are currently reporting directly to nan singh",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "reporting",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 35.07562,
+          "top_synonym": "reporting"
+        }
+      ],
+      "span": {
+        "start": 57,
+        "end": 65
+      }
+    },
+    {
+      "text": "nan singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 115.0836,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 79,
+        "end": 87
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: employees that directly {report|manager} to {Mr.Nan Singh|name}
+A: Brandon R. LeBlanc is Nan Singh's manager
+Process: 
+{
+  "text": "employees that directly report to Mr.Nan Singh",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "report",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 5.9662943,
+          "top_synonym": "report to"
+        }
+      ],
+      "span": {
+        "start": 24,
+        "end": 29
+      }
+    },
+    {
+      "text": "Nan Singh",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Nan Singh",
+          "score": 150.54138,
+          "top_synonym": "nan singh"
+        },
+        {
+          "cname": "Christie Harrington",
+          "score": 11.757732,
+          "top_synonym": "harrington"
+        },
+        {
+          "cname": "Jean Crimmings",
+          "score": 11.015316,
+          "top_synonym": "crimmings"
+        },
+        {
+          "cname": "Daniff Hernandez",
+          "score": 10.082616,
+          "top_synonym": "hernandez"
+        },
+        {
+          "cname": "Nilson Fernandes",
+          "score": 10.082616,
+          "top_synonym": "fernandes"
+        },
+        {
+          "cname": "Lei-Ming Nguyen",
+          "score": 9.743654,
+          "top_synonym": "lei-ming"
+        },
+        {
+          "cname": "Samuel MacLennan",
+          "score": 9.67027,
+          "top_synonym": "maclennan"
+        },
+        {
+          "cname": "Janet King",
+          "score": 9.073093,
+          "top_synonym": "king"
+        },
+        {
+          "cname": "Ming Huynh",
+          "score": 9.073093,
+          "top_synonym": "ming"
+        }
+      ],
+      "span": {
+        "start": 37,
+        "end": 45
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: who is Ms. {Amy Dunn|name} {reporting|manager} to
+A: Board of Directors is Amy Foster-Baker's manager
+Process: 
+{
+  "text": "who is Ms. Amy Dunn reporting to",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Amy Dunn",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Amy Foster-Baker",
+          "score": 15.62373,
+          "top_synonym": "amy"
+        }
+      ],
+      "span": {
+        "start": 11,
+        "end": 18
+      }
+    },
+    {
+      "text": "reporting",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 35.07562,
+          "top_synonym": "reporting"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 28
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Does {Amy Dunn|name} have a {manager|manager}, if so who is it?
+A: Board of Directors is Amy Foster-Baker's manager
+Process: 
+{
+  "text": "Does Amy Dunn have a manager if so who is it?",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "Amy Dunn",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Amy Foster-Baker",
+          "score": 15.62373,
+          "top_synonym": "amy"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 12
+      }
+    },
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 21,
+        "end": 27
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: I want to know the name of the {manager|manager} for {Amy Dunn|name}
+A: Board of Directors is Amy Foster-Baker's manager
+Process: 
+{
+  "text": "I want to know the name of the manager for Amy Dunn",
+  "domain": "hierarchy",
+  "intent": "get_hierarchy",
+  "entities": [
+    {
+      "text": "manager",
+      "type": "manager",
+      "role": null,
+      "value": [
+        {
+          "cname": "manager",
+          "score": 34.709923,
+          "top_synonym": "manager"
+        }
+      ],
+      "span": {
+        "start": 31,
+        "end": 37
+      }
+    },
+    {
+      "text": "Amy Dunn",
+      "type": "name",
+      "role": null,
+      "value": [
+        {
+          "cname": "Amy Foster-Baker",
+          "score": 15.62373,
+          "top_synonym": "amy"
+        }
+      ],
+      "span": {
+        "start": 43,
+        "end": 50
+      }
+    }
+  ]
+}
