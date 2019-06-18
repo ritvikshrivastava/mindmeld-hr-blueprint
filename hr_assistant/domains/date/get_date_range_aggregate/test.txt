@@ -1,7 +1,7 @@
-{sum|function} {joined|employment_action} for {less than|comparator} {4.3 yrs|sys_duration} ago
-Is there anyone who {joined|employment_action} us {prior to|date_compare} {1999|sys_time} or not
-{how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
-{hired|employment_action} in {California|state} in the {last|date_compare} {42 weeks|sys_duration}, get me the {total|function}
-{percent|function} {1933|sys_time} {born|dob} employees
-employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
-i want the {count|function} of employees that have their {bday|dob} {before|date_compare} {1996|sys_interval}
+{percent|function} {born|dob} in {1947|sys_time}
+{1980|sys_time} {born|dob} employees {total|function} {percent|function}
+{total|function} employees that have {been with the company|employment_action} for {less than|comparator} {9 years|sys_duration}
+Can you {count|function} the number of people that {began working|employment_action} for this company {pre|date_compare} {2005|sys_time}
+{How many|function} people have {worked here|employment_action} {since|date_compare} {2015|sys_time}?
+{1974|sys_time} {born|dob} employees {percent|function}
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}

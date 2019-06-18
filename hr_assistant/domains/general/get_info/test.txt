@@ -1,26 +1,26 @@
-sex and age of {wolk|name}
-state of {julia|name}
-is {Bonalyn|name} {terminated|employment_status} from the company or not
-Is {Lauren mahoney|name} {active|employment_status} at Mcdonalds?
-What does {Michael|name} look like?
-Is {Raul|name} based from out of state?
-tell me what is {Julia|name}'s citizenship status
-What is {Alexandra Kirill|name}'s official position?
-get me {Lynn O'hare|name}'s race
-Does {mia|name}'s race affect her indulgence?
-give me {alfred|name}'s race please
-What ethnicity is {Catherine|name}'s?
-is {julia soto|name} a {citizen|citizendesc}
-Is {nan|name} a citizen?
-Is {earnest|name} {divorced|maritaldesc} or {widowed|maritaldesc}?
-is {marilyn|name} a {us citizen|citizendesc}
-how did {nina panjwani|name} hear of us
-Does {judy jung|name} {actively|employment_status} work at Cisco?
-tell me what is {Nader Barton|name}'s citizenship status
-is {Nan|name} in the {software engineering|department} department
-Is {Mohammed Latif|name} a citizen of the us?
-Tell me {Betsy Bondwell|name}'s employment status?
-which state is {Joelle Burke|name} from
-Find me {Josephine|name}'s race
+What is {brooke oliver|name}'s last name?
+does {nan singh|name} live in {Cali|state}
+Does {ivan rogers|name}'s race affect her indulgence?
+which is the branch that {Bradley Knapp|name} working in
+Is {Elijian|name} {widowed|maritaldesc} or not?
+whats {Nan|name}'s role at the organization
+Show the state that {Rosalie Hutter|name} is from
+I want {mei trang|name}'s state
+How well is the employee doing?
+Is mr.{Louis Punjabhi|name} located from out of state?
+can you desribe the race of {Julia Soto Singh|name}
+does {Shakira|name} work as a {software engineering manager|position}
+{Rosalie|name} heard of us how?
+Where is {Sarah|name} from?
+where is {ivan|name} from
 tell me what is the citizenship status for {Jennifer|name}'s
-what is {Phylicia Gosciminski|name}s org role
+Which department is {Jenna|name} a part of?
+I want {Lori Roby|name}'s state
+which state is {julia|name} from
+Whats {cybil|name}'s last name?
+is {mia|name} {currently active|employment_status} or not
+you tell me something about {Daniel|name}?
+Is {28|age} the age of {lauren mahoney|name}?
+Is ms.{Carter|name} a {married|maritaldesc} {woman|sex}?
+What does {Ivan Rogers|name} do?
+is the job title of {adeel osturnka|name} a {shared services manager|position}

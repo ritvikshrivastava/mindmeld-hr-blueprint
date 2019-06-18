@@ -1,30 +1,30 @@
-employees that are {managers|position}
-employee {managers|position}
-employee with the {lowest|extreme} {age|age}
-employees {are too early to review|performance_score}
-Which employee(s) {do not meet|performance_score} company's expectations?
-{production manager|position}
-employees have a {start date|employment_action} {before|date_compare} {June|sys_time}?
-{lowest|extreme} {24|sys_number} {age|age} employees, who are they?
 get me the {youngest|extreme} {five|sys_number} {percent|function} of employees
-Which employees have the {lowest|extreme} {performance score|performance_score}?
-{managers|position}
-who is not {widowed|maritaldesc}
-Which employees were {recruited|employment_action} {pre|date_compare} {Feb|sys_time}?
-Which employees are {non-citizen|citizendesc}?
-employees {older than|comparator} {23 years|sys_duration}
-employees that are {it manager - infra|position}
-who is doing {it support|position} at this company?
-employee {database administrator|position}
-employees from {CA|state}
-employees based in {MA|state}
-{manager|position} employees
-employee(s) are {asian|racedesc}?
+who is {divorced|maritaldesc}
 who is not {divorced|maritaldesc}
-employees have been {let go|employment_action}?
-who are our {network engineers|position}
-Which employees are not {US citizens|citizendesc}?
+Which employees have been with the company shortest?
 employees are {under|comparator} {45|sys_number} {years old|age}?
-show me {multi-racial|race} employees
-Which employee(s) are from {Asia|racedesc}?
-Show me all of the {president & ceo|position}
+get me the {highest|extreme} {five|sys_number} {ratio|function} of employees
+who is {single|maritaldesc}
+{female|sex} employees
+i want the {oldest|extreme} {third|sys_ordinal} of employees
+employees {hispanic|racedesc}?
+Which employees were {hired|employment_action} {post|date_compare} {May|sys_time}?
+{manager|position} employees
+employees in {production|department} department?
+Which employees have gotten only {positive feedback|performance_score}?
+{widowed|maritaldesc} employees
+Which employees are in the {software engineering|department}?
+Which employees are {female|sex}?
+List of {youngest|extreme} works
+tell me who is the {youngest|extreme} employee
+{FL|state} employees
+who is not {married|maritaldesc}
+employees {separated|maritaldesc}?
+Give me the {top|extreme} {ten|sys_number} {youngest|extreme} workers
+list of {president & ceo|position}
+employee(s) are {white|racedesc}?
+get me a list of {cio|position} staff
+workers that aren't {citizens|citizendesc}
+Which employees are {activley employed|employment_status}?
+who is {reports to|manager} {shared services manager|position}?
+Give me employees who are {separated|maritaldesc}
