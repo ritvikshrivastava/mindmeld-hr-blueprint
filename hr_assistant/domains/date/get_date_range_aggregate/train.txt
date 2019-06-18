@@ -51,7 +51,7 @@ Tell me the {pct|function} of staff that have their {birth day|dob} in the year 
 {started employment|employment_action} {less than|comparator} {3 yrs|sys_duration} ago, what's the {total|function} {count|function}
 {ratio|function} out of all of the employees that {started employment|employment_action} {less than|comparator} {2.5 years|sys_duration} before today
 Fetch me {percent|function} that {started working|employment_action} {less than|comparator} {3 years|sys_duration} in the past
-{How many|function} people have {worked here|employment_action} {since|date_compare} {2015|employment_action}?
+{How many|function} people have {worked here|employment_action} {since|date_compare} {2015|sys_time}?
 Can you {count|function} the number of people that {began working|employment_action} for this company {pre|date_compare} {2005|sys_time}
 What {percent|function} of all our employees were {hired|employment_action} {this year|sys_time}?
 how many {joined|employment_action} {prior to|date_compare} {1998|sys_time}

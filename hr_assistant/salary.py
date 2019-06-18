@@ -58,7 +58,7 @@ def get_salary_aggregate(request, responder):
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
-
+	
 	salary_response = "Hmm, looks like you want a salary statistic. You can ask me about averages, sums, counts and percentages. For eg. what is the average salary for women?" 
 
 	if func_entities:
@@ -68,6 +68,8 @@ def get_salary_aggregate(request, responder):
 		function, responder = _resolve_function_entity(responder, func_entity)
 
 		qa, size = _resolve_categorical_entities(request, responder)
+
+		qa = _resolve_time_in_salary(request, responder, qa)
 
 		if money_entities:
 			try:
@@ -86,14 +88,14 @@ def get_salary_aggregate(request, responder):
 					responder.reply(salary_response)
 					responder.listen()
 					return
-				responder.reply("Based on your query, the {function} {interval} is {value}")
+				responder.reply("Based on your query, the {function} {interval} salary is {value}")
 			else:
 				responder = _calculate_agg_salary(responder, qa_out, function)
 				if np.isnan(responder.slots['value']):
 					responder.reply(salary_response)
 					responder.listen()
 					return
-				responder.reply('The {function} based on your query is {value}')
+				responder.reply('The {function} salary, based on your query, is {value}')
 
 		elif function not in ('avg','sum'):
 			qa_out = qa.execute()
@@ -131,6 +133,8 @@ def get_salary_employees(request, responder):
 
 	qa, size = _resolve_categorical_entities(request, responder)
 
+	qa = _resolve_time_in_salary(request, responder, qa)
+
 	if money_entities:
 		qa, size = _apply_money_filter(qa, money_entities, request, responder)
 
@@ -145,6 +149,41 @@ def get_salary_employees(request, responder):
 
 ### Helper functions ###
 
+
+def _resolve_time_in_salary(request, responder, qa):
+	"""
+	Filter out the knowledge base based on any date queries relevant to the salary data
+	"""
+
+	time_entities = [e['value'][0]['value'] for e in request.entities if e['type'] == 'sys_time']
+	date_compare_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'date_compare']
+	dob_entity = [e for e in request.entities if e['type'] == 'dob']
+	action_entity=[e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
+
+	field = ''
+	if action_entity:
+		action_entity = action_entity[0]
+		if action_entity=='hired':
+			field = 'doh'
+		elif action_entity=='fired':
+			field = 'dot'
+	elif dob_entity:
+		field = 'dob'
+
+
+	if time_entities and field:
+		if len(time_entities)==2:
+			qa = qa.filter(field=field, gte=time_entities[0], lte=time_entities[1])
+		elif len(time_entities)==1:
+			if date_compare_ent:
+				if date_compare_ent[0]=='prev':
+					qa = qa.filter(field=field, lte=time_entities[0])
+				else:
+					qa = qa.filter(field=field, gte=time_entities[0])
+			else:
+				qa = qa.filter(field=field, gte=time_entities[0])
+
+	return qa
 
 def _apply_money_filter(qa, age_entities, request, responder):
 	"""
