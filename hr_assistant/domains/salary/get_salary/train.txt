@@ -163,7 +163,7 @@ What is the {each year|time_recur} {income|money} for {Myriam Givens|name} at Ci
 {Mia Brown|name} {Payroll|money} {Salary|money}
 {Rex England|name} {earns|money} how much amt {day by day|time_recur}
 {nan|name} {payrate|money}
-Ms.{Power|name}s {make|money} a lot{on a monthly basis|time_recur}
+Ms. {Power|name}s {make|money} a lot {on a monthly basis|time_recur}
 Tell me who earned the {min|extreme} that has {been with the company|employment_action} {this year|sys_time}?
 Tell me how much {Robyn Manchester|name} {earn|money}
 How much {earning|money} does {Samuel MacLennan singh|name} {pay|money} from Cisco {on an hourly basis|time_recur}?

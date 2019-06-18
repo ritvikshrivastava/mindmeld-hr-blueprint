@@ -8,7 +8,7 @@ What is {Brooke oliver|name}'s {each year|time_recur} {salary|money}?
 {earners|money} of  {Wilson Adinolfi|name}
 {Payrate|money} {mia|name}
 Is it true that {Giovanni Leruth|name} has a {six figure|sys_number} {paycheck|money}?
-Whats{Claudia Carr|name}'s {paycheck|money}?
+Whats {Claudia Carr|name}'s {paycheck|money}?
 What does {ivan|name} {make|money} {monthly|time_recur}?
 What is {ivan|name}'s {hourly|time_recur} {salary|money}
 What is {Constance Sloan|name} {paycheck|money} on a {each day|time_recur} basis?
