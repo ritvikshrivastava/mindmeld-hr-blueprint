@@ -1,0 +1,2815 @@
+GET_DATE_RANGE_AGGREGATE=============================================================
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees were {hired|employment_action} {post|date_compare} {2008|sys_time}?
+A: The percentage is 99.0
+Process: 
+{
+  "text": "What percent of employees were hired post 2008",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 11
+      }
+    },
+    {
+      "text": "hired",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 38.062096,
+          "top_synonym": "hired"
+        },
+        {
+          "cname": "fired",
+          "score": 4.268779,
+          "top_synonym": "fired"
+        }
+      ],
+      "span": {
+        "start": 31,
+        "end": 35
+      }
+    },
+    {
+      "text": "post",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "post",
+          "score": 24.107826,
+          "top_synonym": "post"
+        }
+      ],
+      "span": {
+        "start": 37,
+        "end": 40
+      }
+    },
+    {
+      "text": "2008",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2008-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 42,
+        "end": 45
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees were {born|dob} {before|date_compare} {1992|sys_time}?
+A: The percentage is 99.0
+Process: 
+{
+  "text": "What percentage of employees were born before 1992",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percentage",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 30.730465,
+          "top_synonym": "percentage"
+        },
+        {
+          "cname": "average",
+          "score": 2.2059417,
+          "top_synonym": "average"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 14
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 34,
+        "end": 37
+      }
+    },
+    {
+      "text": "before",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 15.707399,
+          "top_synonym": "before"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 44
+      }
+    },
+    {
+      "text": "1992",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1992-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 46,
+        "end": 49
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of all our employees were {hired|employment_action} {this year|sys_time}?
+A: The percentage is 0.0
+Process: 
+{
+  "text": "What percent of all our employees were hired this year",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 11
+      }
+    },
+    {
+      "text": "hired",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 38.062096,
+          "top_synonym": "hired"
+        },
+        {
+          "cname": "fired",
+          "score": 4.268779,
+          "top_synonym": "fired"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 43
+      }
+    },
+    {
+      "text": "this year",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 45,
+        "end": 53
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees were {born|dob} {after|date_compare} {2010|sys_time}?
+A: The percentage is 0.0
+Process: 
+{
+  "text": "What percentage of employees were born after 2010",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percentage",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 30.730465,
+          "top_synonym": "percentage"
+        },
+        {
+          "cname": "average",
+          "score": 2.2059417,
+          "top_synonym": "average"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 14
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 34,
+        "end": 37
+      }
+    },
+    {
+      "text": "after",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "post",
+          "score": 24.746775,
+          "top_synonym": "after"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 43
+      }
+    },
+    {
+      "text": "2010",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2010-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 45,
+        "end": 48
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees were {hired|employment_action} {last year|sys_time}?
+A: Based on your query, the count is 300
+Process: 
+{
+  "text": "How many employees were hired last year",
+  "domain": "general",
+  "intent": "get_aggregate",
+  "entities": [
+    {
+      "text": "How many",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 34.074833,
+          "top_synonym": "how many"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 7
+      }
+    },
+    {
+      "text": "hired",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 38.062096,
+          "top_synonym": "hired"
+        },
+        {
+          "cname": "fired",
+          "score": 4.268779,
+          "top_synonym": "fired"
+        }
+      ],
+      "span": {
+        "start": 24,
+        "end": 28
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people were based out of {Colarado|state} in the {last|date_compare} {3 years|sys_duration}?
+A: Hmmm, I don't quite understand, you can ask me something like 'show me all married employees'
+Process: 
+{
+  "text": "How many people were based out of Colarado in the last 3 years",
+  "domain": "unsupported",
+  "intent": "unsupported",
+  "entities": []
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percentage|function} of employees have been on the team for {more than|comparator} {2 years|sys_duration}?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees were {born|dob} in the {2009|sys_time}?
+A: The count is 0
+Process: 
+{
+  "text": "How many employees were born in the 2009",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "How many",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 34.074833,
+          "top_synonym": "how many"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 7
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 24,
+        "end": 27
+      }
+    },
+    {
+      "text": "2009",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2009-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 36,
+        "end": 39
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} people have {worked here|employment_action} {since|date_compare} {2015|employment_action}?
+A: The count is 47
+Process: 
+{
+  "text": "How many people have worked here since 2015",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "How many",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 34.074833,
+          "top_synonym": "how many"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 7
+      }
+    },
+    {
+      "text": "have worked",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 6.117234,
+          "top_synonym": "worked here"
+        }
+      ],
+      "span": {
+        "start": 16,
+        "end": 26
+      }
+    },
+    {
+      "text": "since",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "post",
+          "score": 24.746775,
+          "top_synonym": "since"
+        }
+      ],
+      "span": {
+        "start": 33,
+        "end": 37
+      }
+    },
+    {
+      "text": "2015",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2015-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 42
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {How many|function} employees were {born|dob} within {five years|sys_duration} of {1980|sys_time}
+A: The count is 8
+Process: 
+{
+  "text": "How many employees were born within five years of 1980",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "How many",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 34.074833,
+          "top_synonym": "how many"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 7
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 24,
+        "end": 27
+      }
+    },
+    {
+      "text": "five years",
+      "type": "sys_duration",
+      "role": null,
+      "value": [
+        {
+          "value": 5,
+          "unit": "year"
+        }
+      ],
+      "span": {
+        "start": 36,
+        "end": 45
+      }
+    },
+    {
+      "text": "1980",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1980-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 50,
+        "end": 53
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {number of|function} people working {since|date_compare} {2016|sys_time}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what is the {fraction|function} of employees that have been here {since|date_compare} the {2000's|time_interval}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: can you please tell me what {fraction|function} of people have been doing {work here for|employment_action} {more than|comparator} {three years|sys_duration} but {less than|comparator} {five|sys_number}?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what is the {total|function} {number of|function} employees that {started working|employment_action} here {before|date_compare} {2012|sys_interval}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: employees {born|dob} {before|date_compare} {1994|sys_time}, give me the {total|function} {count|function}
+A: The sum is 9227.29
+Process: 
+{
+  "text": "employees born before 1994 give me the total count",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 10,
+        "end": 13
+      }
+    },
+    {
+      "text": "before",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 15.707399,
+          "top_synonym": "before"
+        }
+      ],
+      "span": {
+        "start": 15,
+        "end": 20
+      }
+    },
+    {
+      "text": "1994",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1994-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 22,
+        "end": 25
+      }
+    },
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 43
+      }
+    },
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 45,
+        "end": 49
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: i want the {count|function} of employees that have their {bday|dob} {before|date_compare} {1996|sys_interval}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} of employees {born|dob} in the year of {2014|sys_time}
+A: The percentage is 0.0
+Process: 
+{
+  "text": "percent of employees born in the year of 2014",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 21,
+        "end": 24
+      }
+    },
+    {
+      "text": "2014",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2014-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 41,
+        "end": 44
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {1980|sys_time} {born|dob} employees {total|function} {count|function}
+A: The sum is 203.25
+Process: 
+{
+  "text": "1980 born employees total count",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "1980",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1980-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 8
+      }
+    },
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 24
+      }
+    },
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 26,
+        "end": 30
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Fetch me {percent|function} that {started working|employment_action} {less than|comparator} {3 years|sys_duration} in the past
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratio|function} {joined|employment_action} {less than|comparator} {5 years|sys_duration}?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratio|function} out of all of the employees that {started employment|employment_action} {less than|comparator} {2.5 years|sys_duration} before today
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} {number of|function} of employees that {have worked here|employment_action} for {more than|comparator} {7 years|sys_duration}?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {headcount|function} people who {have worked here|employment_action} for {less than|comparator} {7 years|sys_duration}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} employees that have {been with the company|employment_action} for {less than|comparator} {9 years|sys_duration}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Calculate the {total|function} {number of|function} folks {joined|employment_action} {less than|comparator} {6.5 yrs|sys_duration} ago
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {sum|function} {joined|employment_action} for {less than|comparator} {4.3 yrs|sys_duration} ago
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {hired|employment_action} for {less than|comparator} {5 yrs|sys_duration} ago, {total|function}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {started employment|employment_action} {less than|comparator} {3 yrs|sys_duration} ago, what's the {total|function} {count|function}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Get me the {total|function} {num of|function} employees who {joined|employment_action} {before|date_compare} {2008|sys_time}
+A: The sum is 95.0
+Process: 
+{
+  "text": "Get me the total num of employees who joined before 2008",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 11,
+        "end": 15
+      }
+    },
+    {
+      "text": "num of",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 5.210686,
+          "top_synonym": "num of. headcount"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 22
+      }
+    },
+    {
+      "text": "joined",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 32.370125,
+          "top_synonym": "joined"
+        }
+      ],
+      "span": {
+        "start": 38,
+        "end": 43
+      }
+    },
+    {
+      "text": "before",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 15.707399,
+          "top_synonym": "before"
+        }
+      ],
+      "span": {
+        "start": 45,
+        "end": 50
+      }
+    },
+    {
+      "text": "2008",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2008-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 52,
+        "end": 55
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: how many {joined|employment_action} {prior to|date_compare} {1998|sys_time}
+A: What time-filtered statistic would you like to know?
+Process: 
+{
+  "text": "how many joined prior to 1998",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "joined",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 32.370125,
+          "top_synonym": "joined"
+        }
+      ],
+      "span": {
+        "start": 9,
+        "end": 14
+      }
+    },
+    {
+      "text": "prior to",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 16.525787,
+          "top_synonym": "prior to"
+        }
+      ],
+      "span": {
+        "start": 16,
+        "end": 23
+      }
+    },
+    {
+      "text": "1998",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1998-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 25,
+        "end": 28
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Is there anyone who {joined|employment_action} us {prior to|date_compare} {1999|sys_time} or not
+A: What time-filtered statistic would you like to know?
+Process: 
+{
+  "text": "Is there anyone who joined us prior to 1999 or not",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "joined",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 32.370125,
+          "top_synonym": "joined"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 25
+      }
+    },
+    {
+      "text": "prior to",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 16.525787,
+          "top_synonym": "prior to"
+        }
+      ],
+      "span": {
+        "start": 30,
+        "end": 37
+      }
+    },
+    {
+      "text": "1999",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1999-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 42
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Can you {count|function} the number of people that {began working|employment_action} for this company {pre|date_compare} {2005|sys_time}
+A: The count is 0
+Process: 
+{
+  "text": "Can you count the number of people that began working for this company pre 2005",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 8,
+        "end": 12
+      }
+    },
+    {
+      "text": "began working",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 9.494073,
+          "top_synonym": "began working for"
+        },
+        {
+          "cname": "fired",
+          "score": 1.688552,
+          "top_synonym": "firing date"
+        }
+      ],
+      "span": {
+        "start": 40,
+        "end": 52
+      }
+    },
+    {
+      "text": "pre",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 14.7140875,
+          "top_synonym": "pre"
+        }
+      ],
+      "span": {
+        "start": 71,
+        "end": 73
+      }
+    },
+    {
+      "text": "2005",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2005-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 75,
+        "end": 78
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: For all of those that {joined|employment_action} the organization {before|date_compare} {1995|sys_time}, what is the {total|function} {count|function}
+A: The sum is 0.0
+Process: 
+{
+  "text": "For all of those that joined the organization before 1995 what is the total count",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "joined",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 32.370125,
+          "top_synonym": "joined"
+        }
+      ],
+      "span": {
+        "start": 22,
+        "end": 27
+      }
+    },
+    {
+      "text": "before",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 15.707399,
+          "top_synonym": "before"
+        }
+      ],
+      "span": {
+        "start": 46,
+        "end": 51
+      }
+    },
+    {
+      "text": "1995",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1995-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 53,
+        "end": 56
+      }
+    },
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 70,
+        "end": 74
+      }
+    },
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 76,
+        "end": 80
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: I want the {total|function} {number of|function} employees that {joined|employment_action} {this year|sys_time}
+A: The sum is 0.0
+Process: 
+{
+  "text": "I want the total number of employees that joined this year",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 11,
+        "end": 15
+      }
+    },
+    {
+      "text": "number of",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 29.37287,
+          "top_synonym": "number of"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 25
+      }
+    },
+    {
+      "text": "joined",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "hired",
+          "score": 32.370125,
+          "top_synonym": "joined"
+        }
+      ],
+      "span": {
+        "start": 42,
+        "end": 47
+      }
+    },
+    {
+      "text": "this year",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 49,
+        "end": 57
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} of employees {terminated|employment_action} {prior to|date_compare} {2008|sys_time}?
+A: The count is 198
+Process: 
+{
+  "text": "count of employees terminated prior to 2008",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      }
+    },
+    {
+      "text": "terminated",
+      "type": "employment_action",
+      "role": null,
+      "value": [
+        {
+          "cname": "fired",
+          "score": 25.145597,
+          "top_synonym": "terminated"
+        },
+        {
+          "cname": "hired",
+          "score": 1.6457403,
+          "top_synonym": "started"
+        }
+      ],
+      "span": {
+        "start": 19,
+        "end": 28
+      }
+    },
+    {
+      "text": "prior to",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 16.525787,
+          "top_synonym": "prior to"
+        }
+      ],
+      "span": {
+        "start": 30,
+        "end": 37
+      }
+    },
+    {
+      "text": "2008",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2008-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 42
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: what's the {count|function} of employees who were {born|dob} {prior to|date_compare} {1992|sys_time}?
+A: The count is 297
+Process: 
+{
+  "text": "what's the count of employees who were born prior to 1992",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 11,
+        "end": 15
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 39,
+        "end": 42
+      }
+    },
+    {
+      "text": "prior to",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 16.525787,
+          "top_synonym": "prior to"
+        }
+      ],
+      "span": {
+        "start": 44,
+        "end": 51
+      }
+    },
+    {
+      "text": "1992",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1992-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 53,
+        "end": 56
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} employees {born|dob} {before|date_compare} {1993|sys_time}?
+A: The count is 300
+Process: 
+{
+  "text": "count employees born before 1993",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 16,
+        "end": 19
+      }
+    },
+    {
+      "text": "before",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 15.707399,
+          "top_synonym": "before"
+        }
+      ],
+      "span": {
+        "start": 21,
+        "end": 26
+      }
+    },
+    {
+      "text": "1993",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1993-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 28,
+        "end": 31
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} of employees {born|dob} {before|date_compare} {1983|sys_time}
+A: The count is 173
+Process: 
+{
+  "text": "count of employees born before 1983",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "count",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "count",
+          "score": 44.202957,
+          "top_synonym": "count"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 19,
+        "end": 22
+      }
+    },
+    {
+      "text": "before",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 15.707399,
+          "top_synonym": "before"
+        }
+      ],
+      "span": {
+        "start": 24,
+        "end": 29
+      }
+    },
+    {
+      "text": "1983",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1983-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 31,
+        "end": 34
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} of workers {DOB|dob} {prior to|date_compare} {1994|sys_time}
+A: The sum is 9227.29
+Process: 
+{
+  "text": "total of workers DOB prior to 1994",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      }
+    },
+    {
+      "text": "DOB",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 24.30049,
+          "top_synonym": "DOB"
+        }
+      ],
+      "span": {
+        "start": 17,
+        "end": 19
+      }
+    },
+    {
+      "text": "prior to",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 16.525787,
+          "top_synonym": "prior to"
+        }
+      ],
+      "span": {
+        "start": 21,
+        "end": 28
+      }
+    },
+    {
+      "text": "1994",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1994-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 30,
+        "end": 33
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Find the {total|function} of workers who were {born|dob} {post|date_compare} {1992|sys_time}
+A: The sum is 72.0
+Process: 
+{
+  "text": "Find the total of workers who were born post 1992",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 9,
+        "end": 13
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 35,
+        "end": 38
+      }
+    },
+    {
+      "text": "post",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "post",
+          "score": 24.107826,
+          "top_synonym": "post"
+        }
+      ],
+      "span": {
+        "start": 40,
+        "end": 43
+      }
+    },
+    {
+      "text": "1992",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1992-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 45,
+        "end": 48
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What is the {total|function} of employees with {bdays|dob} {prior to|date_compare} {1990|sys_time}
+A: The sum is 8890.29
+Process: 
+{
+  "text": "What is the total of employees with bdays prior to 1990",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 12,
+        "end": 16
+      }
+    },
+    {
+      "text": "bdays",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.3709497,
+          "top_synonym": "birthday"
+        }
+      ],
+      "span": {
+        "start": 36,
+        "end": 40
+      }
+    },
+    {
+      "text": "prior to",
+      "type": "date_compare",
+      "role": null,
+      "value": [
+        {
+          "cname": "prev",
+          "score": 16.525787,
+          "top_synonym": "prior to"
+        }
+      ],
+      "span": {
+        "start": 42,
+        "end": 49
+      }
+    },
+    {
+      "text": "1990",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1990-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 51,
+        "end": 54
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {how many|function} people were based out of {IN|state} in the {last|date_compare} {4 years|sys_duration}?
+A: Hmmm, I don't quite understand, you can ask me something like 'is john's salary more than 6k'
+Process: 
+{
+  "text": "how many people were based out of IN in the last 4 years",
+  "domain": "unsupported",
+  "intent": "unsupported",
+  "entities": []
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {count|function} of folks from {FL|state} in the {last|date_compare} {two years|sys_duration}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("object of type 'NoneType' has no len()",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} {num of|date_compare} {CA|state} employees {hired|employment_action} in the {last|date_compare} {three months|sys_duration}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {last|date_compare} {three months|sys_duration}, {total|function} {CA|state} {hired|employment_action}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {hired|employment_action} in {California|state} in the {last|date_compare} {42 weeks|sys_duration}, get me the {total|function}
+CONVERSATION BREAK XXXXXXXXXXXXXXXXXXXXXXXXXX
+TypeError("'NoneType' object is not iterable",)
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {1975|sys_time} {born|dob} employees {ratio|function}
+A: The percentage is 3.0
+Process: 
+{
+  "text": "1975 born employees ratio",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "1975",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1975-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 8
+      }
+    },
+    {
+      "text": "ratio",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 27.546856,
+          "top_synonym": "ratio"
+        },
+        {
+          "cname": "sum",
+          "score": 2.7957556,
+          "top_synonym": "cumulative"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 24
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {1945|sys_time} {born|dob} employees {percent|function}
+A: The percentage is 0.0
+Process: 
+{
+  "text": "1945 born employees percent",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "1945",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:45:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 8
+      }
+    },
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 26
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} {1933|sys_time} {born|dob} employees
+A: The percentage is 0.0
+Process: 
+{
+  "text": "percent 1933 born employees",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "text": "1933",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:33:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 8,
+        "end": 11
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 13,
+        "end": 16
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {pct|function} {1902|sys_time} {bday|dob} workers
+A: The percentage is 0.0
+Process: 
+{
+  "text": "pct 1902 bday workers",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "pct",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 29.095093,
+          "top_synonym": "pct"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 2
+      }
+    },
+    {
+      "text": "1902",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:02:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 4,
+        "end": 7
+      }
+    },
+    {
+      "text": "bday",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.3709497,
+          "top_synonym": "birthday"
+        }
+      ],
+      "span": {
+        "start": 9,
+        "end": 12
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: What {pct|function} of our staff have a {bday|dob} in {1902|sys_time}
+A: The percentage is 0.0
+Process: 
+{
+  "text": "What pct of our staff have a bday in 1902",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "pct",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 29.095093,
+          "top_synonym": "pct"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 7
+      }
+    },
+    {
+      "text": "bday",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.3709497,
+          "top_synonym": "birthday"
+        }
+      ],
+      "span": {
+        "start": 29,
+        "end": 32
+      }
+    },
+    {
+      "text": "1902",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:02:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 37,
+        "end": 40
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Tell me the {pct|function} of staff that have their {birth day|dob} in the year of {1922|sys_time}
+A: The percentage is 0.0
+Process: 
+{
+  "text": "Tell me the pct of staff that have their birth day in the year of 1922",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "pct",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 29.095093,
+          "top_synonym": "pct"
+        }
+      ],
+      "span": {
+        "start": 12,
+        "end": 14
+      }
+    },
+    {
+      "text": "birth day",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 6.4761934,
+          "top_synonym": "day of birth"
+        }
+      ],
+      "span": {
+        "start": 41,
+        "end": 49
+      }
+    },
+    {
+      "text": "1922",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:22:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 66,
+        "end": 69
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} {born|dob} in {1947|sys_time}
+A: The percentage is 0.0
+Process: 
+{
+  "text": "percent born in 1947",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 8,
+        "end": 11
+      }
+    },
+    {
+      "text": "1947",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:47:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 16,
+        "end": 19
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {percent|function} with {birthday|dob} in {1941|sys_time}
+A: The percentage is 0.0
+Process: 
+{
+  "text": "percent with birthday in 1941",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "text": "birthday",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 26.318157,
+          "top_synonym": "birthday"
+        }
+      ],
+      "span": {
+        "start": 13,
+        "end": 20
+      }
+    },
+    {
+      "text": "1941",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "2019-06-17T19:41:00.000-07:00",
+          "grain": "minute"
+        }
+      ],
+      "span": {
+        "start": 25,
+        "end": 28
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+A: What time-filtered statistic would you like to know?
+Process: 
+{
+  "text": "Were there more men with birthdays in 1990 or more women",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "men",
+      "type": "sex",
+      "role": null,
+      "value": [
+        {
+          "cname": "male",
+          "score": 22.730822,
+          "top_synonym": "men"
+        },
+        {
+          "cname": "female",
+          "score": 2.7562625,
+          "top_synonym": "women"
+        }
+      ],
+      "span": {
+        "start": 16,
+        "end": 18
+      }
+    },
+    {
+      "text": "birthdays",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 1.7389016,
+          "top_synonym": "birthday"
+        }
+      ],
+      "span": {
+        "start": 25,
+        "end": 33
+      }
+    },
+    {
+      "text": "1990",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1990-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 38,
+        "end": 41
+      }
+    },
+    {
+      "text": "women",
+      "type": "sex",
+      "role": null,
+      "value": [
+        {
+          "cname": "female",
+          "score": 24.640327,
+          "top_synonym": "women"
+        },
+        {
+          "cname": "male",
+          "score": 1.8625023,
+          "top_synonym": "gentlemen"
+        }
+      ],
+      "span": {
+        "start": 51,
+        "end": 55
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {1980|sys_time} {born|dob} employees {total|function} {percent|function}
+A: The sum is 203.25
+Process: 
+{
+  "text": "1980 born employees total percent",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "1980",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1980-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 8
+      }
+    },
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 24
+      }
+    },
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 26,
+        "end": 32
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {1974|sys_time} {born|dob} employees {percent|function}
+A: The percentage is 4.0
+Process: 
+{
+  "text": "1974 born employees percent",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "1974",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1974-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 3
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 5,
+        "end": 8
+      }
+    },
+    {
+      "text": "percent",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 44.475964,
+          "top_synonym": "percent"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 26
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
+A: Here's some employees: Dianna Blount, Jasmine Onque, Donna Brill, Mildred Gentry, Lynn Daneault
+Process: 
+{
+  "text": "employees that were born within five years of 1990",
+  "domain": "date",
+  "intent": "get_date_range_employees",
+  "entities": [
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 20,
+        "end": 23
+      }
+    },
+    {
+      "text": "five years",
+      "type": "sys_duration",
+      "role": null,
+      "value": [
+        {
+          "value": 5,
+          "unit": "year"
+        }
+      ],
+      "span": {
+        "start": 32,
+        "end": 41
+      }
+    },
+    {
+      "text": "1990",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1990-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 46,
+        "end": 49
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {total|function} employees were {born|dob} around {five years|sys_duration} of {1963|sys_time}
+A: The sum is 132.0
+Process: 
+{
+  "text": "total employees were born around five years of 1963",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "total",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "sum",
+          "score": 23.761005,
+          "top_synonym": "total"
+        },
+        {
+          "cname": "count",
+          "score": 5.8483667,
+          "top_synonym": "total number"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 4
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 21,
+        "end": 24
+      }
+    },
+    {
+      "text": "five years",
+      "type": "sys_duration",
+      "role": null,
+      "value": [
+        {
+          "value": 5,
+          "unit": "year"
+        }
+      ],
+      "span": {
+        "start": 33,
+        "end": 42
+      }
+    },
+    {
+      "text": "1963",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1963-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 47,
+        "end": 50
+      }
+    }
+  ]
+}
+QUERY >>>>>>>>>>>>>>>>>>>>>
+Q: {ratios|function} of employees that were {born|dob} about {five years|sys_duration} from {1975|sys_time}
+A: The percentage is 3.0
+Process: 
+{
+  "text": "ratios of employees that were born about five years from 1975",
+  "domain": "date",
+  "intent": "get_date_range_aggregate",
+  "entities": [
+    {
+      "text": "ratios",
+      "type": "function",
+      "role": null,
+      "value": [
+        {
+          "cname": "percent",
+          "score": 27.61014,
+          "top_synonym": "ratios"
+        },
+        {
+          "cname": "sum",
+          "score": 2.7957556,
+          "top_synonym": "cumulative"
+        }
+      ],
+      "span": {
+        "start": 0,
+        "end": 5
+      }
+    },
+    {
+      "text": "born",
+      "type": "dob",
+      "role": null,
+      "value": [
+        {
+          "cname": "dob",
+          "score": 2.4205139,
+          "top_synonym": "born in"
+        }
+      ],
+      "span": {
+        "start": 30,
+        "end": 33
+      }
+    },
+    {
+      "text": "five years",
+      "type": "sys_duration",
+      "role": null,
+      "value": [
+        {
+          "value": 5,
+          "unit": "year"
+        }
+      ],
+      "span": {
+        "start": 41,
+        "end": 50
+      }
+    },
+    {
+      "text": "1975",
+      "type": "sys_time",
+      "role": null,
+      "value": [
+        {
+          "value": "1975-01-01T00:00:00.000-08:00",
+          "grain": "year"
+        }
+      ],
+      "span": {
+        "start": 57,
+        "end": 60
+      }
+    }
+  ]
+}
