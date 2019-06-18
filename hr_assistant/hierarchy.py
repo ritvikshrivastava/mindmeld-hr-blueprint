@@ -15,11 +15,15 @@ def heirarchy(request, responder):
 	mapping for each one of them.
 	"""
 
-	name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
-	manager_dict = {}
+	try:
+		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
+		manager_dict = {}
 
-	for name in name_ent:
-		responder = _fetch_from_kb(responder, name, 'manager')
-		manager_dict = {responder.slots['name'], responder.slots['manager']}
-		reply = ["{manager} is {name}'s manager"]
-		responder.reply(reply)
+		for name in name_ent:
+			responder = _fetch_from_kb(responder, name, 'manager')
+			manager_dict = {responder.slots['name'], responder.slots['manager']}
+			reply = ["{manager} is {name}'s manager"]
+			responder.reply(reply)
+
+	except:
+		responder.reply("Who's manager would you like to know?")

@@ -200,7 +200,6 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 	elif extreme_entity:
 		qa, size = _resolve_extremes(request, responder, qa, extreme_entity, 'money', num_entity)
-		print('here', size)
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))

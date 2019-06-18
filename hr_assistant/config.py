@@ -1,15 +1,7 @@
 # -*- coding: utf-8 -*-
 """This module contains the HR assistant Blueprint Application"""
 
-PARSER_CONFIG = {
-    'dish': {
-        'option': {'linking_words': {'with'}},
-        'sys_number': {'max_instances': 1, 'right': False}
-    },
-    'option': {
-        'sys_number': {'max_instances': 1, 'right': False}
-    }
-}
+PARSER_CONFIG = {}
 
 INTENT_CLASSIFIER_CONFIG = {
     'model_type': 'text',

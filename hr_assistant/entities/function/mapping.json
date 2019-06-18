@@ -28,6 +28,9 @@
         },
         {
             "whitelist": [
+                "avg",
+                "median",
+                "range",
                 "mean",
                 "typical",
                 "typically"
