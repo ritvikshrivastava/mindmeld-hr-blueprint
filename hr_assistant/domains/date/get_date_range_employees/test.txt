@@ -1,19 +1,19 @@
-{17|sys_number} {most|extreme} recently {terminated|employment_action} employees
-find me the {black or african american|racedesc} {born|dob} {between 1980 and today|sys_interval}
-Get me {40's|time_interval} {born|dob} {female|sex}
-Which employees share the same {birthday|dob}
-any {march|sys_time} {born|dob} employees?
-Workers in {admin offices|department} {terminated|employment_action} {atleast|date_compare} {four months|sys_duration} ago?
-list the employees who {began working for|employment_action} the company {after|date_compare} {2004|sys_time}
-{singles|maritaldesc} {fired|employment_action} {last year|sys_time}
-{six|sys_number} {most|extreme} recently {hired|employment_action} employees
-who are our {1960s|time_interval} {born|dob} {area sales manager|position} people
-Who are the people in {2007|sys_time} were {hired|employment_action}
-{eligible noncitizen|citizendesc} started {working here|employment_action} in {2012|sys_time}
-Get me the employees that were {born|dob} {before|date_compare} {August|sys_time} but {after|date_compare} {May|sys_time}
-{1990's|time_interval} {DOB|dob} {asian|racedesc} employees
-{divorced|maritaldesc} {hires|employment_action} {this month|sys_time}
+list the employees who {joined|employment_action} {last|date_compare} Monday
+All employees with {bday|dob} in the month of {June|sys_time}
+{May|sys_time} {born|dob}
+{two or more races|racedesc} {born|dob} in the {nineteen thirties|time_interval}
+employees who were {born|dob} in the month of {May|sys_time}
+Can you tell me whether there are any {June|sys_time} {bday|dob} people
 I want all of the employees in the {sales department|department} that were {hired|employment_action} {more than|comparator} {four years ago|sys_time}
-Show me a list of people {hired|employment_action} {this year|sys_time}
-Which employees have {been with the company|employment_action} the company recently
-Give me a list of employees that have a {birthday|dob} in {July|sys_time}
+get me all of the folks who were {born|dob} in the {eighties|time_interval}
+{women|sex} {born|dob} in the {60's|time_interval}
+{nineteen thirties|time_interval} {born|dob} {female|sex}s
+employees with a {b day|dob} in the third week of {apr|sys_time}
+workers from {CT|state} {hired|employment_action} {more than|comparator} {three yrs ago|time_interval}
+Which employees are {born|dob} in the second week of {feb|sys_time}
+{white|racedesc} employees {born|dob} {after 1990|sys_interval}
+Which are the employees such that in {2005|sys_time} {joined|employment_action} the organization
+{eligible noncitizen|citizendesc} started {working here|employment_action} in {2012|sys_time}
+employees out of the {sales|department} dept {employed|employment_action} {before|date_compare} {2010|sys_time}
+Fetch me a list of workers that have their {bday|dob} in the {60's|time_interval}
+{white|racedesc} {born|dob} in the {forties|time_interval}

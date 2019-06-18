@@ -1,26 +1,26 @@
-does {Kelley|name} work as a {sr. dba|position}
-What is {ivan|name}'s official position?
-why did we {fire|employment_action} {Josephine|name}
-Find me {tayana|name}'s employment status
-what is {thomas murray|name}'s race?
-is {ivan|name} {currently active|employment_status} or not
-please tell me ms.{bramante|name}'s age as well as his gender
-did {Jeremy Prater|name} hear about us through {website banner ads|employee_source}?
-is the job title of {ludwick harrell|name} an {it support|position} techie
-state of {Ivan Rogers|name}
-how {old|age} is {Michael|name} and is he a boy or a girl?
-how {old|age} is {Howard|name} and is he a {boy|sex} or a {girl|sex}?
-which state is {Melisa|name} from
-Why did {Megan|name} get {fired|employment_action}?
-Where is {Julia|name} from?
-Find me that state that {Karthikeyan Ait Sidi|name} is from
-what is {Donysha|name}'s {performance score|performance_score} history?
-what does {brooke oliver|name} do
-What does {Colombui|name} do?
-Where does {Mia Brown|name} live?
-get me that state that {Julia Soto|name} is from
-what does {ivan|name} do
-did {julia|name} hear about us through {Glassdoor|employee_source}?
-Please tell me, is {Michael|name} {married|maritaldesc} or not?
-Is {karen mancuso|name} a citizen of America?
-Whats the race of {Janet King|name}?
+sex and age of {wolk|name}
+state of {julia|name}
+is {Bonalyn|name} {terminated|employment_status} from the company or not
+Is {Lauren mahoney|name} {active|employment_status} at Mcdonalds?
+What does {Michael|name} look like?
+Is {Raul|name} based from out of state?
+tell me what is {Julia|name}'s citizenship status
+What is {Alexandra Kirill|name}'s official position?
+get me {Lynn O'hare|name}'s race
+Does {mia|name}'s race affect her indulgence?
+give me {alfred|name}'s race please
+What ethnicity is {Catherine|name}'s?
+is {julia soto|name} a {citizen|citizendesc}
+Is {nan|name} a citizen?
+Is {earnest|name} {divorced|maritaldesc} or {widowed|maritaldesc}?
+is {marilyn|name} a {us citizen|citizendesc}
+how did {nina panjwani|name} hear of us
+Does {judy jung|name} {actively|employment_status} work at Cisco?
+tell me what is {Nader Barton|name}'s citizenship status
+is {Nan|name} in the {software engineering|department} department
+Is {Mohammed Latif|name} a citizen of the us?
+Tell me {Betsy Bondwell|name}'s employment status?
+which state is {Joelle Burke|name} from
+Find me {Josephine|name}'s race
+tell me what is the citizenship status for {Jennifer|name}'s
+what is {Phylicia Gosciminski|name}s org role

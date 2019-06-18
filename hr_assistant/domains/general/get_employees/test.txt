@@ -1,30 +1,30 @@
-{oldest|extreme} employees list
-{male|sex} employees
-{PA|state} based employees
-who is {separated|maritaldesc}
-All employees from {Alabama|state} state
-get me the {lowest|extreme} {five|sys_number} {total number|function} of employees
-employees that are {separated|maritaldesc}
-{voluntarily terminated|employment_status} employees
-Which employees are {married|maritaldesc}?
-Which employee(s) are from {Asia|racedesc}?
-which staff work in {IT|department}
-{it director|position} employees
-provide me a list of {sr. accountant|position}
-who is {working for|manager} {IT support|position}?
-Which employees were {voluntarily terminated|employment_status} here
-{us citizen|citizendesc}s
-Which employees are {over|comparator} {30|sys_number} {years old|age}?
-Which employee(s) are {hispanic|racedesc}?
+employees that are {managers|position}
+employee {managers|position}
+employee with the {lowest|extreme} {age|age}
+employees {are too early to review|performance_score}
+Which employee(s) {do not meet|performance_score} company's expectations?
+{production manager|position}
+employees have a {start date|employment_action} {before|date_compare} {June|sys_time}?
+{lowest|extreme} {24|sys_number} {age|age} employees, who are they?
+get me the {youngest|extreme} {five|sys_number} {percent|function} of employees
+Which employees have the {lowest|extreme} {performance score|performance_score}?
+{managers|position}
+who is not {widowed|maritaldesc}
+Which employees were {recruited|employment_action} {pre|date_compare} {Feb|sys_time}?
+Which employees are {non-citizen|citizendesc}?
+employees {older than|comparator} {23 years|sys_duration}
+employees that are {it manager - infra|position}
+who is doing {it support|position} at this company?
+employee {database administrator|position}
+employees from {CA|state}
+employees based in {MA|state}
+{manager|position} employees
+employee(s) are {asian|racedesc}?
+who is not {divorced|maritaldesc}
 employees have been {let go|employment_action}?
-Which employees are {single|maritaldesc}?
-employees are {female|sex}?
-Which employees were {let go|employment_action} for {failure to complete compliance training|reason_for_termination}?
-Which employees were {date of leaving job|employment_action} at {internet search|employee_source}?
-{it manager - db|position}
-What are our {top|extreme} {10|sys_number} {oldest|extreme} workers?
-workers doing {software engineering manager|position}
-{network engineer|position} employees
-{min|extreme} {10|sys_number} {age|age} employees, who are they?
-{top|extreme} {10|sys_number} {oldest|age} employees, who are they?
-Which employees are {terminated|employment_action}?
+who are our {network engineers|position}
+Which employees are not {US citizens|citizendesc}?
+employees are {under|comparator} {45|sys_number} {years old|age}?
+show me {multi-racial|race} employees
+Which employee(s) are from {Asia|racedesc}?
+Show me all of the {president & ceo|position}
