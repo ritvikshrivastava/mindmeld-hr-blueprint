@@ -36,14 +36,14 @@ the information needed to complete the request.
 Here are some examples of scripted dialogue interactions for
 conversational flows.
 
-![image](images/hr_assistant_interactions.png%0A%20:width:%20700px%0A%20:align:%20center)
+![image](custom_scripts/images/hr_assistant_interactions.png%0A%20:width:%20700px%0A%20:align:%20center)
 
 3. Domain-Intent-Entity Hierarchy
 ---------------------------------
 
 Here is the NLP model hierarchy for our HR assistant application.
 
-![image](images/hierarchy_hr_assistant.png)
+![image](custom_scripts/images/hierarchy_hr_assistant.png)
 
 The HR assistant blueprint is organized into five domains: `General`,
 `Salary`, `Dates`, `Hierarchy`, and `Unsupported`. The domains of the HR
@@ -193,7 +193,7 @@ python -c "import mindmeld as mm; mm.blueprint('hr_assistant');"
 This should create a Workbench project folder called `hr_assistant` in
 your current directory with the following structure:
 
-![image](images/hr_assistant_directory.png%0A%20:width:%20250px%0A%20:align:%20center)
+![image](custom_scripts/images/hr_assistant_directory.png%0A%20:width:%20250px%0A%20:align:%20center)
 
 4. Dialogue States
 ------------------
