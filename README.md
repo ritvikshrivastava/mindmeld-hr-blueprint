@@ -15,7 +15,7 @@ Working through this blueprint will teach you how to
 >
 > Please make sure to install and run all of the
 > pre-requisites \<getting\_started\_virtualenv\_setup\> for Workbench
-> before continuing on with this blueprint tutorial.
+> before continuing on with this blueprint tutorial.<br /> 
 
 1. The Use Case
 ---------------
@@ -23,7 +23,7 @@ Working through this blueprint will teach you how to
 This HR assistant would be used by an HR manager to ask questions about
 employees at an organization. They should be able to ask for information
 about a particular employee, for company-wide statistics, or for a group
-of employees that meet certain criteria.
+of employees that meet certain criteria.<br /> 
 
 2. Example Dialogue Interactions
 --------------------------------
@@ -37,6 +37,7 @@ Here are some examples of scripted dialogue interactions for
 conversational flows.
 
 ![image](custom_scripts/images/hr_assistant_interactions.png)
+<br /> 
 
 3. Domain-Intent-Entity Hierarchy
 ---------------------------------
@@ -194,6 +195,7 @@ This should create a Workbench project folder called `hr_assistant` in
 your current directory with the following structure:
 
 ![image](custom_scripts/images/hr_assistant_directory.png)
+<br /> 
 
 4. Dialogue States
 ------------------
@@ -379,6 +381,7 @@ folder.
 
   `exit`                      `exit`            Say bye to the user
   -------------------------------------------------------------------------
+<br /> 
 
 5. Knowledge Base
 -----------------
@@ -470,6 +473,7 @@ qa.get(index='user_data')[0]
 > section on Question Answerer \<../userguide/kb\> to learn how to
 > create knowledge base indexes from scratch. Then, try creating one or
 > more knowledge base indexes for your own data.
+<br /> 
 
 6. Training Data
 ----------------
@@ -773,6 +777,7 @@ INTENT_CLASSIFIER_CONFIG = {
 > from the error analysis to inform your machine learning
 > experimentation. For more on this topic, refer to the
 > User Guide \<../userguide/nlp\>.
+<br /> 
 
 8. Parser Configuration
 -----------------------
@@ -790,6 +795,7 @@ chapter of the User Guide.
 
 Since we do not have entity groups in the HR assistant app, we do not
 need a parser configuration.
+<br /> 
 
 9. Using the Question Answerer
 ------------------------------
@@ -866,6 +872,7 @@ def _resolve_categorical_entities(request, responder):
 >     experience.
 > -   When customizing the blueprint for your own app, consider adding
 >     additional employee information in the knowledge base.
+<br /> 
 
 10. Testing and Deployment
 --------------------------
