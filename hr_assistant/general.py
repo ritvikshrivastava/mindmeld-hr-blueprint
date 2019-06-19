@@ -35,7 +35,7 @@ def get_info_maritaldesc(request, responder):
 def get_info_citizendesc(request, responder):
 	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'citizendesc')
-	responder.reply("{name} is a {citizendesc}")
+	responder.reply("{name} is an {citizendesc}")
 
 
 @app.handle(intent='get_info', has_entity='racedesc')
@@ -236,7 +236,7 @@ def get_employees(request, responder):
 		responder.reply("The {action} employees are based on your criteria are: {emp_list}")
 
 	else:
-		responder.reply("Here's some employees: {emp_list}")
+		responder.reply("Here are some employees that match your criteria: {emp_list}")
 
 
 
@@ -372,7 +372,7 @@ def _resolve_function_entity(responder, func_entity):
 	key = func_entity['value'][0]['cname']
 	function = func_dic[key]
 
-	if key=='percent': key='percentage of employees'
+	if key=='percent': key='percentage'
 	responder.slots['function'] = key
 
 	return function, responder

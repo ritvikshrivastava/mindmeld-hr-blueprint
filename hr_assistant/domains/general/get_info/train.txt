@@ -188,6 +188,10 @@ is {francesco barone|name} a {non-citizen|citizendesc}
 Whats {Emil|name}'s {performance score|performance_score} is it: {exceed expectations|performance_score}?
 does {jessica bunbury|name} live in {california|state}
 department that {adil|name} work for?
+Now, what about {Ivan|name}?
+Can you tell me about {julia|name}
+hmm, what about {jeremy|name}?
+oh! and {mia|name}?
 does {Kelley|name} work as a {sr. dba|position}
 whats {nan|name}'s employment status
 Is {barry|name} {widowed|maritaldesc} or {separated|maritaldesc}?

@@ -90,8 +90,6 @@ def get_date_range_aggregate(request, responder):
 	if func_entity:
 		function, responder = _resolve_function_entity(responder, func_entity)
 
-		function, responder = _resolve_function_entity(responder, func_entities[0])
-
 		qa, size = _resolve_categorical_entities(request, responder)
 
 		qa_out = _resolve_time(request, responder, qa, size)
@@ -120,7 +118,7 @@ def get_date_range_employees(request, responder):
 
 	if qa_out:
 		responder.slots['emp_list'] = _get_names(qa_out)
-		responder.reply("Here's some employees: {emp_list}")
+		responder.reply("Here are some employees: {emp_list}")
 
 	else:
 		# responder.reply("Hmm, I couldn't understand that. Which employees can I find for you?")

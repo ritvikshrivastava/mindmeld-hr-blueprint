@@ -88,14 +88,14 @@ def get_salary_aggregate(request, responder):
 					responder.reply(salary_response)
 					responder.listen()
 					return
-				responder.reply("Based on your query, the {function} {interval} salary is {value}")
+				responder.reply("the {function} {interval} salary, based on your criteria, is ${value}")
 			else:
 				responder = _calculate_agg_salary(responder, qa_out, function)
 				if np.isnan(responder.slots['value']):
 					responder.reply(salary_response)
 					responder.listen()
 					return
-				responder.reply('The {function} salary, based on your query, is {value}')
+				responder.reply('Based on your criteria, the {function} salary is ${value}')
 
 		elif function not in ('avg','sum'):
 			qa_out = qa.execute()
@@ -142,7 +142,7 @@ def get_salary_employees(request, responder):
 	responder.slots['emp_list'] = _get_names(qa_out)
 
 	if qa_out:
-		responder.reply("Here's some employees with their hourly pay: {emp_list}")
+		responder.reply("Here are some employees with their hourly pay: {emp_list}")
 	else:
 		responder.reply("No such employees found")
 
