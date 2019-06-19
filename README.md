@@ -105,8 +105,8 @@ developers of each application. Within each entity folder, the file
 HR assistant defines and uses the following custom entities for each of
 its domains, which are grouped by their purpose below:
 
-> -   User Information <br /> 
->     :   -   `state`: detects the state referred to, for example: "is
+> -   User Information: <br /> 
+>         -   `state`: detects the state referred to, for example: "is
 >             {mia|name} form {CA|state}?"<br /> 
 >         -   `age`: detects whether the user is asking about the age of
 >             an employee. For example: "tell me the {age of|age}
@@ -146,8 +146,8 @@ its domains, which are grouped by their purpose below:
 >             to hiring or firing an employee. For example: "What was
 >             {ivan|name}'s {date of termination|employment\_action}"
 >
-> -   Compare/Functions<br /> 
->     :   -   `comparator`: detects comparison keywords (more than, less
+> -   Compare/Functions: <br /> 
+>         -   `comparator`: detects comparison keywords (more than, less
 >             than, equal to, between). For example: "is {mia|name}
 >             {earning|money} {more than} {ivan|name}?"<br /> 
 >         -   `extreme`: detects extreme keywords (highest, oldest,
@@ -160,8 +160,8 @@ its domains, which are grouped by their purpose below:
 >             average, count) For example: "What {percent|function} of
 >             employees are {women|sex}?"
 >
-> -   Custom Time Entities<br /> 
->     :   -   `time_interval`: detects a decade (1980's, 80s, eighties)
+> -   Custom Time Entities: <br /> 
+>         -   `time_interval`: detects a decade (1980's, 80s, eighties)
 >             For example: "{how many|function} employees were
 >             {bron|dob} in the {eighties|time\_interval}?"<br /> 
 >         -   `time_recur`: detects a recurring time interval (yearly,
