@@ -107,41 +107,41 @@ its domains, which are grouped by their purpose below:
 
 > -   User Information
 >     :   -   `state`: detects the state referred to, for example: "is
->             {mia|name} form {CA|state}?"
+>             {mia|name} form {CA|state}?"<br /> 
 >         -   `age`: detects whether the user is asking about the age of
 >             an employee. For example: "tell me the {age of|age}
->             {mia|name}"
+>             {mia|name}"<br /> 
 >         -   `sex`: detects the gender of an employee. For example: "is
->             {Ivan|name} {male|sex}?"
+>             {Ivan|name} {male|sex}?"<br /> 
 >         -   `maritaldesc`: detects the marital status of an employee.
->             For example: "is {Ivan|name} a {married|maritaldesc} man?"
+>             For example: "is {Ivan|name} a {married|maritaldesc} man?"<br /> 
 >         -   `citizendesc`: detects the citizenship status of an
 >             employee. For example: "is {Nan|name} a {us
->             citizen|citizendesc}?"
+>             citizen|citizendesc}?"<br /> 
 >         -   `racedesc`: detects the race of an employee. For example:
->             "is {Mia|name} {multiracial|racedesc}?"
+>             "is {Mia|name} {multiracial|racedesc}?"<br /> 
 >         -   `reason_for_termination`: detects a reason for termination
 >             for an employee. For example: "Did {Mia|name} leave
->             because of {medical issues|reason\_for\_termination}?"
+>             because of {medical issues|reason\_for\_termination}?"<br /> 
 >         -   `department`: detects the department of an employee. For
->             example: "is {Nan|name} working in {sales|department}?"
+>             example: "is {Nan|name} working in {sales|department}?"<br /> 
 >         -   `position`: detects the position of an employee. For
->             example: "Is {Ivan|name} a {software engineer|position}?"
+>             example: "Is {Ivan|name} a {software engineer|position}?"<br /> 
 >         -   `manager`: detects whether the user is asking for
 >             hierarchy information. For example: "Who is the
->             {supervisor|manager} for {Mia|name}?"
+>             {supervisor|manager} for {Mia|name}?"<br /> 
 >         -   `employee_source`: detects how an employee heard about the
 >             company. For example: "Did {mia|name} find out about us
->             from an {information session|racedesc}?"
+>             from an {information session|racedesc}?"<br /> 
 >         -   `performance_score`: detects the performance score of an
 >             employee. For example: "Is {ivan|name} currently
 >             {performing poorly|reason\_for\_termination} at the
->             company?"
+>             company?"<br /> 
 >         -   `money`: detects whether the user is referring to salary
 >             information. For example: "What is {ivan|name}
->             {earning|money}"
+>             {earning|money}"<br /> 
 >         -   `dob`: detects whether the user is referring to date of
->             birth. For example: "When was {Nan|name} {born|dob}?"
+>             birth. For example: "When was {Nan|name} {born|dob}?"<br /> 
 >         -   `employment_action`: detects whether the user is referring
 >             to hiring or firing an employee. For example: "What was
 >             {ivan|name}'s {date of termination|employment\_action}"
