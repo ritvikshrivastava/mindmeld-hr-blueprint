@@ -5,7 +5,7 @@ the MindMeld HR assistant blueprint application
 import os
 import requests
 from .root import app
-from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
+from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb, _not_an_employee
 from dateutil.relativedelta import relativedelta
 import datetime
 import re
@@ -35,6 +35,7 @@ def get_date(request, responder):
 		return
 
 	responder.slots['name'] = name
+	responder.frame['name'] = name
 
 	employee = app.question_answerer.get(index='user_data', emp_name=name)[0]
 

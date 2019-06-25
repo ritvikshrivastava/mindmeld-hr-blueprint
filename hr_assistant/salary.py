@@ -5,7 +5,7 @@ the MindMeld HR assistant blueprint application
 import os
 import requests
 from .root import app
-from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
+from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb, _not_an_employee
 import numpy as np
 
 
@@ -18,7 +18,11 @@ def get_salary(request, responder):
 	"""
 
 	responder = _get_person_info(request, responder, 'money')
-	responder.reply("{name}'s hourly salary is {money}")
+	try:
+		responder.reply("{name}'s hourly salary is {money}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_salary', has_entity='time_recur')
@@ -33,13 +37,18 @@ def get_salary_for_interval(request, responder):
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur'][0]
 
 	responder = _get_person_info(request, responder, 'money')
+
 	money = responder.slots['money']
 	total_money = _get_interval_amount(recur_ent, money)
 	
 	responder.slots['money'] = total_money
 	responder.slots['interval'] = recur_ent
 	
-	responder.reply("{name}'s {interval} salary is {money}")
+	try:
+		responder.reply("{name}'s {interval} salary is {money}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_salary_aggregate')

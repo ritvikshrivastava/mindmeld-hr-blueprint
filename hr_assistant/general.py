@@ -13,78 +13,112 @@ dialogue state below.
 """
 @app.handle(intent='get_info', has_entity='age')
 def get_info_age(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'age')
-	responder.reply("The age of {name} is {age}")
+	try:
+		responder.reply("The age of {name} is {age}")
+	except:
+		responder.reply(_not_an_employee())
+		return
+	
 
 @app.handle(intent='get_info', has_entity='state')
 def get_info_state(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'state')
-	responder.reply("{name} is from {state}")
+	try:
+		responder.reply("{name} is from {state}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='maritaldesc')
 def get_info_maritaldesc(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'maritaldesc')
-	responder.reply("{name} is {maritaldesc}")
+	try:
+		responder.reply("{name} is {maritaldesc}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='citizendesc')
 def get_info_citizendesc(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'citizendesc')
-	responder.reply("{name} is an {citizendesc}")
+	try:
+		responder.reply("{name} is an {citizendesc}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='racedesc')
 def get_info_racedesc(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'racedesc')
-	responder.reply("{name}'s race is {racedesc}")
+	try:
+		responder.reply("{name}'s race is {racedesc}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='performance_score')
 def get_info_performance_score(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'performance_score')
-	responder.reply("{name}'s performance status is: {performance_score}")
+	try:
+		responder.reply("{name}'s performance status is: {performance_score}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='reason_for_termination')
 def get_info_rft(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'rft')
-	responder.reply("{name}'s reason for termination was: {rft}")
+	try:
+		responder.reply("{name}'s reason for termination was: {rft}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='employee_source')
 def get_info_employee_source(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'employee_source')
-	responder.reply("{name}'s discovered the organisation through: {employee_source}")
+	try:
+		responder.reply("{name}'s discovered the organisation through: {employee_source}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='position')
 def get_info_position(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'position')
-	responder.reply("{name}'s position in the organisation is: {position}")
+	try:
+		responder.reply("{name}'s position in the organisation is: {position}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='employment_status')
 def get_info_employment_status(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'employment_status')
-	responder.reply("{name}'s employment status is: {employment_status}")
+	try:
+		responder.reply("{name}'s employment status is: {employment_status}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 @app.handle(intent='get_info', has_entity='department')
 def get_info_dept(request, responder):
-	responder.slots['name'] = request.frame.get('name')
 	responder = _get_person_info(request, responder, 'department')
-	responder.reply("{name} was in the {department} department")
+	try:
+		responder.reply("{name} was in the {department} department")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 
 # Default case
@@ -423,11 +457,14 @@ def _agg_function(qa_out, func='avg', num_col='money'):
 	returns result (float) - Resulting Value from function operation
 	"""
 
-	if(func=='avg'): return round(np.mean([emp[num_col] for emp in qa_out]),2)
-	elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
-	elif(func=='ct'): return len(qa_out)
-	elif(func=='pct'): return round(len(qa_out)/3,2)
+	if qa_out:
+		if(func=='avg'): return round(np.mean([emp[num_col] for emp in qa_out]),2)
+		elif(func=='sum'): return np.sum([emp[num_col] for emp in qa_out])
+		elif(func=='ct'): return len(qa_out)
+		elif(func=='pct'): return round(len(qa_out)/3,2)
 
+	else:
+		return 0
 
 def _get_names(qa_out):
 	"""
@@ -448,16 +485,17 @@ def _get_person_info(request, responder, entity_type):
 	about the employee under consideration from the Knowledge Base.
 	"""
 
-
-	name = responder.frame.get('name')
+	name = request.frame.get('name')
 
 	# if the user has provided a new name, replace the existing name with it
 	try:
 		name_ent = [e for e in request.entities if e['type'] == 'name']
 		name = name_ent[0]['value'][0]['cname']
-		responder.frame['name'] = name
 	except:
-		pass
+		if name:
+			pass
+		else:
+			return responder
 
 	responder = _fetch_from_kb(responder, name, entity_type)
 	return responder
@@ -475,3 +513,7 @@ def _fetch_from_kb(responder, name, entity_type):
 	responder.slots['name'] = name
 	responder.slots[entity_type] = entity_option
 	return responder
+
+
+def _not_an_employee():
+	return "Looks like that person does not work in this organisation."
