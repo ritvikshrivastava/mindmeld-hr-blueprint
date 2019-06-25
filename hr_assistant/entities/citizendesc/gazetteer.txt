@@ -1,28 +1,28 @@
-us citizen
-eligible noncitizen
-non-citizen
-citizen
-usa citizen
-american citizen
-citizen of the us
-citizen of America
-citizen of the usa
-citizens
-non citizen
-not a citizen
-non us citizen
-not citizens
-non citizen
-not a citizen
-non us citizen
-not citizens
-immigrant
-illegal immigrant
-h1 visa
-foreigner
-foreign
-imported
-out of country
-from abroad
-citizenship status
-citizenship
+1.0 us citizen
+1.0 eligible noncitizen
+1.0 non-citizen
+1.0 citizen
+1.0 usa citizen
+1.0 american citizen
+1.0 citizen of the us
+1.0 citizen of America
+1.0 citizen of the usa
+1.0 citizens
+1.0 non citizen
+1.0 not a citizen
+1.0 non us citizen
+1.0 not citizens
+1.0 non citizen
+1.0 not a citizen
+1.0 non us citizen
+1.0 not citizens
+1.0 immigrant
+1.0 illegal immigrant
+1.0 h1 visa
+1.0 foreigner
+1.0 foreign
+1.0 imported
+1.0 out of country
+1.0 from abroad
+1.0 citizenship status
+1.0 citizenship

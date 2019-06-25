@@ -1,6 +1,6 @@
-age
-old
-years old
-age of
-ages of
-age
+1.0 age
+1.0 old
+1.0 years old
+1.0 age of
+1.0 ages of
+1.0 age
