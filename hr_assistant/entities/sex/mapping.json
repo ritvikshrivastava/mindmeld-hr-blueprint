@@ -9,7 +9,8 @@
                 "gents",
                 "gentlemen",
                 "boys",
-                "boy"
+                "boy",
+                "male"
             ],
             "cname": "male"
         },
@@ -23,7 +24,8 @@
                 "girls",
                 "gals",
                 "woman",
-                "girl"
+                "girl",
+                "female"
             ],
             "cname": "female"
         }

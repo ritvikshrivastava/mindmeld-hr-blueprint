@@ -7,6 +7,9 @@ higher than
 longer
 over
 older than
+above
+bigger than
+larger than
 is exactly
 is equal to
 equates to

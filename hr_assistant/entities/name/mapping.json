@@ -2,6 +2,16 @@
     "entities": [
         {
             "whitelist": [
+                "mia brown",
+                "Mia",
+                "mia",
+                "Brown",
+                "brown"
+            ],
+            "cname": "Mia Brown"
+        },
+        {
+            "whitelist": [
                 "william larotonda",
                 "William",
                 "william",
@@ -29,6 +39,16 @@
                 "howard"
             ],
             "cname": "Estelle Howard"
+        },
+        {
+            "whitelist": [
+                "nan singh",
+                "Nan",
+                "nan",
+                "Singh",
+                "singh"
+            ],
+            "cname": "Nan Singh"
         },
         {
             "whitelist": [
@@ -192,6 +212,16 @@
         },
         {
             "whitelist": [
+                "ivan rogers",
+                "Ivan",
+                "ivan",
+                "Rogers",
+                "rogers"
+            ],
+            "cname": "Ivan Rogers"
+        },
+        {
+            "whitelist": [
                 "jason salter",
                 "Jason",
                 "jason",
@@ -209,6 +239,26 @@
                 "simard"
             ],
             "cname": "Kramer Simard"
+        },
+        {
+            "whitelist": [
+                "julia zhou",
+                "Julia",
+                "julia",
+                "Zhou",
+                "zhou"
+            ],
+            "cname": "Julia Zhou"
+        },
+        {
+            "whitelist": [
+                "jason foss",
+                "Jason",
+                "jason",
+                "Foss",
+                "foss"
+            ],
+            "cname": "Jason Foss"
         },
         {
             "whitelist": [
@@ -279,6 +329,16 @@
                 "lindsay"
             ],
             "cname": "Leonara Lindsay"
+        },
+        {
+            "whitelist": [
+                "julia soto",
+                "Julia",
+                "julia",
+                "Soto",
+                "soto"
+            ],
+            "cname": "Julia Soto"
         },
         {
             "whitelist": [
@@ -502,6 +562,16 @@
         },
         {
             "whitelist": [
+                "amy dunn",
+                "Amy",
+                "amy",
+                "Dunn",
+                "dunn"
+            ],
+            "cname": "Amy Dunn"
+        },
+        {
+            "whitelist": [
                 "elijiah gray",
                 "Elijiah",
                 "elijiah",
@@ -632,6 +702,16 @@
         },
         {
             "whitelist": [
+                "linda anderson",
+                "Linda",
+                "linda",
+                "Anderson",
+                "anderson"
+            ],
+            "cname": "Linda Anderson"
+        },
+        {
+            "whitelist": [
                 "sam athwal",
                 "Sam",
                 "sam",
@@ -642,6 +722,16 @@
         },
         {
             "whitelist": [
+                "linda bachiochi",
+                "Linda",
+                "linda",
+                "Bachiochi",
+                "bachiochi"
+            ],
+            "cname": "Linda Bachiochi"
+        },
+        {
+            "whitelist": [
                 "rachael baczenski",
                 "Rachael",
                 "rachael",
@@ -649,6 +739,16 @@
                 "baczenski"
             ],
             "cname": "Rachael Baczenski"
+        },
+        {
+            "whitelist": [
+                "thomas barbara",
+                "Thomas",
+                "thomas",
+                "Barbara",
+                "barbara"
+            ],
+            "cname": "Thomas Barbara"
         },
         {
             "whitelist": [
@@ -669,6 +769,36 @@
                 "barton"
             ],
             "cname": "Nader Barton"
+        },
+        {
+            "whitelist": [
+                "courtney beatrice",
+                "Courtney",
+                "courtney",
+                "Beatrice",
+                "beatrice"
+            ],
+            "cname": "Courtney Beatrice"
+        },
+        {
+            "whitelist": [
+                "scott becker",
+                "Scott",
+                "scott",
+                "Becker",
+                "becker"
+            ],
+            "cname": "Scott Becker"
+        },
+        {
+            "whitelist": [
+                "sean bernstein",
+                "Sean",
+                "sean",
+                "Bernstein",
+                "bernstein"
+            ],
+            "cname": "Sean Bernstein"
         },
         {
             "whitelist": [
@@ -709,6 +839,16 @@
                 "bugali"
             ],
             "cname": "Josephine Bugali"
+        },
+        {
+            "whitelist": [
+                "michael carey",
+                "Michael",
+                "michael",
+                "Carey",
+                "carey"
+            ],
+            "cname": "Michael Carey"
         },
         {
             "whitelist": [
@@ -792,6 +932,16 @@
         },
         {
             "whitelist": [
+                "lisa cornett",
+                "Lisa",
+                "lisa",
+                "Cornett",
+                "cornett"
+            ],
+            "cname": "Lisa Cornett"
+        },
+        {
+            "whitelist": [
                 "jean crimmings",
                 "Jean",
                 "jean",
@@ -809,6 +959,16 @@
                 "darson"
             ],
             "cname": "Jene'ya Darson"
+        },
+        {
+            "whitelist": [
+                "james degweck",
+                "James",
+                "james",
+                "DeGweck",
+                "degweck"
+            ],
+            "cname": "James DeGweck"
         },
         {
             "whitelist": [
@@ -859,6 +1019,16 @@
                 "eaton"
             ],
             "cname": "Marianne Eaton"
+        },
+        {
+            "whitelist": [
+                "jean engdahl",
+                "Jean",
+                "jean",
+                "Engdahl",
+                "engdahl"
+            ],
+            "cname": "Jean Engdahl"
         },
         {
             "whitelist": [
@@ -1012,6 +1182,26 @@
         },
         {
             "whitelist": [
+                "cayo gonzalez",
+                "Cayo",
+                "cayo",
+                "Gonzalez",
+                "gonzalez"
+            ],
+            "cname": "Cayo Gonzalez"
+        },
+        {
+            "whitelist": [
+                "david gordon",
+                "David",
+                "david",
+                "Gordon",
+                "gordon"
+            ],
+            "cname": "David Gordon"
+        },
+        {
+            "whitelist": [
                 "roxana goyal",
                 "Roxana",
                 "roxana",
@@ -1072,6 +1262,16 @@
         },
         {
             "whitelist": [
+                "anthony heitzman",
+                "Anthony",
+                "anthony",
+                "Heitzman",
+                "heitzman"
+            ],
+            "cname": "Anthony Heitzman"
+        },
+        {
+            "whitelist": [
                 "rose ivey",
                 "Rose",
                 "rose",
@@ -1112,6 +1312,16 @@
         },
         {
             "whitelist": [
+                "george johnson",
+                "George",
+                "george",
+                "Johnson",
+                "johnson"
+            ],
+            "cname": "George Johnson"
+        },
+        {
+            "whitelist": [
                 "judy jung",
                 "Judy",
                 "judy",
@@ -1119,6 +1329,16 @@
                 "jung"
             ],
             "cname": "Judy Jung"
+        },
+        {
+            "whitelist": [
+                "kramer keatts",
+                "Kramer",
+                "kramer",
+                "Keatts",
+                "keatts"
+            ],
+            "cname": "Kramer Keatts"
         },
         {
             "whitelist": [
@@ -1179,6 +1399,16 @@
                 "leach"
             ],
             "cname": "Dallas Leach"
+        },
+        {
+            "whitelist": [
+                "jonathan lebel",
+                "Jonathan",
+                "jonathan",
+                "LeBel",
+                "lebel"
+            ],
+            "cname": "Jonathan LeBel"
         },
         {
             "whitelist": [
@@ -1272,6 +1502,16 @@
         },
         {
             "whitelist": [
+                "jennifer medeiros",
+                "Jennifer",
+                "jennifer",
+                "Medeiros",
+                "medeiros"
+            ],
+            "cname": "Jennifer Medeiros"
+        },
+        {
+            "whitelist": [
                 "dawn motlagh",
                 "Dawn",
                 "dawn",
@@ -1289,6 +1529,16 @@
                 "ndzi"
             ],
             "cname": "Colombui Ndzi"
+        },
+        {
+            "whitelist": [
+                "horia ndzi",
+                "Horia",
+                "horia",
+                "Ndzi",
+                "ndzi"
+            ],
+            "cname": "Horia Ndzi"
         },
         {
             "whitelist": [
@@ -1382,6 +1632,16 @@
         },
         {
             "whitelist": [
+                "kayla peterson",
+                "Kayla",
+                "kayla",
+                "Peterson",
+                "peterson"
+            ],
+            "cname": "Kayla Peterson"
+        },
+        {
+            "whitelist": [
                 "hong pham",
                 "Hong",
                 "hong",
@@ -1442,6 +1702,16 @@
         },
         {
             "whitelist": [
+                "thomas rhoads",
+                "Thomas",
+                "thomas",
+                "Rhoads",
+                "rhoads"
+            ],
+            "cname": "Thomas Rhoads"
+        },
+        {
+            "whitelist": [
                 "haley rivera",
                 "Haley",
                 "haley",
@@ -1459,6 +1729,26 @@
                 "robinson"
             ],
             "cname": "Alain Robinson"
+        },
+        {
+            "whitelist": [
+                "cherly robinson",
+                "Cherly",
+                "cherly",
+                "Robinson",
+                "robinson"
+            ],
+            "cname": "Cherly Robinson"
+        },
+        {
+            "whitelist": [
+                "elias robinson",
+                "Elias",
+                "elias",
+                "Robinson",
+                "robinson"
+            ],
+            "cname": "Elias Robinson"
         },
         {
             "whitelist": [
@@ -1532,6 +1822,16 @@
         },
         {
             "whitelist": [
+                "sade smith",
+                "Sade",
+                "sade",
+                "Smith",
+                "smith"
+            ],
+            "cname": "Sade Smith"
+        },
+        {
+            "whitelist": [
                 "taylor sparks",
                 "Taylor",
                 "taylor",
@@ -1549,6 +1849,46 @@
                 "squatrito"
             ],
             "cname": "Kristen Squatrito"
+        },
+        {
+            "whitelist": [
+                "barbara stanford",
+                "Barbara",
+                "barbara",
+                "Stanford",
+                "stanford"
+            ],
+            "cname": "Barbara Stanford"
+        },
+        {
+            "whitelist": [
+                "rick stoica",
+                "Rick",
+                "rick",
+                "Stoica",
+                "stoica"
+            ],
+            "cname": "Rick Stoica"
+        },
+        {
+            "whitelist": [
+                "timothy sullivan",
+                "Timothy",
+                "timothy",
+                "Sullivan",
+                "sullivan"
+            ],
+            "cname": "Timothy Sullivan"
+        },
+        {
+            "whitelist": [
+                "barbara sutwell",
+                "Barbara",
+                "barbara",
+                "Sutwell",
+                "sutwell"
+            ],
+            "cname": "Barbara Sutwell"
         },
         {
             "whitelist": [
@@ -1632,6 +1972,16 @@
         },
         {
             "whitelist": [
+                "theresa wallace",
+                "Theresa",
+                "theresa",
+                "Wallace",
+                "wallace"
+            ],
+            "cname": "Theresa Wallace"
+        },
+        {
+            "whitelist": [
                 "scott whittier",
                 "Scott",
                 "scott",
@@ -1669,6 +2019,26 @@
                 "ybarra"
             ],
             "cname": "Catherine Ybarra"
+        },
+        {
+            "whitelist": [
+                "colleen zima",
+                "Colleen",
+                "colleen",
+                "Zima",
+                "zima"
+            ],
+            "cname": "Colleen Zima"
+        },
+        {
+            "whitelist": [
+                "sarah akinkuolie",
+                "Sarah",
+                "sarah",
+                "Akinkuolie",
+                "akinkuolie"
+            ],
+            "cname": "Sarah Akinkuolie"
         },
         {
             "whitelist": [
@@ -1732,6 +2102,16 @@
         },
         {
             "whitelist": [
+                "jennifer cloninger",
+                "Jennifer",
+                "jennifer",
+                "Cloninger",
+                "cloninger"
+            ],
+            "cname": "Jennifer Cloninger"
+        },
+        {
+            "whitelist": [
                 "phil close",
                 "Phil",
                 "phil",
@@ -1792,6 +2172,46 @@
         },
         {
             "whitelist": [
+                "michael fitzpatrick",
+                "Michael",
+                "michael",
+                "Fitzpatrick",
+                "fitzpatrick"
+            ],
+            "cname": "Michael Fitzpatrick"
+        },
+        {
+            "whitelist": [
+                "tanya foreman",
+                "Tanya",
+                "tanya",
+                "Foreman",
+                "foreman"
+            ],
+            "cname": "Tanya Foreman"
+        },
+        {
+            "whitelist": [
+                "juan gonzalez",
+                "Juan",
+                "juan",
+                "Gonzalez",
+                "gonzalez"
+            ],
+            "cname": "Juan Gonzalez"
+        },
+        {
+            "whitelist": [
+                "susan good",
+                "Susan",
+                "susan",
+                "Good",
+                "good"
+            ],
+            "cname": "Susan Good"
+        },
+        {
+            "whitelist": [
                 "phylicia gosciminski",
                 "Phylicia",
                 "phylicia",
@@ -1809,6 +2229,16 @@
                 "hankard"
             ],
             "cname": "Earnest Hankard"
+        },
+        {
+            "whitelist": [
+                "trina hendrickson",
+                "Trina",
+                "trina",
+                "Hendrickson",
+                "hendrickson"
+            ],
+            "cname": "Trina Hendrickson"
         },
         {
             "whitelist": [
@@ -1902,6 +2332,26 @@
         },
         {
             "whitelist": [
+                "susan lundy",
+                "Susan",
+                "susan",
+                "Lundy",
+                "lundy"
+            ],
+            "cname": "Susan Lundy"
+        },
+        {
+            "whitelist": [
+                "lisa lunquist",
+                "Lisa",
+                "lisa",
+                "Lunquist",
+                "lunquist"
+            ],
+            "cname": "Lisa Lunquist"
+        },
+        {
+            "whitelist": [
                 "robyn manchester",
                 "Robyn",
                 "robyn",
@@ -1929,6 +2379,16 @@
                 "mccarthy"
             ],
             "cname": "Brigit McCarthy"
+        },
+        {
+            "whitelist": [
+                "ned miller",
+                "Ned",
+                "ned",
+                "Miller",
+                "miller"
+            ],
+            "cname": "Ned Miller"
         },
         {
             "whitelist": [
@@ -2002,6 +2462,26 @@
         },
         {
             "whitelist": [
+                "lauren peters",
+                "Lauren",
+                "lauren",
+                "Peters",
+                "peters"
+            ],
+            "cname": "Lauren Peters"
+        },
+        {
+            "whitelist": [
+                "shana petingill",
+                "Shana",
+                "shana",
+                "Petingill",
+                "petingill"
+            ],
+            "cname": "Shana Petingill"
+        },
+        {
+            "whitelist": [
                 "may roberson",
                 "May",
                 "may",
@@ -2009,6 +2489,16 @@
                 "roberson"
             ],
             "cname": "May Roberson"
+        },
+        {
+            "whitelist": [
+                "peter robertson",
+                "Peter",
+                "peter",
+                "Robertson",
+                "robertson"
+            ],
+            "cname": "Peter Robertson"
         },
         {
             "whitelist": [
@@ -2029,6 +2519,16 @@
                 "sloan"
             ],
             "cname": "Constance Sloan"
+        },
+        {
+            "whitelist": [
+                "joe smith",
+                "Joe",
+                "joe",
+                "Smith",
+                "smith"
+            ],
+            "cname": "Joe Smith"
         },
         {
             "whitelist": [
@@ -2089,6 +2589,16 @@
                 "wolk"
             ],
             "cname": "Hang Wolk"
+        },
+        {
+            "whitelist": [
+                "jason woodson",
+                "Jason",
+                "jason",
+                "Woodson",
+                "woodson"
+            ],
+            "cname": "Jason Woodson"
         },
         {
             "whitelist": [
@@ -2192,6 +2702,16 @@
         },
         {
             "whitelist": [
+                "ricardo gonzales",
+                "Ricardo",
+                "ricardo",
+                "Gonzales",
+                "gonzales"
+            ],
+            "cname": "Ricardo Gonzales"
+        },
+        {
+            "whitelist": [
                 "mike guilianno",
                 "Mike",
                 "mike",
@@ -2232,6 +2752,16 @@
         },
         {
             "whitelist": [
+                "joseph martins",
+                "Joseph",
+                "joseph",
+                "Martins",
+                "martins"
+            ],
+            "cname": "Joseph Martins"
+        },
+        {
+            "whitelist": [
                 "jac mckinzie",
                 "Jac",
                 "jac",
@@ -2249,6 +2779,16 @@
                 "mullaney"
             ],
             "cname": "Howard Mullaney"
+        },
+        {
+            "whitelist": [
+                "dheepa nguyen",
+                "Dheepa",
+                "dheepa",
+                "Nguyen",
+                "nguyen"
+            ],
+            "cname": "Dheepa Nguyen"
         },
         {
             "whitelist": [
@@ -2279,6 +2819,16 @@
                 "potts"
             ],
             "cname": "Xana Potts"
+        },
+        {
+            "whitelist": [
+                "michael riordan",
+                "Michael",
+                "michael",
+                "Riordan",
+                "riordan"
+            ],
+            "cname": "Michael Riordan"
         },
         {
             "whitelist": [
@@ -2332,6 +2882,16 @@
         },
         {
             "whitelist": [
+                "lynn daneault",
+                "Lynn",
+                "lynn",
+                "Daneault",
+                "daneault"
+            ],
+            "cname": "Lynn Daneault"
+        },
+        {
+            "whitelist": [
                 "donysha kampew",
                 "Donysha",
                 "donysha",
@@ -2339,6 +2899,16 @@
                 "kampew"
             ],
             "cname": "Donysha Kampew"
+        },
+        {
+            "whitelist": [
+                "john smith",
+                "John",
+                "john",
+                "Smith",
+                "smith"
+            ],
+            "cname": "John Smith"
         },
         {
             "whitelist": [
@@ -2369,6 +2939,16 @@
                 "del"
             ],
             "cname": "Keyla Del Bosque"
+        },
+        {
+            "whitelist": [
+                "susan exantus",
+                "Susan",
+                "susan",
+                "Exantus",
+                "exantus"
+            ],
+            "cname": "Susan Exantus"
         },
         {
             "whitelist": [
@@ -2412,43 +2992,23 @@
         },
         {
             "whitelist": [
-                "mia brown",
-                "Mia",
-                "mia",
-                "Brown",
-                "brown"
+                "edward true",
+                "Edward",
+                "edward",
+                "True",
+                "true"
             ],
-            "cname": "Mia Brown"
+            "cname": "Edward True"
         },
         {
             "whitelist": [
-                "ivan rogers",
-                "Ivan",
-                "ivan",
-                "Rogers",
-                "rogers"
+                "alex sweetwater",
+                "Alex",
+                "alex",
+                "Sweetwater",
+                "sweetwater"
             ],
-            "cname": "Ivan Rogers"
-        },
-        {
-            "whitelist": [
-                "julia soto",
-                "Julia",
-                "julia",
-                "Soto",
-                "soto"
-            ],
-            "cname": "Julia Soto"
-        },
-        {
-            "whitelist": [
-                "nan singh",
-                "Nan",
-                "nan",
-                "Singh",
-                "singh"
-            ],
-            "cname": "Nan Singh"
+            "cname": "Alex Sweetwater"
         }
     ]
 }

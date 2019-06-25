@@ -2,8 +2,8 @@ Entity,Options,Synonyms,Gazetteer
 name,,,
 state,"MA', 'TX', 'CT', 'VA', 'VT', 'CA', 'WA', 'NH', 'NY', 'OH', 'IN', 'ID', 'TN', 'NV', 'CO', 'UT', 'AL', 'GA', 'FL', 'NC', 'KY', 'ND', 'MT', 'OR', 'AZ', 'ME', 'RI', 'PA'","Massachussets, Texas, Connecticut, Virginia, Vermony, California, Washington, New Hampshire, New York, Ohio, Indiana, Idaho, Tennessee, Nevada, Colarado, Utah, Alabama, Georgia, Florida, North Carolina, Kentucky, North Dakota, Montana, Oregon, Arizona, Maine, Rhode Island, Pennsylvania","state, state of birth, state of residence, office location, location, out of state, live, lives, live in, based in, lives in, where, works in, works at, where is, cali"
 age,age,"old, years old, age of, ages of",age
-sex,male,"men, males, guys, dudes, gents, gentlemen, boys, boy","sex, gender, masculine, feminine, male person, m/f, male/female, M/F, Male/Female"
-,female,"women, females, ladies, lady, ladys, girls, gals, woman, girl",
+sex,male,"men, males, guys, dudes, gents, gentlemen, boys, boy, male","sex, gender, masculine, feminine, male person, m/f, male/female, M/F, Male/Female"
+,female,"women, females, ladies, lady, ladys, girls, gals, woman, girl, female",
 maritaldesc,married,"wed, legally married, espoused, joined in holy matrimony, hitched","husbandless, without a partner, unwedded, wifeless, no longer married, without a husband, without a wife, maritaldesc, marital status, spouse, husband, wife"
 ,divorced,,
 ,single,"unmarried, bachelor, bachelorette",
@@ -40,7 +40,7 @@ employment_status,"terminated for cause',","fired, let go, evicted, kicked out, 
 ,"active',","currently employed, currently working, currently works, still works at, still working at, still work at, actively employed",
 ,"voluntarily terminated',","quit, quitted, resigned, sent in a resignation",
 ,future start',"will start at a future time, will start later, will start some time in the future",
-department,"executive office',",,"department, team, group, section, division, sector, office, office group, dpt, dept, dept., branch"
+department,"executive office',",,"department, team, group, section, division, sector, office, office group, dpt, dept, dept., branch, organization, organisation, org, company, corporation"
 ,"admin offices',","administration, office of admin, office of administration, admin office, administration office",
 ,"production',",,
 ,"it/is',","IT, IS, Information Technology, Information Systems, Info Tech, Info Sys",
@@ -49,7 +49,7 @@ department,"executive office',",,"department, team, group, section, division, se
 position,"it manager - infra',",,"title, job title, role, position, level in the organization, level, job, occupation"
 ,"cio',",chief information officer,
 ,"sales manager',",,
-,"president & ceo',","chief executive officer, ceo, prez, president, executive, e",
+,"president & ceo',","chief executive officer, ceo, prez, president, executive, highest rank, highest ranked, CEO",
 ,"administrative assistant',",,
 ,"database administrator',","db admin, db administrator, database admin",
 ,"area sales manager',",,
@@ -99,7 +99,7 @@ performance_score,"exceptional',",extraordinary,"performance rating, performance
 ,"exceeds',","beyond expectations, more than expected, better than expected, higher than excpected, exceed expectations",
 ,90-day meets',,
 money,pay rate,"salary, income, pay, earn, earnings, make, dollars, $, paycheck, earns, earning, earners, earner, incomes, paycheck, compensation","earns, makes, amount"
-comparator,more than,"greater than, higher than, longer, over, older than",
+comparator,more than,"greater than, higher than, longer, over, older than, above, bigger than, larger than",
 ,equals to,"is exactly, is equal to, equates to, equal to",
 ,less than,"lower than, below, under, fewer than, younger than",
 ,between,"between, in between",
@@ -119,13 +119,13 @@ time_recur,yearly,"by the year, every year, each year, annually, on a yearly bas
 ,weekly,"by the week, every week, each week, week by week, on a weekly basis, per week, in a week, in the week",
 ,daily,"daily, every day, day by day, each day, on a daily basis, per day, in a day, in the day",
 ,hourly,"every hour, each hour, on an hourly basis, on the hour, per hour, in an hour, in  a hour, hour, in the hour",
-function,percent,"fraction, portion, proportion, percentage, %, ratio, ratios, pct","distribution, turn over rate, pct"
+function,percent,"fraction, portion, proportion, percentage, %, ratio, ratios, pct, distribution",turn over rate
 ,sum,"total, cumulative, added up, summed up, totalled, summed, combined, aggregate",
 ,average,"mean, typical, typically, median, avg, range",
-,count,"how many, total number, number of, num of. headcount",
-extreme,highest,"top, maximum, most, greatest, max, oldest, eldest",
-,lowest,"least, minimum, bottom, lowest, min, youngest",
-employment_action,hired,"employed, recruited, start date, date of starting employment, hiring date, date of hire, join, joined, date of hiring, began her employment, began his employment, started working, join date, worked here, started, been with us, began working for, started her experience, started his experience","been with the company, been here, long has worked here, been working here, years of experience, of experience, employees that have been here, working here for"
-,fired,"terminated, let go, end date, date of leaving job, date of ending employment, date of termination, firing date, end employment, end his employment, end her employment","out of the company, kicked out, booted from the company, booted from the corporation"
+,count,"how many, number, number of, num of, headcount, count of",
+extreme,highest,"top, maximum, most, greatest, max, oldest, eldest, latest",
+,lowest,"least, minimum, bottom, lowest, min, youngest, earliest",
+employment_action,hired,"employed, recruited, start date, date of starting employment, hiring date, date of hire, join, joined, date of hiring, began her employment, began his employment, started working, join date, worked here, started, been with us, began working for, started her experience, started his experience, been working here, been with the company, been here, long has worked here, years of experience, of experience, employees that have been here, working here for",
+,fired,"terminated, let go, end date, date of leaving job, date of ending employment, date of termination, firing date, end employment, end his employment, end her employment, out of the company, kicked out, booted from the company, booted from the corporation",
 date_compare,prev,"before, pre, prior to",
 ,post,"after, last, post, this year, this month, this week, atleast, since",

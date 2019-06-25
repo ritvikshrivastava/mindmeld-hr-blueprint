@@ -9,7 +9,8 @@
                 "%",
                 "ratio",
                 "ratios",
-                "pct"
+                "pct",
+                "distribution"
             ],
             "cname": "percent"
         },
@@ -40,9 +41,11 @@
         {
             "whitelist": [
                 "how many",
-                "total number",
+                "number",
                 "number of",
-                "num of. headcount"
+                "num of",
+                "headcount",
+                "count of"
             ],
             "cname": "count"
         }

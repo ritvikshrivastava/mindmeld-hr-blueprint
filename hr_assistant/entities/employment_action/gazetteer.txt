@@ -19,6 +19,14 @@ been with us
 began working for
 started her experience
 started his experience
+been working here
+been with the company
+been here
+long has worked here
+years of experience
+of experience
+employees that have been here
+working here for
 terminated
 let go
 end date
@@ -29,11 +37,7 @@ firing date
 end employment
 end his employment
 end her employment
-been with the company
-been here
-long has worked here
-been working here
-years of experience
-of experience
-employees that have been here
-working here for
+out of the company
+kicked out
+booted from the company
+booted from the corporation

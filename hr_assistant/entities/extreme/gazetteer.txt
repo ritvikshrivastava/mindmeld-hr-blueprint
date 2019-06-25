@@ -7,9 +7,11 @@ greatest
 max
 oldest
 eldest
+latest
 least
 minimum
 bottom
 lowest
 min
 youngest
+earliest

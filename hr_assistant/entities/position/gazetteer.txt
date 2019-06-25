@@ -28,7 +28,9 @@ ceo
 prez
 president
 executive
-e
+highest rank
+highest ranked
+CEO
 db admin
 db administrator
 database admin

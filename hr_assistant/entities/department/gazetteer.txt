@@ -30,3 +30,8 @@ dpt
 dept
 dept.
 branch
+organization
+organisation
+org
+company
+corporation

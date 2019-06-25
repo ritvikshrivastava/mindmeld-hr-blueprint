@@ -10,6 +10,7 @@ percentage
 ratio
 ratios
 pct
+distribution
 total
 cumulative
 added up
@@ -25,9 +26,9 @@ median
 avg
 range
 how many
-total number
+number
 number of
-num of. headcount
-distribution
+num of
+headcount
+count of
 turn over rate
-pct

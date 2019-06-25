@@ -20,7 +20,15 @@
                 "been with us",
                 "began working for",
                 "started her experience",
-                "started his experience"
+                "started his experience",
+                "been working here",
+                "been with the company",
+                "been here",
+                "long has worked here",
+                "years of experience",
+                "of experience",
+                "employees that have been here",
+                "working here for"
             ],
             "cname": "hired"
         },
@@ -35,7 +43,11 @@
                 "firing date",
                 "end employment",
                 "end his employment",
-                "end her employment"
+                "end her employment",
+                "out of the company",
+                "kicked out",
+                "booted from the company",
+                "booted from the corporation"
             ],
             "cname": "fired"
         }
