@@ -141,14 +141,14 @@ def get_info_default(request, responder):
 		responder.frame['info_visited'] = True
 		responder.slots['name'] = name
 		responder.reply("What would you like to know about {name}?")
-		responder.params.allowed_intents = ('general.get_info', 'hierarchy.hierarchy', 'salary.get_salary', 'date.get_date')
+		responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy', 'salary.get_salary', 'date.get_date', 'greeting.greet', 'greeting.exit', 'unsupported.unsupported')
 		responder.listen()
 
 	except:
 		if request.frame.get('info_visited'):
 			name = request.frame.get('name')
 			responder.slots['name'] = name
-			employee = app.question_answerer.get(index='user_data', emp_name=name)
+			employee = app.question_answerer.get(index='employee_data', emp_name=name)
 			if employee:
 				details = employee[0]
 				expand_dict = {'rft':'Reason for Termination', 'doh':'Date of Hire', 'dot':'Date of Termination', 'dob':'Date of Birth',
@@ -165,7 +165,7 @@ def get_info_default(request, responder):
 		else:
 			responder.reply("Hmmm, I didn't quite understand. Which employee can I tell you about?")
 			responder.frame['visited'] = True
-			responder.params.allowed_intents = ('general.get_info', 'unsupported.unsupported')
+			responder.params.allowed_intents = ('general.get_info', 'unsupported.unsupported',  'greeting.greet', 'greeting.exit')
 			responder.listen()
 
 
@@ -203,18 +203,25 @@ def get_aggregate(request, responder):
 
 		elif function not in ('avg','sum'):
 			qa_out = qa.execute(size=300)
+
+			## Default handling if no relevant entity found to filter on
+			non_func_entities = [e for e in request.entities if e['type'] != 'function']
+			if not non_func_entities:
+				responder.reply("I'm not sure what you are looking for.")
+				return
+
 			responder.slots['value'] = _agg_function(qa_out, func=function)
 			responder.reply('Based on your query, the {function} is {value}')
 
 		else:
 			responder.reply('What would you like to know the {function} of?')
 			responder.frame['function']=func_entity
-			responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
+			responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate', 'greeting.greet', 'greeting.exit', 'unsupported.unsupported')
 			responder.listen()
 
 	else:
 		responder.reply('What statistic would you like to know?')
-		responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
+		responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate', 'greeting.greet', 'greeting.exit', 'unsupported.unsupported')
 		responder.listen()
 
 
@@ -370,7 +377,7 @@ def _resolve_categorical_entities(request, responder):
 		'racedesc','performance_score','employment_status','employee_source','position','department', 'reason_for_termination')]
 
 	# Building custom search
-	qa = app.question_answerer.build_search(index='user_data')
+	qa = app.question_answerer.build_search(index='employee_data')
 
 	# Querying the knowledge base for all categorical filters
 	if categorical_entities:
@@ -507,7 +514,7 @@ def _fetch_from_kb(responder, name, entity_type):
 	from the knowledge base.
 	"""
 
-	employee = app.question_answerer.get(index='user_data', emp_name=name)
+	employee = app.question_answerer.get(index='employee_data', emp_name=name)
 	entity_option = employee[0][entity_type]
 
 	responder.slots['name'] = name
