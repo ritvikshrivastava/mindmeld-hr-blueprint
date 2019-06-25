@@ -1,2 +1,2 @@
-mindmeld load-kb hr_assistant user_data data/user_data.json
+mindmeld load-kb hr_assistant employee_data data/employee_data.json
 

@@ -141,7 +141,7 @@ def get_info_default(request, responder):
 		responder.frame['info_visited'] = True
 		responder.slots['name'] = name
 		responder.reply("What would you like to know about {name}?")
-		responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy', 'salary.get_salary', 'date.get_date')
+		responder.params.allowed_intents = ('general.get_info', 'hierarchy.hierarchy', 'salary.get_salary', 'date.get_date')
 		responder.listen()
 
 	except:

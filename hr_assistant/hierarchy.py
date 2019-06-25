@@ -26,4 +26,4 @@ def heirarchy(request, responder):
 			responder.reply(reply)
 
 	except:
-		responder.reply("Who's manager would you like to know?")
+		responder.reply("Who's manager would you like to know? (You can try saying 'Mia's manager')")
