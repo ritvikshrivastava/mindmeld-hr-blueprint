@@ -1,4 +1,9 @@
 hello there
+what can you do
+help
+tell me what can you do
+can you do this
+what else
 Poke
 Good day!
 salutations my friend
@@ -39,6 +44,8 @@ Yo, what's up?
 Good day!
 sup my friend!
 Hello there!
+can you speak
+can you understand me
 Hello there!
 Yo
 hola!
