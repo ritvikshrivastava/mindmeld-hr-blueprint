@@ -268,7 +268,7 @@ def get_employees(request, responder):
 	responder.slots['emp_list'] = _get_names(qa_out)
 
 
-	if len(qa_out)==0:
+	if len(qa_out)==0 or len([e for e in request.entities])==0:
 		responder.reply("No such employees found")
 		return
 

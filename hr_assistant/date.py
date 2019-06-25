@@ -37,7 +37,7 @@ def get_date(request, responder):
 	responder.slots['name'] = name
 	responder.frame['name'] = name
 
-	employee = app.question_answerer.get(index='user_data', emp_name=name)[0]
+	employee = app.question_answerer.get(index='employee_data', emp_name=name)[0]
 
 	action_entity = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
 	dob_entity = [e for e in request.entities if e['type'] == 'dob']
@@ -122,7 +122,6 @@ def get_date_range_employees(request, responder):
 		responder.reply("Here are some employees: {emp_list}")
 
 	else:
-		# responder.reply("Hmm, I couldn't understand that. Which employees can I find for you?")
 		responder.listen()
 
 
