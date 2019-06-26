@@ -65,9 +65,14 @@ def get_date(request, responder):
 		responder.reply("{name}'s date of birth is {date}")
 
 	else:
-		responder.reply('What would you like to know about {name}? You can ask about date of hire, date of termination or date of birth.')
-		responder.params.allowed_intents = ('date.get_date', 'general.get_info', 'salary.get_salary', 'hierarchy.*', 'greeting.*')
-		responder.listen()
+		if request.frame.get('date_visited'):
+			responder.reply("If you want to know something else, say 'exit'")
+			responder.frame['date_visited']=False
+		else:
+			responder.reply('What would you like to know about {name}? You can ask about date of hire, date of termination or date of birth.')
+			responder.frame['date_visited'] = True
+			responder.params.allowed_intents = ('date.get_date', 'general.get_info', 'salary.get_salary', 'hierarchy.*', 'greeting.*')
+			responder.listen()
 
 
 
