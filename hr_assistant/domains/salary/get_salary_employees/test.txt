@@ -1,18 +1,18 @@
-Who {earns|money} the {least|extreme} in the {executive office|department} dept
-tell me the {max|extreme} {salary|money} among {men|sex}
-give me the {salaries|money} of {interracial|racedesc} employees in this company
-Which {black or african american|racedesc} employee {earn|money} the {minimum|extreme}
-{earn|money} {male|sex}
-what are the {earnings|money} for people {on a leave of absence|employment_status}
-who {makes|money} {$|money} {less than|comparator} {73k|sys_number}?
-Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
-{non citizen|citizendesc} {salaries|money}
-Get me the {bottom|extreme} {twelve|sys_number} {earners|money} in the {sales|department} department
-{highest|extreme} {income|money} {salaries|money}
-{eligible noncitizen|citizendesc}s {income|money}s
-I want a list with {earnings|money} of employees that are {American citizens|citizendesc}
-who {makes|money} the {least|extreme} {amount of money|money} in {admin office|department}
-{IT support|position} {top|extreme} {earner|money}
-Tell me the employee that {works under|manager} {Melinda Saar-Beckles|name} that {makes|money} the {least|extreme} amount?
-Who are our {lowest|extreme} {earning|money} employees
-who is the {maximum|extreme} {earners|money} among {director of operations|position} and what is {his|sex} or {her|sex} {pay|money}
+What are the {yearly|time_recur} {salaries|money} for all of the employees that {work for|manager} {Janet King|money}
+give me the {salaries|money} of {hispanic|racedesc} employees in this company
+what is the {maximum|extreme} {salary|money} among {women|sex}
+give me the {earnings|money} of {american indian or alaska native|racedesc} employees in this company
+show me the {max|extreme} {earning|money} {production technician|position}s
+show me the {yearly|time_recur} {earnings|money} of the {men|sex}
+how much are {diversity job fair|employee_source} {paycheck|money}?
+what are our {lowest|extreme} {paycheck|money} employees
+what are our {bottom|extreme} {earn|money} {earnings|money}
+Tell me the employee that {works for|manager} {Jennifer Zamora|name} that {earns|money} the {least|extreme} amount?
+{Admin Offices|department} {bottom|extreme} {16|sys_number}{percent|function} {earners|money} list
+Of all the {Production Managers|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
+{women|sex} {salaries|money}
+show me the {weekly|time_recur} {paycheck|money} of the {women|sex} at this org
+what are {network engineers|position} {making|money} at this company
+Which {white|racedesc} employee {income|money} the {greatest|extreme}
+Of all employees who are the {employees that have been here|employment_action} from {3|sys_number} to {6 years|sys_duration}
+I want a list with {pay|money} of employees that are {us citizen|citizendesc}

@@ -1,31 +1,31 @@
-why did we {hire|employment_action} {Quinn Rarrick|name}
-Is {sales|department} the department that {william larotonda|name} currently is working in
-tell me, is {Bartholemew Khemmich|name} {single|maritaldesc}?
-Is {Jyoti|name} {widowed|maritaldesc} or {single|maritaldesc}?
-is {Nan|name} a {network engineer|position}
-What is {Julia|name}'s race?
-Which department is {adrienne homberger|name} in?
-whats {enola chivukula|name}'s current position?
-did {Nan Singh|name} hear about us through {Glassdoor|employee_source}?
-position of {Mei|name}
-get me {Lynn O'hare|name}'s race
+what do you know about {Daniel|name}
+state of {Caroline Cierpiszewski|name}
+Is {Mohammed Latif|name} a citizen of the us?
+is {abdellah veera|name} a {cio|position} or not?
+state of {Janet King|name}
 {guerry|name} {age|age}
-{george|name}
-Tell me what does {julia soto|name} do
-is the job title of {elijian clukey|name} a {production manager|position}
-Whats {cybil|name}'s last name?
-Is {james|name} {single|maritaldesc}?
-I want {mei trang|name}'s state
-job title of {taylor|name}
+Is {Sarah Warfield|name}'s {exceeding expectations|performance_score}?
+find me the position that {Jasmine Onque|name} is in?
+Show me that state that {Josephine Bugali|name} is from
 why did we {let go|employment_action} of {Ivan|name}
-tell me, is {nan singh|name} {separated|maritaldesc}?
-what is {ivan|name}'s {age|age}
-{Rosalie|name} heard of us how?
-is {Lowan Biden|name} based in {TN|state}
-What is {brooke oliver|name}'s score, is it {meeting 90-day expectations|performance_score}?
-what's {Shakira|name}'s role at the organization
-Is {Nan|name} {married|maritaldesc}?
-Is {Michael|name} {married|maritaldesc}?
-which state is {Joelle Burke|name} from
-What's {Ashley Rose|name}'s {performance score|performance_score} is it {too early to review|performance_score} it?
-Is {Lindsay|name} an American citizen?
+who's {Ivan|name}?
+{age|age} of {mia|name}
+Get me {Julia|name}'s race
+which branch is the one that {Brannon Miller|name} works in
+Does {Allison Lydon|name} {meet 90-day expectations|performance_score}?
+Is {it/is|department} the department that {Phil Close|name} currently works in
+give me {Mia Brown|name}'s race please
+Is {Jyoti|name} {widowed|maritaldesc} or {single|maritaldesc}?
+desribe the race of {april evensen|name}
+Where does {Kara|name} live?
+Please can you tell me about {Mia|name}?
+I want {Lori Roby|name}'s state
+is {marilyn|name} a {us citizen|citizendesc}
+Is {julia soto|name} {actively employed|employment_status}?
+Where is {francesco barone|name} from?
+is there anyone named {James DeGweck|name}
+{Mia|name} is who
+Is {james|name} {single|maritaldesc}?
+Is {Anna Von Massenbach|name}'s race {asian|racedesc}?
+Is {barry|name} {widowed|maritaldesc} or {separated|maritaldesc}?
+is {Bonalyn|name} {terminated|employment_status} from the company or not

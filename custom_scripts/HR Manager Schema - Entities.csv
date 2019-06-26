@@ -1,7 +1,7 @@
 Entity,Options,Synonyms,Gazetteer
 name,,,
 state,"MA', 'TX', 'CT', 'VA', 'VT', 'CA', 'WA', 'NH', 'NY', 'OH', 'IN', 'ID', 'TN', 'NV', 'CO', 'UT', 'AL', 'GA', 'FL', 'NC', 'KY', 'ND', 'MT', 'OR', 'AZ', 'ME', 'RI', 'PA'","Massachussets, Texas, Connecticut, Virginia, Vermony, California, Washington, New Hampshire, New York, Ohio, Indiana, Idaho, Tennessee, Nevada, Colarado, Utah, Alabama, Georgia, Florida, North Carolina, Kentucky, North Dakota, Montana, Oregon, Arizona, Maine, Rhode Island, Pennsylvania","state, state of birth, state of residence, office location, location, out of state, live, lives, live in, based in, lives in, where, works in, works at, where is, cali"
-age,age,"old, years old, age of, ages of",age
+age,age,"old, years old, age of, ages of, age",age
 sex,male,"men, males, guys, dudes, gents, gentlemen, boys, boy, male","sex, gender, masculine, feminine, male person, m/f, male/female, M/F, Male/Female"
 ,female,"women, females, ladies, lady, ladys, girls, gals, woman, girl, female",
 maritaldesc,married,"wed, legally married, espoused, joined in holy matrimony, hitched","husbandless, without a partner, unwedded, wifeless, no longer married, without a husband, without a wife, maritaldesc, marital status, spouse, husband, wife"
@@ -9,7 +9,7 @@ maritaldesc,married,"wed, legally married, espoused, joined in holy matrimony, h
 ,single,"unmarried, bachelor, bachelorette",
 ,separated,,
 ,widowed,,
-citizendesc,us citizen,"citizen, usa citizen, american citizen, citizen of the us, citizen of America, citizen of the usa, citizens","immigrant, illegal immigrant, h1 visa, foreigner, foreign, imported, out of country, from abroad, citizenship status, citizenship"
+citizendesc,us citizen,"citizen, usa citizen, american citizen, citizen of the us, citizen of America, citizen of the usa, citizens","immigrant, h1 visa, foreigner, foreign, imported, out of country, from abroad, citizenship status, citizenship"
 ,eligible noncitizen,"non citizen, not a citizen, non us citizen, not citizens",
 ,non-citizen,"non citizen, not a citizen, non us citizen, not citizens",
 racedesc,black or african american,"black, african american, african-american","ethnicity, race, racial background, ethnic group, ethnic type, racial indentity, community, minorities"
@@ -49,7 +49,7 @@ department,"executive office',",,"department, team, group, section, division, se
 position,"it manager - infra',",,"title, job title, role, position, level in the organization, level, job, occupation"
 ,"cio',",chief information officer,
 ,"sales manager',",,
-,"president & ceo',","chief executive officer, ceo, prez, president, executive, highest rank, highest ranked, CEO",
+,"president & ceo',","chief executive officer, ceo, prez, president, executive, highest rank, highest ranked, CEO, highest ranking",
 ,"administrative assistant',",,
 ,"database administrator',","db admin, db administrator, database admin",
 ,"area sales manager',",,
@@ -70,7 +70,7 @@ position,"it manager - infra',",,"title, job title, role, position, level in the
 ,"it manager - db',",,
 ,"software engineer',","software developer, programmer",
 ,production manager',,
-manager,manager,"manager name, manager, incharge, supervisor, mentor, leadership, boss, management, head, lead, chairman, working for, works for, work for, manage, managed by, managing, manages, reports to, report to, reporting to, reporting, working under, is under, leads",
+manager,manager,"manager name, manager, incharge, supervisor, mentor, leadership, boss, management, head, lead, chairman, working for, works for, work for, manage, managed by, managing, manages, reports to, report to, reporting to, reporting, working under, is under, leads, in charge of",
 employee_source,"information session',",info session,"how did you learn about this position, how did you find out about this job, how did you find out about this position, how did you learn about this job. how did you hear about this, heard about us, hear about us, how you heard about us, how did you hear of us, hear of us"
 ,"company intranet - partner',",,
 ,"social networks - facebook twitter etc',","social media, social media apps, facebook, instagram, twitter, snapchat, social network",

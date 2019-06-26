@@ -17,7 +17,6 @@
 1.0 non us citizen
 1.0 not citizens
 1.0 immigrant
-1.0 illegal immigrant
 1.0 h1 visa
 1.0 foreigner
 1.0 foreign

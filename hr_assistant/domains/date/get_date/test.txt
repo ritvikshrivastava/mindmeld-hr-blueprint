@@ -1,22 +1,22 @@
-Has {Nicole|name} been working here for {4 years|sys_duration}?
-What was the date when {Anthony Cisco|name} was {employed|employment_action}
-{Denisa Dobrin|name} {hired|employment_action} when
-in what month was {Amy Foster-Baker|name} {born|dob}
-Which month does {Taisha Goble|name} have his {bday|dob}
-Give me the {bday month|dob} of {Christie Harrington|name}
-{Amy|name} {hiring date|employment_action}
-{start date|employment_action}, {Bianca Roehrich|name}
-What was the date when {Anna Von Massenbach|name} was starting her {experience|employment_action}
-When was {ivan rogers|name} {born|dob}?
-Which date was {mildred gentry|name}'s {date of hire|employment_action}?
-What year was {ivan rogers|name} {hired|employment_action}?
-What was {Nicole Fancett|name}'s {date of hire|employment_action}?
-What was the date {Brandon LeBlanc|name} {start date|employment_action}
-Can you tell me how long has {mia|name} worked in the firm
-{Leigh Smith|name} {date of birth|dob}
-{Lori Roby|name}'s {bday|dob} is in which month
+Which month does {Abdellah Veera|name} have his {bday|dob}
+Get me {Julia Soto|name}'s {Bday|dob}
+When was it that {Barry Wilber|name} {started working|employment_action} here?
+{Amy|name} {date of birth|dob}
 When {Constance Sloan|name} {started|employment_action}, what was the date
-Can you pl tell me how long has {Jereivan rogersh|name} worked in the firm
-How long has {Karthikeyan Ait Sidi|name} worked here?
-{julia|name} was {fired|employment_action} on which date
-How long has {Lisa Galia|name} {been here|employment_action}?
+Give me the {bday month|dob} of {Ivan Rogers|name}
+When was {ivan rogers|name} {born|dob}?
+What was the {date of leaving job|employment_action} for {Michelle Carter|name}?
+{Christie Harrington|name} {start date|employment_action}, what was the date?
+What was the exact date when {Amy|name} {started her job|employment_action} at our company?
+{mia brown|name}'s {bday|dob} is in which month
+When was {Joe South|name} {date of starting employment|employment_action}?
+{working here for|employment_action} how long {Richard Newman|name}
+{start date|employment_action}, {Bianca Roehrich|name}
+{Nader Barton|name} {birth date|dob}
+{date of birth|dob} of {Amy|name}
+Has {Kristen Squatrito|name} been working here for {6 years|sys_duration}?
+whats the date of {joining|employment_action} for ms.{Morway|name}
+What is the {date of hiring|employment_action} for {julia|name}
+in what month was {Nan|name} {born|dob}
+in what month was {Amy Foster-Baker|name} {born|dob}
+employment {termination date|employment_action} {Amy|name}

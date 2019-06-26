@@ -1,19 +1,19 @@
-{nineteen thirties|time_interval} {born|dob} {female|sex}s
-{asians|racedesc} {born|dob} in the {80's|time_interval}
-{15|sys_number} {most|extreme} recently {fired|employment_action} employees
-Show me a list of people {hired|employment_action} {this year|sys_time}
-Which employees were not yet {born|dob} when {9/11|sys_time} happened?
-list the employees who {joined|employment_action} {last|date_compare} Monday
-Give me a list of employees that were {hired|employment_action} into the company in {July|sys_time}
-Which employees are {born|dob} in {May|sys_time}
-{hired|employment_action} {2016|sys_time} show me a list of such employees
-Which employees were {born|dob} in the month of {March|sys_time}
-{40's|time_interval} {Bday|dob} {women|sex}
-{fifteen|sys_number} {most|extreme} recently {hired|employment_action} employees
-list the employees who {have been here|employment_action} {last year|sys_time}
+employees not {born|dob} when {9/11|sys_time} went down
+Who worked for this org for {less than|comparator} {a year|sys_duration}
+Which employees {terminated|employment_action} at the company recently
 {singles|maritaldesc} {fired|employment_action} {last year|sys_time}
-{non-citizen|citizendesc} {hired|employment_action} in {2014|sys_time}
-{90's|time_interval} {born|dob} {males|sex}
-{1980s|time_interval} {bday|dob} {dudes|sex}
-Do tell me who {joined|employment_action} the org in {2013|sys_time}
-get me {software engineer|position} {born|dob} in {1990's|time_interval}
+employees {born in|dob} the {nineteen sixties|time_interval}?
+Can you tell me whether there are any {June|sys_time} {bday|dob} people
+Give me a list of employees that have a {birthday|dob} in {July|sys_time}
+Which employees share the same {birthday|dob}
+{two thousand tens|time_interval} {born|dob} {women|sex}
+{July|sys_time} {DOB|dob} workers
+Which employees were not yet {born|dob} when {9/11|sys_time} happened?
+Employees that worked for the company for {less than|comparator} {a year|sys_duration}
+employees out of the {sales|department} dept {employed|employment_action} {before|date_compare} {2010|sys_time}
+Which employees have a {start date|employment_action} {post|date_compare} {Jan 1, 2014|sys_time}?
+Give me the employees that have {been here|employment_action} for {five years|sys_duration} or less
+Give me all the employees that have a {birthday|dob} {this month|sys_time}
+Which employees were {hired|employment_action} {after|date_compare} {Jan 1, 2019|sys_time}?
+{production|department} department employees that {joined|employment_action} us in {2010|sys_time}
+{white|racedesc} {born|dob} in the {forties|time_interval}

@@ -1,7 +1,7 @@
-{count|function} employees {born|dob} {before|date_compare} {1993|sys_time}?
-{headcount|function} people who {have worked here|employment_action} for {less than|comparator} {7 years|sys_duration}
-{total|function} employees were {born|dob} around {five years|sys_duration} of {1963|sys_time}
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+Is there anyone who {joined|employment_action} us {prior to|date_compare} {1999|sys_time} or not
+{total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
+Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
+What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
+What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
 {how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
-{how many|function} people were based out of {IN|state} in the {last|date_compare} {4 years|sys_duration}?
-employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
-Tell me the {pct|function} of staff that have their {birth day|dob} in the year of {1922|sys_time}
