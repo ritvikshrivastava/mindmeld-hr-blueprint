@@ -7,8 +7,8 @@ from hr_assistant.general import _resolve_categorical_entities, _resolve_functio
 
 
 
-@app.handle(intent='get_hierarchy', has_entity='name')
-def heirarchy(request, responder):
+@app.handle(intent='get_hierarchy_up', has_entity='name')
+def get_hierarchy_up(request, responder):
 	"""
 	If a user asks about any employees manager or whether they are some other employee's 
 	manager, this function captures all the names in the query and returns the employee-manager
@@ -17,13 +17,34 @@ def heirarchy(request, responder):
 
 	try:
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
-		manager_dict = {}
 
 		for name in name_ent:
 			responder = _fetch_from_kb(responder, name, 'manager')
-			manager_dict = {responder.slots['name'], responder.slots['manager']}
 			reply = ["{manager} is {name}'s manager"]
 			responder.reply(reply)
 
 	except:
 		responder.reply("Who's manager would you like to know? (You can try saying 'Mia's manager')")
+
+
+@app.handle(intent='get_hierarchy_down', has_entity='name')
+def get_hierarchy_down(request, responder):
+	"""
+	If a user asks about any employees subordinates or who reports to them, 
+	this function fetches that info from the KB.
+	"""
+
+	try:
+		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
+		manager_dict = {}
+
+		for name in name_ent:
+			responder = _fetch_from_kb(responder, name, 'subordinates')
+			if len(responder.slots['subordinates'])==0:
+				responder.reply("{name} has no subordinates")
+				return
+			reply = ["The following people work under {name}: {subordinates}"]
+			responder.reply(reply)
+
+	except:
+		responder.reply("Who's subordinates would you like to know? (You can try saying 'which employees report to Mia?')")

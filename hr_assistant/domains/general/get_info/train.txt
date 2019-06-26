@@ -124,7 +124,7 @@ Why was {Mia|name} {fired|employment_action}?
 state of {Janet King|name}
 Is Ms.{dolan|name}'s race {asian|racedesc}?
 who is {lynn daneault|name}
-who's {Ivan|name)?
+who's {Ivan|name}?
 Is {Sarah Warfield|name}'s {exceeding expectations|performance_score}?
 which state is {Melisa|name} from
 did {Jeremy Prater|name} hear about us through {website banner ads|employee_source}?

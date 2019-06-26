@@ -141,7 +141,7 @@ def get_info_default(request, responder):
 		responder.frame['info_visited'] = True
 		responder.slots['name'] = name
 		responder.reply("What would you like to know about {name}?")
-		responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy', 'salary.get_salary', 'date.get_date', 'greeting.greet', 'greeting.exit', 'unsupported.unsupported')
+		responder.params.allowed_intents = ('general.get_info', 'hierarchy.get_hierarchy_up', 'hierarchy.get_hierarchy_down', 'salary.get_salary', 'date.get_date')
 		responder.listen()
 
 	except:
@@ -163,8 +163,8 @@ def get_info_default(request, responder):
 				responder.reply("Hmmm, looks like this employee did not work here! Would you like to know about someone else?")
 				responder.frame = {}
 		else:
-			responder.reply("Hmmm, I didn't quite understand. Which employee can I tell you about?")
-			responder.frame['visited'] = True
+			responder.reply("I believe that person is not an employee here. Who else can I tell you about?")
+			responder.frame['info_visited'] = True
 			responder.params.allowed_intents = ('general.get_info', 'unsupported.unsupported',  'greeting.greet', 'greeting.exit')
 			responder.listen()
 
@@ -277,7 +277,10 @@ def get_employees(request, responder):
 		responder.reply("The {action} employees are based on your criteria are: {emp_list}")
 
 	else:
-		responder.reply("Here are some employees that match your criteria: {emp_list}")
+		if size == 1:
+			responder.reply("Here is the employee you are looking for: {emp_list}")
+		else:
+			responder.reply("Here are some employees that match your criteria: {emp_list}")
 
 
 

@@ -117,9 +117,13 @@ def get_date_range_employees(request, responder):
 
 	qa_out = _resolve_time(request, responder, qa, size)
 
+	responder.slots['emp_list'] = _get_names(qa_out)
+
 	if qa_out:
-		responder.slots['emp_list'] = _get_names(qa_out)
-		responder.reply("Here are some employees: {emp_list}")
+		if size == 1:
+			responder.reply("Here is the employee you are looking for: {emp_list}")
+		else:
+			responder.reply("Here are some employees that match your criteria: {emp_list}")
 
 	else:
 		responder.listen()

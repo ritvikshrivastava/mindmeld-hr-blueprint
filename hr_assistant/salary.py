@@ -67,6 +67,10 @@ def get_salary_aggregate(request, responder):
 	func_entities = [e for e in request.entities if e['type'] == 'function']
 	money_entities = [e for e in request.entities if e['type'] == 'money']
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
+	extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
+
+	qa, size = _resolve_categorical_entities(request, responder)
+	qa = _resolve_time_in_salary(request, responder, qa)
 	
 	salary_response = "Hmm, looks like you want a salary statistic. You can ask me about averages, sums, counts and percentages. For eg. what is the average salary for women?" 
 
@@ -75,10 +79,6 @@ def get_salary_aggregate(request, responder):
 
 	if func_entity:
 		function, responder = _resolve_function_entity(responder, func_entity)
-
-		qa, size = _resolve_categorical_entities(request, responder)
-
-		qa = _resolve_time_in_salary(request, responder, qa)
 
 		if money_entities:
 			try:
@@ -107,7 +107,7 @@ def get_salary_aggregate(request, responder):
 				responder.reply('Based on your criteria, the {function} salary is ${value}')
 
 		elif function not in ('avg','sum'):
-			qa_out = qa.execute()
+			qa_out = qa.execute(size=size)
 			responder = _calculate_agg_salary(responder, qa_out, function)
 			if np.isnan(responder.slots['value']):
 					responder.reply(salary_response)
@@ -151,7 +151,10 @@ def get_salary_employees(request, responder):
 	responder.slots['emp_list'] = _get_names(qa_out)
 
 	if qa_out:
-		responder.reply("Here are some employees with their hourly pay: {emp_list}")
+		if size == 1:
+			responder.reply("Here is the employee you are looking for: {emp_list}")
+		else:
+			responder.reply("Here are some employees with their hourly pay: {emp_list}")
 	else:
 		responder.reply("No such employees found")
 
