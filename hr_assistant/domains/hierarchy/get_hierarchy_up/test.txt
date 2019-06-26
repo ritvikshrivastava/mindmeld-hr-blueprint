@@ -1,13 +1,23 @@
-is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
-is {Lowan Biden|name} the {manager|manager} for {Enrico Langton|name} or is it the other way around?
-who is Ms. {Myriam Givens|name} {manager name|manager}
+employees that directly that {report|manager} to {Phil Close|name}
+what's {Maryellen Jackson|name}'s {manager|manager} currently listed as in the system?
+I want to know the name of the {lead|manager} for {Carlos Merlos|name}
+Find me who is the person {Jackie|name} is {reporting to|manager}, her full name is {Jackie Valentin|name}
+{neville|name}, who is the person that she {reports to|manager}?
+tell me who the {manager|manager} is that is {managing|manager} Ms. {elizabeth meads|name}
+Create me a list of all of the employees that are currently {managing|manager} {Taisha Goble|name}
+get me ms. {Judy Jung|name}'s {boss|manager} full name
+who are {Lenora|name} and {seffi shields|name} {working under|manager} currently
+Who is {Julia|name}'s {manager|manager}?
+{Jean|name} {lead|manager} personnel
+{maryellen|name}'s {reporting to|manager} name
+who is {Thelma Petrowsky|name}'s {managing|manager} authority?
+get me ms. {Jason|name}'s {manager|manager} full name
+{jean crimmings|name} {manager|manager} name
+employees that directly {manage|manager} {Travis|name}
+{manager|manager} for {Hannah|name}
+Find me the names of everyone that is {managing|manager} mr.{Dheepa Nguyen|name}
+{Juan Gonzalez|name} {reports to|manager} name?
+does {elijian clukey|name} have a {boss|manager} that he {reports to|manager}, if so who is it?
 are {Nan|name} and {Julia Soto|name} {reporting to|manager} the same {manger|manager}?
-Find me the names of everyone that is {managing|manager} mr.{salter|name}
-list employees who {leads|manager} {Adrienne Homberger|name}
-i want the {reporting|manager} {manager|manager} for both {ivan rogers|name} and {Nan|name}
-{boss|manager} name for mr {Bradley Knapp|name}
-Who's the guy that our employee,{Brad Pitt|name}, currently {works for|manager}?
-who {manages|manager} Mr.{patrick Moran|name}
-{seffi|name} {lead|manager} name
-is {Peter Monroe|name} the {manager|manager} for {Amy Dunn|name}
-{manager|manager} name for ms {Brigit McCarthy|name}
+who is {helen billis|name}s {managing|manager} {supervisor|manager}?
+Who is the {manager|manager} for {Helen|name}

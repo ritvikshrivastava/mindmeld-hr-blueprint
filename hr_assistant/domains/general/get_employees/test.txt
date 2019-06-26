@@ -1,32 +1,34 @@
-Which employees have the {max|extreme} {performance score|performance_score}?
-All the {September|sys_time} {birthdays|dob}
-{it manager - db|position}
-workers doing {president & ceo|position}
-workers doing {information technology support|position}
-employees {older than|comparator} {34 years|sys_duration}
-who was {hired|employment_action}
-employees who are {below|comparator} {56|sys_number} {years old|age}?
-Which employees were {date of hiring|employment_action} at {website banner ads|employee_source}?
-who is doing {IT support|position} at this company?
-i want the {maximum|extreme} {third|sys_ordinal} of employees
-Which employees {quit working|employment_status} at Cisco?
-who is the {CEO|position} of the company?
-{widowed|maritaldesc} employees
-who is {lead|manager} {accountant i|position}?
-All employees from the state of {north carolina|state}
-Which employees are {married|maritaldesc}?
-employee with the {lowest|extreme} {age|age}
-employees that are {single|maritaldesc}
-{Sr. DBAs|position}
-{managers|position}
-who is {single|maritaldesc}
-employees between the {age of|age} {20|sys_number} and {40|sys_number}
-employees in their {40|sys_number}'s
-{managers|position}
-{database administrator|position}
-give me a list of {separated employees|maritaldesc}
-employees that work as an {sr. dba|position}
-Which employees were {voluntarily terminated|employment_status} here
-{cio|position}
-Which employees have been {separated|maritaldesc}?
-employees have a {start date|employment_action} {before|date_compare} {June|sys_time}?
+Which employees are {male|sex}?
+employees that are {it manager - infra|position}
+Who {joined|employment_action} after seeing a {billboard|employee_source}?
+Which employees were found via {referrals|employee_source}?
+{sr. dba|position}
+tell me who is the {youngest|extreme} employee
+Who was {began her employment|employment_action} based on a {careerbuilder|employee_source}?
+who works here
+Which employees have a position?
+employees {older than|comparator} {30 years|sys_duration}
+{sr. network engineer|position}
+Which employee(s) {meet 90-day expectations|performance_score} company's expectations?
+Which employees are {managers|position}?
+employees based in {MA|state}
+Which employees have been {terminated|employment_action}?
+workers that have been {divorced|maritaldesc}
+Show {separated|maritaldesc} employees
+who is not {divorced|maritaldesc}
+{ID|state} based employees
+Which employees are {over|comparator} {34|sys_number} {years old|age}?
+list of employees that are based in {TN|state}
+who wasn't {hired|employment_action}
+employees based in {MA|state}
+Which employees have recently began {working here|employment_action}?
+employee with the {maximum|extreme} {age|age}
+employees {are too early to review|performance_score}
+{us citizen|citizendesc} employees
+employees that are {separated|maritaldesc}
+{ceo|position}
+who is {separated|maritaldesc}
+List of {youngest|extreme} works
+employees {widowed|maritaldesc}?
+whose the {ceo|position} in our org
+{us citizen|citizendesc}s

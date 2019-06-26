@@ -1,19 +1,19 @@
-{male|sex} employees {fired|employment_action} in {2017|sys_time}
-I want {male|sex} {born|dob} in the {1930s|time_interval}
-Who was {fired|employment_action} {this month|date_compare}
 Which employees have {been with the company|employment_action} the company recently
-I want a list of employees that were {born in|dob} the {1990's|time_interval}
-{married|maritaldesc} employees with a {date of hire|employment_action} {last|date_compare} {2 years|sys_duration}
-who are our {1960s|time_interval} {born|dob} {area sales manager|position} people
-employees that are {citizens|citizendesc} and {born|dob} between {1960|sys_time} and {1990|sys_time}
-Give me the employees that have a {join date|employment_action} within {7 years|sys_duration}
-Which workers at the company have a {birthday|dob} {this year|sys_time}
-Give me all the employees that have a {birthday|dob} {this month|sys_time}
-Get me the employees that were {born|dob} {before|date_compare} {August|sys_time} but {after|date_compare} {May|sys_time}
-Which employees have been {start date|employment_action} {this month|date_compare}?
-Show me employees how have a {birthday|dob} in the {nineteen eighties|time_interval}?
-{married|maritaldesc} employees {hired|employment_action} {last year|sys_time}
-Employees with {more than|comparator} {5 yrs|sys_duration} of experience in their field
-Who are the people in {2007|sys_time} were {hired|employment_action}
-list the employees who {started working for|employment_action} us {after|date_compare} {2003|sys_time}
+{eligible noncitizen|citizendesc} started {working here|employment_action} in {2012|sys_time}
+Which employees have been {started working|employment_action} {this year|date_compare}?
+{November|sys_time} {born|dob} employees
+Fetch me a list of workers that have their {birthdays|dob} in the {1970's|time_interval}
+Which employees are {born|dob} in {May|sys_time}
+{non citizens|citizendesc} {terminated|employment_action} in {2015|sys_time}
+{fifteen|sys_number} {most|extreme} recently {hired|employment_action} employees
+Which employees were {hired|employment_action} into the company recently
+Which employees were not yet {born|dob} when {9/11|sys_time} happened?
+Which employees have a {start date|employment_action} {post|date_compare} {Jan 1, 2014|sys_time}?
+Which people weren't yet {born|dob} when {9/11|sys_time} occurred
 {hispanic|racedesc} employees {born|dob} {after|date_compare} {1950|sys_time}
+Give me a list of folks {fired|employment_action} {last|date_compare} summer
+{2013|sys_time} {hired|employment_action} here, who are such people?
+{divorced|maritaldesc} {been with the company|employment_action} for {at least|date_compare} {a year|sys_duration}
+Who was {fired|employment_action} {this month|date_compare}
+{females|sex} {fired|employment_action} in {2016|sys_time}
+employees not {born|dob} when {9/11|sys_time} went down

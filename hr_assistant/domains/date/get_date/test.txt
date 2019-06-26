@@ -1,21 +1,21 @@
-whats the date of {joining|employment_action} for ms.{Morway|name}
-The date was what when {Ivan Rogers|name} {started working|employment_action} for the company
 Give me {mia|name}'s {hiring date|employment_action}
-{Shana Maurice|name}'s {bday|dob} is in which month
-How long has {Giovanni|name} been with the company?
-What was {Brandon LeBlanc|name}s date when he started to {work here|employment_action}?
-Give me {Charles Bozzi|name}'s {termination|employment_action} date
-Which month does {Taisha Goble|name} have his {bday|dob}
-{Shana Maurice|name} {bday month|dob}
-{date of birth|dob} of {Amy|name}
-tell me {birth date|dob} of {nan|name}
-{started working|employment_action}, {Phil Close|name} when
-{Sean Quinn|name} {date of birth|dob}
-{ivan|name} {start date|employment_action}
-Has {Nicole|name} been working here for {4 years|sys_duration}?
-Which date was {Nan Singh|name} {let go|employment_action}?
-I want the date when {julia soto|name} {starting working|employment_action} here
+{julia|name} {birthday|dob}
 What year was {ivan rogers|name} {hired|employment_action}?
-What was day when {nan singh|name} was {born|dob}
-When exactly did we let {nan singh|name} go?
-employment {termination date|employment_action} {Amy|name}
+Please Get me {Kelley Spirea|name}'s {Bday|dob}
+What is the {date of hiring|employment_action} for {julia|name}
+{date of birth|dob} of {Elijiah Gray|name}
+{Nader Barton|name} {birth date|dob}
+{Brooke Oliver|name} {DOB|dob}
+What was the date when {Clinton Owad|name}'s {began her employment|employment_action}?
+{Shana Maurice|name} {bday month|dob}
+Can you tell me how long has {Carlos|name} worked in the firm
+What was the {Amy|name}'s {date of hire|employment_action}?
+Please get me {DOB|dob} of {Ludwick Harrell|name}
+in what month was {Nan|name} {born|dob}
+Get me {Donna Brill|name}'s {Bday|dob}
+What was {Brandon LeBlanc|name}s date when he started to {work here|employment_action}?
+{fire date|employment_action}, {Ivan|name}
+Fetch me {Francesco Barone|name}'s {Bday|dob}
+What was {Sneha Jhaveri|name}'s number of {years of experience|employment_action}?
+{Lori Roby|name}'s {bday|dob} is in which month
+When was {Michael|name}'s {date of hire|employment_action}?

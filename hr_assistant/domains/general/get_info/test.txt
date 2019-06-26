@@ -1,28 +1,28 @@
-department {lindsay lynch|name} is in?
-Is {karen mancuso|name} a citizen of America?
-is anyone known as henry
+What is {ivan rogers|name}'s job?
 tell me, is {Bartholemew Khemmich|name} {single|maritaldesc}?
-get me that state that {Nan|name} is from
-is {janet king|name} a {production technician|position}
+Get me {Julia|name}'s race
+Show the state that {Rosalie Hutter|name} is from
+is {Maria Gonzalez|name} {widowed|maritaldesc} or nah
+Does {judy jung|name} {actively|employment_status} work at Cisco?
 {george|name}
-What is {brooke oliver|name}'s last name?
-why did we {let go|employment_action} of {Ivan|name}
-give me {Jonathan hogland|name}'s race please
-you tell me something about {Daniel|name}?
-how did {Wilson Adinolfi|name} hear about this company?
-tell me what is the citizenship status for {Jennifer|name}'s
-tell me about jack
-Why did {Megan|name} get {fired|employment_action}?
-Why did {Nan|name} get {fired|employment_action}?
-Why did {Linda|name} {end employment|employment_action}?
-What is {Nan Singh|name}'s {performance score|performance_score}?
-Is {28|age} the age of {lauren mahoney|name}?
-Where does Ms.{bramante|name} live?
-does {Daniel|name} live in {UT|state}
-tell me what is {nan singh|name}'s citizenship status
+is {francesco barone|name} a {non-citizen|citizendesc}
+Does {Daniel|name}'s race affect her indulgence?
 what is {Donysha|name}'s {performance score|performance_score} history?
-what's {Shakira|name}'s role at the organization
-Is {Anna Von Massenbach|name}'s race {asian|racedesc}?
-What is {Caroline|name}'s position?
-Does {tyrone|name}'s race affect her indulgence?
-Is Mr.{Murray|name} working from out of state?
+what is the race of {Mia|name}
+Where does {ivan rogers|name} live?
+Which department is {Michael|name} in?
+What is {adrienne homberger|name}'s last name?
+Is {james|name} {single|maritaldesc}?
+is the job title of {ludwick harrell|name} an {it support|position} techie
+whats the race of {george|name}
+What is {janet king|name}'s level in the organization?
+department that {adil|name} work for?
+What is {Hakim|name}'s level in the organization?
+sex and age of {Melisa|name}
+tell me what is {Marianne Eaton|name}'s citizen status
+did {Maruk|name} hear about us through {monster.com|employee_source}?
+I want {mei trang|name}'s state
+What is {Julia Soto|name}'s {performance evaluation|performance_score} history?
+Is {Sarah|name}'s race {white|racedesc}?
+Show me that state that {Josephine Bugali|name} is from
+is {Nan|name} in the {Admin Offices department|department}

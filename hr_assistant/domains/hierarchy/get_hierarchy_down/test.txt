@@ -1,8 +1,23 @@
-Tell who is {working under|manager} {Mr. Singh|name}
-Who are those employees that are {under|comparator} and {work for|manager} {April Evensen|name}?
-which are the employees that are {under|comparator} the {supervisor|manager} {Raul Garcia|name}?
-{works for|manager} {scott|name}
-I want to know if {Amy Dunn|name} is a {manger|manager}
-{Amy Dunn|name} {manages|manager} which individuals?
+is {Leonara|name} the {manager|manager} of {gerry friedman|name}?
+employees who {report to|manager} {Jac|name}
+Tell who is {working under|manager} {Caroline|name}
+is {enola chivukula|name} a {manager|manager} in our company
+can i have the names of employees who {report to|manager} {Michael|name}
+{Jacquelyn Williams|name} {manager name|manager}, which individuals?
+{Courtney Beatrice|name} is the {mentor|manager} for which of our employees
+Which are all of the employees who are having {Murray|name} as the name of their {manager|manager}?
 All of the employees that are {reporting to|manager} to Mr. {Donovan Chang|name} if any
-who all is {working for|manager} {Nan|name}
+is {Amy|name} a {manager|manager} in our company
+Is {Amy Dunn|name} a {manager|manager}
+Tell who is {working under|manager} {Xana|name}
+Who {reports to|manager} {May Roberson|name}
+who all is {working for|manager} {Travis Ozark|name}
+can i have all of the names who report to {nori sewkumar|name} as a list
+Is anyone {reporting|manager} to {susan|name} or is she not a boss
+Gimmmie a list of employees that are currently {work for|manager} {Peter Monroe|name}
+get me a list of all of the employees that are currently {reporting|manager} directly to {Evelyn|name}
+{Lindsey Langford|name} is the {lead|manager} for which employees
+Who is the lady or guy that {Lindsey Langford|name} is {incharge|manager} of?
+{Taisha Goble|name} is a {boss|manager}, right?
+is there anyone {reporting|manager} to Ms. {Morissa|name}, if so who are those people?
+who is the person that is being {worked for|manager} for by {Noelle Johnson|name}
