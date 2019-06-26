@@ -1,31 +1,18 @@
-what do you know about {Daniel|name}
-state of {Caroline Cierpiszewski|name}
-Is {Mohammed Latif|name} a citizen of the us?
-is {abdellah veera|name} a {cio|position} or not?
-state of {Janet King|name}
-{guerry|name} {age|age}
-Is {Sarah Warfield|name}'s {exceeding expectations|performance_score}?
-find me the position that {Jasmine Onque|name} is in?
-Show me that state that {Josephine Bugali|name} is from
-why did we {let go|employment_action} of {Ivan|name}
-who's {Ivan|name}?
-{age|age} of {mia|name}
-Get me {Julia|name}'s race
-which branch is the one that {Brannon Miller|name} works in
-Does {Allison Lydon|name} {meet 90-day expectations|performance_score}?
-Is {it/is|department} the department that {Phil Close|name} currently works in
-give me {Mia Brown|name}'s race please
-Is {Jyoti|name} {widowed|maritaldesc} or {single|maritaldesc}?
-desribe the race of {april evensen|name}
-Where does {Kara|name} live?
-Please can you tell me about {Mia|name}?
-I want {Lori Roby|name}'s state
-is {marilyn|name} a {us citizen|citizendesc}
-Is {julia soto|name} {actively employed|employment_status}?
-Where is {francesco barone|name} from?
-is there anyone named {James DeGweck|name}
-{Mia|name} is who
-Is {james|name} {single|maritaldesc}?
-Is {Anna Von Massenbach|name}'s race {asian|racedesc}?
-Is {barry|name} {widowed|maritaldesc} or {separated|maritaldesc}?
-is {Bonalyn|name} {terminated|employment_status} from the company or not
+How well is the employee doing?
+tell me the {performance|performance_score} of {taylor|name}
+Is {mia brown|name} {on a leave of absence|employment_status}?
+is {Joanne Handschiegl|name} {active|employment_status} or not so
+What was the reason for {Mia|name}'s {termination|employment_action}?
+{ivan|name} position
+Does {judy jung|name} {actively|employment_status} work at Cisco?
+which is the branch that {Bradley Knapp|name} working in
+Does {Michael|name} {still work at|employment_status} Cisco?
+tell me, is {Julissa Hunts|name} a {widowed|maritaldesc} {lady|sex}?
+tell me about jack
+is anyone known as henry
+What does {Ivan|name} do?
+{williams|name}'s race is what 
+What is {brooke oliver|name}'s score, is it {meeting 90-day expectations|performance_score}?
+is {Abdellah Veera|name} {terminated|employment_status} or not
+does {jessica bunbury|name} live in {california|state}
+What race is {Nan|name}'s?

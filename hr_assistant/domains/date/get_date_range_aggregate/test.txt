@@ -1,7 +1,4 @@
-Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
-Is there anyone who {joined|employment_action} us {prior to|date_compare} {1999|sys_time} or not
-{total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
 Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
-What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
-What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
 {how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
+{ratios|function} of employees that were {born|dob} about {five years|sys_duration} from {1975|sys_time}

@@ -1,23 +1,12 @@
-What is the employee's race?
-{percent|function} employees {joined|employment_action} us through a {search engine - google bing yahoo|employee_source}?
-Calc the {ratio|function} that {fully meet performance expecations|performance_score}
-Fetch me the {count|function} of managers in the {it/is|department} department?
-What is the {distribution|function} of employees from different states?
-What is the {total|function} {number of|function} of employees are managers?
+Give an estimate {total|function} of the {male|sex} strength in this company?
+{total|function} of employees are {single|maritaldesc}?
 {ratio|function} of employees {married|maritaldesc}?
-{added up|function} {count|function} of {terminated|employment_action} employees that was due to {sexual harassment|reason_for_termination}?
-What is the {percentage|function} of {engineers|position} who are promoted to {manager|manager}
-What is the {ratio|function} of races in our company?
-{How many|function} {female|sex} managers are there?
-What {fraction|function} of our employees are {below|comparator} the {age of|age} {30|sys_number}?
-Tell me {aggregate|function} of employees are {eligible noncitizen|citizendesc}?
-{How many|function} {software engineers|position} do we have?
-{How many|function} people are {over|comparator} {21|sys_number}?
-Get me the {typical|function} {age of|age} {database administrator|position} who are promoted to {management|manager}
-{How many|function} people have {worked here|employment_action} since {2015|sys_time}?
-{portion|function} of {voluntarily terminated|employment_status}
-{cumulative|function} {num of|function} employees are managers?
+{aggregate|function} {num of|function} employees that are {below|comparator} the {age of|age} {58|age}?
+Get me the {fraction|function} of employees that {need improvement|performance_score} of all employees within the org
+What is the {voluntary attrition rate|function}  among managers in the {operations department|department}?
+{How many|function} people are {performing badly|performance_score}?
+{How many|function} employees {meet|performance_score} or {exceed expectations|performance_score}?
+What is the {number of|function} {married|maritaldesc} employees?
 {cumulative|function} employees who are minorities?
-{cumulative|function} {count|function} of employees that {are too early to review|performance_score} or {need improvement|performance_score}?
-{How many|function} employees are {C-levels|position}?
-What {percentage|function} of employees are {married|maritaldesc}?
+Get me the {summed up|function} {count|function} of employees that {fully meet performance expections|performance_score} or {need improvement|performance_score}?
+{percent|function} employees {joined|employment_action} us through a {search engine - google bing yahoo|employee_source}?

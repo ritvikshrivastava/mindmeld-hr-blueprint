@@ -1,18 +1,9 @@
-What are the {yearly|time_recur} {salaries|money} for all of the employees that {work for|manager} {Janet King|money}
-give me the {salaries|money} of {hispanic|racedesc} employees in this company
-what is the {maximum|extreme} {salary|money} among {women|sex}
-give me the {earnings|money} of {american indian or alaska native|racedesc} employees in this company
-show me the {max|extreme} {earning|money} {production technician|position}s
-show me the {yearly|time_recur} {earnings|money} of the {men|sex}
-how much are {diversity job fair|employee_source} {paycheck|money}?
-what are our {lowest|extreme} {paycheck|money} employees
-what are our {bottom|extreme} {earn|money} {earnings|money}
-Tell me the employee that {works for|manager} {Jennifer Zamora|name} that {earns|money} the {least|extreme} amount?
-{Admin Offices|department} {bottom|extreme} {16|sys_number}{percent|function} {earners|money} list
-Of all the {Production Managers|position}, which ones are the {top|extreme} {5|sys_number} {earners|money}
-{women|sex} {salaries|money}
+Who makes the {lowest|extreme} {salary|money}?
+{men|sex} {salaries|money}
+who are the company's {top|extreme} {20|sys_number} {asian|racedesc} {earners|money}
 show me the {weekly|time_recur} {paycheck|money} of the {women|sex} at this org
-what are {network engineers|position} {making|money} at this company
-Which {white|racedesc} employee {income|money} the {greatest|extreme}
-Of all employees who are the {employees that have been here|employment_action} from {3|sys_number} to {6 years|sys_duration}
-I want a list with {pay|money} of employees that are {us citizen|citizendesc}
+what are the {salaries|money} for employees that have been {fired|employment_action}
+the {lowest|extreme} {10|sys_number} {earners|money} in {Sales|department}
+Of all the {senior database administrator|position}, which ones are the {lowest|extreme} {6|sys_number} {earners|money}
+Of all the {software engineering manager|position}s, which ones are the {greatest|extreme} {5|sys_number} {income|money} generators
+who are the company's {lowest|extreme} {7|sys_number} {interracial|racedesc} {earners|money}

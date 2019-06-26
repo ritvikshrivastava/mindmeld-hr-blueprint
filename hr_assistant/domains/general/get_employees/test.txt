@@ -1,35 +1,18 @@
-Give me the {top|extreme} {ten|sys_number} {youngest|extreme} workers
+workers doing {software engineering manager|position}
+employees in their {30|sys_number}'s
+{software engineer|position} list
 {managers|position} list
-employees that are {non-citizen|citizendesc}
-who works here
-list of {managers|position}
-{accountant i|position} employees
-which staff work in {admin offices|department}
-{AL|state} employees
-Which employees are not {US citizens|citizendesc}?
-{IT Support|position} employees
-Which employees are {male|sex}?
-Which employees have a {spouse|maritaldesc}?
-Which employees are {asian|racedesc}?
-find me the {highest ranking|position} employee
-{oldest|extreme} employees list
-employees that live in {VT|state}
-employee with the {highest|extreme} {age|age}
-Which employees are not {non-citizen|citizendesc}?
-Which employees have recently began {working here|employment_action}?
+is there anyone who is {married|maritaldesc}
+employees {younger than|comparator} {54 years|sys_duration}
+{it manager - db|position} employees
 Which employees have been with the company longest?
-workers that aren't {American citizen|citizendesc}
-i want the {oldest|extreme} {third|sys_ordinal} of employees
-employees based in {MA|state}
-{eligible noncitizen|citizendesc} employees
-{production manager|position}
-{us citizen|citizendesc} employees
-who is {divorced|maritaldesc}
-{it director|position} employees
-Who is our {oldest|extreme} employee?
-list of employees that are based in {TN|state}
-employees that are {it manager - infra|position}
-Which employees are {male|sex}?
-workers that have been {married|maritaldesc}
-employees that work here
-list of {accountant i|position}
+employees that are {area sales manager|position}
+{director of operations|position}
+employees that are {non-citizen|citizendesc}
+All the {July|sys_time} {birthdays|dob}
+Which employees are {terminated|employment_action}?
+{ceo|position}
+All the {September|sys_time} {birthdays|dob}
+give me a list of {separated employees|maritaldesc}
+Which employees are {over|comparator} {34|sys_number} {years old|age}?
+{MA|state} employees list

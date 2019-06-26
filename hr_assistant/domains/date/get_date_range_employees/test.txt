@@ -1,19 +1,10 @@
-employees not {born|dob} when {9/11|sys_time} went down
-Who worked for this org for {less than|comparator} {a year|sys_duration}
-Which employees {terminated|employment_action} at the company recently
-{singles|maritaldesc} {fired|employment_action} {last year|sys_time}
-employees {born in|dob} the {nineteen sixties|time_interval}?
-Can you tell me whether there are any {June|sys_time} {bday|dob} people
-Give me a list of employees that have a {birthday|dob} in {July|sys_time}
-Which employees share the same {birthday|dob}
-{two thousand tens|time_interval} {born|dob} {women|sex}
-{July|sys_time} {DOB|dob} workers
-Which employees were not yet {born|dob} when {9/11|sys_time} happened?
-Employees that worked for the company for {less than|comparator} {a year|sys_duration}
-employees out of the {sales|department} dept {employed|employment_action} {before|date_compare} {2010|sys_time}
-Which employees have a {start date|employment_action} {post|date_compare} {Jan 1, 2014|sys_time}?
-Give me the employees that have {been here|employment_action} for {five years|sys_duration} or less
 Give me all the employees that have a {birthday|dob} {this month|sys_time}
-Which employees were {hired|employment_action} {after|date_compare} {Jan 1, 2019|sys_time}?
-{production|department} department employees that {joined|employment_action} us in {2010|sys_time}
-{white|racedesc} {born|dob} in the {forties|time_interval}
+Fetch me a list of workers that have their {b day|dob} in the {eighties|time_interval}
+Which employees have been {start date|employment_action} {this month|date_compare}?
+Can you tell me whether there are any {June|sys_time} {bday|dob} people
+which employees from the {software engineering department|department} {join|employment_action} us in {2014|sys_time}
+who are our {thirties|time_interval} {born|dob} {it support|position} staff
+Which employees were {terminated|employment_action} in the {this month|date_compare}?
+any {march|sys_time} {born|dob} employees?
+Give me a list of employees that were {hired|employment_action} into the company in {July|sys_time}
+Give me a list of folks {fired|employment_action} {last|date_compare} summer

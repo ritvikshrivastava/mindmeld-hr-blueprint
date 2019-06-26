@@ -1,19 +1,10 @@
-how much is the {it|department} {paying|money} its employees on the {avg|function}
-{weekly basis|time_recur} {salary|money} for {eligible noncitizen|citizendesc}s
+How much does the {average|function} employee {hired|employment_action} after {2017|sys_time} {make|money}?
 {lowest|extreme} {paycheck|money} for a {director of sales|position}
-Of the employees {born|dob} {before|date_compare} {1990|sys_time}, what is the {average|function} {pay|money}?
-how much are all the employees in the {software engineering|department} getting in {income|money} in {total|function}
-Tell me about the {range|function} of {salaries|money} for employees {hired|employment_action} within the {last year|sys_time}
-get me the {mean|function} amp that the {production|department} department {pays|money} out to current workers
-What is the {mean|function} {earning|money} of new grad hires?
-{how many|function} {male|sex} employees {earn|money} {more than|comparator} {20|sys_number} {an hour|sys_duration}
-{percent|function} folks {earning|money} {less than|comparator} {40|sys_number} dollars {every hour|time_recur}?
-what is the {average|function} {salary|money} that the company offered its employees for the {last|date_compare} {four and a half years|sys_duration}?
-{mean|function} {salary|money} for employees {working for|manager} {Mrs. Dunn|name}
-fetch me the {highest|extreme} {earning|money} for a {it manager - infra|position} at this org
-Calculate for me the {ratios|function} of {earnings|money} at our company?
-how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
-fetch me the {min|extreme} {paycheck|money} for a {administrative assistant|position} at this organization
-of the {network engineer|position}s, give me the {max|extreme} {compensation|money}
-among all of the employees that found their job from an {internet search|employee_source}, what is the {average|function} {salary|money}?
-what are {female|sex} {earning|money} on {average|function}?
+of all the {cio|position}s, what is the {min|extreme} {earnings|money}
+What {percent|function} of workers {made|money} {below|comparator} {70 grand|sys_amount-of-money} that were {hired|employment_action} in the {last|date_compare} {3 years|sys_duration}
+how much are all the employees in the {sales|department} department getting {paid|money} in {avg|function}
+{Network Engineer|position} {Mean|function} {Pay|money}
+Employees {fired|employment_action} {between|comparator} {2008|sys_time} and {2012|sys_time}, {average|function} {earnings|money}
+{how many|function} {female|sex} employees {earn|money} {more than|comparator} {30|sys_number} {an hour|sys_duration}
+What is the {avg|function} {earning|money} of {software engineering manager|position} in the {TN|state}?
+Calculate the {average|function} {pay rate|money} at Cisco?

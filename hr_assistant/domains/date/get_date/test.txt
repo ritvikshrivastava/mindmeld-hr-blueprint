@@ -1,22 +1,11 @@
+Can you tell me how long has {Carlos|name} worked in the firm
+The date was what when {Catherine Ybarra|name} started {working here|employment_action} with the company
+find me the official {start date|employment_action} of {Nan|name} at this company
+{Ashley Rose|name} {birthday|dob}
+{Brigit McCarthy|name} {date of birth|dob}
+What is the {date of hiring|employment_action} for {kamrin|name}
+When did {Mia Brown|name} end her employment
 Which month does {Abdellah Veera|name} have his {bday|dob}
-Get me {Julia Soto|name}'s {Bday|dob}
-When was it that {Barry Wilber|name} {started working|employment_action} here?
-{Amy|name} {date of birth|dob}
-When {Constance Sloan|name} {started|employment_action}, what was the date
-Give me the {bday month|dob} of {Ivan Rogers|name}
-When was {ivan rogers|name} {born|dob}?
-What was the {date of leaving job|employment_action} for {Michelle Carter|name}?
-{Christie Harrington|name} {start date|employment_action}, what was the date?
-What was the exact date when {Amy|name} {started her job|employment_action} at our company?
-{mia brown|name}'s {bday|dob} is in which month
-When was {Joe South|name} {date of starting employment|employment_action}?
-{working here for|employment_action} how long {Richard Newman|name}
-{start date|employment_action}, {Bianca Roehrich|name}
-{Nader Barton|name} {birth date|dob}
-{date of birth|dob} of {Amy|name}
-Has {Kristen Squatrito|name} been working here for {6 years|sys_duration}?
-whats the date of {joining|employment_action} for ms.{Morway|name}
-What is the {date of hiring|employment_action} for {julia|name}
-in what month was {Nan|name} {born|dob}
-in what month was {Amy Foster-Baker|name} {born|dob}
-employment {termination date|employment_action} {Amy|name}
+{start date|employment_action}, {Ivan Rogers|name}
+{DOB|dob} of {Evelyn Girifalco|name}
+{Amy|name} {hiring date|employment_action}

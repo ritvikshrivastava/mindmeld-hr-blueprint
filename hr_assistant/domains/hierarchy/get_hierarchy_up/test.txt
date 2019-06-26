@@ -1,23 +1,12 @@
-does {ricardo gonzales|name} {report|manager} to {shakira|name}
-who is {judith carabbio|name}'s {managing|manager} authority?
-Create me a list of all of the employees that are currently {managing|manager} {Taisha Goble|name}
-I want to know the name of the {lead|manager} for {Carlos Merlos|name}
-I want to know the name of the {supervisor|manager} for {barone|name}
+employees that directly {report|manager} to {Ketsia|name}
+is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
+{ricardo|name} {boss|manager}
+is {quinn rarrick|name} {reporting to|manager} {lisa cornett|name}
+does {megan faller|name} have a {boss|manager} that he {reports to|manager}, if so who is it?
 can i get the employee names for those {managing|manager} {jordan winthrop|name}
 What is the name of {Nan|name}'s {manager|manager}?
+{Beatrice Chace|name}, who is the person that she {reports to|manager}?
+{neville|name}, who is the person that she {reports to|manager}?
+which employees that have a {manager name|manager}
+does {Marilyn Linares|name} have a {boss|manager} that she {is under|manager}, if so who is it?
 get me a list of all of the employees who are the {boss|manager} of {Mike Guilianno|name} if there are any
-list employees who {leads|manager} {Travis|name}
-I would like you to tell what the name is of {kelley|name}'s {managing|manager} employee?
-{reports to|manager} {kamrin sander|name}
-{manager|manager} for {Hannah|name}
-{maryellen|name}'s {reporting to|manager} name
-I wanna know {Tayana Jeannite|name}'s person in {leadership|manager} of her?
-I wanna get a list of all of the employees that are currently {manage|manager} {caroline|name}
-is {smith|name} {reporting to|manager} {christie harrington|name}
-so who is {caitrin|name}'s reporting {manager|manager}?
-is {jenna|name} {managed by|manager} {renee|name}
-What is {jumil|name}'s {manager|manager}'s name?
-list employees who {leads|manager} {Adrienne Homberger|name}
-tell me the {supervisor|manager} that is {reponsible for|manager} {Nan|name} as well as the {supervisor|manager} reponsible for {Julia Soto|name}
-is {ivan|name}'s manager {julia|name}?
-I would like you to tell what the name is of {Cayo Gonzalez|name}'s {managing|manager} employee?
