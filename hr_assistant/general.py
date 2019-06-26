@@ -277,7 +277,7 @@ def get_employees(request, responder):
 		responder.reply("The {action} employees are based on your criteria are: {emp_list}")
 
 	else:
-		if size == 1:
+		if qa_out and len(qa_out)==1:
 			responder.reply("Here is the employee you are looking for: {emp_list}")
 		else:
 			responder.reply("Here are some employees that match your criteria: {emp_list}")

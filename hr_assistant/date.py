@@ -66,6 +66,7 @@ def get_date(request, responder):
 
 	else:
 		responder.reply('What would you like to know about {name}? You can ask about date of hire, date of termination or date of birth.')
+		responder.params.allowed_intents = ('date.get_date', 'general.get_info', 'salary.get_salary', 'hierarchy.*', 'greeting.*')
 		responder.listen()
 
 

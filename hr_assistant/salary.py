@@ -86,7 +86,7 @@ def get_salary_aggregate(request, responder):
 			except:
 				responder.reply("I see you are looking for the {function}, can you be more specific?")
 				responder.frame['function']=func_entity
-				responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate')
+				responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate', 'unsupported.unsupported', 'greeting.*')
 				responder.listen()
 				return
 
@@ -104,7 +104,11 @@ def get_salary_aggregate(request, responder):
 					responder.reply(salary_response)
 					responder.listen()
 					return
-				responder.reply('Based on your criteria, the {function} salary is ${value}')
+
+				if function in ('avg', 'sum'):
+					responder.reply('Based on your criteria, the {function} salary is ${value}')
+				else:
+					responder.reply("The {function} of employees is {value}")
 
 		elif function not in ('avg','sum'):
 			qa_out = qa.execute(size=size)
@@ -152,7 +156,7 @@ def get_salary_employees(request, responder):
 
 	if qa_out:
 		if size == 1:
-			responder.reply("Here is the employee you are looking for: {emp_list}")
+			responder.reply("Here is the employee you are looking for with their hourly pay: {emp_list}")
 		else:
 			responder.reply("Here are some employees with their hourly pay: {emp_list}")
 	else:
