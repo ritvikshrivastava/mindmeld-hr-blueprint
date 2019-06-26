@@ -1,0 +1,13 @@
+is {Amy Dunn|name} {managed by|manager} {Peter Monroe|name}
+is {Lowan Biden|name} the {manager|manager} for {Enrico Langton|name} or is it the other way around?
+who is Ms. {Myriam Givens|name} {manager name|manager}
+are {Nan|name} and {Julia Soto|name} {reporting to|manager} the same {manger|manager}?
+Find me the names of everyone that is {managing|manager} mr.{salter|name}
+list employees who {leads|manager} {Adrienne Homberger|name}
+i want the {reporting|manager} {manager|manager} for both {ivan rogers|name} and {Nan|name}
+{boss|manager} name for mr {Bradley Knapp|name}
+Who's the guy that our employee,{Brad Pitt|name}, currently {works for|manager}?
+who {manages|manager} Mr.{patrick Moran|name}
+{seffi|name} {lead|manager} name
+is {Peter Monroe|name} the {manager|manager} for {Amy Dunn|name}
+{manager|manager} name for ms {Brigit McCarthy|name}

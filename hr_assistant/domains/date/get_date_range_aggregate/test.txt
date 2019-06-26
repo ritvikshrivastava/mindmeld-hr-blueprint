@@ -1,7 +1,7 @@
-{percent|function} {born|dob} in {1947|sys_time}
-{1980|sys_time} {born|dob} employees {total|function} {percent|function}
-{total|function} employees that have {been with the company|employment_action} for {less than|comparator} {9 years|sys_duration}
-Can you {count|function} the number of people that {began working|employment_action} for this company {pre|date_compare} {2005|sys_time}
-{How many|function} people have {worked here|employment_action} {since|date_compare} {2015|sys_time}?
-{1974|sys_time} {born|dob} employees {percent|function}
-Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+what's the {count|function} of employees who were {born|dob} {prior to|date_compare} {1992|sys_time}?
+For all of those that {joined|employment_action} the organization {before|date_compare} {1995|sys_time}, what is the {total|function} {count|function}
+can you please tell me what {fraction|function} of people have been doing {work here for|employment_action} {more than|comparator} {three years|sys_duration} but {less than|comparator} {five|sys_number}?
+{hired|employment_action} in {California|state} in the {last|date_compare} {42 weeks|sys_duration}, get me the {total|function}
+What {pct|function} of our staff have a {bday|dob} in {1902|sys_time}
+{count|function} employees {born|dob} {before|date_compare} {1993|sys_time}?
+What {percentage|function} of employees were {born|dob} {after|date_compare} {2010|sys_time}?

@@ -1,21 +1,21 @@
-{DOB|dob} of {Karen Mancuso|name}
-When was {Julia Soto|name} {fired|employment_action}?
-tell me {birth date|dob} of {Nan|name}
-When {April Evensen|name} decided to {end her employment|employment_action}, what was the date
-What day was it when {Amy|name} was {hired|employment_action}
-Which month does {Simon Roup|name} have his {bday|dob}
-What was {Brandon LeBlanc|name}s date when he started to {work here|employment_action}?
-Please get me {DOB|dob} of {Gerry Friedman|name}
-{Earnest Hankard|name} {date of birth|dob}
-How long was {Brandon LeBlanc|name} working for?
-Which date was {mia brown|name} {let go|employment_action}?
-tell me {birth date|dob} of {Lei-Ming Nguyen|name}
-Was it {May|sys_time} or {June|sys_time} when we had to let {ivan|name} go?
-{Quinn Rarrick|name} {bday month|dob}
+whats the date of {joining|employment_action} for ms.{Morway|name}
+The date was what when {Ivan Rogers|name} {started working|employment_action} for the company
+Give me {mia|name}'s {hiring date|employment_action}
+{Shana Maurice|name}'s {bday|dob} is in which month
 How long has {Giovanni|name} been with the company?
-How long has Mr.{Knapp|name} worked here?
-What year did {Hang Wolk|name} {end his employment|employment_action}?
-in what month was {Nan|name} {born|dob}
-When was {Mia Brown|name} {born|dob}?
-What was the {Amy|name}'s {date of hire|employment_action}?
-What was {Estelle|name}s {start date|employment_action} at the company?
+What was {Brandon LeBlanc|name}s date when he started to {work here|employment_action}?
+Give me {Charles Bozzi|name}'s {termination|employment_action} date
+Which month does {Taisha Goble|name} have his {bday|dob}
+{Shana Maurice|name} {bday month|dob}
+{date of birth|dob} of {Amy|name}
+tell me {birth date|dob} of {nan|name}
+{started working|employment_action}, {Phil Close|name} when
+{Sean Quinn|name} {date of birth|dob}
+{ivan|name} {start date|employment_action}
+Has {Nicole|name} been working here for {4 years|sys_duration}?
+Which date was {Nan Singh|name} {let go|employment_action}?
+I want the date when {julia soto|name} {starting working|employment_action} here
+What year was {ivan rogers|name} {hired|employment_action}?
+What was day when {nan singh|name} was {born|dob}
+When exactly did we let {nan singh|name} go?
+employment {termination date|employment_action} {Amy|name}

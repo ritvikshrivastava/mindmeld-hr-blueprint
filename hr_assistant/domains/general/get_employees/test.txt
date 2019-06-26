@@ -1,30 +1,32 @@
-get me the {youngest|extreme} {five|sys_number} {percent|function} of employees
-who is {divorced|maritaldesc}
-who is not {divorced|maritaldesc}
-Which employees have been with the company shortest?
-employees are {under|comparator} {45|sys_number} {years old|age}?
-get me the {highest|extreme} {five|sys_number} {ratio|function} of employees
-who is {single|maritaldesc}
-{female|sex} employees
-i want the {oldest|extreme} {third|sys_ordinal} of employees
-employees {hispanic|racedesc}?
-Which employees were {hired|employment_action} {post|date_compare} {May|sys_time}?
-{manager|position} employees
-employees in {production|department} department?
-Which employees have gotten only {positive feedback|performance_score}?
+Which employees have the {max|extreme} {performance score|performance_score}?
+All the {September|sys_time} {birthdays|dob}
+{it manager - db|position}
+workers doing {president & ceo|position}
+workers doing {information technology support|position}
+employees {older than|comparator} {34 years|sys_duration}
+who was {hired|employment_action}
+employees who are {below|comparator} {56|sys_number} {years old|age}?
+Which employees were {date of hiring|employment_action} at {website banner ads|employee_source}?
+who is doing {IT support|position} at this company?
+i want the {maximum|extreme} {third|sys_ordinal} of employees
+Which employees {quit working|employment_status} at Cisco?
+who is the {CEO|position} of the company?
 {widowed|maritaldesc} employees
-Which employees are in the {software engineering|department}?
-Which employees are {female|sex}?
-List of {youngest|extreme} works
-tell me who is the {youngest|extreme} employee
-{FL|state} employees
-who is not {married|maritaldesc}
-employees {separated|maritaldesc}?
-Give me the {top|extreme} {ten|sys_number} {youngest|extreme} workers
-list of {president & ceo|position}
-employee(s) are {white|racedesc}?
-get me a list of {cio|position} staff
-workers that aren't {citizens|citizendesc}
-Which employees are {activley employed|employment_status}?
-who is {reports to|manager} {shared services manager|position}?
-Give me employees who are {separated|maritaldesc}
+who is {lead|manager} {accountant i|position}?
+All employees from the state of {north carolina|state}
+Which employees are {married|maritaldesc}?
+employee with the {lowest|extreme} {age|age}
+employees that are {single|maritaldesc}
+{Sr. DBAs|position}
+{managers|position}
+who is {single|maritaldesc}
+employees between the {age of|age} {20|sys_number} and {40|sys_number}
+employees in their {40|sys_number}'s
+{managers|position}
+{database administrator|position}
+give me a list of {separated employees|maritaldesc}
+employees that work as an {sr. dba|position}
+Which employees were {voluntarily terminated|employment_status} here
+{cio|position}
+Which employees have been {separated|maritaldesc}?
+employees have a {start date|employment_action} {before|date_compare} {June|sys_time}?

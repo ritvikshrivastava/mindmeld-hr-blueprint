@@ -1,26 +1,28 @@
+department {lindsay lynch|name} is in?
+Is {karen mancuso|name} a citizen of America?
+is anyone known as henry
+tell me, is {Bartholemew Khemmich|name} {single|maritaldesc}?
+get me that state that {Nan|name} is from
+is {janet king|name} a {production technician|position}
+{george|name}
 What is {brooke oliver|name}'s last name?
-does {nan singh|name} live in {Cali|state}
-Does {ivan rogers|name}'s race affect her indulgence?
-which is the branch that {Bradley Knapp|name} working in
-Is {Elijian|name} {widowed|maritaldesc} or not?
-whats {Nan|name}'s role at the organization
-Show the state that {Rosalie Hutter|name} is from
-I want {mei trang|name}'s state
-How well is the employee doing?
-Is mr.{Louis Punjabhi|name} located from out of state?
-can you desribe the race of {Julia Soto Singh|name}
-does {Shakira|name} work as a {software engineering manager|position}
-{Rosalie|name} heard of us how?
-Where is {Sarah|name} from?
-where is {ivan|name} from
-tell me what is the citizenship status for {Jennifer|name}'s
-Which department is {Jenna|name} a part of?
-I want {Lori Roby|name}'s state
-which state is {julia|name} from
-Whats {cybil|name}'s last name?
-is {mia|name} {currently active|employment_status} or not
+why did we {let go|employment_action} of {Ivan|name}
+give me {Jonathan hogland|name}'s race please
 you tell me something about {Daniel|name}?
+how did {Wilson Adinolfi|name} hear about this company?
+tell me what is the citizenship status for {Jennifer|name}'s
+tell me about jack
+Why did {Megan|name} get {fired|employment_action}?
+Why did {Nan|name} get {fired|employment_action}?
+Why did {Linda|name} {end employment|employment_action}?
+What is {Nan Singh|name}'s {performance score|performance_score}?
 Is {28|age} the age of {lauren mahoney|name}?
-Is ms.{Carter|name} a {married|maritaldesc} {woman|sex}?
-What does {Ivan Rogers|name} do?
-is the job title of {adeel osturnka|name} a {shared services manager|position}
+Where does Ms.{bramante|name} live?
+does {Daniel|name} live in {UT|state}
+tell me what is {nan singh|name}'s citizenship status
+what is {Donysha|name}'s {performance score|performance_score} history?
+what's {Shakira|name}'s role at the organization
+Is {Anna Von Massenbach|name}'s race {asian|racedesc}?
+What is {Caroline|name}'s position?
+Does {tyrone|name}'s race affect her indulgence?
+Is Mr.{Murray|name} working from out of state?
