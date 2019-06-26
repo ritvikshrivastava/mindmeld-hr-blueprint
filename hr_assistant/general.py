@@ -94,6 +94,7 @@ def get_info_employee_source(request, responder):
 @app.handle(intent='get_info', has_entity='position')
 def get_info_position(request, responder):
 	responder = _get_person_info(request, responder, 'position')
+	print('here')
 	try:
 		responder.reply("{name}'s position in the organisation is: {position}")
 	except:

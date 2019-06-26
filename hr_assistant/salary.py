@@ -45,7 +45,8 @@ def get_salary_for_interval(request, responder):
 	responder.slots['interval'] = recur_ent
 	
 	try:
-		responder.reply("{name}'s {interval} salary is {money}")
+		replies = ["{name}'s {interval} salary is ${money}", "{name}'s {interval} wage is ${money}"]
+		responder.reply(replies)
 	except:
 		responder.reply(_not_an_employee())
 		return
