@@ -1,18 +1,18 @@
-show me the {yearly|time_recur} {earnings|money} of the {men|sex}
+{citizen|citizendesc} {salaries|money}
+give me the {salaries|money} of {interracial|racedesc} employees in this company
+get the {earns|money} of employees in the {min|extreme} {income|money} bracket
 Of the employees {hired|employment_action} {after|date_compare} {2014|sys_time} which employees {earn|money} between {$20,000|sys_amount-of-money} and {$56,000|sys_amount-of-money}?
-Which {White|racedesc} employee {earns|money} the {most|extreme}
-who are the company's {highest|extreme} {21|sys_number} {american indian or alaska native|racedesc} {earners|money}
-Show me the {earnings|money} of {males|sex} in this company
-what are our {lowest|extreme} {earners|money} {making|money}
-{us citizen|citizendesc}s how much do they {make|money}
-show me the employee {salaries|money} for {females|sex} {hired|employment_action} in the {last|date_compare} {2 years|sys_duration}
-who {makes|money} the {minimum|extreme} {income|money} in {sales|department} department
-what are the {earnings|money} for people {on a leave of absence|employment_status}
-what are our {bottom|extreme} {earn|money} {earnings|money}
+calculate the {max|extreme}
+which employees are {making|money} {less than|comparator} {average|function}
+{women|sex} {salaries|money}
+what are the {dudes|sex} {making|money}
 what are our {top|extreme} {earners|money} {making|money}
-Who makes the {most|extreme} {money|money}?
-{highest|extreme} {income|money} {salaries|money}
-Which {senior database administrator|position} {earns|money} the {least|extreme}?
-I want the {5|sys_number}{percent|function} {bottom|extreme} {earners|money} in the {Admin Offices|department}
-who {makes|money} the {least|extreme} {amount of money|money} in {admin office|department}
-{sales department|department} {salaries|money}
+Of all the {software engineering manager|position}s, which ones are the {greatest|extreme} {5|sys_number} {income|money} generators
+how much {money|money} does {julia soto|name} {make|money}?
+what are our {lowest|extreme} {earners|money} {making|money}
+For employees {hired|employment_action} {between|comparator} {3|sys_number} to {8 years|sys_duration} ago, which employee is {paid|money} the {least|extreme}?
+{software engineering|department} {pay|money}
+Who {earns|money} the {most|extreme} in the {production department|department}
+Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
+{female|sex} {earnings|money}
+{sales|department} {$|money}

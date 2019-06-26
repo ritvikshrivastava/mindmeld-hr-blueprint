@@ -1,19 +1,19 @@
-what are {women|sex} {making|money} on {average|function}?
-{sum|function} of people with {incomes|money} {less than|comparator} {50 grand|sys_number}?
-{percent|function} employees paid {above|comparator} {salary|money} of {140,000|sys_number} {a year|sys_duration}?
-Calculate the {percentage|function} {incomes|money} at the company
-what are {production manager|position}s {making|money} {typically|function}?
-get me the {total|function} amount that the {sales|department} {pays|money} current workers
-{total|function} {count|function} of employees {making|money} {less than|comparator} {6 figure|sys_number} in {salary|money}?
-what is the {hourly|time_recur} {pay|money} for {non-citizen|citizendesc}s
-{production technician|position} {typically|function} {earns|money}
-what is the {total|function} amount of {money|money} {earned|money} by {women|sex}
-of all the {cio|position}s, what is the {min|extreme} {earnings|money}
-{average|function} {income|money} of employees {recruited|employment_action} {last month|sys_time}
-of the {president & ceo|position}s, give me the {min|extreme} {earner|money}
-give me the {average|function} take home {salary|money} for {Production Technicians|position}
-what is the {yearly|time_recur} {compensation|money} for {non citizens|citizendesc}?
 {average|function} {earning|money} for employees {working|manager} {Michael Albert|name}
-{highest|extreme} {salary|money} for a {network engineer|position}
-{Network Engineer|position} {Mean|function} {Pay|money}
-of the {network engineer|position}s, give me the {max|extreme} {compensation|money}
+what is the {total|function} of {pay|money} for those who came by {on-line web application|employee_source}?
+give me the {mean|function} {salary|money} for {males|sex}
+give me the {percentage|function} {made|money} by {female|sex}s
+Employees {hired|employment_action} between {2013|sys_time} and {2014|sys_time}, {average|function} {pay|money}
+what is the {total|function} {pay|money} in the {sales department|department}
+how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
+Get me the {combined|function} {total|function} {incomes|money} for all employees {hired|employment_action} {before|date_compare} august of {2019|sys_time}
+give me the {average|function} take home {salary|money} for {it director|position}
+{network engineer|position} {income|money} on {avg|function}?
+i want the {total|function} {earnings|money} of {female|sex} in this organization
+what is the {hourly|time_recur} {pay|money} for {non-citizen|citizendesc}s
+{How many|function} employees {make|money} {6 figure|sys_number} {salaries|money}?
+{How many|function} people are {paid|money} {less than|comparator} {30|sys_number} {dollars|money}?
+{maximum|extreme} {paycheck|money} for a {director of operations|position}
+What is the {mean|function} {earning|money} of new grad hires?
+{percent|function} employees paid {above|comparator} {salary|money} of {140,000|sys_number} {a year|sys_duration}?
+What is the {average|function} {pay|money} of new grad hires?
+how much is the {sales department|department} {paying|money} its employees in {aggregate|function}
