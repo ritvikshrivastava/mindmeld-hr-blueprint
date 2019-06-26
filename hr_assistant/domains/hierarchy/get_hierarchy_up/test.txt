@@ -1,23 +1,23 @@
-list employees who {leads|manager} {Adrienne Homberger|name}
-is {Mildred|name} {management|manager} {Anthony Cisco|name}
-employees that directly {manage|manager} {Jeremy Prater|name}
-tell me who the {manager|manager} is that is {managing|manager} Ms. {elizabeth meads|name}
-I would like you to tell what the name is of {kelley|name}'s {managing|manager} employee?
-is {courtney|name} {under|manager} {Jonathan|name} or is it the other way around?
-{nan singh singh|name} is the {manager|manager} for which of our employees
+can i get the employee names for those {reporting|manager} to Mrs. {power|name}
+who is {Thelma Petrowsky|name}'s {managing|manager} authority?
 anyone {mentor|manager} of Ms. {Tanya|name}, if so who is that?
-who is the {manager|manager} for {Kramer|name} and also for {anthony|name}
-{boss|manager} name for mr {kramer simard|name}
-can i get the employee names for those {reporting|manager} to Mrs. {joe|name}
+{manager|manager} for {amy dunn|name}
+who is the {boss|manager} of {James Cockel|name} that {leads|manager} him?
+{manager|manager} for {Hannah|name}
+Who is {John Reeder|name}'s {manager|manager}?
+who is the {manager|manager} assigned to {Dawn Motlagh|name}
 {Juan Gonzalez|name} {reports to|manager} name?
-is the {manager|manager} for {eric|name} the same as the {manager|manager} for {david|name}?
-Tell me who is Mr.{Enrico Langton|name}'s {manager name|manager}?
-{managing|manager} employee for the employee {Amy Dunn|name}
-who all is {management|manager} of {tayana|name}
-which employees currently have a {boss|manager} they are {reporting to|manager}
+is {courtney|name} {under|manager} {Jonathan|name} or is it the other way around?
+so who is {Rose Ivey|name}'s reporting {manager|manager}?
+{Abdellah|name} is the {manager name|manager} of which employees
+{Jean|name} {lead|manager} personnel
+who {manages|manager} Mr.{patrick Moran|name}
+Whose {Richard Newman|name}s {management|manager} personnel?
+is {Andrew Szabo|name} {head|manager} of {Patrick Moran|name} or is it the other way around?
 {Nori Sewkumar|name} is the {reporting|manager} authority of which employees
-{julissa hunts|name} {manager|manager} name
-employee list with {manager|manager} being {carlos merlos|name}
-What is the name of {Nan|name}'s {manager|manager}?
-what's {Maryellen Jackson|name}'s {manager|manager} currently listed as in the system?
-Get me the person who is {managing|manager} {violeta ferreira|name}
+{Amy Dunn|name} {manager|manager}
+get me ms. {Judy Jung|name}'s {boss|manager} full name
+{Giovanni Leruth|name} is the {manager name|manager} of which employees
+whats the first and last name of {Judith Carabbio|name}'s {reporting|manager} {manager|manager}?
+Please do tell who is the {management|manager} person for {Smith|name}
+is {smith|name} {reporting to|manager} {christie harrington|name}

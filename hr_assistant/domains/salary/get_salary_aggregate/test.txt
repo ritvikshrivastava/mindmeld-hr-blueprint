@@ -1,19 +1,19 @@
-{average|function} {earnings|money} of {male|sex} in this org
-How much {pay|money} did all the {employees that have been here|employment_action} for {more than|comparator} {three months|sys_duration}?
-what is the {hourly|time_recur} {pay|money} for {non-citizen|citizendesc}s
+{maximum|extreme} {paycheck|money} for a {director of operations|position}
+i want the {average|function} {salary|money} of {women|sex} in this organization
+how much are all the employees in the {software engineering|department} getting in {income|money} in {total|function}
+give me the {average|function} take home {salary|money} for {Production Technicians|position}
+what is the {average|function} {income|money} that employees that are {non-citizen|citizendesc} {make|money}?
+what is the {bottom|extreme} {earner|money} in the {it|department} department
+{total|function} {count|function} of employees {making|money} {less than|comparator} {6 figure|sys_number} in {salary|money}?
+{male|sex} {earnings|money} {typically|function}?
+give me the {typical|function} take home {salary|money} for {software engineering manager|position}
+what is the {fraction|function} of {female|sex} employees that {make|money} {above|comparator} {$75,000|sys_amount-of-money}
+what do {women|sex} {earn|money} over here on {typically|function}?
 how much are {referred employees|employee_source} {making|money} on {average|function}?
-what is the {average|function} {salary|money} of the employees whose {supervisor|manager} is {Amy Dunn|name}?
-What is the {sum|function} {income|money} of all the employees?
-what is the {lowest|extreme} {income|money} that a {director of sales|position}
-{mean|function} {$|money} of {it manager - db|position} in the {VT|state}?
-i want the {total|function} {earnings|money} of {female|sex} in this organization
-what are {female|sex} {earning|money} on {average|function}?
-what {percent|function} of employees {earn|money} {25|sys_number} {hourly|time_recur}?
-Amount that company {pay|money} its employees {last month|sys_time} on {average|function}?
-What are workers {born|dob} {before|date_compare} {1985|sys_time} {typically|function} {paid|money}?
-{lowest|extreme} {income|money} for a {accountant i|position}
-{sum|function} {pay|money} for {female|sex}?
-what is the {mean|function} of {salaries|money} for {referred employees|employee_source}?
-{production|department} {pays|money} its employees what on {average|function}
-What is the {average|function} {pay|money} of new grad hires?
-what are {women|sex} {making|money} on {average|function}?
+what are {database administrator|position} {earning|money} on {average|function}?
+what {number of|function} people {earn|money} {fewer than|comparator} {30|sys_number} {dollars|money} {an hour|sys_duration}?
+How much does the {average|function} employee {hired|employment_action} after {2017|sys_time} {make|money}?
+Calc the {number of|function} {earners|money} in the company
+{how many|function} {female|sex} employees {earn|money} {more than|comparator} {30|sys_number} {an hour|sys_duration}
+Of all the workers that {started at the company|employment_action} {3 and a half years|sys_duration} ago, what {fraction|function} {made|money} {more than|comparator} {sixty grand|sys_amount-of-money}?
+what is the {hourly|time_recur} {pay|money} for {non-citizen|citizendesc}s

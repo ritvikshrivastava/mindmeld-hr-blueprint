@@ -1,18 +1,18 @@
-Show me the {earning|money} of {female|sex} in this company
-who are the company's {highest|extreme} {21|sys_number} {american indian or alaska native|racedesc} {earners|money}
-{software engineering|department} {earnings|money}
-who are the company's {bottom|extreme} {14|sys_number} {asian|racedesc} {earners|money}
-what are our {lowest|extreme} {earners|money} {making|money}
+Who {earns|money} the {least|extreme} in the {executive office|department} dept
 tell me the {max|extreme} {salary|money} among {men|sex}
-what are {software engineer|position} {earning|money} at this company
-folks {making|money} {less than|comparator} the {avg|function}
-how much are {referred employees|employee_source} {earning|money}?
-I want a list with {salaries|money} of employees that are {eligible noncitizen|citizendesc}
-who {makes|money} a {salary|money} {more than|comparator} {210k|sys_number}?
-Which {white|racedesc} employee {income|money} the {greatest|extreme}
 give me the {salaries|money} of {interracial|racedesc} employees in this company
-give me the {earners|money} for all of the employees that are {eligible noncitizen|citizendesc}
-what's the {maximum|extreme} {salary|money} among {men|sex}
-{earning|money} {male|sex}
-Which workers are {compensated|money} {more than|comparator} {35k|sys_number} but {less than|comparator} {60k|sys_number}?
-what are the {earnings|money} for {active|employment_status} employees
+Which {black or african american|racedesc} employee {earn|money} the {minimum|extreme}
+{earn|money} {male|sex}
+what are the {earnings|money} for people {on a leave of absence|employment_status}
+who {makes|money} {$|money} {less than|comparator} {73k|sys_number}?
+Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
+{non citizen|citizendesc} {salaries|money}
+Get me the {bottom|extreme} {twelve|sys_number} {earners|money} in the {sales|department} department
+{highest|extreme} {income|money} {salaries|money}
+{eligible noncitizen|citizendesc}s {income|money}s
+I want a list with {earnings|money} of employees that are {American citizens|citizendesc}
+who {makes|money} the {least|extreme} {amount of money|money} in {admin office|department}
+{IT support|position} {top|extreme} {earner|money}
+Tell me the employee that {works under|manager} {Melinda Saar-Beckles|name} that {makes|money} the {least|extreme} amount?
+Who are our {lowest|extreme} {earning|money} employees
+who is the {maximum|extreme} {earners|money} among {director of operations|position} and what is {his|sex} or {her|sex} {pay|money}
