@@ -20,7 +20,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Mia",
-        "last_name": "Brown"
+        "last_name": "Brown",
+        "subordinates": ""
     },
     {
         "emp_name": "LaRotonda, William  ",
@@ -43,7 +44,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Fully Meets",
         "first_name": "William",
-        "last_name": "LaRotonda"
+        "last_name": "LaRotonda",
+        "subordinates": ""
     },
     {
         "emp_name": "Steans, Tyrone  ",
@@ -66,7 +68,8 @@
         "employee_source": "Internet Search",
         "performance_score": "Fully Meets",
         "first_name": "Tyrone",
-        "last_name": "Steans"
+        "last_name": "Steans",
+        "subordinates": ""
     },
     {
         "emp_name": "Howard, Estelle",
@@ -89,7 +92,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "N/A- too early to review",
         "first_name": "Estelle",
-        "last_name": "Howard"
+        "last_name": "Howard",
+        "subordinates": ""
     },
     {
         "emp_name": "Singh, Nan ",
@@ -112,7 +116,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "N/A- too early to review",
         "first_name": "Nan",
-        "last_name": "Singh"
+        "last_name": "Singh",
+        "subordinates": ""
     },
     {
         "emp_name": "Smith, Leigh Ann",
@@ -135,7 +140,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Leigh",
-        "last_name": "Smith"
+        "last_name": "Smith",
+        "subordinates": ""
     },
     {
         "emp_name": "LeBlanc, Brandon  R",
@@ -158,7 +164,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Brandon",
-        "last_name": "LeBlanc"
+        "last_name": "LeBlanc",
+        "subordinates": ""
     },
     {
         "emp_name": "Quinn, Sean",
@@ -181,7 +188,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Sean",
-        "last_name": "Quinn"
+        "last_name": "Quinn",
+        "subordinates": ""
     },
     {
         "emp_name": "Boutwell, Bonalyn",
@@ -204,7 +212,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "90-day meets",
         "first_name": "Bonalyn",
-        "last_name": "Boutwell"
+        "last_name": "Boutwell",
+        "subordinates": ""
     },
     {
         "emp_name": "Foster-Baker, Amy",
@@ -227,7 +236,8 @@
         "employee_source": "Other",
         "performance_score": "Fully Meets",
         "first_name": "Amy",
-        "last_name": "Foster-Baker"
+        "last_name": "Foster-Baker",
+        "subordinates": ""
     },
     {
         "emp_name": "King, Janet",
@@ -250,7 +260,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Janet",
-        "last_name": "King"
+        "last_name": "King",
+        "subordinates": "Brandon R LeBlanc, Sean Quinn, Jennifer Zamora, Elisa Bramante, Michael Albert, Charles Bozzi, Webster L Butler, Amy Dunn, Elijiah Gray, Jonathan Hogland, Walter Immediato, Ketsia Liebig, Brannon Miller, Ebonee Peterson, Kelley Spirea, David Stanley, Kissy Sullivan, Courtney E Wallace, Debra Houlihan"
     },
     {
         "emp_name": "Zamora, Jennifer",
@@ -273,7 +284,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Exceptional",
         "first_name": "Jennifer",
-        "last_name": "Zamora"
+        "last_name": "Zamora",
+        "subordinates": "Jason Foss, Simon Roup, Ricardo Ruiz, Peter Monroe, Eric Dougall, Alex Sweetwater"
     },
     {
         "emp_name": "Becker, Renee",
@@ -296,7 +308,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Renee",
-        "last_name": "Becker"
+        "last_name": "Becker",
+        "subordinates": ""
     },
     {
         "emp_name": "Goble, Taisha",
@@ -319,7 +332,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Taisha",
-        "last_name": "Goble"
+        "last_name": "Goble",
+        "subordinates": ""
     },
     {
         "emp_name": "Hernandez, Daniff",
@@ -342,7 +356,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Daniff",
-        "last_name": "Hernandez"
+        "last_name": "Hernandez",
+        "subordinates": ""
     },
     {
         "emp_name": "Horton, Jayne",
@@ -365,7 +380,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "N/A- too early to review",
         "first_name": "Jayne",
-        "last_name": "Horton"
+        "last_name": "Horton",
+        "subordinates": ""
     },
     {
         "emp_name": "Johnson, Noelle ",
@@ -388,7 +404,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "90-day meets",
         "first_name": "Noelle",
-        "last_name": "Johnson"
+        "last_name": "Johnson",
+        "subordinates": ""
     },
     {
         "emp_name": "Murray, Thomas",
@@ -411,7 +428,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Exceptional",
         "first_name": "Thomas",
-        "last_name": "Murray"
+        "last_name": "Murray",
+        "subordinates": ""
     },
     {
         "emp_name": "Pearson, Randall",
@@ -434,7 +452,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Randall",
-        "last_name": "Pearson"
+        "last_name": "Pearson",
+        "subordinates": ""
     },
     {
         "emp_name": "Petrowsky, Thelma",
@@ -457,7 +476,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Exceptional",
         "first_name": "Thelma",
-        "last_name": "Petrowsky"
+        "last_name": "Petrowsky",
+        "subordinates": ""
     },
     {
         "emp_name": "Roby, Lori ",
@@ -480,7 +500,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Lori",
-        "last_name": "Roby"
+        "last_name": "Roby",
+        "subordinates": ""
     },
     {
         "emp_name": "Rogers, Ivan",
@@ -503,7 +524,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "N/A- too early to review",
         "first_name": "Ivan",
-        "last_name": "Rogers"
+        "last_name": "Rogers",
+        "subordinates": ""
     },
     {
         "emp_name": "Salter, Jason",
@@ -526,7 +548,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "90-day meets",
         "first_name": "Jason",
-        "last_name": "Salter"
+        "last_name": "Salter",
+        "subordinates": ""
     },
     {
         "emp_name": "Simard, Kramer",
@@ -549,7 +572,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "90-day meets",
         "first_name": "Kramer",
-        "last_name": "Simard"
+        "last_name": "Simard",
+        "subordinates": ""
     },
     {
         "emp_name": "Zhou, Julia",
@@ -572,7 +596,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "90-day meets",
         "first_name": "Julia",
-        "last_name": "Zhou"
+        "last_name": "Zhou",
+        "subordinates": ""
     },
     {
         "emp_name": "Foss, Jason",
@@ -595,7 +620,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Exceptional",
         "first_name": "Jason",
-        "last_name": "Foss"
+        "last_name": "Foss",
+        "subordinates": ""
     },
     {
         "emp_name": "Roup,Simon",
@@ -618,7 +644,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Simon",
-        "last_name": "Roup"
+        "last_name": "Roup",
+        "subordinates": "Renee Becker, Taisha Goble, Daniff Hernandez, Jayne Horton, Noelle Johnson, Thomas Murray, Randall Pearson, Thelma Petrowsky, Lori Roby, Ivan Rogers, Jason Salter, Kramer Simard, Julia Zhou, Karthikeyan Ait Sidi, Claudia N Carr, Donald Favis, Bianca Roehrich"
     },
     {
         "emp_name": "Ruiz, Ricardo",
@@ -641,7 +668,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Ricardo",
-        "last_name": "Ruiz"
+        "last_name": "Ruiz",
+        "subordinates": ""
     },
     {
         "emp_name": "Monroe, Peter",
@@ -664,7 +692,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Needs Improvement",
         "first_name": "Peter",
-        "last_name": "Monroe"
+        "last_name": "Monroe",
+        "subordinates": "Alejandro Bacong, Anthony Cisco, Linda Dolan, Maria Gonzalez, Carlos Merlos, Tanya Morway, Anita Shepard, Neville Tredinnick, Jumil Turpin, Ann Daniele, Jyoti Lajiri, Jeremiah Semizoglou, Joe South, Sarah Warfield"
     },
     {
         "emp_name": "Dougall, Eric",
@@ -687,7 +716,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Exceeds",
         "first_name": "Eric",
-        "last_name": "Dougall"
+        "last_name": "Dougall",
+        "subordinates": "Rick Clayton, Lisa Galia, Leonara Lindsay, Julia Soto"
     },
     {
         "emp_name": "Clayton, Rick",
@@ -710,7 +740,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Rick",
-        "last_name": "Clayton"
+        "last_name": "Clayton",
+        "subordinates": ""
     },
     {
         "emp_name": "Galia, Lisa",
@@ -733,7 +764,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Lisa",
-        "last_name": "Galia"
+        "last_name": "Galia",
+        "subordinates": ""
     },
     {
         "emp_name": "Lindsay, Leonara ",
@@ -756,7 +788,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Exceeds",
         "first_name": "Leonara",
-        "last_name": "Lindsay"
+        "last_name": "Lindsay",
+        "subordinates": ""
     },
     {
         "emp_name": "Soto, Julia ",
@@ -779,7 +812,8 @@
         "employee_source": "Information Session",
         "performance_score": "Fully Meets",
         "first_name": "Julia",
-        "last_name": "Soto"
+        "last_name": "Soto",
+        "subordinates": ""
     },
     {
         "emp_name": "Bacong, Alejandro ",
@@ -802,7 +836,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "90-day meets",
         "first_name": "Alejandro",
-        "last_name": "Bacong"
+        "last_name": "Bacong",
+        "subordinates": ""
     },
     {
         "emp_name": "Cisco, Anthony",
@@ -825,7 +860,8 @@
         "employee_source": "Information Session",
         "performance_score": "N/A- too early to review",
         "first_name": "Anthony",
-        "last_name": "Cisco"
+        "last_name": "Cisco",
+        "subordinates": ""
     },
     {
         "emp_name": "Dolan, Linda",
@@ -848,7 +884,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "90-day meets",
         "first_name": "Linda",
-        "last_name": "Dolan"
+        "last_name": "Dolan",
+        "subordinates": ""
     },
     {
         "emp_name": "Gonzalez, Maria",
@@ -871,7 +908,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Maria",
-        "last_name": "Gonzalez"
+        "last_name": "Gonzalez",
+        "subordinates": ""
     },
     {
         "emp_name": "Merlos, Carlos",
@@ -894,7 +932,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Carlos",
-        "last_name": "Merlos"
+        "last_name": "Merlos",
+        "subordinates": ""
     },
     {
         "emp_name": "Morway, Tanya",
@@ -917,10 +956,11 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Tanya",
-        "last_name": "Morway"
+        "last_name": "Morway",
+        "subordinates": ""
     },
     {
-        "emp_name": "Pardo, Anita ",
+        "emp_name": "Shepard, Anita ",
         "id": 906014183,
         "state": "MA",
         "dob": "1981-04-14",
@@ -928,7 +968,7 @@
         "sex": "Female",
         "maritaldesc": "Married",
         "citizendesc": "US Citizen",
-        "racedesc": "Hispanic",
+        "racedesc": "White",
         "doh": "2014-09-30",
         "dot": "1800-01-01",
         "rft": "N/A - still employed",
@@ -940,7 +980,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Anita",
-        "last_name": "Pardo"
+        "last_name": "Shepard",
+        "subordinates": ""
     },
     {
         "emp_name": "Tredinnick, Neville ",
@@ -963,7 +1004,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Neville",
-        "last_name": "Tredinnick"
+        "last_name": "Tredinnick",
+        "subordinates": ""
     },
     {
         "emp_name": "Turpin, Jumil",
@@ -986,7 +1028,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Jumil",
-        "last_name": "Turpin"
+        "last_name": "Turpin",
+        "subordinates": ""
     },
     {
         "emp_name": "Ait Sidi, Karthikeyan   ",
@@ -1009,7 +1052,8 @@
         "employee_source": "Company Intranet - Partner",
         "performance_score": "Fully Meets",
         "first_name": "Karthikeyan",
-        "last_name": "Ait Sidi"
+        "last_name": "Ait Sidi",
+        "subordinates": ""
     },
     {
         "emp_name": "Carr, Claudia  N",
@@ -1032,7 +1076,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Claudia",
-        "last_name": "Carr"
+        "last_name": "Carr",
+        "subordinates": ""
     },
     {
         "emp_name": "Favis, Donald  ",
@@ -1055,7 +1100,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Donald",
-        "last_name": "Favis"
+        "last_name": "Favis",
+        "subordinates": ""
     },
     {
         "emp_name": "Roehrich, Bianca",
@@ -1078,7 +1124,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "90-day meets",
         "first_name": "Bianca",
-        "last_name": "Roehrich"
+        "last_name": "Roehrich",
+        "subordinates": ""
     },
     {
         "emp_name": "Daniele, Ann  ",
@@ -1101,7 +1148,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Ann",
-        "last_name": "Daniele"
+        "last_name": "Daniele",
+        "subordinates": ""
     },
     {
         "emp_name": "Lajiri,  Jyoti",
@@ -1124,7 +1172,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Jyoti",
-        "last_name": "Lajiri"
+        "last_name": "Lajiri",
+        "subordinates": ""
     },
     {
         "emp_name": "Semizoglou, Jeremiah  ",
@@ -1147,7 +1196,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "N/A- too early to review",
         "first_name": "Jeremiah",
-        "last_name": "Semizoglou"
+        "last_name": "Semizoglou",
+        "subordinates": ""
     },
     {
         "emp_name": "South, Joe",
@@ -1170,7 +1220,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "90-day meets",
         "first_name": "Joe",
-        "last_name": "South"
+        "last_name": "South",
+        "subordinates": ""
     },
     {
         "emp_name": "Warfield, Sarah",
@@ -1193,7 +1244,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Sarah",
-        "last_name": "Warfield"
+        "last_name": "Warfield",
+        "subordinates": ""
     },
     {
         "emp_name": "Bramante, Elisa",
@@ -1216,7 +1268,8 @@
         "employee_source": "Other",
         "performance_score": "Exceeds",
         "first_name": "Elisa",
-        "last_name": "Bramante"
+        "last_name": "Bramante",
+        "subordinates": ""
     },
     {
         "emp_name": "Albert, Michael  ",
@@ -1239,7 +1292,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Michael",
-        "last_name": "Albert"
+        "last_name": "Albert",
+        "subordinates": "Wilson K Adinolfi, Nader Barton, Beatrice Chace, Jean Crimmings, Miguel Estremera, Mildred Gentry, Joanne Handschiegl, George Johnson, Kramer Keatts, Marilyn Linares, Jennifer Medeiros, Clinton Owad, Quinn Rarrick, Nore Sadki, Timothy Sullivan, Anna Von Massenbach, Dianna Blount, Angela Erilus, Adrienne J Homberger, Susan Lundy, Maliki Moumanil, Constance Sloan"
     },
     {
         "emp_name": "Bozzi, Charles",
@@ -1262,7 +1316,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Charles",
-        "last_name": "Bozzi"
+        "last_name": "Bozzi",
+        "subordinates": ""
     },
     {
         "emp_name": "Butler, Webster  L",
@@ -1285,7 +1340,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Exceeds",
         "first_name": "Webster",
-        "last_name": "Butler"
+        "last_name": "Butler",
+        "subordinates": ""
     },
     {
         "emp_name": "Dunn, Amy  ",
@@ -1308,7 +1364,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Amy",
-        "last_name": "Dunn"
+        "last_name": "Dunn",
+        "subordinates": "Linda Anderson, Sean Bernstein, Enola Chivukula, Carl Desimone, Nilson Fernandes, Evelyn Girifalco, Kara Harrison, Alexandra Kirill, Samuel MacLennan, Horia Ndzi, Shakira Perry, Alain Robinson, Seffi Shields, Sophia Theamstern, Barry Wilber, Joelle Burke, Michael J Fitzpatrick, Ming Huynh, Karen Mancuso, Ermine Pelletier, Cybil Trzeciak"
     },
     {
         "emp_name": "Gray, Elijiah  ",
@@ -1331,7 +1388,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Elijiah",
-        "last_name": "Gray"
+        "last_name": "Gray",
+        "subordinates": "Trina Alagbe, Courtney Beatrice, Lin Chan, Jene'ya Darson, April Evensen, Melisa Gerke, Ludwick Harrell, Judy Jung, Allison Lydon, Dawn Motlagh, Nina Panjwani, Thomas Rhoads, Kamrin Sander, Barbara Sutwell, Theresa Wallace, Betsy Bondwell, Megan Faller, Julissa Hunts, Lisa Lunquist, Kristie Nowlan, Joe Smith, Lenora Tejeda"
     },
     {
         "emp_name": "Hogland, Jonathan ",
@@ -1354,7 +1412,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Jonathan",
-        "last_name": "Hogland"
+        "last_name": "Hogland",
+        "subordinates": ""
     },
     {
         "emp_name": "Immediato, Walter",
@@ -1377,7 +1436,8 @@
         "employee_source": "Other",
         "performance_score": "Needs Improvement",
         "first_name": "Walter",
-        "last_name": "Immediato"
+        "last_name": "Immediato",
+        "subordinates": ""
     },
     {
         "emp_name": "Liebig, Ketsia",
@@ -1400,7 +1460,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Exceeds",
         "first_name": "Ketsia",
-        "last_name": "Liebig"
+        "last_name": "Liebig",
+        "subordinates": "Sam Athwal, Lowan M Biden, Caroline Cierpiszewski, Geoff Dickinson, Violeta Ferreira, Shenice Gold, Anthony Heitzman, Bradley J Knapp, Lauren Mahoney, Richard Newman, Kayla Peterson, Cherly Robinson, Sade Smith, Theresa Tinto, Jacquelyn Williams, Benjamin Burkett, Tanya Foreman, Tayana Jeannite, Brigit McCarthy, Lauren Peters, Roger Walker"
     },
     {
         "emp_name": "Miller, Brannon",
@@ -1423,7 +1484,8 @@
         "employee_source": "Internet Search",
         "performance_score": "Fully Meets",
         "first_name": "Brannon",
-        "last_name": "Miller"
+        "last_name": "Miller",
+        "subordinates": "Linda Bachiochi, Helen Billis, Elijian Clukey, Lily DiNocco, Libby Fidelia, Cayo Gonzalez, Rose Ivey, John Kretschmer, Debbie Mangal, Shari Ngodup, Hong Pham, Elias Robinson, Taylor Sparks, Jeanette Tippett, Catherine Ybarra, Jennifer Cloninger, Juan Gonzalez, Yen Johnston, Ned Miller, Shana Petingill, Jordan Winthrop"
     },
     {
         "emp_name": "Peterson, Ebonee  ",
@@ -1446,7 +1508,8 @@
         "employee_source": "Internet Search",
         "performance_score": "Fully Meets",
         "first_name": "Ebonee",
-        "last_name": "Peterson"
+        "last_name": "Peterson",
+        "subordinates": ""
     },
     {
         "emp_name": "Spirea, Kelley",
@@ -1469,7 +1532,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Kelley",
-        "last_name": "Spirea"
+        "last_name": "Spirea",
+        "subordinates": "Francesco A Barone, Michael Carey, Lisa Cornett, Jean Engdahl, Rex England, Barbara Gaul, Paula Gross, Sneha Jhaveri, Jonathan R LeBel, Elizabeth Meads, Adeel Osturnka, Louis Punjabhi, Melinda Saar-Beckles, Rick Stoica, Colleen Volk, Kimberly Beak, Carla Demita, Earnest Hankard, Trina Hendrickson, Mathew Linden, Patrick Moran, Adil Sahoo"
     },
     {
         "emp_name": "Stanley, David ",
@@ -1492,7 +1556,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Needs Improvement",
         "first_name": "David",
-        "last_name": "Stanley"
+        "last_name": "Stanley",
+        "subordinates": "Rachael Baczenski, Donna Brill, James Cockel, Denisa S Dobrin, Raul Garcia, David Gordon, Maryellen Jackson, Enrico Langton, Shana Maurice, Lei-Ming Nguyen, Brad Pitt, Ashley Rose, Kristen Squatrito, Mei Trang, Colleen Zima, Phil Close, Susan Good, Lindsey Langford, Erasumus Monkfish, May Roberson, Hang T Wolk"
     },
     {
         "emp_name": "Sullivan, Kissy ",
@@ -1515,7 +1580,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Kissy",
-        "last_name": "Sullivan"
+        "last_name": "Sullivan",
+        "subordinates": "Thomas Barbara, Josephine Bugali, Spencer Cole, Marianne Eaton, Hamish Garneau, Roxana Goyal, Hannah Jacobi, Dallas Leach, Sandy Mckenna, Lynn O'hare, Morissa Power, Janine Purinton, Bruno Rossetti, Barbara M Stanford, Abdellah Veera, Sarah Akinkuolie, Daniel Davis, Phylicia Gosciminski, Mohammed Latif, Luisa Monterro, Peter Robertson, Jason Woodson"
     },
     {
         "emp_name": "Wallace, Courtney  E",
@@ -1538,7 +1604,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Courtney",
-        "last_name": "Wallace"
+        "last_name": "Wallace",
+        "subordinates": ""
     },
     {
         "emp_name": "Adinolfi, Wilson  K",
@@ -1561,7 +1628,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Exceeds",
         "first_name": "Wilson",
-        "last_name": "Adinolfi"
+        "last_name": "Adinolfi",
+        "subordinates": ""
     },
     {
         "emp_name": "Alagbe,Trina",
@@ -1584,7 +1652,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Trina",
-        "last_name": "Alagbe"
+        "last_name": "Alagbe",
+        "subordinates": ""
     },
     {
         "emp_name": "Anderson, Carol ",
@@ -1607,7 +1676,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "N/A- too early to review",
         "first_name": "Carol",
-        "last_name": "Anderson"
+        "last_name": "Anderson",
+        "subordinates": ""
     },
     {
         "emp_name": "Anderson, Linda  ",
@@ -1630,7 +1700,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Exceptional",
         "first_name": "Linda",
-        "last_name": "Anderson"
+        "last_name": "Anderson",
+        "subordinates": ""
     },
     {
         "emp_name": "Athwal, Sam",
@@ -1653,7 +1724,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Sam",
-        "last_name": "Athwal"
+        "last_name": "Athwal",
+        "subordinates": ""
     },
     {
         "emp_name": "Bachiochi, Linda",
@@ -1676,7 +1748,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Linda",
-        "last_name": "Bachiochi"
+        "last_name": "Bachiochi",
+        "subordinates": ""
     },
     {
         "emp_name": "Baczenski, Rachael  ",
@@ -1699,7 +1772,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "N/A- too early to review",
         "first_name": "Rachael",
-        "last_name": "Baczenski"
+        "last_name": "Baczenski",
+        "subordinates": ""
     },
     {
         "emp_name": "Barbara, Thomas",
@@ -1722,7 +1796,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "90-day meets",
         "first_name": "Thomas",
-        "last_name": "Barbara"
+        "last_name": "Barbara",
+        "subordinates": ""
     },
     {
         "emp_name": "Barone, Francesco  A",
@@ -1745,7 +1820,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Fully Meets",
         "first_name": "Francesco",
-        "last_name": "Barone"
+        "last_name": "Barone",
+        "subordinates": ""
     },
     {
         "emp_name": "Barton, Nader",
@@ -1768,7 +1844,8 @@
         "employee_source": "On-line Web application",
         "performance_score": "Fully Meets",
         "first_name": "Nader",
-        "last_name": "Barton"
+        "last_name": "Barton",
+        "subordinates": ""
     },
     {
         "emp_name": "Beatrice, Courtney ",
@@ -1791,7 +1868,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Courtney",
-        "last_name": "Beatrice"
+        "last_name": "Beatrice",
+        "subordinates": ""
     },
     {
         "emp_name": "Becker, Scott",
@@ -1814,7 +1892,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Scott",
-        "last_name": "Becker"
+        "last_name": "Becker",
+        "subordinates": ""
     },
     {
         "emp_name": "Bernstein, Sean",
@@ -1837,7 +1916,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Sean",
-        "last_name": "Bernstein"
+        "last_name": "Bernstein",
+        "subordinates": ""
     },
     {
         "emp_name": "Biden, Lowan  M",
@@ -1860,7 +1940,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Lowan",
-        "last_name": "Biden"
+        "last_name": "Biden",
+        "subordinates": ""
     },
     {
         "emp_name": "Billis, Helen",
@@ -1883,7 +1964,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Exceeds",
         "first_name": "Helen",
-        "last_name": "Billis"
+        "last_name": "Billis",
+        "subordinates": ""
     },
     {
         "emp_name": "Brill, Donna",
@@ -1906,7 +1988,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Donna",
-        "last_name": "Brill"
+        "last_name": "Brill",
+        "subordinates": ""
     },
     {
         "emp_name": "Bugali, Josephine ",
@@ -1929,7 +2012,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Josephine",
-        "last_name": "Bugali"
+        "last_name": "Bugali",
+        "subordinates": ""
     },
     {
         "emp_name": "Carey, Michael  ",
@@ -1952,7 +2036,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Michael",
-        "last_name": "Carey"
+        "last_name": "Carey",
+        "subordinates": ""
     },
     {
         "emp_name": "Chace, Beatrice ",
@@ -1975,7 +2060,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Beatrice",
-        "last_name": "Chace"
+        "last_name": "Chace",
+        "subordinates": ""
     },
     {
         "emp_name": "Chan, Lin",
@@ -1998,7 +2084,8 @@
         "employee_source": "Internet Search",
         "performance_score": "Fully Meets",
         "first_name": "Lin",
-        "last_name": "Chan"
+        "last_name": "Chan",
+        "subordinates": ""
     },
     {
         "emp_name": "Chang, Donovan  E",
@@ -2021,7 +2108,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Donovan",
-        "last_name": "Chang"
+        "last_name": "Chang",
+        "subordinates": ""
     },
     {
         "emp_name": "Chivukula, Enola",
@@ -2044,7 +2132,8 @@
         "employee_source": "Other",
         "performance_score": "90-day meets",
         "first_name": "Enola",
-        "last_name": "Chivukula"
+        "last_name": "Chivukula",
+        "subordinates": ""
     },
     {
         "emp_name": "Cierpiszewski, Caroline  ",
@@ -2067,7 +2156,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Caroline",
-        "last_name": "Cierpiszewski"
+        "last_name": "Cierpiszewski",
+        "subordinates": ""
     },
     {
         "emp_name": "Clukey, Elijian",
@@ -2090,7 +2180,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Exceeds",
         "first_name": "Elijian",
-        "last_name": "Clukey"
+        "last_name": "Clukey",
+        "subordinates": ""
     },
     {
         "emp_name": "Cockel, James",
@@ -2113,7 +2204,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "James",
-        "last_name": "Cockel"
+        "last_name": "Cockel",
+        "subordinates": ""
     },
     {
         "emp_name": "Cole, Spencer",
@@ -2136,7 +2228,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Needs Improvement",
         "first_name": "Spencer",
-        "last_name": "Cole"
+        "last_name": "Cole",
+        "subordinates": ""
     },
     {
         "emp_name": "Cornett, Lisa ",
@@ -2159,7 +2252,8 @@
         "employee_source": "Billboard",
         "performance_score": "90-day meets",
         "first_name": "Lisa",
-        "last_name": "Cornett"
+        "last_name": "Cornett",
+        "subordinates": ""
     },
     {
         "emp_name": "Crimmings,   Jean",
@@ -2182,7 +2276,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "N/A- too early to review",
         "first_name": "Jean",
-        "last_name": "Crimmings"
+        "last_name": "Crimmings",
+        "subordinates": ""
     },
     {
         "emp_name": "Darson, Jene'ya ",
@@ -2205,7 +2300,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Jene'ya",
-        "last_name": "Darson"
+        "last_name": "Darson",
+        "subordinates": ""
     },
     {
         "emp_name": "DeGweck,  James",
@@ -2228,7 +2324,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "James",
-        "last_name": "DeGweck"
+        "last_name": "DeGweck",
+        "subordinates": ""
     },
     {
         "emp_name": "Desimone, Carl ",
@@ -2251,7 +2348,8 @@
         "employee_source": "Professional Society",
         "performance_score": "PIP",
         "first_name": "Carl",
-        "last_name": "Desimone"
+        "last_name": "Desimone",
+        "subordinates": ""
     },
     {
         "emp_name": "Dickinson, Geoff ",
@@ -2274,7 +2372,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Geoff",
-        "last_name": "Dickinson"
+        "last_name": "Dickinson",
+        "subordinates": ""
     },
     {
         "emp_name": "DiNocco, Lily ",
@@ -2297,7 +2396,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Needs Improvement",
         "first_name": "Lily",
-        "last_name": "DiNocco"
+        "last_name": "DiNocco",
+        "subordinates": ""
     },
     {
         "emp_name": "Dobrin, Denisa  S",
@@ -2320,7 +2420,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Denisa",
-        "last_name": "Dobrin"
+        "last_name": "Dobrin",
+        "subordinates": ""
     },
     {
         "emp_name": "Eaton, Marianne",
@@ -2343,7 +2444,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Marianne",
-        "last_name": "Eaton"
+        "last_name": "Eaton",
+        "subordinates": ""
     },
     {
         "emp_name": "Engdahl, Jean",
@@ -2366,7 +2468,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Jean",
-        "last_name": "Engdahl"
+        "last_name": "Engdahl",
+        "subordinates": ""
     },
     {
         "emp_name": "England, Rex",
@@ -2389,7 +2492,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "90-day meets",
         "first_name": "Rex",
-        "last_name": "England"
+        "last_name": "England",
+        "subordinates": ""
     },
     {
         "emp_name": "Estremera, Miguel",
@@ -2412,7 +2516,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Needs Improvement",
         "first_name": "Miguel",
-        "last_name": "Estremera"
+        "last_name": "Estremera",
+        "subordinates": ""
     },
     {
         "emp_name": "Evensen, April",
@@ -2435,7 +2540,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "N/A- too early to review",
         "first_name": "April",
-        "last_name": "Evensen"
+        "last_name": "Evensen",
+        "subordinates": ""
     },
     {
         "emp_name": "Ferguson, Susan",
@@ -2458,7 +2564,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Susan",
-        "last_name": "Ferguson"
+        "last_name": "Ferguson",
+        "subordinates": ""
     },
     {
         "emp_name": "Fernandes, Nilson  ",
@@ -2481,7 +2588,8 @@
         "employee_source": "Professional Society",
         "performance_score": "N/A- too early to review",
         "first_name": "Nilson",
-        "last_name": "Fernandes"
+        "last_name": "Fernandes",
+        "subordinates": ""
     },
     {
         "emp_name": "Ferreira, Violeta",
@@ -2504,7 +2612,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Violeta",
-        "last_name": "Ferreira"
+        "last_name": "Ferreira",
+        "subordinates": ""
     },
     {
         "emp_name": "Fidelia,  Libby",
@@ -2527,7 +2636,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Fully Meets",
         "first_name": "Libby",
-        "last_name": "Fidelia"
+        "last_name": "Fidelia",
+        "subordinates": ""
     },
     {
         "emp_name": "Garcia, Raul",
@@ -2550,7 +2660,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Raul",
-        "last_name": "Garcia"
+        "last_name": "Garcia",
+        "subordinates": ""
     },
     {
         "emp_name": "Garneau, Hamish",
@@ -2573,7 +2684,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Hamish",
-        "last_name": "Garneau"
+        "last_name": "Garneau",
+        "subordinates": ""
     },
     {
         "emp_name": "Gaul, Barbara",
@@ -2596,7 +2708,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Barbara",
-        "last_name": "Gaul"
+        "last_name": "Gaul",
+        "subordinates": ""
     },
     {
         "emp_name": "Gentry, Mildred",
@@ -2619,7 +2732,8 @@
         "employee_source": "Professional Society",
         "performance_score": "N/A- too early to review",
         "first_name": "Mildred",
-        "last_name": "Gentry"
+        "last_name": "Gentry",
+        "subordinates": ""
     },
     {
         "emp_name": "Gerke, Melisa",
@@ -2642,7 +2756,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "N/A- too early to review",
         "first_name": "Melisa",
-        "last_name": "Gerke"
+        "last_name": "Gerke",
+        "subordinates": ""
     },
     {
         "emp_name": "Gilles, Alex",
@@ -2665,7 +2780,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Needs Improvement",
         "first_name": "Alex",
-        "last_name": "Gilles"
+        "last_name": "Gilles",
+        "subordinates": ""
     },
     {
         "emp_name": "Girifalco, Evelyn",
@@ -2688,7 +2804,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Exceeds",
         "first_name": "Evelyn",
-        "last_name": "Girifalco"
+        "last_name": "Girifalco",
+        "subordinates": ""
     },
     {
         "emp_name": "Gold, Shenice  ",
@@ -2711,7 +2828,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Shenice",
-        "last_name": "Gold"
+        "last_name": "Gold",
+        "subordinates": ""
     },
     {
         "emp_name": "Gonzalez, Cayo",
@@ -2734,7 +2852,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Exceeds",
         "first_name": "Cayo",
-        "last_name": "Gonzalez"
+        "last_name": "Gonzalez",
+        "subordinates": ""
     },
     {
         "emp_name": "Gordon, David",
@@ -2757,7 +2876,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "David",
-        "last_name": "Gordon"
+        "last_name": "Gordon",
+        "subordinates": ""
     },
     {
         "emp_name": "Goyal, Roxana",
@@ -2780,7 +2900,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Roxana",
-        "last_name": "Goyal"
+        "last_name": "Goyal",
+        "subordinates": ""
     },
     {
         "emp_name": "Gross, Paula",
@@ -2803,7 +2924,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Paula",
-        "last_name": "Gross"
+        "last_name": "Gross",
+        "subordinates": ""
     },
     {
         "emp_name": "Handschiegl, Joanne",
@@ -2826,7 +2948,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Joanne",
-        "last_name": "Handschiegl"
+        "last_name": "Handschiegl",
+        "subordinates": ""
     },
     {
         "emp_name": "Harrell, Ludwick",
@@ -2849,7 +2972,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Ludwick",
-        "last_name": "Harrell"
+        "last_name": "Harrell",
+        "subordinates": ""
     },
     {
         "emp_name": "Harrington, Christie ",
@@ -2872,7 +2996,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Christie",
-        "last_name": "Harrington"
+        "last_name": "Harrington",
+        "subordinates": ""
     },
     {
         "emp_name": "Harrison, Kara",
@@ -2895,7 +3020,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Exceeds",
         "first_name": "Kara",
-        "last_name": "Harrison"
+        "last_name": "Harrison",
+        "subordinates": ""
     },
     {
         "emp_name": "Heitzman, Anthony",
@@ -2918,7 +3044,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "90-day meets",
         "first_name": "Anthony",
-        "last_name": "Heitzman"
+        "last_name": "Heitzman",
+        "subordinates": ""
     },
     {
         "emp_name": "Ivey, Rose ",
@@ -2941,7 +3068,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Rose",
-        "last_name": "Ivey"
+        "last_name": "Ivey",
+        "subordinates": ""
     },
     {
         "emp_name": "Jackson, Maryellen",
@@ -2964,7 +3092,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Maryellen",
-        "last_name": "Jackson"
+        "last_name": "Jackson",
+        "subordinates": ""
     },
     {
         "emp_name": "Jacobi, Hannah  ",
@@ -2987,7 +3116,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Hannah",
-        "last_name": "Jacobi"
+        "last_name": "Jacobi",
+        "subordinates": ""
     },
     {
         "emp_name": "Jhaveri, Sneha  ",
@@ -3010,7 +3140,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Sneha",
-        "last_name": "Jhaveri"
+        "last_name": "Jhaveri",
+        "subordinates": ""
     },
     {
         "emp_name": "Johnson, George",
@@ -3033,7 +3164,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Exceeds",
         "first_name": "George",
-        "last_name": "Johnson"
+        "last_name": "Johnson",
+        "subordinates": ""
     },
     {
         "emp_name": "Jung, Judy  ",
@@ -3056,7 +3188,8 @@
         "employee_source": "Monster.com",
         "performance_score": "90-day meets",
         "first_name": "Judy",
-        "last_name": "Jung"
+        "last_name": "Jung",
+        "subordinates": ""
     },
     {
         "emp_name": "Keatts, Kramer ",
@@ -3079,7 +3212,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Kramer",
-        "last_name": "Keatts"
+        "last_name": "Keatts",
+        "subordinates": ""
     },
     {
         "emp_name": "Kinsella, Kathleen  ",
@@ -3102,7 +3236,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "90-day meets",
         "first_name": "Kathleen",
-        "last_name": "Kinsella"
+        "last_name": "Kinsella",
+        "subordinates": ""
     },
     {
         "emp_name": "Kirill, Alexandra  ",
@@ -3125,7 +3260,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Alexandra",
-        "last_name": "Kirill"
+        "last_name": "Kirill",
+        "subordinates": ""
     },
     {
         "emp_name": "Knapp, Bradley  J",
@@ -3148,7 +3284,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Bradley",
-        "last_name": "Knapp"
+        "last_name": "Knapp",
+        "subordinates": ""
     },
     {
         "emp_name": "Kretschmer, John",
@@ -3171,7 +3308,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "John",
-        "last_name": "Kretschmer"
+        "last_name": "Kretschmer",
+        "subordinates": ""
     },
     {
         "emp_name": "Langton, Enrico",
@@ -3194,7 +3332,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Enrico",
-        "last_name": "Langton"
+        "last_name": "Langton",
+        "subordinates": ""
     },
     {
         "emp_name": "Leach, Dallas",
@@ -3217,7 +3356,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Dallas",
-        "last_name": "Leach"
+        "last_name": "Leach",
+        "subordinates": ""
     },
     {
         "emp_name": "LeBel, Jonathan  R",
@@ -3240,7 +3380,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "90-day meets",
         "first_name": "Jonathan",
-        "last_name": "LeBel"
+        "last_name": "LeBel",
+        "subordinates": ""
     },
     {
         "emp_name": "Linares, Marilyn ",
@@ -3263,7 +3404,8 @@
         "employee_source": "Internet Search",
         "performance_score": "N/A- too early to review",
         "first_name": "Marilyn",
-        "last_name": "Linares"
+        "last_name": "Linares",
+        "subordinates": ""
     },
     {
         "emp_name": "Lydon, Allison",
@@ -3286,7 +3428,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "90-day meets",
         "first_name": "Allison",
-        "last_name": "Lydon"
+        "last_name": "Lydon",
+        "subordinates": ""
     },
     {
         "emp_name": "Lynch, Lindsay",
@@ -3309,7 +3452,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Exceeds",
         "first_name": "Lindsay",
-        "last_name": "Lynch"
+        "last_name": "Lynch",
+        "subordinates": ""
     },
     {
         "emp_name": "MacLennan, Samuel",
@@ -3332,7 +3476,8 @@
         "employee_source": "Pay Per Click",
         "performance_score": "N/A- too early to review",
         "first_name": "Samuel",
-        "last_name": "MacLennan"
+        "last_name": "MacLennan",
+        "subordinates": ""
     },
     {
         "emp_name": "Mahoney, Lauren  ",
@@ -3355,7 +3500,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Lauren",
-        "last_name": "Mahoney"
+        "last_name": "Mahoney",
+        "subordinates": ""
     },
     {
         "emp_name": "Mangal, Debbie",
@@ -3378,7 +3524,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Debbie",
-        "last_name": "Mangal"
+        "last_name": "Mangal",
+        "subordinates": ""
     },
     {
         "emp_name": "Maurice, Shana",
@@ -3401,7 +3548,8 @@
         "employee_source": "Other",
         "performance_score": "90-day meets",
         "first_name": "Shana",
-        "last_name": "Maurice"
+        "last_name": "Maurice",
+        "subordinates": ""
     },
     {
         "emp_name": "Mckenna, Sandy",
@@ -3424,7 +3572,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Sandy",
-        "last_name": "Mckenna"
+        "last_name": "Mckenna",
+        "subordinates": ""
     },
     {
         "emp_name": "Meads, Elizabeth",
@@ -3447,7 +3596,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Elizabeth",
-        "last_name": "Meads"
+        "last_name": "Meads",
+        "subordinates": ""
     },
     {
         "emp_name": "Medeiros, Jennifer",
@@ -3470,7 +3620,8 @@
         "employee_source": "Monster.com",
         "performance_score": "N/A- too early to review",
         "first_name": "Jennifer",
-        "last_name": "Medeiros"
+        "last_name": "Medeiros",
+        "subordinates": ""
     },
     {
         "emp_name": "Motlagh,  Dawn",
@@ -3493,7 +3644,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Dawn",
-        "last_name": "Motlagh"
+        "last_name": "Motlagh",
+        "subordinates": ""
     },
     {
         "emp_name": "Ndzi, Colombui",
@@ -3516,7 +3668,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Colombui",
-        "last_name": "Ndzi"
+        "last_name": "Ndzi",
+        "subordinates": ""
     },
     {
         "emp_name": "Ndzi, Horia",
@@ -3539,7 +3692,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Horia",
-        "last_name": "Ndzi"
+        "last_name": "Ndzi",
+        "subordinates": ""
     },
     {
         "emp_name": "Newman, Richard ",
@@ -3562,7 +3716,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Richard",
-        "last_name": "Newman"
+        "last_name": "Newman",
+        "subordinates": ""
     },
     {
         "emp_name": "Ngodup, Shari ",
@@ -3585,7 +3740,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Exceeds",
         "first_name": "Shari",
-        "last_name": "Ngodup"
+        "last_name": "Ngodup",
+        "subordinates": ""
     },
     {
         "emp_name": "Nguyen, Lei-Ming",
@@ -3608,7 +3764,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Lei-Ming",
-        "last_name": "Nguyen"
+        "last_name": "Nguyen",
+        "subordinates": ""
     },
     {
         "emp_name": "O'hare, Lynn",
@@ -3631,7 +3788,8 @@
         "employee_source": "Professional Society",
         "performance_score": "PIP",
         "first_name": "Lynn",
-        "last_name": "O'hare"
+        "last_name": "O'hare",
+        "subordinates": ""
     },
     {
         "emp_name": "Osturnka, Adeel",
@@ -3654,7 +3812,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Exceeds",
         "first_name": "Adeel",
-        "last_name": "Osturnka"
+        "last_name": "Osturnka",
+        "subordinates": ""
     },
     {
         "emp_name": "Owad, Clinton",
@@ -3677,7 +3836,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Needs Improvement",
         "first_name": "Clinton",
-        "last_name": "Owad"
+        "last_name": "Owad",
+        "subordinates": ""
     },
     {
         "emp_name": "Panjwani, Nina",
@@ -3700,7 +3860,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Fully Meets",
         "first_name": "Nina",
-        "last_name": "Panjwani"
+        "last_name": "Panjwani",
+        "subordinates": ""
     },
     {
         "emp_name": "Pelech, Emil",
@@ -3723,7 +3884,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Needs Improvement",
         "first_name": "Emil",
-        "last_name": "Pelech"
+        "last_name": "Pelech",
+        "subordinates": ""
     },
     {
         "emp_name": "Perry, Shakira",
@@ -3746,7 +3908,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Shakira",
-        "last_name": "Perry"
+        "last_name": "Perry",
+        "subordinates": ""
     },
     {
         "emp_name": "Peterson, Kayla ",
@@ -3769,7 +3932,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Kayla",
-        "last_name": "Peterson"
+        "last_name": "Peterson",
+        "subordinates": ""
     },
     {
         "emp_name": "Pham, Hong",
@@ -3792,7 +3956,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Hong",
-        "last_name": "Pham"
+        "last_name": "Pham",
+        "subordinates": ""
     },
     {
         "emp_name": "Pitt, Brad ",
@@ -3815,7 +3980,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Brad",
-        "last_name": "Pitt"
+        "last_name": "Pitt",
+        "subordinates": ""
     },
     {
         "emp_name": "Power, Morissa",
@@ -3838,7 +4004,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "N/A- too early to review",
         "first_name": "Morissa",
-        "last_name": "Power"
+        "last_name": "Power",
+        "subordinates": ""
     },
     {
         "emp_name": "Punjabhi, Louis  ",
@@ -3861,7 +4028,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Louis",
-        "last_name": "Punjabhi"
+        "last_name": "Punjabhi",
+        "subordinates": ""
     },
     {
         "emp_name": "Purinton, Janine",
@@ -3884,7 +4052,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Janine",
-        "last_name": "Purinton"
+        "last_name": "Purinton",
+        "subordinates": ""
     },
     {
         "emp_name": "Rarrick, Quinn",
@@ -3907,7 +4076,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Quinn",
-        "last_name": "Rarrick"
+        "last_name": "Rarrick",
+        "subordinates": ""
     },
     {
         "emp_name": "Rhoads, Thomas",
@@ -3930,7 +4100,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Thomas",
-        "last_name": "Rhoads"
+        "last_name": "Rhoads",
+        "subordinates": ""
     },
     {
         "emp_name": "Rivera, Haley  ",
@@ -3953,7 +4124,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Exceeds",
         "first_name": "Haley",
-        "last_name": "Rivera"
+        "last_name": "Rivera",
+        "subordinates": ""
     },
     {
         "emp_name": "Robinson, Alain  ",
@@ -3976,7 +4148,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Alain",
-        "last_name": "Robinson"
+        "last_name": "Robinson",
+        "subordinates": ""
     },
     {
         "emp_name": "Robinson, Cherly",
@@ -3999,7 +4172,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Needs Improvement",
         "first_name": "Cherly",
-        "last_name": "Robinson"
+        "last_name": "Robinson",
+        "subordinates": ""
     },
     {
         "emp_name": "Robinson, Elias",
@@ -4022,7 +4196,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Exceptional",
         "first_name": "Elias",
-        "last_name": "Robinson"
+        "last_name": "Robinson",
+        "subordinates": ""
     },
     {
         "emp_name": "Rose, Ashley  ",
@@ -4045,7 +4220,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Fully Meets",
         "first_name": "Ashley",
-        "last_name": "Rose"
+        "last_name": "Rose",
+        "subordinates": ""
     },
     {
         "emp_name": "Rossetti, Bruno",
@@ -4068,7 +4244,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Bruno",
-        "last_name": "Rossetti"
+        "last_name": "Rossetti",
+        "subordinates": ""
     },
     {
         "emp_name": "Saar-Beckles, Melinda",
@@ -4091,7 +4268,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "N/A- too early to review",
         "first_name": "Melinda",
-        "last_name": "Saar-Beckles"
+        "last_name": "Saar-Beckles",
+        "subordinates": ""
     },
     {
         "emp_name": "Sadki, Nore  ",
@@ -4114,7 +4292,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Nore",
-        "last_name": "Sadki"
+        "last_name": "Sadki",
+        "subordinates": ""
     },
     {
         "emp_name": "Sander, Kamrin",
@@ -4137,7 +4316,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Kamrin",
-        "last_name": "Sander"
+        "last_name": "Sander",
+        "subordinates": ""
     },
     {
         "emp_name": "Sewkumar, Nori",
@@ -4160,7 +4340,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Nori",
-        "last_name": "Sewkumar"
+        "last_name": "Sewkumar",
+        "subordinates": ""
     },
     {
         "emp_name": "Shields, Seffi",
@@ -4183,7 +4364,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Seffi",
-        "last_name": "Shields"
+        "last_name": "Shields",
+        "subordinates": ""
     },
     {
         "emp_name": "Smith, Sade",
@@ -4206,7 +4388,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Sade",
-        "last_name": "Smith"
+        "last_name": "Smith",
+        "subordinates": ""
     },
     {
         "emp_name": "Sparks, Taylor  ",
@@ -4229,7 +4412,8 @@
         "employee_source": "Billboard",
         "performance_score": "PIP",
         "first_name": "Taylor",
-        "last_name": "Sparks"
+        "last_name": "Sparks",
+        "subordinates": ""
     },
     {
         "emp_name": "Squatrito, Kristen",
@@ -4252,7 +4436,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Exceeds",
         "first_name": "Kristen",
-        "last_name": "Squatrito"
+        "last_name": "Squatrito",
+        "subordinates": ""
     },
     {
         "emp_name": "Stanford,Barbara  M",
@@ -4275,7 +4460,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Barbara",
-        "last_name": "Stanford"
+        "last_name": "Stanford",
+        "subordinates": ""
     },
     {
         "emp_name": "Stoica, Rick",
@@ -4298,7 +4484,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Rick",
-        "last_name": "Stoica"
+        "last_name": "Stoica",
+        "subordinates": ""
     },
     {
         "emp_name": "Sullivan, Timothy",
@@ -4321,7 +4508,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "90-day meets",
         "first_name": "Timothy",
-        "last_name": "Sullivan"
+        "last_name": "Sullivan",
+        "subordinates": ""
     },
     {
         "emp_name": "Sutwell, Barbara",
@@ -4344,7 +4532,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Barbara",
-        "last_name": "Sutwell"
+        "last_name": "Sutwell",
+        "subordinates": ""
     },
     {
         "emp_name": "Tavares, Desiree  ",
@@ -4367,7 +4556,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Desiree",
-        "last_name": "Tavares"
+        "last_name": "Tavares",
+        "subordinates": ""
     },
     {
         "emp_name": "Theamstern, Sophia",
@@ -4390,7 +4580,8 @@
         "employee_source": "Billboard",
         "performance_score": "N/A- too early to review",
         "first_name": "Sophia",
-        "last_name": "Theamstern"
+        "last_name": "Theamstern",
+        "subordinates": ""
     },
     {
         "emp_name": "Tinto, Theresa  ",
@@ -4413,7 +4604,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "90-day meets",
         "first_name": "Theresa",
-        "last_name": "Tinto"
+        "last_name": "Tinto",
+        "subordinates": ""
     },
     {
         "emp_name": "Tippett, Jeanette",
@@ -4436,7 +4628,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Jeanette",
-        "last_name": "Tippett"
+        "last_name": "Tippett",
+        "subordinates": ""
     },
     {
         "emp_name": "Trang, Mei",
@@ -4459,7 +4652,8 @@
         "employee_source": "Professional Society",
         "performance_score": "N/A- too early to review",
         "first_name": "Mei",
-        "last_name": "Trang"
+        "last_name": "Trang",
+        "subordinates": ""
     },
     {
         "emp_name": "Veera, Abdellah ",
@@ -4482,7 +4676,8 @@
         "employee_source": "Information Session",
         "performance_score": "Exceeds",
         "first_name": "Abdellah",
-        "last_name": "Veera"
+        "last_name": "Veera",
+        "subordinates": ""
     },
     {
         "emp_name": "Volk, Colleen",
@@ -4505,7 +4700,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Exceeds",
         "first_name": "Colleen",
-        "last_name": "Volk"
+        "last_name": "Volk",
+        "subordinates": ""
     },
     {
         "emp_name": "Von Massenbach, Anna",
@@ -4528,7 +4724,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "N/A- too early to review",
         "first_name": "Anna",
-        "last_name": "Von Massenbach"
+        "last_name": "Von Massenbach",
+        "subordinates": ""
     },
     {
         "emp_name": "Wallace, Theresa",
@@ -4551,7 +4748,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Needs Improvement",
         "first_name": "Theresa",
-        "last_name": "Wallace"
+        "last_name": "Wallace",
+        "subordinates": ""
     },
     {
         "emp_name": "Whittier, Scott",
@@ -4574,7 +4772,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "90-day meets",
         "first_name": "Scott",
-        "last_name": "Whittier"
+        "last_name": "Whittier",
+        "subordinates": ""
     },
     {
         "emp_name": "Wilber, Barry",
@@ -4597,7 +4796,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Fully Meets",
         "first_name": "Barry",
-        "last_name": "Wilber"
+        "last_name": "Wilber",
+        "subordinates": ""
     },
     {
         "emp_name": "Williams, Jacquelyn  ",
@@ -4620,7 +4820,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Jacquelyn",
-        "last_name": "Williams"
+        "last_name": "Williams",
+        "subordinates": ""
     },
     {
         "emp_name": "Ybarra, Catherine ",
@@ -4643,7 +4844,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "PIP",
         "first_name": "Catherine",
-        "last_name": "Ybarra"
+        "last_name": "Ybarra",
+        "subordinates": ""
     },
     {
         "emp_name": "Zima, Colleen",
@@ -4666,7 +4868,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Colleen",
-        "last_name": "Zima"
+        "last_name": "Zima",
+        "subordinates": ""
     },
     {
         "emp_name": "Akinkuolie, Sarah",
@@ -4689,7 +4892,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "90-day meets",
         "first_name": "Sarah",
-        "last_name": "Akinkuolie"
+        "last_name": "Akinkuolie",
+        "subordinates": ""
     },
     {
         "emp_name": "Beak, Kimberly  ",
@@ -4712,7 +4916,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Exceeds",
         "first_name": "Kimberly",
-        "last_name": "Beak"
+        "last_name": "Beak",
+        "subordinates": ""
     },
     {
         "emp_name": "Blount, Dianna",
@@ -4735,7 +4940,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Needs Improvement",
         "first_name": "Dianna",
-        "last_name": "Blount"
+        "last_name": "Blount",
+        "subordinates": ""
     },
     {
         "emp_name": "Bondwell, Betsy",
@@ -4758,7 +4964,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "90-day meets",
         "first_name": "Betsy",
-        "last_name": "Bondwell"
+        "last_name": "Bondwell",
+        "subordinates": ""
     },
     {
         "emp_name": "Buccheri, Joseph  ",
@@ -4781,7 +4988,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Joseph",
-        "last_name": "Buccheri"
+        "last_name": "Buccheri",
+        "subordinates": ""
     },
     {
         "emp_name": "Burke, Joelle",
@@ -4804,7 +5012,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Joelle",
-        "last_name": "Burke"
+        "last_name": "Burke",
+        "subordinates": ""
     },
     {
         "emp_name": "Burkett, Benjamin ",
@@ -4827,7 +5036,8 @@
         "employee_source": "Careerbuilder",
         "performance_score": "Fully Meets",
         "first_name": "Benjamin",
-        "last_name": "Burkett"
+        "last_name": "Burkett",
+        "subordinates": ""
     },
     {
         "emp_name": "Cloninger, Jennifer",
@@ -4850,7 +5060,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "90-day meets",
         "first_name": "Jennifer",
-        "last_name": "Cloninger"
+        "last_name": "Cloninger",
+        "subordinates": ""
     },
     {
         "emp_name": "Close, Phil",
@@ -4873,7 +5084,8 @@
         "employee_source": "Other",
         "performance_score": "Fully Meets",
         "first_name": "Phil",
-        "last_name": "Close"
+        "last_name": "Close",
+        "subordinates": ""
     },
     {
         "emp_name": "Davis, Daniel",
@@ -4896,7 +5108,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "90-day meets",
         "first_name": "Daniel",
-        "last_name": "Davis"
+        "last_name": "Davis",
+        "subordinates": ""
     },
     {
         "emp_name": "Demita, Carla",
@@ -4919,7 +5132,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Carla",
-        "last_name": "Demita"
+        "last_name": "Demita",
+        "subordinates": ""
     },
     {
         "emp_name": "Erilus, Angela",
@@ -4942,7 +5156,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "PIP",
         "first_name": "Angela",
-        "last_name": "Erilus"
+        "last_name": "Erilus",
+        "subordinates": ""
     },
     {
         "emp_name": "Faller, Megan ",
@@ -4965,7 +5180,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Megan",
-        "last_name": "Faller"
+        "last_name": "Faller",
+        "subordinates": ""
     },
     {
         "emp_name": "Fancett, Nicole",
@@ -4988,7 +5204,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Nicole",
-        "last_name": "Fancett"
+        "last_name": "Fancett",
+        "subordinates": ""
     },
     {
         "emp_name": "Fitzpatrick, Michael  J",
@@ -5011,7 +5228,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Fully Meets",
         "first_name": "Michael",
-        "last_name": "Fitzpatrick"
+        "last_name": "Fitzpatrick",
+        "subordinates": ""
     },
     {
         "emp_name": "Foreman, Tanya",
@@ -5034,7 +5252,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Tanya",
-        "last_name": "Foreman"
+        "last_name": "Foreman",
+        "subordinates": ""
     },
     {
         "emp_name": "Gonzalez, Juan",
@@ -5057,7 +5276,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "PIP",
         "first_name": "Juan",
-        "last_name": "Gonzalez"
+        "last_name": "Gonzalez",
+        "subordinates": ""
     },
     {
         "emp_name": "Good, Susan",
@@ -5080,7 +5300,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Susan",
-        "last_name": "Good"
+        "last_name": "Good",
+        "subordinates": ""
     },
     {
         "emp_name": "Gosciminski, Phylicia  ",
@@ -5103,7 +5324,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Phylicia",
-        "last_name": "Gosciminski"
+        "last_name": "Gosciminski",
+        "subordinates": ""
     },
     {
         "emp_name": "Hankard, Earnest",
@@ -5126,7 +5348,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Earnest",
-        "last_name": "Hankard"
+        "last_name": "Hankard",
+        "subordinates": ""
     },
     {
         "emp_name": "Hendrickson, Trina",
@@ -5149,7 +5372,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Trina",
-        "last_name": "Hendrickson"
+        "last_name": "Hendrickson",
+        "subordinates": ""
     },
     {
         "emp_name": "Homberger, Adrienne  J",
@@ -5172,7 +5396,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Adrienne",
-        "last_name": "Homberger"
+        "last_name": "Homberger",
+        "subordinates": ""
     },
     {
         "emp_name": "Hunts, Julissa",
@@ -5195,7 +5420,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Julissa",
-        "last_name": "Hunts"
+        "last_name": "Hunts",
+        "subordinates": ""
     },
     {
         "emp_name": "Hutter, Rosalie",
@@ -5218,7 +5444,8 @@
         "employee_source": "Other",
         "performance_score": "N/A- too early to review",
         "first_name": "Rosalie",
-        "last_name": "Hutter"
+        "last_name": "Hutter",
+        "subordinates": ""
     },
     {
         "emp_name": "Huynh, Ming",
@@ -5241,7 +5468,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Ming",
-        "last_name": "Huynh"
+        "last_name": "Huynh",
+        "subordinates": ""
     },
     {
         "emp_name": "Jeannite, Tayana",
@@ -5264,7 +5492,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Exceeds",
         "first_name": "Tayana",
-        "last_name": "Jeannite"
+        "last_name": "Jeannite",
+        "subordinates": ""
     },
     {
         "emp_name": "Johnston, Yen",
@@ -5287,7 +5516,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Exceptional",
         "first_name": "Yen",
-        "last_name": "Johnston"
+        "last_name": "Johnston",
+        "subordinates": ""
     },
     {
         "emp_name": "Langford, Lindsey",
@@ -5310,7 +5540,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Lindsey",
-        "last_name": "Langford"
+        "last_name": "Langford",
+        "subordinates": ""
     },
     {
         "emp_name": "Latif, Mohammed",
@@ -5333,7 +5564,8 @@
         "employee_source": "Word of Mouth",
         "performance_score": "Fully Meets",
         "first_name": "Mohammed",
-        "last_name": "Latif"
+        "last_name": "Latif",
+        "subordinates": ""
     },
     {
         "emp_name": "Linden, Mathew",
@@ -5356,7 +5588,8 @@
         "employee_source": "Information Session",
         "performance_score": "Fully Meets",
         "first_name": "Mathew",
-        "last_name": "Linden"
+        "last_name": "Linden",
+        "subordinates": ""
     },
     {
         "emp_name": "Lundy, Susan",
@@ -5379,7 +5612,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "N/A- too early to review",
         "first_name": "Susan",
-        "last_name": "Lundy"
+        "last_name": "Lundy",
+        "subordinates": ""
     },
     {
         "emp_name": "Lunquist, Lisa",
@@ -5402,7 +5636,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Exceeds",
         "first_name": "Lisa",
-        "last_name": "Lunquist"
+        "last_name": "Lunquist",
+        "subordinates": ""
     },
     {
         "emp_name": "Manchester, Robyn",
@@ -5425,7 +5660,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "N/A- too early to review",
         "first_name": "Robyn",
-        "last_name": "Manchester"
+        "last_name": "Manchester",
+        "subordinates": ""
     },
     {
         "emp_name": "Mancuso, Karen",
@@ -5448,7 +5684,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "N/A- too early to review",
         "first_name": "Karen",
-        "last_name": "Mancuso"
+        "last_name": "Mancuso",
+        "subordinates": ""
     },
     {
         "emp_name": "McCarthy, Brigit",
@@ -5471,7 +5708,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "N/A- too early to review",
         "first_name": "Brigit",
-        "last_name": "McCarthy"
+        "last_name": "McCarthy",
+        "subordinates": ""
     },
     {
         "emp_name": "Miller, Ned",
@@ -5494,7 +5732,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "PIP",
         "first_name": "Ned",
-        "last_name": "Miller"
+        "last_name": "Miller",
+        "subordinates": ""
     },
     {
         "emp_name": "Monkfish, Erasumus  ",
@@ -5517,7 +5756,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Erasumus",
-        "last_name": "Monkfish"
+        "last_name": "Monkfish",
+        "subordinates": ""
     },
     {
         "emp_name": "Monterro, Luisa",
@@ -5540,7 +5780,8 @@
         "employee_source": "Billboard",
         "performance_score": "Exceptional",
         "first_name": "Luisa",
-        "last_name": "Monterro"
+        "last_name": "Monterro",
+        "subordinates": ""
     },
     {
         "emp_name": "Moran, Patrick",
@@ -5563,7 +5804,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Patrick",
-        "last_name": "Moran"
+        "last_name": "Moran",
+        "subordinates": ""
     },
     {
         "emp_name": "Moumanil, Maliki ",
@@ -5586,7 +5828,8 @@
         "employee_source": "On-campus Recruiting",
         "performance_score": "Fully Meets",
         "first_name": "Maliki",
-        "last_name": "Moumanil"
+        "last_name": "Moumanil",
+        "subordinates": ""
     },
     {
         "emp_name": "Nowlan, Kristie",
@@ -5609,7 +5852,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Kristie",
-        "last_name": "Nowlan"
+        "last_name": "Nowlan",
+        "subordinates": ""
     },
     {
         "emp_name": "Oliver, Brooke ",
@@ -5632,7 +5876,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "90-day meets",
         "first_name": "Brooke",
-        "last_name": "Oliver"
+        "last_name": "Oliver",
+        "subordinates": ""
     },
     {
         "emp_name": "Pelletier, Ermine",
@@ -5655,7 +5900,8 @@
         "employee_source": "Monster.com",
         "performance_score": "N/A- too early to review",
         "first_name": "Ermine",
-        "last_name": "Pelletier"
+        "last_name": "Pelletier",
+        "subordinates": ""
     },
     {
         "emp_name": "Peters, Lauren",
@@ -5678,7 +5924,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Exceeds",
         "first_name": "Lauren",
-        "last_name": "Peters"
+        "last_name": "Peters",
+        "subordinates": ""
     },
     {
         "emp_name": "Petingill, Shana  ",
@@ -5701,7 +5948,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Shana",
-        "last_name": "Petingill"
+        "last_name": "Petingill",
+        "subordinates": ""
     },
     {
         "emp_name": "Roberson, May",
@@ -5724,7 +5972,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "N/A- too early to review",
         "first_name": "May",
-        "last_name": "Roberson"
+        "last_name": "Roberson",
+        "subordinates": ""
     },
     {
         "emp_name": "Robertson, Peter",
@@ -5747,7 +5996,8 @@
         "employee_source": "Glassdoor",
         "performance_score": "Fully Meets",
         "first_name": "Peter",
-        "last_name": "Robertson"
+        "last_name": "Robertson",
+        "subordinates": ""
     },
     {
         "emp_name": "Sahoo, Adil",
@@ -5770,7 +6020,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Adil",
-        "last_name": "Sahoo"
+        "last_name": "Sahoo",
+        "subordinates": ""
     },
     {
         "emp_name": "Sloan, Constance",
@@ -5793,7 +6044,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Constance",
-        "last_name": "Sloan"
+        "last_name": "Sloan",
+        "subordinates": ""
     },
     {
         "emp_name": "Smith, Joe",
@@ -5816,7 +6068,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Exceeds",
         "first_name": "Joe",
-        "last_name": "Smith"
+        "last_name": "Smith",
+        "subordinates": ""
     },
     {
         "emp_name": "Tejeda, Lenora ",
@@ -5839,7 +6092,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Lenora",
-        "last_name": "Tejeda"
+        "last_name": "Tejeda",
+        "subordinates": ""
     },
     {
         "emp_name": "Thibaud, Kenneth",
@@ -5862,7 +6116,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Kenneth",
-        "last_name": "Thibaud"
+        "last_name": "Thibaud",
+        "subordinates": ""
     },
     {
         "emp_name": "Trzeciak, Cybil",
@@ -5885,7 +6140,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Cybil",
-        "last_name": "Trzeciak"
+        "last_name": "Trzeciak",
+        "subordinates": ""
     },
     {
         "emp_name": "Walker, Roger",
@@ -5908,7 +6164,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Roger",
-        "last_name": "Walker"
+        "last_name": "Walker",
+        "subordinates": ""
     },
     {
         "emp_name": "Winthrop, Jordan  ",
@@ -5931,7 +6188,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Exceeds",
         "first_name": "Jordan",
-        "last_name": "Winthrop"
+        "last_name": "Winthrop",
+        "subordinates": ""
     },
     {
         "emp_name": "Wolk, Hang  T",
@@ -5954,7 +6212,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Hang",
-        "last_name": "Wolk"
+        "last_name": "Wolk",
+        "subordinates": ""
     },
     {
         "emp_name": "Woodson, Jason",
@@ -5977,7 +6236,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Jason",
-        "last_name": "Woodson"
+        "last_name": "Woodson",
+        "subordinates": ""
     },
     {
         "emp_name": "Buck, Edward",
@@ -6000,7 +6260,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Edward",
-        "last_name": "Buck"
+        "last_name": "Buck",
+        "subordinates": ""
     },
     {
         "emp_name": "Bunbury, Jessica",
@@ -6023,7 +6284,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Fully Meets",
         "first_name": "Jessica",
-        "last_name": "Bunbury"
+        "last_name": "Bunbury",
+        "subordinates": ""
     },
     {
         "emp_name": "Carter, Michelle ",
@@ -6046,7 +6308,8 @@
         "employee_source": "Billboard",
         "performance_score": "Fully Meets",
         "first_name": "Michelle",
-        "last_name": "Carter"
+        "last_name": "Carter",
+        "subordinates": ""
     },
     {
         "emp_name": "Costa, Latia",
@@ -6069,7 +6332,8 @@
         "employee_source": "Other",
         "performance_score": "Exceeds",
         "first_name": "Latia",
-        "last_name": "Costa"
+        "last_name": "Costa",
+        "subordinates": ""
     },
     {
         "emp_name": "Dietrich, Jenna  ",
@@ -6092,7 +6356,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "PIP",
         "first_name": "Jenna",
-        "last_name": "Dietrich"
+        "last_name": "Dietrich",
+        "subordinates": ""
     },
     {
         "emp_name": "Digitale, Alfred",
@@ -6115,7 +6380,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Alfred",
-        "last_name": "Digitale"
+        "last_name": "Digitale",
+        "subordinates": ""
     },
     {
         "emp_name": "Fraval, Maruk ",
@@ -6138,7 +6404,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Maruk",
-        "last_name": "Fraval"
+        "last_name": "Fraval",
+        "subordinates": ""
     },
     {
         "emp_name": "Friedman, Gerry",
@@ -6161,7 +6428,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Gerry",
-        "last_name": "Friedman"
+        "last_name": "Friedman",
+        "subordinates": ""
     },
     {
         "emp_name": "Gill, Whitney  ",
@@ -6184,7 +6452,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Whitney",
-        "last_name": "Gill"
+        "last_name": "Gill",
+        "subordinates": ""
     },
     {
         "emp_name": "Givens, Myriam",
@@ -6207,7 +6476,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "90-day meets",
         "first_name": "Myriam",
-        "last_name": "Givens"
+        "last_name": "Givens",
+        "subordinates": ""
     },
     {
         "emp_name": "Gonzales, Ricardo",
@@ -6230,7 +6500,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Ricardo",
-        "last_name": "Gonzales"
+        "last_name": "Gonzales",
+        "subordinates": ""
     },
     {
         "emp_name": "Guilianno, Mike",
@@ -6253,7 +6524,8 @@
         "employee_source": "Newspager/Magazine",
         "performance_score": "Fully Meets",
         "first_name": "Mike",
-        "last_name": "Guilianno"
+        "last_name": "Guilianno",
+        "subordinates": ""
     },
     {
         "emp_name": "Jeremy Prater",
@@ -6276,7 +6548,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "PIP",
         "first_name": "Jeremy",
-        "last_name": "Prater"
+        "last_name": "Prater",
+        "subordinates": ""
     },
     {
         "emp_name": "Khemmich, Bartholemew",
@@ -6299,7 +6572,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Bartholemew",
-        "last_name": "Khemmich"
+        "last_name": "Khemmich",
+        "subordinates": ""
     },
     {
         "emp_name": "Leruth, Giovanni",
@@ -6322,7 +6596,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Fully Meets",
         "first_name": "Giovanni",
-        "last_name": "Leruth"
+        "last_name": "Leruth",
+        "subordinates": ""
     },
     {
         "emp_name": "Martins, Joseph",
@@ -6345,7 +6620,8 @@
         "employee_source": "Employee Referral",
         "performance_score": "Fully Meets",
         "first_name": "Joseph",
-        "last_name": "Martins"
+        "last_name": "Martins",
+        "subordinates": ""
     },
     {
         "emp_name": "McKinzie, Jac",
@@ -6368,7 +6644,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "N/A- too early to review",
         "first_name": "Jac",
-        "last_name": "McKinzie"
+        "last_name": "McKinzie",
+        "subordinates": ""
     },
     {
         "emp_name": "Mullaney, Howard",
@@ -6391,7 +6668,8 @@
         "employee_source": "Internet Search",
         "performance_score": "Needs Improvement",
         "first_name": "Howard",
-        "last_name": "Mullaney"
+        "last_name": "Mullaney",
+        "subordinates": ""
     },
     {
         "emp_name": "Nguyen, Dheepa",
@@ -6414,7 +6692,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Dheepa",
-        "last_name": "Nguyen"
+        "last_name": "Nguyen",
+        "subordinates": ""
     },
     {
         "emp_name": "Onque, Jasmine",
@@ -6437,7 +6716,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Jasmine",
-        "last_name": "Onque"
+        "last_name": "Onque",
+        "subordinates": ""
     },
     {
         "emp_name": "Ozark, Travis",
@@ -6460,7 +6740,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "90-day meets",
         "first_name": "Travis",
-        "last_name": "Ozark"
+        "last_name": "Ozark",
+        "subordinates": ""
     },
     {
         "emp_name": "Potts, Xana",
@@ -6483,7 +6764,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Fully Meets",
         "first_name": "Xana",
-        "last_name": "Potts"
+        "last_name": "Potts",
+        "subordinates": ""
     },
     {
         "emp_name": "Riordan, Michael",
@@ -6506,7 +6788,8 @@
         "employee_source": "Billboard",
         "performance_score": "Exceeds",
         "first_name": "Michael",
-        "last_name": "Riordan"
+        "last_name": "Riordan",
+        "subordinates": ""
     },
     {
         "emp_name": "Strong, Caitrin",
@@ -6529,7 +6812,8 @@
         "employee_source": "Professional Society",
         "performance_score": "Fully Meets",
         "first_name": "Caitrin",
-        "last_name": "Strong"
+        "last_name": "Strong",
+        "subordinates": ""
     },
     {
         "emp_name": "Terry, Sharlene ",
@@ -6552,7 +6836,8 @@
         "employee_source": "Monster.com",
         "performance_score": "Fully Meets",
         "first_name": "Sharlene",
-        "last_name": "Terry"
+        "last_name": "Terry",
+        "subordinates": ""
     },
     {
         "emp_name": "Valentin,Jackie",
@@ -6575,7 +6860,8 @@
         "employee_source": "Other",
         "performance_score": "Fully Meets",
         "first_name": "Jackie",
-        "last_name": "Valentin"
+        "last_name": "Valentin",
+        "subordinates": ""
     },
     {
         "emp_name": "Villanueva, Noah",
@@ -6598,7 +6884,8 @@
         "employee_source": "Website Banner Ads",
         "performance_score": "Fully Meets",
         "first_name": "Noah",
-        "last_name": "Villanueva"
+        "last_name": "Villanueva",
+        "subordinates": ""
     },
     {
         "emp_name": "Houlihan, Debra",
@@ -6621,7 +6908,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Fully Meets",
         "first_name": "Debra",
-        "last_name": "Houlihan"
+        "last_name": "Houlihan",
+        "subordinates": "Lynn Daneault, Donysha Kampew, John Smith"
     },
     {
         "emp_name": "Daneault, Lynn",
@@ -6644,7 +6932,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Lynn",
-        "last_name": "Daneault"
+        "last_name": "Daneault",
+        "subordinates": "Edward Buck, Latia Costa, Maruk Fraval, Myriam Givens, Jeremy Prater, Bartholemew Khemmich, Joseph Martins, Jac McKinzie, Dheepa Nguyen, Jasmine Onque, Xana Potts, Michael Riordan, Sharlene Terry"
     },
     {
         "emp_name": "Kampew, Donysha    ",
@@ -6667,7 +6956,8 @@
         "employee_source": "Social Networks - Facebook Twitter etc",
         "performance_score": "Fully Meets",
         "first_name": "Donysha",
-        "last_name": "Kampew"
+        "last_name": "Kampew",
+        "subordinates": ""
     },
     {
         "emp_name": "Smith, John",
@@ -6690,7 +6980,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Needs Improvement",
         "first_name": "John",
-        "last_name": "Smith"
+        "last_name": "Smith",
+        "subordinates": "Jessica Bunbury, Michelle Carter, Jenna Dietrich, Alfred Digitale, Gerry Friedman, Whitney Gill, Ricardo Gonzales, Mike Guilianno, Giovanni Leruth, Howard Mullaney, Travis Ozark, Caitrin Strong, Jackie Valentin, Noah Villanueva"
     },
     {
         "emp_name": "Andreola, Colby",
@@ -6713,7 +7004,8 @@
         "employee_source": "Vendor Referral",
         "performance_score": "Fully Meets",
         "first_name": "Colby",
-        "last_name": "Andreola"
+        "last_name": "Andreola",
+        "subordinates": ""
     },
     {
         "emp_name": "Carabbio, Judith",
@@ -6736,7 +7028,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "90-day meets",
         "first_name": "Judith",
-        "last_name": "Carabbio"
+        "last_name": "Carabbio",
+        "subordinates": ""
     },
     {
         "emp_name": "Del Bosque, Keyla",
@@ -6759,7 +7052,8 @@
         "employee_source": "Monster.com",
         "performance_score": "90-day meets",
         "first_name": "Keyla",
-        "last_name": "Del Bosque"
+        "last_name": "Del Bosque",
+        "subordinates": ""
     },
     {
         "emp_name": "Exantus, Susan",
@@ -6782,7 +7076,8 @@
         "employee_source": "Billboard",
         "performance_score": "Needs Improvement",
         "first_name": "Susan",
-        "last_name": "Exantus"
+        "last_name": "Exantus",
+        "subordinates": ""
     },
     {
         "emp_name": "Martin, Sandra",
@@ -6805,7 +7100,8 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Sandra",
-        "last_name": "Martin"
+        "last_name": "Martin",
+        "subordinates": ""
     },
     {
         "emp_name": "Patronick, Luke",
@@ -6828,7 +7124,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Exceeds",
         "first_name": "Luke",
-        "last_name": "Patronick"
+        "last_name": "Patronick",
+        "subordinates": ""
     },
     {
         "emp_name": "Saada, Adell",
@@ -6851,7 +7148,8 @@
         "employee_source": "Pay Per Click - Google",
         "performance_score": "Fully Meets",
         "first_name": "Adell",
-        "last_name": "Saada"
+        "last_name": "Saada",
+        "subordinates": ""
     },
     {
         "emp_name": "Szabo, Andrew",
@@ -6874,7 +7172,8 @@
         "employee_source": "MBTA ads",
         "performance_score": "Exceptional",
         "first_name": "Andrew",
-        "last_name": "Szabo"
+        "last_name": "Szabo",
+        "subordinates": ""
     },
     {
         "emp_name": "True, Edward",
@@ -6897,7 +7196,8 @@
         "employee_source": "Diversity Job Fair",
         "performance_score": "Fully Meets",
         "first_name": "Edward",
-        "last_name": "True"
+        "last_name": "True",
+        "subordinates": ""
     },
     {
         "emp_name": "Sweetwater, Alex",
@@ -6920,6 +7220,7 @@
         "employee_source": "Search Engine - Google Bing Yahoo",
         "performance_score": "Fully Meets",
         "first_name": "Alex",
-        "last_name": "Sweetwater"
+        "last_name": "Sweetwater",
+        "subordinates": "Colby Andreola, Judith Carabbio, Keyla Del Bosque, Susan Exantus, Sandra Martin, Luke Patronick, Adell Saada, Andrew Szabo, Edward True"
     }
 ]
