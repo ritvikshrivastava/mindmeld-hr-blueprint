@@ -19,7 +19,15 @@ def get_info_age(request, responder):
 	except:
 		responder.reply(_not_an_employee())
 		return
-	
+
+@app.handle(intent='get_info', has_entity='sex')
+def get_info_sex(request, responder):
+	responder = _get_person_info(request, responder, 'sex')
+	try:
+		responder.reply("{name} is {sex}")
+	except:
+		responder.reply(_not_an_employee())
+		return
 
 @app.handle(intent='get_info', has_entity='state')
 def get_info_state(request, responder):
@@ -94,7 +102,6 @@ def get_info_employee_source(request, responder):
 @app.handle(intent='get_info', has_entity='position')
 def get_info_position(request, responder):
 	responder = _get_person_info(request, responder, 'position')
-	print('here')
 	try:
 		responder.reply("{name}'s position in the organisation is: {position}")
 	except:
