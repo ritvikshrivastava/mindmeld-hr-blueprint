@@ -1,10 +1,10 @@
-Give me all the employees that have a {birthday|dob} {this month|sys_time}
-Fetch me a list of workers that have their {b day|dob} in the {eighties|time_interval}
-Which employees have been {start date|employment_action} {this month|date_compare}?
-Can you tell me whether there are any {June|sys_time} {bday|dob} people
+{fired|employment_action} {this month|date_compare} employees
+People from {software engineering|department} dept that have been {working here for|employment_action} us within the {pre|date_compare} {five months|sys_duration}
+{married|maritaldesc} employees with a {date of hire|employment_action} {last|date_compare} {2 years|sys_duration}
+Which employees were {born in|dob} the {80's|time_interval}?
+{two or more races|racedesc} {born|dob} in the {nineteen thirties|time_interval}
+find me {hispanic|racedesc} {born|dob} {between 1980 and today|sys_interval}
 which employees from the {software engineering department|department} {join|employment_action} us in {2014|sys_time}
-who are our {thirties|time_interval} {born|dob} {it support|position} staff
-Which employees were {terminated|employment_action} in the {this month|date_compare}?
-any {march|sys_time} {born|dob} employees?
-Give me a list of employees that were {hired|employment_action} into the company in {July|sys_time}
-Give me a list of folks {fired|employment_action} {last|date_compare} summer
+get me all of the folks who were {born|dob} in the {eighties|time_interval}
+{non citizens|citizendesc} {terminated|employment_action} in {2015|sys_time}
+Which are the employees such that in {2005|sys_time} {joined|employment_action} the organization

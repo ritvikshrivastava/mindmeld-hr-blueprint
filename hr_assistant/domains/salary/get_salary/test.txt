@@ -1,14 +1,14 @@
-Does {ivan rogers|name} get {$70k|sys_amount-of-money} in {pay|money}?
-Is it true that {Donovan Chang|name} has a {six figure|sys_number} {salary|money}?
-{Sharlene Terry|name} {pay|money} info
-{Nicole|name} {makes|money} amount {each week|time_recur}
-{Violeta Ferreira|name} {pay|money} info
-What is {Xana Potts|name}'s {yearly|time_recur} {earnings|money}?
-Tell me who earned the {min|extreme} that has {been with the company|employment_action} {this year|sys_time}?
-What does {Hang Wolk|name} get for {income|money} {each month|time_recur}?
-How much {earning|money} does {Geoff Dickinson|name} bring in {each week|time_recur}?
-What is {julia soto|name}'s {pay rate|money}?
-{Hourly|time_recur} {pay|money} {Nan|name}
+{Jumil Turpin|name} {month to month|time_recur} {dollars|money}
 What are {Julia Soto|name}'s {earnings|money} {year to year|time_recur}?
-{make|money} Amount {Enrico Langton|name}
-How much does Cisco give {Susan Ferguson|name} in {make|money} {by the week|time_recur}?
+What is the {paycheck|money} of {Maria Gonzalez|name}?
+{Mike Guilianno|name} {salary|money} {every year|time_recur}
+How much does {Anna Von Massenbach|name} get in {earnings|money}?
+What does {julia soto|name} {make|money} {on the hour|time_recur}
+How much {money|money} does {nan singh|name} bring in {every year|time_recur}?
+What is the {$|money} of {Mia|name}?
+What is {Samuel MacLenivan|name} {income|money}
+How much is {Sandy Mckenna|name} {earning|money} on the {payroll|money}
+What does the {payroll|money} say about {Mia|name}'s {earning|money}
+What is the {every year|time_recur} {dollars|money} for {Beatrice Chace|name} at Cisco?
+Is {Leigh|name} being {paid|money} {40k|sys_number}?
+{Nicole|name} {makes|money} amount {each week|time_recur}

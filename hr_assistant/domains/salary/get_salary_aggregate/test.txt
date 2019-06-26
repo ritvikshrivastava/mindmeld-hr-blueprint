@@ -1,10 +1,10 @@
-How much does the {average|function} employee {hired|employment_action} after {2017|sys_time} {make|money}?
-{lowest|extreme} {paycheck|money} for a {director of sales|position}
-of all the {cio|position}s, what is the {min|extreme} {earnings|money}
-What {percent|function} of workers {made|money} {below|comparator} {70 grand|sys_amount-of-money} that were {hired|employment_action} in the {last|date_compare} {3 years|sys_duration}
-how much are all the employees in the {sales|department} department getting {paid|money} in {avg|function}
-{Network Engineer|position} {Mean|function} {Pay|money}
-Employees {fired|employment_action} {between|comparator} {2008|sys_time} and {2012|sys_time}, {average|function} {earnings|money}
+{mean|function} {$|money} of {it manager - db|position} in the {VT|state}?
+what is the {total|function} {amount of money|money} that employees that are {citizens|citizendesc} have {earned|money}?
+Amount that company {pay|money} its employees {last month|sys_time} on {average|function}?
+{avg|function} {income|money} for {on-line web application|employee_source}
+give me the {average|function} take home {salary|money} for {Production Technicians|position}
+what is the {average|function} {income|money} that employees that are {non-citizen|citizendesc} {make|money}?
+Calculate for me the {ratios|function} of {earnings|money} at our company?
 {how many|function} {female|sex} employees {earn|money} {more than|comparator} {30|sys_number} {an hour|sys_duration}
-What is the {avg|function} {earning|money} of {software engineering manager|position} in the {TN|state}?
-Calculate the {average|function} {pay rate|money} at Cisco?
+{total|function} employees are paid {above|comparator} {salary|money} of {60,000|sys_number} {a month|sys_duration}?
+of the {president & ceo|position}s, give me the {min|extreme} {earner|money}
