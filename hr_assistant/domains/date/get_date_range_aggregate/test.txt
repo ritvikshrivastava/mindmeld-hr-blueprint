@@ -1,7 +1,7 @@
-{total|function} {num of|date_compare} {CA|state} employees {hired|employment_action} in the {last|date_compare} {three months|sys_duration}
-{total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
+{count|function} of folks from {FL|state} in the {last|date_compare} {two years|sys_duration}
+{total|function} of workers {DOB|dob} {prior to|date_compare} {1994|sys_time}
+{count|function} employees {born|dob} {before|date_compare} {1993|sys_time}?
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+{How many|function} people were based out of {Colarado|state} in the {last|date_compare} {3 years|sys_duration}?
+what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
 {ratio|function} {joined|employment_action} {less than|comparator} {5 years|sys_duration}?
-{count|function} of employees {born|dob} {before|date_compare} {1983|sys_time}
-{percent|function} {1933|sys_time} {born|dob} employees
-what's the {count|function} of employees who were {born|dob} {prior to|date_compare} {1992|sys_time}?
-how many {joined|employment_action} {prior to|date_compare} {1998|sys_time}

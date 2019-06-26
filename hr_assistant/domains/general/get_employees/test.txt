@@ -1,34 +1,35 @@
-who is {separated|maritaldesc}
-is there anyone who is {married|maritaldesc}
-{AL|state} employees
-Who was {hired|employment_action} based on a {referral|employee_source}?
-Who is our {maximum|extreme} employee?
-{software engineer|position} list
-employees have been {let go|employment_action}?
-employees in their {20|sys_number}'s
-list out of employees that are based in {AL|state}
-Who is {married|maritaldesc} in {software engineering|department} dept
-Which employees were {recruited|employment_action} {pre|date_compare} {Feb|sys_time}?
-Who is {single|maritaldesc} in {admin offices|department} department
-{widowed|maritaldesc} employees
-who is {married|maritaldesc}
-Show me all of the {software engineering manager|position}
-employees based in {MA|state}
-i want the {oldest|extreme} {third|sys_ordinal} of employees
-{MA|state} employees
-employees from {NH|state}
-Which employees are in the {engineering department|department}?
-{widowed|maritaldesc} employees
-Which employees have been {let go|employment_action}?
-Who is our {highest|extreme} employee?
-employee {it support|position}
-{34|sys_number} {year old|age} employees
-who currenlty works for this org
+which employees work here
+Give me employees who are {separated|maritaldesc}
+Give me the {top|extreme} {ten|sys_number} {youngest|extreme} workers
+workers that aren't {citizens|citizendesc}
 All the {September|sys_time} {birthdays|dob}
-the {highest ranked|position} employee
-employee with the {max|extreme} {age|age}
-{it manager - db|position} list
-{us citizen|citizendesc} employees
-employees that are {it manager - infra|position}
-Which employees have recently began {working here|employment_action}?
+Which employees are in the {software engineering|department}?
+Which employees that are not {eligible noncitizen|citizendesc}?
+{GA|state} based employees
+employee {it director|position}
+who is {married|maritaldesc}
+All employees from {California|state} state
+give me a list of {separated employees|maritaldesc}
+Which employees were {recruited|employment_action} {pre|date_compare} {Feb|sys_time}?
+workers that aren't {us citizen|citizendesc}
 who is doing {software engineering manager|position} at this company?
+list of employees that are based in {TN|state}
+Which employees {exceed expectations|performance_score}?
+employees have been {let go|employment_action}?
+{administrative assistant|position} employees
+employees {are exceptional|performance_score}
+{highest ranked|position} employee
+{cio|position}
+who is not {married|maritaldesc}
+All the {September|sys_time} {birthdays|dob}
+who is doing {IT support|position} at this company?
+list out of employees that are based in {AL|state}
+Which employee(s) are {hispanic|racedesc}?
+Which employees are {citizens|citizendesc}?
+employees that are {it manager - infra|position}
+Which employees have the {top|extreme} {performance score|performance_score}?
+names of people that work here
+Who is our {oldest|extreme} employee?
+Who is {single|maritaldesc} in {admin offices|department} department
+Which employees have been {terminated|employment_action}?
+{voluntarily terminated|employment_status} employees

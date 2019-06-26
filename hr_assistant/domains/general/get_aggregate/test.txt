@@ -1,23 +1,23 @@
-{cumulative|function} employees who are minorities?
-{proportion|function} breakdown of employees that joined via {billboard|employee_source} and {on-campus recruiting|employee_source}?
-{How many|function} employees work in the {MA|state} office?
-Which office location has the {least|extreme} employees?
-what's the {pct|function} of {29|age} year old employees that work with us?
+What is the {number of|function} {married|maritaldesc} employees?
 Tell me the {aggregate|function} {count|function} of employees are {widowed|maritaldesc}?
-{total|function} employees {male|sex}?
+what's the {distribution|function} of new grads in {software engineering|department}
+{count|function} {female|sex} managers in the org
+What {percent|function} of employees are {female|sex}?
+what's the {aggregate|function} {total|function} {number of|function} {us citizens|citizendesc} at the org?
+{percent|function} of {terminated|employment_status} as a result of {lack of innovation|reason_for_termination}
+{average|function} {age of|age} the employees that are considered minorities?
+{proportion|function} breakdown of employees that joined via {billboard|employee_source} and {on-campus recruiting|employee_source}?
+{total|function} {count|function} of the employees that are minorities?
+What is the {total|function} {number of|function} {us citizens|citizendesc}?
 {proportion|function} {fully meet performance expecations|performance_score} when looking at all employees.
-{distribution|function} tenure of employees in {FL|state}?
-What {portion|function} of our employees that are still {single|maritaldesc}?
-{percent|function} break down of employees that joined via {on-campus recruiting|employee_source}, {careerbuilder|employee_source} and {word of mouth|employee_source}?
-{Number of|function} {Married|maritaldesc} employees
-{cumulative|function} employees live in {GA|state}?
-{total|function} employees are {widowed|maritaldesc}
-Calculate the {total|function} of employees that are {non-citizen|citizendesc}?
-{How many|function} employees are {above|comparator} {35|sys_number}?
-{How many|function} employees are from {North Carolina|state}?
-whats the {added up|function} number of employees that are {37|age}?
-What is the {total|function} {number of|function} of employees are managers?
-{average|function} age of the employees that are considered minorities?
+{How many|function} people are there {under|comparator} {30|sys_number}?
+{total|function} {number of|function} employees from different states?
+{How many|function} of employees are {married|maritaldesc}?
+{summed|function} {count of|function} workers that are {older than|comparator} {23|sys_number} {years old|age}?
+{average|function} {age of|age} employees {fired|employment_action} due to {sexual harassment|reason_for_termination}?
+Give an estimate {total|function} of the {female|sex} strength in this company?
 What {percentage|function} of the employees are minorities?
-{fraction|function} {male|sex} managers there are
-What {typically|function} is the age of employees who {are too early to review|performance_score} or currently {fully meet performance expectations|performance_score}?
+{aggregate|function} {num of|function} employees that are {below|comparator} the {age of|age} {58|age}?
+What's the {summed|function} {num of|function} {43|age} yr old employees?
+{sum|function} of employees are self identified as {male|sex}?
+{How many|function} {software engineers|position} do we have?

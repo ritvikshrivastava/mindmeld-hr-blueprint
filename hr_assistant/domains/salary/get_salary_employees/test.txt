@@ -1,18 +1,18 @@
-{citizen|citizendesc} {salaries|money}
-give me the {salaries|money} of {interracial|racedesc} employees in this company
-get the {earns|money} of employees in the {min|extreme} {income|money} bracket
-Of the employees {hired|employment_action} {after|date_compare} {2014|sys_time} which employees {earn|money} between {$20,000|sys_amount-of-money} and {$56,000|sys_amount-of-money}?
-calculate the {max|extreme}
-which employees are {making|money} {less than|comparator} {average|function}
-{women|sex} {salaries|money}
-what are the {dudes|sex} {making|money}
-what are our {top|extreme} {earners|money} {making|money}
-Of all the {software engineering manager|position}s, which ones are the {greatest|extreme} {5|sys_number} {income|money} generators
-how much {money|money} does {julia soto|name} {make|money}?
+Show me the {earning|money} of {female|sex} in this company
+who are the company's {highest|extreme} {21|sys_number} {american indian or alaska native|racedesc} {earners|money}
+{software engineering|department} {earnings|money}
+who are the company's {bottom|extreme} {14|sys_number} {asian|racedesc} {earners|money}
 what are our {lowest|extreme} {earners|money} {making|money}
-For employees {hired|employment_action} {between|comparator} {3|sys_number} to {8 years|sys_duration} ago, which employee is {paid|money} the {least|extreme}?
-{software engineering|department} {pay|money}
-Who {earns|money} the {most|extreme} in the {production department|department}
-Tell me the employee that {works for|manager} {Mike Guilianno|name} that {earns|money} the {greatest|extreme} amount?
-{female|sex} {earnings|money}
-{sales|department} {$|money}
+tell me the {max|extreme} {salary|money} among {men|sex}
+what are {software engineer|position} {earning|money} at this company
+folks {making|money} {less than|comparator} the {avg|function}
+how much are {referred employees|employee_source} {earning|money}?
+I want a list with {salaries|money} of employees that are {eligible noncitizen|citizendesc}
+who {makes|money} a {salary|money} {more than|comparator} {210k|sys_number}?
+Which {white|racedesc} employee {income|money} the {greatest|extreme}
+give me the {salaries|money} of {interracial|racedesc} employees in this company
+give me the {earners|money} for all of the employees that are {eligible noncitizen|citizendesc}
+what's the {maximum|extreme} {salary|money} among {men|sex}
+{earning|money} {male|sex}
+Which workers are {compensated|money} {more than|comparator} {35k|sys_number} but {less than|comparator} {60k|sys_number}?
+what are the {earnings|money} for {active|employment_status} employees

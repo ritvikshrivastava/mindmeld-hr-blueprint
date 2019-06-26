@@ -1,19 +1,19 @@
-{average|function} {earning|money} for employees {working|manager} {Michael Albert|name}
-what is the {total|function} of {pay|money} for those who came by {on-line web application|employee_source}?
-give me the {mean|function} {salary|money} for {males|sex}
-give me the {percentage|function} {made|money} by {female|sex}s
-Employees {hired|employment_action} between {2013|sys_time} and {2014|sys_time}, {average|function} {pay|money}
-what is the {total|function} {pay|money} in the {sales department|department}
-how much are all the employees in the {sales department|department} getting {paid|money} in {total|function}
-Get me the {combined|function} {total|function} {incomes|money} for all employees {hired|employment_action} {before|date_compare} august of {2019|sys_time}
-give me the {average|function} take home {salary|money} for {it director|position}
-{network engineer|position} {income|money} on {avg|function}?
-i want the {total|function} {earnings|money} of {female|sex} in this organization
+{average|function} {earnings|money} of {male|sex} in this org
+How much {pay|money} did all the {employees that have been here|employment_action} for {more than|comparator} {three months|sys_duration}?
 what is the {hourly|time_recur} {pay|money} for {non-citizen|citizendesc}s
-{How many|function} employees {make|money} {6 figure|sys_number} {salaries|money}?
-{How many|function} people are {paid|money} {less than|comparator} {30|sys_number} {dollars|money}?
-{maximum|extreme} {paycheck|money} for a {director of operations|position}
-What is the {mean|function} {earning|money} of new grad hires?
-{percent|function} employees paid {above|comparator} {salary|money} of {140,000|sys_number} {a year|sys_duration}?
+how much are {referred employees|employee_source} {making|money} on {average|function}?
+what is the {average|function} {salary|money} of the employees whose {supervisor|manager} is {Amy Dunn|name}?
+What is the {sum|function} {income|money} of all the employees?
+what is the {lowest|extreme} {income|money} that a {director of sales|position}
+{mean|function} {$|money} of {it manager - db|position} in the {VT|state}?
+i want the {total|function} {earnings|money} of {female|sex} in this organization
+what are {female|sex} {earning|money} on {average|function}?
+what {percent|function} of employees {earn|money} {25|sys_number} {hourly|time_recur}?
+Amount that company {pay|money} its employees {last month|sys_time} on {average|function}?
+What are workers {born|dob} {before|date_compare} {1985|sys_time} {typically|function} {paid|money}?
+{lowest|extreme} {income|money} for a {accountant i|position}
+{sum|function} {pay|money} for {female|sex}?
+what is the {mean|function} of {salaries|money} for {referred employees|employee_source}?
+{production|department} {pays|money} its employees what on {average|function}
 What is the {average|function} {pay|money} of new grad hires?
-how much is the {sales department|department} {paying|money} its employees in {aggregate|function}
+what are {women|sex} {making|money} on {average|function}?
