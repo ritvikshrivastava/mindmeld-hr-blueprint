@@ -270,10 +270,16 @@ def get_employees(request, responder):
 		responder.reply("No such employees found")
 		return
 
+	# If the user is searching for employment action related employees
 	if action_entities:
 		responder.slots['action'] = action_entities[0]
-		responder.reply("The {action} employees are based on your criteria are: {emp_list}")
 
+		if qa_out and len(qa_out)==1:
+			responder.reply("The {action} employee based on your criteria is: {emp_list}")
+		else:
+			responder.reply("The {action} employees based on your criteria are: {emp_list}")
+
+	# all other get_employees queries are answered here
 	else:
 		if qa_out and len(qa_out)==1:
 			responder.reply("Here is the employee you are looking for: {emp_list}")

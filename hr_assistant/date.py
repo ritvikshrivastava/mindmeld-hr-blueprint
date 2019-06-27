@@ -122,7 +122,7 @@ def get_date_range_employees(request, responder):
 
 	qa, size = _resolve_categorical_entities(request, responder)
 	out =  _resolve_time(request, responder, qa, size)
-	
+
 	if out:
 		qa, size, field = out
 
@@ -130,6 +130,7 @@ def get_date_range_employees(request, responder):
 		extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
 		
 		if extreme_entity:
+			extreme_entity = extreme_entity[0]
 			qa, size = _resolve_extremes(request, responder, qa, extreme_entity, field)
 
 		qa_out = qa.execute(size=size)
@@ -138,7 +139,7 @@ def get_date_range_employees(request, responder):
 
 			responder.slots['emp_list'] = _get_names(qa_out)
 
-			if size == 1:
+			if len(qa_out) == 1:
 				responder.reply("Here is the employee you are looking for: {emp_list}")
 			else:
 				responder.reply("Here are some employees that match your criteria: {emp_list}")

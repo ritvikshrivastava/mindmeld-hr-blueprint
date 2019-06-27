@@ -172,3 +172,12 @@ Which employees had their {end date|employment_action} {before|date_compare} {fi
 Give me the employees that have been {working here for|employment_action} {six years|sys_duration} or more
 Give me a list of people {working here|employment_action} {before|date_compare} {2006|sys_time}
 get me {accountants|position} {born|dob} {after|date_compare} {1990's|time_interval}
+who has the {oldest|extreme} {hiring date|employment_action}
+who is the {oldest|extreme} employee to be {fired|employment_action}
+who is {latest|extreme} to be {let go|employment_action}
+who has the {earliest|extreme} {hiring date|employment_action}
+who was the {latest|extreme} employee to be {terminated|employment_action}
+who was the {latest|extreme} employee to be {hired|employment_action}
+who was the {earliest|extreme} employee to be {fired|employment_action}
+who was {hired|employment_action} the {earliest|extreme}
+{earliest|extreme} employee to be {terminated|employment_action}
