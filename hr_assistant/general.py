@@ -448,7 +448,7 @@ def _resolve_extremes(request, responder, qa, extreme_entity, field, num_entity=
 	elif extreme_canonical == 'lowest':
 		qa = qa.sort(field=field, sort_type='asc')
 	
-	if num_entity:
+	if num_entity and num_entity[0]<=300:
 		size = num_entity[0]
 	else:
 		size = 1
