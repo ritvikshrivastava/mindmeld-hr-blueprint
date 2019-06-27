@@ -171,11 +171,8 @@ def get_info_default(request, responder):
 				responder.reply("Hmmm, looks like this employee did not work here! Would you like to know about someone else?")
 				responder.frame = {}
 		else:
-			responder.reply("I believe that person is not an employee here. Who else can I tell you about?")
-			responder.frame['info_visited'] = True
-			responder.params.allowed_intents = ('general.get_info', 'unsupported.unsupported',  'greeting.greet', 'greeting.exit')
-			responder.listen()
-
+			responder.reply("I believe that person is not an employee here.")
+			responder.frame['info_visited'] = False
 
 
 @app.handle(intent='get_aggregate')
@@ -252,13 +249,6 @@ def get_employees(request, responder):
 		extreme_entity = []
 
 	action_entities = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'employment_action']
-	# if action_entities:
-	# 	responder.slots['action'] = action_entities[0]['value'][0]['cname']
-	# 	responder.reply('{action} employees for which year?')
-	# 	responder.params.allowed_intents = ('date.get_date_range_employees', 'date.get_date_range_employees')
-	# 	responder.frame['action'] = responder.slots['action']
-	# 	responder.listen()
-	# 	return
 
 	qa, size = _resolve_categorical_entities(request, responder)
 

@@ -99,7 +99,8 @@ def get_date_range_aggregate(request, responder):
 
 		qa, size = _resolve_categorical_entities(request, responder)
 
-		qa_out = _resolve_time(request, responder, qa, size)
+		qa, size, field = _resolve_time(request, responder, qa, size)
+		qa_out = qa.execute(size=size)
 
 		responder.slots['value'] = _agg_function(qa_out, func=function)
 		responder.reply('The {function} is {value}')
@@ -120,16 +121,27 @@ def get_date_range_employees(request, responder):
 	"""
 
 	qa, size = _resolve_categorical_entities(request, responder)
-	qa_out = _resolve_time(request, responder, qa, size)
+	out =  _resolve_time(request, responder, qa, size)
+	
+	if out:
+		qa, size, field = out
 
-	if qa_out:
+		# Finding extreme entities (if any)
+		extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
+		
+		if extreme_entity:
+			qa, size = _resolve_extremes(request, responder, qa, extreme_entity, field)
 
-		responder.slots['emp_list'] = _get_names(qa_out)
+		qa_out = qa.execute(size=size)
 
-		if size == 1:
-			responder.reply("Here is the employee you are looking for: {emp_list}")
-		else:
-			responder.reply("Here are some employees that match your criteria: {emp_list}")
+		if qa_out:
+
+			responder.slots['emp_list'] = _get_names(qa_out)
+
+			if size == 1:
+				responder.reply("Here is the employee you are looking for: {emp_list}")
+			else:
+				responder.reply("Here are some employees that match your criteria: {emp_list}")
 
 	else:
 		responder.listen()
@@ -223,7 +235,7 @@ def _resolve_time(request, responder, qa, size):
 		field = 'dob'
 	else:
 		responder.reply("What date would you like to know about? Hire, termination or birth?")
-		return
+		return []
 
 	# One way to process date aggregate questions can be to filter it on defined time periods
 	if time_ent:
@@ -233,7 +245,7 @@ def _resolve_time(request, responder, qa, size):
 
 		if time_ent == None:
 			responder.reply('Please repeat your query with a valid date format (YYYY-MM-DD)')
-			return
+			return []
 
 		# Two time entities specify an exact time period to filter
 		if len(time_ent)==2:
@@ -255,11 +267,9 @@ def _resolve_time(request, responder, qa, size):
 			else:
 				qa = qa.filter(field=field, gte=time_ent[0], lte=time_ent[0])
 
-		qa_out = qa.execute(size=size)
+		return [qa, size, field]
 
 	else:
 		if field == 'dot':
 			qa = qa.filter(field='dot', gt='1800-01-01')
-		qa_out = qa.execute(size=300)
-
-	return qa_out
+		return [qa, 300, field]
