@@ -7,7 +7,7 @@ from hr_assistant.general import _resolve_categorical_entities, _resolve_functio
 
 
 
-@app.handle(intent='get_hierarchy_up', has_entity='name')
+@app.handle(intent='get_hierarchy_up')
 def get_hierarchy_up(request, responder):
 	"""
 	If a user asks about any employees manager or whether they are some other employee's 
@@ -18,6 +18,9 @@ def get_hierarchy_up(request, responder):
 	try:
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
 
+		# if no name, shift to exception flow
+		name_ent[0]
+
 		for name in name_ent:
 			responder = _fetch_from_kb(responder, name, 'manager')
 			reply = ["{manager} is {name}'s manager"]
@@ -27,7 +30,7 @@ def get_hierarchy_up(request, responder):
 		responder.reply("Who's manager would you like to know? (You can try saying 'Mia's manager')")
 
 
-@app.handle(intent='get_hierarchy_down', has_entity='name')
+@app.handle(intent='get_hierarchy_down')
 def get_hierarchy_down(request, responder):
 	"""
 	If a user asks about any employees subordinates or who reports to them, 
@@ -36,7 +39,9 @@ def get_hierarchy_down(request, responder):
 
 	try:
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
-		manager_dict = {}
+
+		# if no name, shift to exception flow
+		name_ent[0]
 
 		for name in name_ent:
 			responder = _fetch_from_kb(responder, name, 'subordinates')
