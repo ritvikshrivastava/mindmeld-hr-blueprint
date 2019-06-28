@@ -9,9 +9,8 @@ maritaldesc,married,"wed, legally married, espoused, joined in holy matrimony, h
 ,single,"unmarried, bachelor, bachelorette",
 ,separated,,
 ,widowed,,
-citizendesc,us citizen,"citizen, usa citizen, american citizen, citizen of the us, citizen of America, citizen of the usa, citizens","immigrant, h1 visa, foreigner, foreign, imported, out of country, from abroad, citizenship status, citizenship"
-,eligible noncitizen,"non citizen, not a citizen, non us citizen, not citizens",
-,non-citizen,"non citizen, not a citizen, non us citizen, not citizens",
+citizendesc,us citizen,"citizen, usa citizen, american citizen, citizen of the us, citizen of America, citizen of the usa, citizens","h1 visa, foreigner, foreign, out of country, citizenship status, citizenship"
+,non citizen,"non citizen, not a citizen, non us citizen, not citizens, from abroad, immigrant, immigrants, eligble non citizen, non-citizen, non-citizens",
 racedesc,black or african american,"black, african american, african-american","ethnicity, race, racial background, ethnic group, ethnic type, racial indentity, community, minorities"
 ,asian,from asia,
 ,two or more races,"multiracial, multi-racial, mixed, mixed race, biracial, interracial",
