@@ -331,3 +331,4 @@ Which employees have been {fired|employment_action}?
 workers doing {software engineering manager|position}
 who are our {network engineers|position}
 {non citizen|citizendesc} employees
+show all {hired|employment_action} employees

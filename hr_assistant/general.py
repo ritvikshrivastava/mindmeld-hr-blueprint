@@ -212,7 +212,7 @@ def get_aggregate(request, responder):
 			## Default handling if no relevant entity found to filter on
 			non_func_entities = [e for e in request.entities if e['type'] != 'function']
 			if not non_func_entities:
-				responder.reply("I'm not sure what you are looking for.")
+				responder.reply("I'm not sure about that. If you are asking about the total number of employees, the count is 300.")
 				return
 
 			responder.slots['value'] = _agg_function(qa_out, func=function)
@@ -267,7 +267,7 @@ def get_employees(request, responder):
 
 
 	if len(qa_out)==0 or len([e for e in request.entities])==0:
-		responder.reply("No such employees found")
+		responder.reply("No such employees found. To get all employees, you can say 'show all hired employees'.")
 		return
 
 	# If the user is searching for employment action related employees
