@@ -207,12 +207,12 @@ def get_aggregate(request, responder):
 			responder.reply('Based on your query, the {function} is {value}')
 
 		elif function not in ('avg','sum'):
-			qa_out = qa.execute(size=300)
+			qa_out = qa.execute(size=301)
 
 			## Default handling if no relevant entity found to filter on
 			non_func_entities = [e for e in request.entities if e['type'] != 'function']
 			if not non_func_entities:
-				responder.reply("I'm not sure about that. If you are asking about the total number of employees, the count is 300.")
+				responder.reply("I'm not sure about that. If you are asking about the total number of employees, the count is 301.")
 				return
 
 			responder.slots['value'] = _agg_function(qa_out, func=function)
@@ -337,15 +337,15 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
 			lte_val = np.max(num_entity)
 		
 		qa = qa.filter(field='age', gte=gte_val, lte=lte_val)
-		size = 300
+		size = 301
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='age', gte=np.min(num_entity), lte=np.max(num_entity))
 
-		size = 300
+		size = 301
 
 	else:
-		size = 300
+		size = 301
 
 	return qa, size
 
@@ -401,7 +401,7 @@ def _resolve_categorical_entities(request, responder):
 		except:
 			pass
 
-	size = 300
+	size = 301
 
 	return qa, size
 
@@ -454,7 +454,7 @@ def _resolve_extremes(request, responder, qa, extreme_entity, field, num_entity=
 	elif extreme_canonical == 'lowest':
 		qa = qa.sort(field=field, sort_type='asc')
 	
-	if num_entity and num_entity[0]<=300:
+	if num_entity and num_entity[0]<=301:
 		size = num_entity[0]
 	else:
 		size = 1
@@ -511,7 +511,8 @@ def _get_person_info(request, responder, entity_type):
 		else:
 			return responder
 
-	responder = _fetch_from_kb(responder, name, entity_type)
+	if name!='':
+		responder = _fetch_from_kb(responder, name, entity_type)
 	return responder
 	
 

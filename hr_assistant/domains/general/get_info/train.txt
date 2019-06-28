@@ -795,3 +795,5 @@ what's {catherine ybarra|name}'s' {sex|sex}
 {dept|department} of {Angela Erilus|name}
 what's {melinda saar-beckles|name}'s' {sex|sex}
 What's {helen|name}s {occupation|position}
+is jack {married|maritaldesc}
+what is chuck's {department|department}

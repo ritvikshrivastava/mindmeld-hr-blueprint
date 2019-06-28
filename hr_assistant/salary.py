@@ -251,7 +251,7 @@ def _apply_money_filter(qa, age_entities, request, responder):
 			qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
 		except:
 			pass
-		size = 300
+		size = 301
 
 
 	elif extreme_entity:
@@ -259,10 +259,10 @@ def _apply_money_filter(qa, age_entities, request, responder):
 
 	elif len(num_entity)>=1:
 		qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
-		size = 300
+		size = 301
 
 	else:
-		size = 300
+		size = 301
 
 	return qa, size
 

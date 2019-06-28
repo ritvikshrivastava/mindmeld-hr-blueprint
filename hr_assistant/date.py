@@ -34,6 +34,9 @@ def get_date(request, responder):
 		responder.listen()
 		return
 
+	if name=='':
+		responder.reply(_not_an_employee())
+
 	responder.slots['name'] = name
 	responder.frame['name'] = name
 
@@ -273,4 +276,4 @@ def _resolve_time(request, responder, qa, size):
 	else:
 		if field == 'dot':
 			qa = qa.filter(field='dot', gt='1800-01-01')
-		return [qa, 300, field]
+		return [qa, 301, field]
