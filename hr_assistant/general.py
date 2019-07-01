@@ -571,6 +571,7 @@ def _get_person_info(request, responder, entity_type):
 		else:
 			return responder
 
+	# If name in database, fetch details from knowledge base
 	if name!='':
 		responder = _fetch_from_kb(responder, name, entity_type)
 	return responder
