@@ -232,3 +232,7 @@ who {makes|money} the {least|extreme} {amount of money|money} in {admin office|d
 {salaries|money} of {immigrant|citizendesc}
 {IT support|position} {top|extreme} {earner|money}
 get me the {citizen|citizendesc} {earning|money} the {max|extreme}
+who (earns|money) {30|sys_number}?
+people who (earn|money) {33|sys_number}?
+employees who (earn|money) {25|sys_number}?
+who (earns|money) {37|sys_number}?
