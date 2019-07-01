@@ -200,6 +200,8 @@ def _check_time_ent(time_ent, date_compare_ent):
 
 	for i in range(len(time_ent)):
 		if time_ent[i] in ('last year', 'last month', 'last week', 'past year', 'past week', 'past month', 'this year', 'this week', 'this month'):
+
+			# capture duration according to the period in the time entity
 			d = datetime.datetime.today()
 			kw = {time_dict[time_ent[i]] : 1}
 			old_d = d-relativedelta(**kw)
@@ -208,14 +210,20 @@ def _check_time_ent(time_ent, date_compare_ent):
 			time_ent[i] = old_d
 			time_ent.append(d)
 
+		# Accept correct format, continue
 		elif len(time_ent[i].split('-'))==3:
 			continue
 
+		# resolve years entities (eg. 2016) and capture the whole year as duration
 		elif len(re.split('-|\\|/', time_ent[i]))==1:
+
+			# check if time entity is numeric
 			try:
 				int(time_ent[i])
 			except:
 				return
+
+			# add duration (i.e. start and end dates) to the time entities list
 			try:
 				if date_compare_ent:
 					time_ent[i] = str(time_ent[i])+'-01-01'
@@ -227,8 +235,7 @@ def _check_time_ent(time_ent, date_compare_ent):
 				return
 
 		else:
-			return None
-			break
+			return
 
 	return time_ent
 
@@ -241,6 +248,9 @@ def _resolve_time(request, responder, qa, size):
 	being talked about and filters the knowledge to narrow it down to only the datapoints satisfying
 	the duration. The returned value is this shortlisted set of employees.
 	"""
+
+	# 'action' entities represent employment action such as hiring of termination
+	# 'dob' entities represent the date of birth entity
 
 	# Fetch existing action entity from a previous turn and clear 'action' context
 	action_entity = []
@@ -269,7 +279,7 @@ def _resolve_time(request, responder, qa, size):
 		responder.reply("What date would you like to know about? Hire, termination or birth?")
 		return []
 
-	# One way to process date aggregate questions can be to filter it on defined time periods
+	# Filter knowledge base on defined time periods
 	if time_ent:
 
 		# Check if time entities are in an acceptable format
@@ -301,6 +311,9 @@ def _resolve_time(request, responder, qa, size):
 
 		return [qa, size, field]
 
+
+	# If no specified time entities, and general query about termination date is asked
+	# filter all employees who were fired
 	else:
 		if field == 'dot':
 			qa = qa.filter(field='dot', gt='1800-01-01')
