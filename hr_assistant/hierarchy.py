@@ -19,7 +19,7 @@ def get_hierarchy_up(request, responder):
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
 
 		# if no name, shift to exception flow
-		name_ent[0]
+		assert name_ent[0]
 
 		for name in name_ent:
 			if name=='':
@@ -43,7 +43,7 @@ def get_hierarchy_down(request, responder):
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
 
 		# if no name, shift to exception flow
-		name_ent[0] and name_ent[0]!=''
+		assert name_ent[0]
 
 		for name in name_ent:
 			if name=='':

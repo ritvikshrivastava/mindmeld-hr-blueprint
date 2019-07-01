@@ -30,7 +30,7 @@ def get_date(request, responder):
 		pass
 
 	if not name:
-		responder.reply("Hmmm, I didn't quite understand. Which employee can I tell you about?")
+		responder.reply(_not_an_employee())
 		responder.listen()
 		return
 
