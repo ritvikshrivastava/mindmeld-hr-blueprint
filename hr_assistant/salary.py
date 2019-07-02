@@ -57,6 +57,8 @@ def get_salary_aggregate(request, responder):
 	in addition to an income related filter (required) and categorical filters (if any),
 	this function captures all the relevant entities, calculates the desired
 	statistic function and returns it.
+
+	'function' entities represent the statistic functions - sum, average, percentage, count
 	"""
 
 	# Checks for existing function entity from previous turn
@@ -68,28 +70,36 @@ def get_salary_aggregate(request, responder):
 	recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
 	extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
 
+	# If there are any categorical entities (eg. race, gender, department etc.) in the query that
+	# need filtering on, '_resolve_categorical_entities' fetches these entities, resolves them to
+	# their canonical form and filters the database on all the conditions requested by the user query
 	qa, size = _resolve_categorical_entities(request, responder)
+
+	# Filter the knowledge base on ant time related entities that occur in the query
 	qa = _resolve_time_in_salary(request, responder, qa)
 
+	# default reply
 	salary_response = "Hmm, looks like you want a salary statistic. You can ask me about averages, sums, counts and percentages. For eg. what is the average salary for women?"
 
 	if func_entities:
 		func_entity = func_entities[0]
 
 	if func_entity:
+		# Resolve the recognized function entity to its canonical form, one that can be used in
+		# the output dialog as well as in the '_agg_function', which is used to calculate the values
+		# of these desired function entities
 		function, responder = _resolve_function_entity(responder, func_entity)
 
 		if money_entities:
-			try:
-				qa, size = _apply_money_filter(qa, money_entities, request, responder)
-			except:
-				responder.reply("I see you are looking for the {function}, can you be more specific?")
-				responder.frame['function']=func_entity
-				responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate', 'unsupported.unsupported', 'greeting.*')
-				responder.listen()
-				return
+			out = _apply_money_filter(qa, request, responder)
+			if out:
+				qa, size = out
+			else: return
 
 			qa_out = qa.execute(size=size)
+
+			# If there is a multiplicative factor or recurring duration over which the amount is to 
+			# be returned, convert default (hourly) to that duration. For eg. 'what the average monthly salary'
 			if recur_ent and function in ('avg','sum'):
 				responder = _calculate_agg_salary(responder, qa_out, function, recur_ent[0])
 				if np.isnan(responder.slots['value']):
@@ -97,21 +107,36 @@ def get_salary_aggregate(request, responder):
 					responder.listen()
 					return
 				responder.reply("the {function} {interval} salary, based on your criteria, is ${value}")
-			else:
+			
+			# Else calculate aggregate value on default duration (i.e. hourly)
+			else:	
 				responder = _calculate_agg_salary(responder, qa_out, function)
+
+				# default return if NaN
 				if np.isnan(responder.slots['value']):
 					responder.reply(salary_response)
 					responder.listen()
 					return
 
+				# Responses specific to type functions
 				if function in ('avg', 'sum'):
 					responder.reply('Based on your criteria, the {function} salary is ${value}')
 				else:
 					responder.reply("The {function} of employees is {value}")
 
+
+		# Capture any implicit mentions of money and resolve count or percentage queries (eg. how many people get more than 30)
 		elif function not in ('avg','sum'):
+
+			out = _apply_money_filter(qa, request, responder)
+			if out:
+				qa, size = out
+			else: return
+
 			qa_out = qa.execute(size=size)
 			responder = _calculate_agg_salary(responder, qa_out, function)
+
+			# default return if NaN
 			if np.isnan(responder.slots['value']):
 					responder.reply(salary_response)
 					responder.listen()
@@ -143,12 +168,16 @@ def get_salary_employees(request, responder):
 	categorical_entities = [e for e in request.entities if e['type'] in ('state', 'sex', 'maritaldesc','citizendesc',
 		'racedesc','performance_score','employment_status','employee_source','position','department')]
 
+	# Resolve the recognized function entity to its canonical form, one that can be used in
+	# the output dialog as well as in the '_agg_function', which is used to calculate the values
+	# of these desired function entities
 	qa, size = _resolve_categorical_entities(request, responder)
 
+	# Filter the knowledge base on ant time related entities that occur in the query
 	qa = _resolve_time_in_salary(request, responder, qa)
 
 	if money_entities:
-		qa, size = _apply_money_filter(qa, money_entities, request, responder)
+		qa, size = _apply_money_filter(qa, request, responder)
 
 	qa_out = qa.execute(size=size)
 	responder.slots['emp_list'] = _get_names(qa_out)
@@ -195,9 +224,20 @@ def _resolve_time_in_salary(request, responder, qa):
 
 	return qa
 
+def _apply_money_filter(qa, request, responder):
+	# Apply money filter given any numeric values, comparators or extreme conditions
+	# If 
+	try:
+		qa, size = money_filter(qa, request, responder)
+		return qa, size
+	except:
+		responder.reply("I see you are looking for the {function}, can you be more specific?")
+		responder.frame['function']=func_entity
+		responder.params.allowed_intents = ('general.get_aggregate', 'salary.get_salary_aggregate', 'date.get_date_range_aggregate', 'unsupported.unsupported', 'greeting.*')
+		responder.listen()
+		return
 
-
-def _apply_money_filter(qa, age_entities, request, responder):
+def money_filter(qa, request, responder):
 	"""
 	This function is used to filter any salary related queries, that may include a
 	comparator, such as, 'what percentage earns less than 20 dollars an hour? ' or an extreme,

@@ -15,9 +15,9 @@ import re
 @app.handle(intent='get_date')
 def get_date(request, responder):
 	"""
-	If a user asks for a date related information of any person, this function returns
-	the required date. In case of a termination date related query, it also informs the user
-	of the reason for termination. For non-terminated employees, it informs the user about
+	If a user asks for a date related information of any person, this function returns 
+	the required date. In case of a termination date related query, it also informs the user 
+	of the reason for termination. For non-terminated employees, it informs the user about 
 	the active current state of the employee in question.
 	"""
 
@@ -98,8 +98,8 @@ def get_date(request, responder):
 def get_date_range_aggregate(request, responder):
 	"""
 	When a user asks for a statistic, such as average, sum, count or percentage,
-	in addition to a date range filter such as date of hire, termination or birth (required),
-	and categorical filters (if any), this function captures all the relevant entities,
+	in addition to a date range filter such as date of hire, termination or birth (required), 
+	and categorical filters (if any), this function captures all the relevant entities, 
 	calculates the desired statistic function and returns it.
 
 	'function' entities represent the statistic functions - sum, average, percentage, count
@@ -127,7 +127,10 @@ def get_date_range_aggregate(request, responder):
 
 		# Resolve the duration that is explicitly or implicitly mentioned in the query
 		# and then filtering the KB to retain all employees satisfying that duration criteria
-		qa, size, field = _resolve_time(request, responder, qa, size)
+		out = _resolve_time(request, responder, qa, size)
+
+		if out:
+			qa, size, field = out
 		qa_out = qa.execute(size=size)
 
 		# Calculate and return desired mathemical value
@@ -144,8 +147,8 @@ def get_date_range_aggregate(request, responder):
 def get_date_range_employees(request, responder):
 	"""
 	When a user asks for a list of employees that satisfy certain criteria in addition
-	to satisfying a specified date range criterion (date of hire/termination/birth),
-	this dialogue state filters the knowledge base on those criteria and returns the
+	to satisfying a specified date range criterion (date of hire/termination/birth), 
+	this dialogue state filters the knowledge base on those criteria and returns the 
 	shortlisted list of names.
 	"""
 
@@ -189,7 +192,7 @@ def get_date_range_employees(request, responder):
 def _check_time_ent(time_ent, date_compare_ent):
 	"""
 	Helper function for resolving non numeric time entities, time entities with
-	incompatible date formats, and intervals into the format of time that is
+	incompatible date formats, and intervals into the format of time that is 
 	accepted by the dialogue states defined in this file.
 	"""
 
