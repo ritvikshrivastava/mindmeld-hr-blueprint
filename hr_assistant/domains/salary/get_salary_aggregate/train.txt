@@ -242,3 +242,7 @@ Tell me about the {range|function} of {salaries|money} for employees {hired|empl
 what do {guys|sex} {make|money} here on {average|function}?
 {average|function} {earnings|money} of {male|sex} in this org
 {us citizen|citizendesc} {pay|money} {sum|function}
+{how many|function} people get {more than|comparator} {30|sys_number}
+{how many|function} people get {20|sys_number}
+{how many|function} get {40|sys_number}
+what {percentage|function} of employees have {27|sys_number}
